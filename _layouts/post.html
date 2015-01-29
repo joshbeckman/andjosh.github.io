@@ -4,7 +4,9 @@ layout: default
 
 <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 <p class="meta"><strong>{{ page.date | date_to_string }}</strong></p>
-{{ content }}
+<div class="content">
+    {{ content }}
+</div>
 <hr/>
 <h5>Related Posts</h5>
 <ul class="posts">

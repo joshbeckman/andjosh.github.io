@@ -2,21 +2,24 @@
 layout: default
 ---
 
-<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-<p class="meta"><strong>{{ page.date | date_to_string }}</strong></p>
-<div class="content">
-    {{ content }}
-</div>
-<hr/>
-<h5>Related Posts</h5>
-<ul class="posts">
-  {% for post in site.related_posts limit:2 %}
-    <li><span>{{ post.date | date_to_string }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-<h2 class="site-title">
-    <a rel="home" href="/" title="{{ site.title }}">{{ site.title }}</a>
-</h2>
-<div class="about">
-    <a href="/about" rel="about" title="About Page">About</a>
-</div>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <meta itemprop="author" content="Joshua Beckman" />
+    <h1><a itemprop="url" href="{{ page.url }}">{{ page.title }}</a></h1>
+    <p class="meta"><strong itemprop="datePublished">{{ page.date | date_to_string }}</strong></p>
+    <div class="content" itemprop="articleBody">
+        {{ content }}
+    </div>
+    <hr/>
+    <h5>Related Posts</h5>
+    <ul class="posts">
+      {% for post in site.related_posts limit:2 %}
+        <li><span>{{ post.date | date_to_string }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+    <h2 class="site-title">
+        <a rel="home" href="/" title="{{ site.title }}">{{ site.title }}</a>
+    </h2>
+    <div class="about">
+        <a href="/about" rel="about" title="About Page">About</a>
+    </div>
+</article>

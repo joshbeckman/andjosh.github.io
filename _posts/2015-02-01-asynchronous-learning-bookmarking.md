@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Asynchronous Learning and Why I Bookmark First
+tags:
+- Habits
 ---
 
 Whenever I come across an interesting article or piece of writing, I add it to my reading list.

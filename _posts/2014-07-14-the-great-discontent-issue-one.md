@@ -23,8 +23,6 @@ I would highly recommend getting your hands on a copy of this first issue, if on
 
 ![Issue One of The Great Discontent, back cover](https://s3.amazonaws.com/bckmn/public/blog/tgd_back.jpg "Issue One of The Great Discontent, back cover.")
 
-Follow me for other thoughts about the first issue as I make my way through it, on Twitter [@jbckmn](http://twitter.com/jbckmn).
-
 [1]: https://www.kickstarter.com/projects/essmaker/the-great-discontent-magazine-issue-1 "The Kickstarter campaign"
 [2]: http://thegreatdiscontent.com "thegreatdiscontent.com"
 [3]: https://s3.amazonaws.com/bckmn/public/blog/tgd_mid.jpg "Full image of an internal page/interview from The Great Discontent"

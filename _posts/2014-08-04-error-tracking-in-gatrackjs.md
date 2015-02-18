@@ -45,5 +45,3 @@ This snippet will allow you to record errors that are raised even before any oth
 - __value__: Time of occurence after HTML load (in seconds, rounded to nearest hundreth)
 
 I know this error tracking method has allowed me to chase down a couple IE bugs, so I hope it will help others increase usability for their users. It also translates into a really direct Key Performance Indicator for businesses to tap into. Hint: I'm already doing that as well.
-
-Tweet [@jbckmn](http://twitter.com/jbckmn) if you use it!

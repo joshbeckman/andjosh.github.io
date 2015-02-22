@@ -13,3 +13,6 @@ To lay this all out, it seems that some applications are forgoing open standards
 When I built out the access points for [Narro](http://narro.co), I made sure to include open protocols. It's built first and foremost around RSS/podcast feed syndication, which means that every iOS user (at least) already has built-in support for offline access. Every email sent includes a plaintext version. The vanilla JavaScript bookmarklet runs on every browser.
 
 Why should anyone learn your new app flow? If I can do it all in email, let me do it there. If I can do it all in text messages, let me. Open protocols are easy for you to build into your next application, and your users are already there.
+
+### Edit 2015/02/19
+This post became [popular on Hacker News](https://news.ycombinator.com/item?id=9074330) and many people had thoughts to give.

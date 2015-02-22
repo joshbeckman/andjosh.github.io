@@ -11,5 +11,5 @@ visitors that popularity drives to a site. If I had never seen the live traffic 
  You can find other people's data on this, though.
 
 Still no overly-compelling reason for me to have analytics tracking on my
-site. I do keep it on my product sites. But that is for [client error tracking](https://github.com/andjosh/gatrack.js), customer service, and
+site. I do keep it on my product sites. But that is for [client error tracking](https://github.com/andjosh/gatrack.js "gatrack.js, Event tracking for Google Analytics"), customer service, and
  feature evaluation.

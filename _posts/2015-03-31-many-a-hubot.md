@@ -16,4 +16,4 @@ This was the general scaffolding for the bot:
 - Send these recombinatory (markov chain) sentences to me for inspiration
 - Repeat
 
-Ultimately, I decided to halt any more development. After further thought (get it?), I think my time could better be spent actually enforcing relaxation time for myself and focusing on increasing my self-indexing ability. Concentration, concatenation, contextualization. 
+Ultimately, I decided to halt any more development. After further thought (get it?), I think my time could better be spent actually enforcing relaxation time for myself and focusing on increasing my self-indexing ability. Part of that is writing more. Concentration, concatenation, contextualization.

@@ -9,6 +9,7 @@ I was thinking about so many examples of recombinatory ideas. By this I mean all
 This means that any sufficiently informed person is a hotbed, ripe for successful recombinatory ideas (or so we all hope). Usually, we are able to recombine facts and fiction during moments of relaxation (good ideas happen in the shower). I spent the last few nights trying to build a service to do that for me.
 
 This was the general scaffolding for the bot:
+
 - Accept input of text I had written (my thoughts)
 - Accept and index text I had read (articles and emails and such)
 - Index both of those

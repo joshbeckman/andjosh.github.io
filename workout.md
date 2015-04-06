@@ -24,7 +24,7 @@ After four weeks, add 5–10% to your maxes (multiply the "weight" by 1.1), save
 <label for="reps">Reps
     <input name="reps" type="number" value="9"></input>
 </label><br/>
-<h4>One Rep Max: <span name="orm"></span></h4>
+One Rep Max: <span name="orm"></span>
 <label for="week">Week
     <select name="week">
         <option value="1">1</option>

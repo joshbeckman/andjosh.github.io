@@ -3,5 +3,9 @@ author: Josh
 email: email@andjosh.com
 title: andjosh
 
+collections:
+    fictions:
+        output: true
+
 permalink: pretty
 markdown: redcarpet

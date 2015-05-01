@@ -2,7 +2,16 @@
 layout: default
 ---
 
-<h1 class=""><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<div class="about">
+    <a href="/about" title="About Josh Beckman" rel="about">About</a>
+    &mdash;
+    <a href="/rss.xml" title="Subscribe to the RSS feed" rel="alternate">RSS</a>
+    &mdash;
+    <a href="http://photos.andjosh.com" title="photos.andjosh.com">Photos</a>
+    &mdash;
+    <a href="/fictions" title="Fictions">Fictions</a>
+</div>
 <div class="content">
     {{ content }}
 </div>
@@ -10,6 +19,3 @@ layout: default
 <h2 class="site-title">
     <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
 </h2>
-<div class="about">
-    <a href="/about" rel="about" title="About Page">About</a>
-</div>

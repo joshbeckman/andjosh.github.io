@@ -38,8 +38,8 @@
         base = Math.round(
             (
                 wI.value / (
-                    1.0278 - ( .0278 * rI.value ) )
-                * week
+                    1.0278 - ( 0.0278 * rI.value ) ) * 
+                week
             )
         );
         orm.innerHTML = base;
@@ -89,7 +89,7 @@
         for(var i=0; i<ca.length; i++) {
             var c = ca[i];
             while (c.charAt(0)==' ') c = c.substring(1);
-            if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+            if (c.indexOf(name) === 0) return c.substring(name.length,c.length);
         }
         return "Anything you type here will show up when you return (like your previous weights)";
     }

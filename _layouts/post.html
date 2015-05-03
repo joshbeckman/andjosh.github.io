@@ -8,6 +8,12 @@ layout: default
 <meta name="twitter:description"content="{{ page.date | date_to_string }}" />
 <meta name="twitter:image"      content="http://www.andjosh.com/favicon.png" />
 <meta name="twitter:url"        content="{{ page.url }}" />
+<meta property="og:title"       content="{{ page.title }}" />
+<meta property="og:type"        content="article" />
+<meta property="og:url"         content="{{ page.url }}" />
+<meta property="og:image"       content="http://www.andjosh.com/favicon.png" />
+<meta property="og:site_name"   content="www andjosh" />
+
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <meta itemprop="author" content="Josh Beckman" />
     <h1 class=""><a itemprop="url" href="{{ page.url }}">{{ page.title }}</a></h1>

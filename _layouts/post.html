@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<meta name="twitter:card"       content="summary" />
+<meta name="twitter:site"       content="@twandjosh" />
+<meta name="twitter:title"      content="{{ page.title }}" />
+<meta name="twitter:description"content="{{ page.date | date_to_string }}" />
+<meta name="twitter:image"      content="http://www.andjosh.com/favicon.png" />
+<meta name="twitter:url"        content="{{ page.url }}" />
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <meta itemprop="author" content="Josh Beckman" />
     <h1 class=""><a itemprop="url" href="{{ page.url }}">{{ page.title }}</a></h1>

@@ -30,7 +30,7 @@ layout: default
             <a href="{{ page.sub_url }}">Back to {{ page.sub }}</a>
         </h6>
     {% else %}
-        <h6>Related Posts</h6>
+        <h6>Related</h6>
         <ul class="posts">
           {% for post in site.related_posts limit:2 %}
             <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>

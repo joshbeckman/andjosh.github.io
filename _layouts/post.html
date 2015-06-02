@@ -17,7 +17,7 @@ layout: default
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <meta itemprop="author" content="Josh Beckman" />
     <h1 class=""><a itemprop="url" href="{{ page.url }}">{{ page.title }}</a></h1>
-    <p class="meta"><strong itemprop="datePublished">{{ page.date | date_to_string }}</strong></p>
+    <p class="meta"><span itemprop="datePublished">{{ page.date | date_to_string }}</span></p>
     <div class="content" itemprop="articleBody">
         {{ content }}
     </div>

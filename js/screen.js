@@ -14,4 +14,4 @@ function expandImg() {
     }
 }
 
-expandImg();
+window.addEventListener('load', expandImg, false);

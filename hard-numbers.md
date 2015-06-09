@@ -40,7 +40,7 @@ would change.
     var _numbers = window._numbers || {
                 elements:       {}
             },
-        acCost =        0, // dollars
+        acCost =        0.15, // salaries
         acDelay =       0.2, // months
         HardForm,
         ResponsiveInput,
@@ -236,13 +236,14 @@ would change.
         return "No cookie present";
     };
     _numbers.calcTime = function(people, days) {
-        return Math.round(((days / people) / 365) * 12) + Math.round(people * acDelay);
+        return Math.round(((days / people) / 365) * 12) + Math.round((people - 1) * acDelay);
     };
     _numbers.calcCost = function(people, salary, days) {
         var time = days / people,
             timeOfYear = time / 365,
             cost = salary * timeOfYear,
-            totalCost = (cost * people) + (acCost * people);
+            acQ = (acCost * (people - 1)) * salary,
+            totalCost = (cost * people) + acQ;
 
         return (Math.round(totalCost / 1000) * 1000).formatMoney(0, '.', ',');
     };

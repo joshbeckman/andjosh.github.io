@@ -3,22 +3,10 @@ layout: page
 title: Hard Numbers
 permalink: /hard-numbers/
 ---
-When you're leading a team of developers for a startup company, you often get
-asked about hard numbers. You get asked questions like:
+> Given an input of one-person development time, hires, and salary, it will calculate
+estimates of time and cost for a given project.
 
-> How much money would it take you to build the ideal solution?
-
-> How much would it cost to build an MVP - a hard estimate?
-
-> What if you hired twice as many people - how long would it then take?
-
-I find those _hard_ to answer. I thought I could make a calculator to answer for
-me.
-
-It takes into account things like salary and a basic one-person development
-time. It also hides some complexity like organizational debt and acquisition
-cost. Play around and [let me know](mailto:email@andjosh.com) what you think or
-would change.
+Read [about how and why I made this](/2015-06-08-Hard-Numbers-Calculator).
 
 ---
 

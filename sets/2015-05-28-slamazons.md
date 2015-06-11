@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Slamazons at The Annoyance Theater
-date: 2015-05-28 00:00:00
+date: 2015-05-29 00:00:00
 permalink: /sets/2015-05-28-slamazons.html
 ---
 ![Slamazons](/images/slamazons/slamazons_01.JPG "")

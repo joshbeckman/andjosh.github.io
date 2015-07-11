@@ -15,6 +15,8 @@ I respond most readily via [email(at)andjosh.com](mailto:email@andjosh.com), and
 
 [Alleyooop](http://alleyooop.info) is your simple Dribbble newsletter service. Get the hook-up.
 
+[Sounds](https://github.com/andjosh/sounds) allows you to listen to data (e.g. site traffic) instead of watching it. Ambient, passive data analysis: [Listen to this site](http://sounds.andjosh.com?id=andjosh).
+
 [Aislin](http://www.aislin.co) is the best little image analysis API out there. Free to use (up to a point).
 
 [Naked WordPress](http://naked-wordpress.bckmn.com) is the well-documented solution for designers who don't know WordPress. A very useful base - like homemade chicken stock.

@@ -11,5 +11,4 @@ I usually ask candidates to try their hand at a coding project - their choice fr
 
 When evaluating potential team members, I'll also accept someone identifying and fixing a bug or adding a feature in an open source project. I think more companies should do this as well.
 
-I've seen many sites dedicated to laying out test questions and fizz-buzz problems for hiring managers. Imagine how much would be fixed if, for just _half_ of candidates, we all asked them to tackle open issues on public, popular repositories.
-
+I've seen many sites dedicated to laying out test questions and fizz-buzz problems for hiring managers. Imagine how much would be fixed if, for just _half_ of candidates, we instead asked them to tackle open issues on public, popular repositories.

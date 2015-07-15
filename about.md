@@ -25,6 +25,8 @@ I respond most readily via [email(at)andjosh.com](mailto:email@andjosh.com), and
 
 [Gopod](https://github.com/jbckmn/gopod) is a podcast/RSS feed generator written in Go. Simple and to the point.
 
+[The Color API](http://www.thecolorapi.com) is a fast Swiss army knife for colors. Pass in any valid color and get conversion into any other format, the name of the color, placeholder images and a multitude of schemes.
+
 [Emory](http://myemory.herokuapp.com) is an email memory keeper and parrot.
 
 [Gauntlet](https://github.com/jbckmn/gauntlet.js) is a wrapper and configuration tool to seamlessly handle multiple Google Analytics accounts on the same page.

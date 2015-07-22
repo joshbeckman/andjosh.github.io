@@ -5,11 +5,3 @@
         url('TTF/ClearSans-Regular.ttf')  format('truetype'),
         url('SVG/ClearSans-Regular.svg#svgFontName') format('svg');
 }
-
-@font-face {
-    font-family: 'Clear Sans Light';
-    src:url('EOT/ClearSans-Light.eot?#iefix') format('embedded-opentype'), 
-        url('WOFF/ClearSans-Light.woff') format('woff'), 
-        url('TTF/ClearSans-Light.ttf')  format('truetype'),
-        url('SVG/ClearSans-Light.svg#svgFontName') format('svg');
-}

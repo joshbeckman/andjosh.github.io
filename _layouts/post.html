@@ -21,7 +21,7 @@ layout: default
     <div class="content" itemprop="articleBody">
         {{ content }}
     </div>
-    <small class="thick">
+    <small class="meta">
         <a href="mailto:email@andjosh.com?subject=RE:{{ page.title }}" title="Comment/Reply">Comment/Reply</a>
     </small>
     <hr/>
@@ -30,7 +30,6 @@ layout: default
             <a href="{{ page.sub_url }}">Back to {{ page.sub }}</a>
         </h6>
     {% else %}
-        <h6>Related</h6>
         <ul class="posts">
           {% for post in site.related_posts limit:2 %}
             <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -40,8 +39,5 @@ layout: default
     <h2 class="site-title">
         <a rel="home" href="/" title="{{ site.title }}">{{ site.title }}</a>
     </h2>
-    <div class="about">
-        <a href="/about" rel="about" title="About Page">About</a>
-    </div>
 </article>
 <img src="http://sounds.andjosh.com/record?id=andjosh&tone=261.63" style="display:none" />

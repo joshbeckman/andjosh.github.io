@@ -3,14 +3,9 @@ layout: default
 ---
 
 <h1 class="no-bottom"><a href="{{ page.url }}">{{ page.title }}</a></h1>
-<div class="content">
-    {{ content }}
-</div>
-<br/>
-<h2 class="site-title">
-    <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
-</h2>
 <div class="about">
+    <a href="/" title="home" rel="home">Home</a>
+    &mdash;
     <a href="/about" title="About Josh Beckman" rel="about">About</a>
     &mdash;
     <a href="/rss.xml" title="Subscribe to the RSS feed" rel="alternate">RSS</a>
@@ -19,4 +14,11 @@ layout: default
     &mdash;
     <a href="/fictions" title="Fictions">Fictions</a>
 </div>
+<div class="content">
+    {{ content }}
+</div>
+<br/>
+<h2 class="site-title">
+    <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
+</h2>
 <img src="http://sounds.andjosh.com/record?id=andjosh&tone=329.63" style="display:none" />

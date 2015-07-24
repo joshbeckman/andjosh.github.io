@@ -34,6 +34,8 @@ permalink: /reading-lists/
 - Ulysses _James Joyce_
 - Toast _Charles Stross_
 - The Little Manual of API Design _Jasmin Blanchette_
+- Capital in the Twenty-First Century _Thomas Piketty_
+- What We See When We Read _Peter Mendelsund_
 
 <!--two items:-->
 
@@ -58,10 +60,20 @@ permalink: /reading-lists/
 - __*__ The Red Badge of Courage _Stephen Crane_
 - Thus Spake Zarathustra _Frederich Nietzsche_
 - Beyond Good and Evil _Frederich Nietzsche_
+- The Lost World _Michael Crichton_
+- Jurassic Park _Michael Crichton_
+- Twenty Thousand Leagues Under the Sea _Jules Verne_
+- The Gateless Gate _Ekai_
 - The Republic _Plato_
 - The Works of Edgar Allen Poe _Edgar Allen Poe_
 - __*__ The Black Swan _Nassim Nicholas Taleb_
 - The Stand _Stephen King_
+- Sein Language _Jerry Seinfeld_
+- White Fang _Jack London_
+- Where the Red Fern Grows _Wilson Rawls_
+- Of Mice and Men _John Steinbeck_
+- Consider the Lobster _David Foster Wallace_
+- Thinking, Fast and Slow _Daniel Kahneman_
 - Firestarter _Stephen King_
 - Four Past Midnight _Stephen King_
 - Charlotte's Web _E.B. White_

@@ -16,3 +16,5 @@ Now, I've started keeping lists not only of things I'm currently thinking about 
 - [Employment Lists](/employment-lists)
 - [Location Lists](/location-lists)
 - [Movie Lists](/movie-lists)
+
+Partly inspired by [Max Fenton](http://maxfenton.com/biblio/).

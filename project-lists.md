@@ -17,7 +17,7 @@ permalink: /project-lists/
 
 <!--two items:-->
 
-- Stark Lines _Combine real-time Google Analytics data for multiple sites/apps into one graph._
+- [Stark Lines](http://starklines.herokuapp.com) _Combine real-time Google Analytics data for multiple sites/apps into one graph._
 - [Nucre](https://github.com/andjosh/nucre) _Let anyone quickly, simply, pay you with a credit card._
 - [Alleyooop](http://alleyooop.info) _Your simple Dribbble newsletter service. Get the hook-up._
 - __*__ [Naked WordPress](http://naked-wordpress.bckmn.com) _Well-documented solution for designers who don't know WordPress._

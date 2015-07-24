@@ -18,7 +18,7 @@ permalink: /location-lists/
 
 - Seattle _Washington_
 - Lindenhurst _Illinois_
-- __*__ Country Cork _Ireland_
+- __*__ County Cork _Ireland_
 - Kingston _Jamaica_
 - Lubbock _Texas_
 - Austin _Texas_

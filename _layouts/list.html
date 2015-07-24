@@ -16,11 +16,30 @@ layout: default
     margin: 0;
     padding: 1em;
 }
+.lists ul::before {
+    content: 'Present';
+    font-family:Futura;
+    text-transform: uppercase;
+    color: #E21119;
+    letter-spacing: 0.1em;
+}
+.lists ul:nth-child(2)::before {
+    content: 'Future';
+}
+.lists ul:last-child::before {
+    content: 'Past';
+}
 .lists ul li strong:first-child {
     margin-left: -0.75em;
 }
 .lists ul li em {
     opacity: 0.7;
+}
+@media only screen and (max-width:660px){
+    .lists ul {
+        width: initial;
+        display: block;
+    }
 }
 </style>
 <div class="lists">

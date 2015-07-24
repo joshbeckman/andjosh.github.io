@@ -6,6 +6,7 @@ permalink: /reading-lists/
 
 - __*__ [Zen Mind, Beginner's Mind](https://en.wikipedia.org/wiki/Zen_Mind,_Beginner%27s_Mind) _Shunryū Suzuki_
 - [The Martian](https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)) _Andy Weir_
+- House of Leaves _Mark Z. Danielewski_
 
 <!--two items:-->
 
@@ -41,6 +42,7 @@ permalink: /reading-lists/
 - __*__ On Keeping a Notebook _Joan Didion_
 - The Divine Comedy _Dante Alighieri_
 - Iterating Grace _Koons Crooks_
+- __*__ Fine Structure _Sam Hughes_
 - The Adventures of Sherlock Holmes _Sir Arthur Canon Doyle_
 - __*__ A Brief History of Time _Stephen Hawking_
 - Walden _Henry David Thoreau_

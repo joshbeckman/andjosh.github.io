@@ -5,6 +5,10 @@ layout: default
 .markdown-body {
     max-width: initial;
 }
+.site-title em {
+    font-style: italic;
+    font-family: Baskerville;
+}
 .lists {
     font-family: Baskerville;
     display: table;
@@ -30,7 +34,7 @@ layout: default
     content: 'Past';
 }
 .lists ul li strong:first-child {
-    margin-left: -0.75em;
+    margin-left: -0.8em;
     cursor: pointer;
 }
 .lists ul li em {
@@ -48,8 +52,11 @@ layout: default
 </div>
 <br/>
 <h2 class="site-title">
-    {{ page.title }} <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
+    <em>{{ page.title }}</em> <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
 </h2>
+<p class="meta">
+    <a href="/lists">See More Lists</a>
+</p>
 <img src="http://sounds.andjosh.com/record?id=andjosh&tone=329.63" style="display:none" />
 <script>
 var a = document.querySelectorAll('.lists ul li strong');

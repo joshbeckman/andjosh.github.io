@@ -4,7 +4,7 @@ title: Camera Lists
 permalink: /camera-lists/
 ---
 
-- 5D MkIII _Canon_
+- __*__ 5D MkIII _Canon_
 - 5D MkII _Canon_
 - X100 _Fujifilm_
 - Land 450 _Polaroid_
@@ -18,7 +18,7 @@ permalink: /camera-lists/
 - SQ-A _Bronica_
 
 <!--two items:-->
-- 20D _Canon_
+- __*__ 20D _Canon_
 - 5D _Canon_
 - N2000 _Nikon_
 - D3 _Nikon_

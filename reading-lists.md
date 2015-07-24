@@ -7,6 +7,7 @@ permalink: /reading-lists/
 - __*__ [Zen Mind, Beginner's Mind](https://en.wikipedia.org/wiki/Zen_Mind,_Beginner%27s_Mind) _Shunryū Suzuki_
 - [The Martian](https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)) _Andy Weir_
 - House of Leaves _Mark Z. Danielewski_
+- [The Jargon File](http://www.catb.org/jargon/oldversions/jarg262.txt) _various_
 
 <!--two items:-->
 
@@ -54,6 +55,7 @@ permalink: /reading-lists/
 - Meditations _Marcus Aurelius_
 - Metamorphosis _Franz Kafka_
 - __*__ At Work _Annie Liebovitz_
+- [The Tao of Programming](http://canonical.org/~kragen/tao-of-programming.html) _Geoffrey James_
 - You Have Too Much Shit _Chris Thomas_
 - __*__ Valve Handbook For New Employees
 - The Great Discontent: Issue 1 _Tina Essmaker, Ryan Essmaker_

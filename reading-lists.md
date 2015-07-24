@@ -66,6 +66,10 @@ permalink: /reading-lists/
 - Jurassic Park _Michael Crichton_
 - Twenty Thousand Leagues Under the Sea _Jules Verne_
 - The Gateless Gate _Ekai_
+- Philosophy of Material Nature _Immanuel Kant_
+- A Treatise of Human Nature _David Hume_
+- Political Writings _John Locke_
+- Leviathan _Thomas Hobbes_
 - The Republic _Plato_
 - The Works of Edgar Allen Poe _Edgar Allen Poe_
 - __*__ The Black Swan _Nassim Nicholas Taleb_

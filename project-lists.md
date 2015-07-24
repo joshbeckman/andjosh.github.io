@@ -14,6 +14,7 @@ permalink: /project-lists/
 - LightFoot _Share your paths and trail others through the world_
 - PNG v. JPG _Tell me which format is better for this image._
 - Something _with the [Forecast.io](http://forecast.io) API_
+- RecList _You get three recommendations of anyone at all. Go._
 
 <!--two items:-->
 

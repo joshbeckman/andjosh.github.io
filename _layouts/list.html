@@ -31,6 +31,7 @@ layout: default
 }
 .lists ul li strong:first-child {
     margin-left: -0.75em;
+    cursor: pointer;
 }
 .lists ul li em {
     opacity: 0.7;
@@ -47,6 +48,12 @@ layout: default
 </div>
 <br/>
 <h2 class="site-title">
-    <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
+    {{ page.title }} <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
 </h2>
 <img src="http://sounds.andjosh.com/record?id=andjosh&tone=329.63" style="display:none" />
+<script>
+var a = document.querySelectorAll('.lists ul li strong');
+for (var i = 0; i < a.length; i++) {
+    a[i].title = 'Recommended';
+}
+</script>

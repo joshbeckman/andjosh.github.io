@@ -10,6 +10,7 @@ permalink: /reading-lists/
 <!--two items:-->
 
 - U.S. Army Medical Field Guide _United States Armed Forces_
+- The Sheep Look Up _John Brunner_
 - What If? _Randall Munroe_
 - Onlisp _Paul Graham_
 - Eloquent JavaScript _Marijn Haverbeke_

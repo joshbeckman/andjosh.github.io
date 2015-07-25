@@ -8,10 +8,10 @@ permalink: /reading-lists/
 - [The Martian](https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)) _Andy Weir_
 - House of Leaves _Mark Z. Danielewski_
 - [The Jargon File](http://www.catb.org/jargon/oldversions/jarg262.txt) _various_
+- [Web Design: The First 100 Years](http://idlewords.com/talks/web_design_first_100_years.htm) _Maciej Cegłowski_
 
 <!--two items:-->
 
-- [Web Design: The First 100 Years](http://idlewords.com/talks/web_design_first_100_years.htm) _Maciej Cegłowski_
 - U.S. Special Forces Medical Handbook _United States Special Forces_
 - The Pleasure of Finding Things Out _Richard Feynman_
 - __#__ The Sheep Look Up _John Brunner_
@@ -59,7 +59,7 @@ permalink: /reading-lists/
 - [The Tao of Programming](http://canonical.org/~kragen/tao-of-programming.html) _Geoffrey James_
 - You Have Too Much Shit _Chris Thomas_
 - __*__ Valve Handbook For New Employees
-- The Great Discontent: Issue 1 _Tina Essmaker, Ryan Essmaker_
+- [The Great Discontent: Issue 1](/2014/07/14/the-great-discontent-issue-one/) _Tina Essmaker, Ryan Essmaker_
 - __*__ The Red Badge of Courage _Stephen Crane_
 - Thus Spake Zarathustra _Frederich Nietzsche_
 - Beyond Good and Evil _Frederich Nietzsche_

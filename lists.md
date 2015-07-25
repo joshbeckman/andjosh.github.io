@@ -13,6 +13,7 @@ Now, I've started keeping lists not only of things I'm currently thinking about 
 - [Project Lists](/project-lists)
 - [Camera Lists](/camera-lists)
 - [Motorcycle Lists](/motorcycle-lists)
+- [People I Don't Know but Admire Lists](/people-i-admire-lists)
 - [Employment Lists](/employment-lists)
 - [Location Lists](/location-lists)
 - [Movie Lists](/movie-lists)

@@ -13,7 +13,7 @@ permalink: /reading-lists/
 
 - U.S. Special Forces Medical Handbook _United States Special Forces_
 - The Pleasure of Finding Things Out _Richard Feynman_
-- The Sheep Look Up _John Brunner_
+- __#__ The Sheep Look Up _John Brunner_
 - What If? _Randall Munroe_
 - Onlisp _Paul Graham_
 - Eloquent JavaScript _Marijn Haverbeke_
@@ -36,7 +36,7 @@ permalink: /reading-lists/
 - Toast _Charles Stross_
 - The Little Manual of API Design _Jasmin Blanchette_
 - Capital in the Twenty-First Century _Thomas Piketty_
-- What We See When We Read _Peter Mendelsund_
+- __#__ What We See When We Read _Peter Mendelsund_
 
 <!--two items:-->
 

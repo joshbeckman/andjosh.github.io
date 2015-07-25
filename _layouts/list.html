@@ -37,6 +37,11 @@ layout: default
     margin-left: -0.8em;
     cursor: pointer;
 }
+.lists ul li strong:first-child a {
+    text-decoration: none;
+    color: initial;
+    opacity: 0.5;
+}
 .lists ul li em {
     opacity: 0.7;
 }
@@ -60,10 +65,15 @@ layout: default
 <p class="meta">
     <a href="/lists">See More Lists</a>
 </p>
-<img src="http://sounds.andjosh.com/record?id=andjosh&tone=329.63" style="display:none" />
+<img src="http://sounds.andjosh.com/record?id=andjosh&tone=329.63" style="display:none" alt="sounds"/>
 <script>
 var a = document.querySelectorAll('.lists ul li strong');
 for (var i = 0; i < a.length; i++) {
-    a[i].title = 'Recommended';
+    if (a[i].textContent === '*'){
+        a[i].title = 'Recommended';
+    } else if (a[i].textContent === '#') {
+        a[i].title = 'I need help getting this one';
+        a[i].innerHTML = '<a href="mailto:email@andjosh.com?subject=I have something to help you">#</a>';
+    }
 }
 </script>

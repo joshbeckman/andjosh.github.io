@@ -8,7 +8,6 @@ permalink: /reading-lists/
 - [The Martian](https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)) _Andy Weir_
 - House of Leaves _Mark Z. Danielewski_
 - [The Jargon File](http://www.catb.org/jargon/oldversions/jarg262.txt) _various_
-- [Web Design: The First 100 Years](http://idlewords.com/talks/web_design_first_100_years.htm) _Maciej Cegłowski_
 
 <!--two items:-->
 
@@ -50,6 +49,7 @@ permalink: /reading-lists/
 - The Adventures of Sherlock Holmes _Sir Arthur Canon Doyle_
 - __*__ A Brief History of Time _Stephen Hawking_
 - Walden _Henry David Thoreau_
+- [Web Design: The First 100 Years](http://idlewords.com/talks/web_design_first_100_years.htm) _Maciej Cegłowski_
 - Frankenstein _Mary Shelley_
 - Anatomy of the Human Body _Henry Gray_
 - __*__ Magnum Contact Sheets _Kristen Lubben_

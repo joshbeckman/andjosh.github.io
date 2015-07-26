@@ -16,9 +16,10 @@ permalink: /location-lists/
 
 <!--two items:-->
 
+- __*__ County Cork _Ireland_
+- [Baltimore](https://vimeo.com/37561245) _Maryland_
 - Seattle _Washington_
 - Lindenhurst _Illinois_
-- __*__ County Cork _Ireland_
 - Kingston _Jamaica_
 - Lubbock _Texas_
 - Austin _Texas_

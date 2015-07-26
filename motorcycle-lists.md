@@ -13,5 +13,5 @@ permalink: /motorcycle-lists/
 
 <!--two items:-->
 
-- 1963 CB350 _Honda_
+- [1970 CB350](https://vimeo.com/47700722) _Honda_
 - [1974 CB360](https://www.youtube.com/watch?v=BP3nP3trNEM) _Honda_

@@ -14,6 +14,8 @@ permalink: /people-i-admire-lists/
 </style>
 
 - [Maciej Cegłowski](http://idlewords.com)
+- [John Siracusa](http://hypercritical.co)
+- [Brianna Wu](http://www.briannawu.net)
 
 <!--two items:-->
 

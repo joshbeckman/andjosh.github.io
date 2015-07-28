@@ -12,6 +12,7 @@ So, I wrote [a little Ruby script](https://github.com/andjosh/dotfiles/blob/mast
 # jpost
 # A script to create a jekyll post with provided title & current date
 # and open it with current $EDITOR
+# usage: jpost My Title Goes Here [--draft]
 
 first = ARGV[0]
 last = ARGV[ARGV.count - 1]

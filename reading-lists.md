@@ -37,6 +37,7 @@ permalink: /reading-lists/
 - The Little Manual of API Design _Jasmin Blanchette_
 - Capital in the Twenty-First Century _Thomas Piketty_
 - __#__ What We See When We Read _Peter Mendelsund_
+- __#__ Ancillary Justice _Ann Leckie_
 
 <!--two items:-->
 

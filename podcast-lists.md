@@ -7,9 +7,10 @@ permalink: /podcast-lists/
 - __*__ Benjamin Walker's Theory of Everything
 - The Bugle
 - Debug
+- The Heart
 - Fresh Air
 - Giant Robots Smashing into other Giant Robots Podcast
-- __*__ [Narro](http://narro.co)
+- __*__ [Josh Beckman on Narro](http://narro.co)
 - NPR: Bullseye with Jesse Thorn
 - __*__ On The Grid
 - Product Hunt Radio
@@ -43,6 +44,7 @@ permalink: /podcast-lists/
 
 <!--two items:-->
 
+- Zephyr
 - a16z
 - Longform
 - The Bike Shed

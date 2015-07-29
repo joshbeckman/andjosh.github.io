@@ -31,6 +31,7 @@ permalink: /reading-lists/
 - Accelerando _Charles Stross_
 - Harry Potter and the Methods of Rationality _Eliezer Yudkowsky_
 - Mysticism and Logic _Bertrand Russell_
+- __#__ Beacon 23 _Hugh Howey_
 - The First Forty-nine Stories _Ernest Hemmingway_
 - Ulysses _James Joyce_
 - Toast _Charles Stross_

@@ -11,6 +11,7 @@ Now, I've started keeping lists not only of things I'm currently thinking about 
 
 - [Reading Lists](/reading-lists)
 - [Project Lists](/project-lists)
+- [Podcast Lists](/podcast-lists)
 - [Camera Lists](/camera-lists)
 - [Motorcycle Lists](/motorcycle-lists)
 - [People I Don't Know but Admire Lists](/people-i-admire-lists)

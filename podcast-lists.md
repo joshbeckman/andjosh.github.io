@@ -17,7 +17,7 @@ permalink: /podcast-lists/
 - Robot or Not?
 - The Rocketship Podcast
 - RSA Events Audio
-- Selected Shorts
+- __*__ Selected Shorts
 - Slate Presents Lexicon Valley
 - The Talk Show With John Gruber
 - This American Life

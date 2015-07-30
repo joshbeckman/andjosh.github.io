@@ -20,3 +20,8 @@ Now, I've started keeping lists not only of things I'm currently thinking about 
 - [Movie Lists](/movie-lists)
 
 Partly inspired by [Max Fenton](http://maxfenton.com/biblio/).
+
+### Newsletter
+Once I started putting these lists online, I started a newsletter to share ones smaller, funnier, larger, etc.
+
+You can [sign up for the Lists & Josh newsletter here](http://tinyletter.com/lists).

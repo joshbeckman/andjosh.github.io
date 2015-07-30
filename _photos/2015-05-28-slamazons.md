@@ -2,7 +2,8 @@
 layout: post
 title: Slamazons at The Annoyance Theater
 date: 2015-05-29 00:00:00
-permalink: /sets/2015-05-28-slamazons.html
+sub: Photos
+sub_url: /photos
 ---
 ![Slamazons](/images/slamazons/slamazons_01.JPG "")
 ![Slamazons](/images/slamazons/slamazons_02.JPG "")

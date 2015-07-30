@@ -6,6 +6,8 @@ title: andjosh
 collections:
   fictions:
     output: true
+  photos:
+    output: true
 
 permalink: pretty
 markdown: redcarpet

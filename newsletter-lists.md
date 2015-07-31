@@ -22,6 +22,10 @@ permalink: /newsletter-lists/
 - [Versioning](https://www.sitepoint.com/versioning)
 - __*__ [The Jen Meyers Report](http://tinyletter.com/jenmyers)
 - [No Complaints](http://tinyletter.com/nocomplaints)
+- [Prompt](//helloprompt.com)
+- The Baffler
+- [A Lesser Photographer](http://alesserphotographer.com)
+- [Ann Friedman Weekly](http://tinyletter.com/annfriedman)
 
 <!--two items:-->
 
@@ -33,3 +37,4 @@ permalink: /newsletter-lists/
 - Subtle Featured Posts
 - [Now I Know](//nowiknow.com) _Dan Lewis_
 - Medium Weekly Digest
+- [Longreads Weekly](http://longreads.com)

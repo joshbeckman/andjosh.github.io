@@ -20,10 +20,13 @@ permalink: /newsletter-lists/
 - [iOS Dev Weekly](https://iosdevweekly.com)
 - [Austin Kleon](http://austinkleon.com/newsletter/)
 - [Versioning](https://www.sitepoint.com/versioning)
+- __*__ [The Jen Meyers Report](http://tinyletter.com/jenmyers)
+- [No Complaints](http://tinyletter.com/nocomplaints)
 
 <!--two items:-->
 
 - [Lists & Josh](//tinyletter.com/lists)
+- [Team Josh Weekly Plays](http://www.teamjosh.co/weekly)
 
 <!--two items:-->
 

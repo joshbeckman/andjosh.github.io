@@ -17,6 +17,9 @@ permalink: /newsletter-lists/
 - [Hacker News Daily](http://www.daemonology.net/hn-daily/)
 - [L'Oeil de la Photographie](http://www.loeildelaphotographie.com)
 - [JavaScript Weekly](//javascriptweekly.com)
+- [iOS Dev Weekly](https://iosdevweekly.com)
+- [Austin Kleon](http://austinkleon.com/newsletter/)
+- [Versioning](https://www.sitepoint.com/versioning)
 
 <!--two items:-->
 
@@ -26,3 +29,4 @@ permalink: /newsletter-lists/
 
 - Subtle Featured Posts
 - [Now I Know](//nowiknow.com) _Dan Lewis_
+- Medium Weekly Digest

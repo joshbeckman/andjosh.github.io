@@ -28,11 +28,13 @@ permalink: /newsletter-lists/
 - [Ann Friedman Weekly](http://tinyletter.com/annfriedman)
 - The Brooks Review
 - __*__ [Just Another Crowd](http://tinyletter.com/seanbonner) _Sean Bonner_
+- This Week From Dwell
 
 <!--two items:-->
 
 - [Lists & Josh](//tinyletter.com/lists)
 - [Team Josh Weekly Plays](http://www.teamjosh.co/weekly)
+- [The Swap](http://theswap.info/)
 
 <!--two items:-->
 

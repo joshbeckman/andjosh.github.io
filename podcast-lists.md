@@ -44,7 +44,7 @@ permalink: /podcast-lists/
 
 <!--two items:-->
 
-- Zephyr
+- [Zephyr](https://soundcloud.com/zephyrpodcast)
 - a16z
 - Longform
 - The Bike Shed

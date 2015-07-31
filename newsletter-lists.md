@@ -26,6 +26,8 @@ permalink: /newsletter-lists/
 - The Baffler
 - [A Lesser Photographer](http://alesserphotographer.com)
 - [Ann Friedman Weekly](http://tinyletter.com/annfriedman)
+- The Brooks Review
+- __*__ [Just Another Crowd](http://tinyletter.com/seanbonner) _Sean Bonner_
 
 <!--two items:-->
 

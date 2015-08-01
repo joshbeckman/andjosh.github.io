@@ -22,3 +22,4 @@ permalink: /people-i-admire-lists/
 
 - [Lea Verou](https://twitter.com/LeaVerou)
 - [Drew Wilson](http://drewwilson.com)
+- [Marco Arment](//marco.org)

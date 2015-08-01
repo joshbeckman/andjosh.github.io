@@ -39,6 +39,7 @@ permalink: /reading-lists/
 - Capital in the Twenty-First Century _Thomas Piketty_
 - __#__ What We See When We Read _Peter Mendelsund_
 - __#__ Ancillary Justice _Ann Leckie_
+- __#__ [Trigger Warning](http://www.indiebound.org/book/9780062330260?aff=jenmyers) _Niel Gaiman_
 
 <!--two items:-->
 

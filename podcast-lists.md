@@ -40,11 +40,11 @@ permalink: /podcast-lists/
 - Serendipity
 - Startup Podcast
 - VIVA RIOT
+- [Zephyr](https://soundcloud.com/zephyrpodcast) _Krishna and Me_
 - The Web Ahead
 
 <!--two items:-->
 
-- [Zephyr](https://soundcloud.com/zephyrpodcast)
 - a16z
 - Longform
 - The Bike Shed

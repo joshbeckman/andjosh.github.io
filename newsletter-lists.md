@@ -29,10 +29,16 @@ permalink: /newsletter-lists/
 - The Brooks Review
 - __*__ [Just Another Crowd](http://tinyletter.com/seanbonner) _Sean Bonner_
 - This Week From Dwell
+- [Hot Pod](http://tinyletter.com/hotpod)
+- [Longform](//longform.org)
+- [Startup Foundation Curated](//startupfoundation.co)
+- __*__ [A Song a Day](http://tinyletter.com/hotdoorknobs) _Alex Nadius_
+- [SiteInspire Weekly](//siteinspire.com)
 
 <!--two items:-->
 
 - [Lists & Josh](//tinyletter.com/lists)
+- [On the Trail](http://sarahbeckman.tumblr.com)
 - [Team Josh Weekly Plays](http://www.teamjosh.co/weekly)
 - [The Swap](http://theswap.info/)
 

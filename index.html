@@ -1,6 +1,27 @@
 ---
 layout: default
 ---
+<style>
+    html {
+        background-image: url(/images/dot.gif);
+    }
+    .markdown-body{
+        margin-top: 200px;
+        box-shadow:0 0 5px rgba(0,0,0,0.2);
+    }
+    .no-homo{
+    }
+    h1.site-title {
+        margin-top: 0;
+    }
+    img.josh-img {
+        max-width: 100px;
+        float: right;
+        margin: -60px;
+        box-shadow:0 0 5px rgba(0,0,0,0.2);
+    }
+</style>
+<img src="/images/page/joshSm.jpg" alt="Josh" class="josh-img"/>
 <h1 class="site-title">
     <a href="/" title="{{ site.title }}">{{ site.title }}</a>beckman
 </h1>
@@ -24,9 +45,9 @@ layout: default
     <p>
         I respond most readily via <a href="mailto:email@andjosh.com">email(at)andjosh.com</a>, and sometimes check Twitter <a href="http://twitter.com/twandjosh">@twandjosh</a>. I often deploy repositories of knowledge and computer code to <a href="http://github.com/andjosh">GitHub</a>. I tend to make <a href="/lists">quite a few lists</a> and write things here.
     </p>
-    <hr>
+    <hr class="no-homo">
 </div>
-<ul class="posts">
+<ul class="posts no-homo">
   {% for post in site.posts %}
     <li>
         <span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>

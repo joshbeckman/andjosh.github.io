@@ -34,6 +34,10 @@ permalink: /newsletter-lists/
 - [Startup Foundation Curated](//startupfoundation.co)
 - __*__ [A Song a Day](http://tinyletter.com/hotdoorknobs) _Alex Nadius_
 - [SiteInspire Weekly](//siteinspire.com)
+- [Typewolf](//typewolf.com)
+- Sunday Dispatches _Paul Jarvis_
+- [m johh harrison blog](//ambienthotel.wordpress.com)
+- Brain Pickings Weekly
 
 <!--two items:-->
 
@@ -48,3 +52,5 @@ permalink: /newsletter-lists/
 - [Now I Know](//nowiknow.com) _Dan Lewis_
 - Medium Weekly Digest
 - [Longreads Weekly](http://longreads.com)
+- Feddit
+- Upvoted Weekly

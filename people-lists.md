@@ -23,3 +23,6 @@ permalink: /people-i-admire-lists/
 - [Lea Verou](https://twitter.com/LeaVerou)
 - [Drew Wilson](http://drewwilson.com)
 - [Marco Arment](//marco.org)
+- Annie Leibovitz
+- [Laura Pannack](http://laurapannack.com)
+- [Ed Ou](http://www.edouphoto.com)

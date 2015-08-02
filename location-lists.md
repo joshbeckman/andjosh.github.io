@@ -8,7 +8,8 @@ permalink: /location-lists/
 
 <!--two items:-->
 
-- [The Cindercode](http://thecindercone.com) _Washington_
+- __#__ [The Enchantments](http://enchantments.guide)
+- __#__ [The Cindercode](http://thecindercone.com) _Washington_
 - [Getaway.house](http://getaway.house) _Massachusetts_
 - Honshu _Japan_
 - Paris _France_

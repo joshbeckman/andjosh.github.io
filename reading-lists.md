@@ -58,7 +58,7 @@ permalink: /reading-lists/
 - __*__ Magnum Contact Sheets _Kristen Lubben_
 - Meditations _Marcus Aurelius_
 - Metamorphosis _Franz Kafka_
-- __*__ At Work _Annie Liebovitz_
+- __*__ At Work _Annie Leibovitz_
 - [The Tao of Programming](http://canonical.org/~kragen/tao-of-programming.html) _Geoffrey James_
 - You Have Too Much Shit _Chris Thomas_
 - __*__ Valve Handbook For New Employees

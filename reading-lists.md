@@ -4,8 +4,8 @@ title: Reading Lists
 permalink: /reading-lists/
 ---
 
-- __*__ [Zen Mind, Beginner's Mind](https://en.wikipedia.org/wiki/Zen_Mind,_Beginner%27s_Mind) _Shunryū Suzuki_
-- [The Martian](https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)) _Andy Weir_
+- [Zen Mind, Beginner's Mind](https://en.wikipedia.org/wiki/Zen_Mind,_Beginner%27s_Mind) _Shunryū Suzuki_
+- __*__ [The Martian](https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)) _Andy Weir_
 - House of Leaves _Mark Z. Danielewski_
 - [The Jargon File](http://www.catb.org/jargon/oldversions/jarg262.txt) _various_
 
@@ -40,6 +40,7 @@ permalink: /reading-lists/
 - __#__ What We See When We Read _Peter Mendelsund_
 - __#__ Ancillary Justice _Ann Leckie_
 - __#__ [Trigger Warning](http://www.indiebound.org/book/9780062330260?aff=jenmyers) _Niel Gaiman_
+- Zen and the Art of Motorcycle Maintenance _Robert M. Pirsig_
 
 <!--two items:-->
 

@@ -41,6 +41,7 @@ permalink: /lists/reading/
 - __#__ Ancillary Justice _Ann Leckie_
 - __#__ [Trigger Warning](http://www.indiebound.org/book/9780062330260?aff=jenmyers) _Niel Gaiman_
 - Zen and the Art of Motorcycle Maintenance _Robert M. Pirsig_
+- [Ed](http://qntm.org/ed) _Sam Hughes_
 
 <!--two items:-->
 

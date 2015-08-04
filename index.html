@@ -1,60 +1,20 @@
 ---
 layout: default
+title: Josh Beckman
 ---
-<style>
-    html {
-        background-image: url(/images/dot.gif);
-    }
-    .markdown-body{
-        margin-top: 200px;
-        box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    }
-    h1.site-title {
-        margin-top: 0;
-    }
-    img.josh-img {
-        max-width: 100px;
-        float: right;
-        margin: -60px;
-        box-shadow: 0 0 5px rgba(0,0,0,0.5);
-    }
-    .only-sm{
-        display: none;
-    }
-    @media only screen and (max-width :48em){
-        .only-sm{
-            display: initial;
-        }
-        img.josh-img {
-            margin: -30px;
-            box-shadow: none;
-        }
-    }
-</style>
-<img src="/images/page/joshSm.jpg" alt="Josh" class="josh-img"/>
 <h1 class="site-title">
-    <a href="/" title="{{ site.title }}">{{ site.title }}</a><br class="only-sm">beckman
+    <a href="/" title="{{ site.title }}">{{ site.title }}</a>
 </h1>
 <div class="about">
+    <a href="/about" title="About Josh Beckman">About</a>
+    &mdash;
     <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
     &mdash;
     <a href="/photos" title="Photos">Photos</a>
     &mdash;
-    <a href="/fictions" title="Fictions">Fictions</a>
-    &mdash;
     <a href="/rss.xml" title="Subscribe to the RSS feed" rel="alternate">RSS</a>
     &mdash;
-    <a href="http://api.andjosh.com" title="My personal API" rel="alternate">My API</a>
-    &mdash;
-    <a href="http://tinyletter.com/andjosh" title="A Newsletter &amp; Josh" rel="">Newsletter</a>
-</div>
-<div class="desc">
-    <p>
-        I build things for the internet and for your phones. I'm VP of Engineering for <a href="http://threadmeup.com">ThreadMeUp</a> and one-half of <a href="http://teamjosh.co">Team Josh</a>. I live in downtown Chicago, where I also provide tech advising for early stage companies and groups.
-    </p>
-    <p>
-        I respond most readily via <a href="mailto:email@andjosh.com">email(at)andjosh.com</a>, and sometimes check Twitter <a href="http://twitter.com/twandjosh">@twandjosh</a>. I often deploy repositories of knowledge and computer code to <a href="http://github.com/andjosh">GitHub</a>. I tend to make <a href="/lists">quite a few lists</a> and write interesting things here.
-    </p>
+    <a href="http://api.andjosh.com" title="My personal API" rel="alternate">API</a>
 </div>
 <ul id="posts"  class="posts">
   {% for post in site.posts %}

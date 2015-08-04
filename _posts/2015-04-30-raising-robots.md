@@ -1,9 +1,6 @@
 ---
 layout: post
-title: Raising Robots
-sub: Current Future
-sub_url: /fictions/current-future
-date: 2015-05-01 00:00:00
+title: Fiction - Raising Robots
 ---
 
 It wasn't as if she were the only one to figure it out how to build an intelligence. Not even near the first.

@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Camera Lists
-permalink: /camera-lists/
+permalink: /lists/camera/
 ---
 
 - __*__ 5D MkIII _Canon_

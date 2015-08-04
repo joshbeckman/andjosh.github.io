@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Reading Lists
-permalink: /reading-lists/
+permalink: /lists/reading/
 ---
 
 - [Zen Mind, Beginner's Mind](https://en.wikipedia.org/wiki/Zen_Mind,_Beginner%27s_Mind) _Shunryū Suzuki_

@@ -9,16 +9,16 @@ I grew up in a family that makes lists.
 
 Now, I've started keeping lists not only of things I'm currently thinking about or working on, but also lists to remind me of the past and lists to remind of that which I wish to do.
 
-- [Reading Lists](/reading-lists)
-- [Project Lists](/project-lists)
-- [Podcast Lists](/podcast-lists)
-- [Newsletter Lists](/newsletter-lists)
-- [Camera Lists](/camera-lists)
-- [Motorcycle Lists](/motorcycle-lists)
-- [People I Don't Know but Admire Lists](/people-i-admire-lists)
-- [Employment Lists](/employment-lists)
-- [Location Lists](/location-lists)
-- [Movie Lists](/movie-lists)
+- [Reading Lists](/lists/reading)
+- [Project Lists](/lists/project)
+- [Podcast Lists](/lists/podcast)
+- [Newsletter Lists](/lists/newsletter)
+- [Camera Lists](/lists/camera)
+- [Motorcycle Lists](/lists/motorcycle)
+- [People I Don't Know but Admire Lists](/lists/people-i-admire)
+- [Employment Lists](/lists/employment)
+- [Location Lists](/lists/location)
+- [Movie Lists](/lists/movie)
 
 Partly inspired by [Max Fenton](http://maxfenton.com/biblio/).
 

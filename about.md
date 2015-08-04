@@ -8,7 +8,7 @@ permalink: /about/
         background-image: url(/images/dot.gif);
     }
     .markdown-body{
-        margin-top: 200px;
+        margin: 200px auto;
         box-shadow: 0 0 5px rgba(0,0,0,0.2);
     }
     .markdown-body p img{
@@ -16,6 +16,9 @@ permalink: /about/
         float: right;
         margin: 0.5em -3em 0.5em 1em !important;
         box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+    .markdown-body .site-title {
+        display: none;
     }
 </style>
 

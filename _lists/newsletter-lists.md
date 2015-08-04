@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Newsletter Lists
-permalink: /newsletter-lists/
+permalink: /lists/newsletter/
 ---
 
 - __*__ [Everything Changes](http://www.theawl.com/subscribe) _Laura Olin_
@@ -38,6 +38,19 @@ permalink: /newsletter-lists/
 - Sunday Dispatches _Paul Jarvis_
 - [m johh harrison blog](//ambienthotel.wordpress.com)
 - Brain Pickings Weekly
+- __*__ [Metafoundry](http://tinyletter.com/metafoundry) _Deb Chopra_
+- [Benedict's Newsletter](//www.ben-evans.com)
+- [Sunday New York Times Digest](http://tinyletter.com/mattthomas)
+- [Frontends Top Posts](https://twitter.com/FrontendsNews/)
+- [YSLTF](http://tinyletter.com/YSLTF)
+- [Web Animation Weekly](http://rachelnabors.us1.list-manage.com/subscribe?u=0a8f219cf8284562f91a26ee9&id=d60f6683d2) _Rachel Nabors_
+- [The Studio Visit](http://www.jamestgreen.com/thestudiovisit/) _James T. Green_
+- [Draft Weekly](https://draft.nu/?mc_cid=e91b0b0e6d&mc_eid=61fae20370) _Nick Disabato_
+- Chicago Startup Digest
+- [Mattermark](//mattermark.com)
+- [Little Bits of Cocoa](//littlebitesofcocoa.com)
+- Stack Exchange Mathematics Weekly
+- [Noon Pacific Mixtape](//noonpacific.com)
 
 <!--two items:-->
 
@@ -45,6 +58,7 @@ permalink: /newsletter-lists/
 - [On the Trail](http://sarahbeckman.tumblr.com)
 - [Team Josh Weekly Plays](http://www.teamjosh.co/weekly)
 - [The Swap](http://theswap.info/)
+- [Wandering Thoughts](http://tinyletter.com/krtierney) _Kaitlyn Tierney_
 
 <!--two items:-->
 
@@ -54,3 +68,4 @@ permalink: /newsletter-lists/
 - [Longreads Weekly](http://longreads.com)
 - Feddit
 - Upvoted Weekly
+- The Short List

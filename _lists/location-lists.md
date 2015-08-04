@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Location Lists
-permalink: /location-lists/
+permalink: /lists/location/
 ---
 
 - __*__ Chicago _Illinois_

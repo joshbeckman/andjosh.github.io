@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Employment Lists
-permalink: /employment-lists/
+permalink: /lists/employment/
 ---
 
 - [ThreadMeUp](http://threadmeup.com)

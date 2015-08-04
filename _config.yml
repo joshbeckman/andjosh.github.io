@@ -8,6 +8,8 @@ collections:
     output: true
   photos:
     output: true
+  lists:
+    output: true
 
 permalink: pretty
 markdown: redcarpet

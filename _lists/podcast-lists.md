@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Podcast Lists
-permalink: /podcast-lists/
+permalink: /lists/podcast/
 ---
 
 - __*__ Benjamin Walker's Theory of Everything

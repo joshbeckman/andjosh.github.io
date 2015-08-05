@@ -20,6 +20,11 @@ permalink: /about/
     .markdown-body .site-title {
         display: none;
     }
+    @media only screen and (max-width :48em){
+        .markdown-body p img{
+            margin-right: 0 !important;
+        }
+    }
 </style>
 
 ![Josh Beckman](/images/page/joshSm.jpg)

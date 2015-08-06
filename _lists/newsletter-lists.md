@@ -51,6 +51,12 @@ permalink: /lists/newsletter/
 - [Little Bits of Cocoa](//littlebitesofcocoa.com)
 - Stack Exchange Mathematics Weekly
 - [Noon Pacific Mixtape](//noonpacific.com)
+- Return of the Cafe Racers
+- Silodrome Weekly
+- The Full Plate _No Subject_
+- NPM weekly
+- Baremetrics Dispatch
+- __*__ [Madame Ovary](http://tinyletter.com/amandanelson) _Amanda Nelson_
 
 <!--two items:-->
 

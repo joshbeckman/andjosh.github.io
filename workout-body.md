@@ -27,6 +27,7 @@ permalink: /workout-bodyweight/
 - Superman
     - _Focus abdomen_
 - One leg elevated
+- Plyometric || Clappers
 
 ## Pull Ups
 - Standard
@@ -46,11 +47,13 @@ permalink: /workout-bodyweight/
 - One leg || Pistol
 - Lunges
 - Wall sits
+- Plyometric || Box Jump
 
 ## Sit Ups
 - Standard
 - Russian twist
 - Shadow boxing
+- Bicycles
 
 ## Misc
 - Chair dips

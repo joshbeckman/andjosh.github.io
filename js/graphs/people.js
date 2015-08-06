@@ -1,5 +1,5 @@
 var width = document.body.clientWidth - 60,
-    height = width - 200,
+    height = Math.min(width - 200, window.innerHeight),
     svg = dimple.newSvg('#chartContainer', width, height);
 
 d3.csv('/csv/livedPeople.csv', function(data) {

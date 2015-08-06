@@ -1,10 +1,17 @@
-Month,People,Place
-Jan 2011,3,Home
-Jan 2011,4,Work
-Feb 2011,2,Home
-Mar 2011,4,Work
-Mar 2011,4,Home
-Apr 2011,4,Work
-Apr 2011,4,Home
-May 2011,4,Work
-May 2011,4,Home
+Year,People,Place
+2008,2,Home
+2008,0,Work
+2009,2,Home
+2009,1,Work
+2010,4,Home
+2010,25,Work
+2011,3,Home
+2011,28,Work
+2012,4,Home
+2012,30,Work
+2013,1,Home
+2013,3,Work
+2014,1,Home
+2014,32,Work
+2015,1,Home
+2015,4,Work

@@ -44,11 +44,17 @@ permalink: /workout-bodyweight/
 ## Squats
 - Standard & weighted
 - One leg || Pistol
+- Lunges
+- Wall sits
+
+## Sit Ups
+- Standard
+- Russian twist
+- Shadow boxing
 
 ## Misc
 - Chair dips
 - Burpees
-- Sit ups
 
 ---
 

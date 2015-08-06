@@ -17,6 +17,7 @@ permalink: /lists/people-i-admire/
 - [John Siracusa](http://hypercritical.co)
 - [Brianna Wu](http://www.briannawu.net)
 - [Bret Victor](http://worrydream.com)
+- Oliver Sacks
 
 <!--two items:-->
 

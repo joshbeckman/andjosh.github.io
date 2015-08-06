@@ -48,6 +48,7 @@ permalink: /lists/podcast/
 - a16z
 - Longform
 - The Bike Shed
+- [Song Exploder](//songexploder.net)
 
 <!--two items:-->
 - __*__ This Developer's Life

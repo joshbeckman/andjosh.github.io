@@ -2,7 +2,7 @@ var width = document.body.clientWidth - 60,
     height = width - 200,
     svg = dimple.newSvg('#chartContainer', width, height);
 
-d3.csv('/data/livedPeople.csv', function(data) {
+d3.csv('/csv/livedPeople.csv', function(data) {
     var myChart = new dimple.chart(svg, data),
         x,
         s;

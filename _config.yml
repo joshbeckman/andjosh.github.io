@@ -10,8 +10,6 @@ collections:
     output: true
   lists:
     output: true
-  graphs:
-    output: true
 
 permalink: pretty
 markdown: redcarpet

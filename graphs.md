@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: graph
 title: Graphs
 permalink: /graphs/
 ---
 
-- [People I Lived With](/graphs/people-lived)
+<script src="/js/graphs/people.js"></script>

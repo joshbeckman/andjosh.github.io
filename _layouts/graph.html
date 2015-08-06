@@ -7,6 +7,7 @@ html {
 }
 .markdown-body {
     max-width: initial;
+    background: transparent;
 }
 .site-title em {
     font-style: italic;
@@ -15,13 +16,10 @@ html {
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
 <script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>
-<div id="chartContainer" class="graphs">
-    {{ content }}
-</div>
 <h2 class="site-title">
     <em>{{ page.title }}</em> <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
 </h2>
-<p class="meta">
-    <a href="/graphs">See More Graphs</a>
-</p>
+<div id="chartContainer" class="graphs">
+    {{ content }}
+</div>
 <img src="http://sounds.andjosh.com/record?id=andjosh&tone=329.63" style="display:none" alt="sounds"/>

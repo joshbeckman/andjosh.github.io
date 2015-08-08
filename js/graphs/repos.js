@@ -5,6 +5,18 @@ window.repos = {
     activity:   []
 };
 
+repos.callUser = function(name) {
+    var s = document.createElement('script');
+
+    document.getElementById('chartContainer').innerHTML = '';
+    s.src = 'https://api.github.com/users/' + name +
+        '/repos?sort=pushed&callback=repos.catchUser' +
+        '&access_token=a4b7b0d2e413d968ed23a793d28846130855e1ea';
+    document.body.appendChild(s);
+};
+
+repos.callUser('andjosh');
+
 repos.catchUser = function(data) {
     var s,
         meta = data.meta;
@@ -12,7 +24,7 @@ repos.catchUser = function(data) {
     data = data.data;
     repos.repos = data;
     repos.count = data.length;
-    repos.checkLimit(data);
+    repos.checkLimit(data, meta);
     for (var i = 0; i < data.length; i++) {
         s = data[i].url + '/stats/commit_activity' +
             '?access_token=a4b7b0d2e413d968ed23a793d28846130855e1ea';
@@ -20,7 +32,7 @@ repos.catchUser = function(data) {
     }
 };
 
-repos.checkLimit = function(data) {
+repos.checkLimit = function(data, meta) {
     if (!data.push) {
         alert(
             'Rate limit from GitHub hit.\nReset in ' +
@@ -31,10 +43,11 @@ repos.checkLimit = function(data) {
 };
 
 repos.pushActivity = function(id, data) {
-    var name = repos.repos[id].name;
+    var meta = data.meta,
+        name = repos.repos[id].name;
 
     data = data.data;
-    repos.checkLimit(data);
+    repos.checkLimit(data, meta);
     for (var i = 0; i < data.length; i++) {
         repos.activity.push({
             Repository: name,
@@ -81,8 +94,8 @@ repos.makeGraph = function() {
         .data(["Click legend to","show/hide repos:"])
         .enter()
         .append("text")
-        .attr("x", 100)
-        .attr("y", function (d, i) { return 90 + i * 14; })
+        .attr("x", 10)
+        .attr("y", function (d, i) { return 10 + i * 14; })
         .style("font-family", "sans-serif")
         .style("font-size", "10px")
         .style("color", "Black")

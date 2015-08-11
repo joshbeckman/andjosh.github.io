@@ -58,6 +58,7 @@ permalink: /lists/newsletter/
 - Baremetrics Dispatch
 - __*__ [Madame Ovary](http://tinyletter.com/amandanelson) _Amanda Nelson_
 - [Grafik](https://www.grafik.net)
+- [The UX Newsletter](http://www.theuxnewsletter.com)
 
 <!--two items:-->
 

@@ -57,6 +57,7 @@ permalink: /lists/newsletter/
 - NPM weekly
 - Baremetrics Dispatch
 - __*__ [Madame Ovary](http://tinyletter.com/amandanelson) _Amanda Nelson_
+- [Grafik](https://www.grafik.net)
 
 <!--two items:-->
 
@@ -65,6 +66,9 @@ permalink: /lists/newsletter/
 - [Team Josh Weekly Plays](http://www.teamjosh.co/weekly)
 - [The Swap](http://theswap.info/)
 - [Wandering Thoughts](http://tinyletter.com/krtierney) _Kaitlyn Tierney_
+- [Everything Happened](http://tinyletter.com/ohevie)
+- [Technocult](http://tinyletter.com/Technoccult)
+- [The Cabinet](http://tinyletter.com/the-cabinet)
 
 <!--two items:-->
 

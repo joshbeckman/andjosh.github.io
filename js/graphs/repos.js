@@ -10,7 +10,7 @@ repos.callUser = function(name) {
 
     document.getElementById('chartContainer').innerHTML = '';
     s.src = 'https://api.github.com/users/' + name +
-        '/repos?sort=pushed&callback=repos.catchUser' +
+        '/repos?type=owner&sort=pushed&callback=repos.catchUser' +
         '&access_token=a4b7b0d2e413d968ed23a793d28846130855e1ea';
     document.body.appendChild(s);
 };

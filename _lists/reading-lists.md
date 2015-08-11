@@ -42,6 +42,8 @@ permalink: /lists/reading/
 - __#__ [Trigger Warning](http://www.indiebound.org/book/9780062330260?aff=jenmyers) _Niel Gaiman_
 - Zen and the Art of Motorcycle Maintenance _Robert M. Pirsig_
 - [Ed](http://qntm.org/ed) _Sam Hughes_
+- Watchmen _Alan Moore_
+- The Salmon of Doubt _Douglas Adams_
 
 <!--two items:-->
 
@@ -124,3 +126,5 @@ permalink: /lists/reading/
 - The Green Mile _Stephen King_
 - Beowulf
 - The Works of William Shakespeare _William Shakespeare_
+- __*__ A Wrinkle in Time _Madeleine L'Engle_
+- A Wind in the Door _Madeleine L'Engle_

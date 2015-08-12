@@ -6,7 +6,7 @@ title: Bad Graphs in the Wild
 
 I recently used this example as a source of interview questions, so I thought it would be worthwhile to write it down.
 
-I went to the grocery store yesterday and found this laminated graph in front of the egg refrigerators. I laughed out loud and immediately snapped a photo. There were other people around me and they seemed confused by my photography. I think they saw the graph as helpful! I know the photo is only black and white above, but the printing was only black ink on white paper anyway.
+At the grocery store yesterday, I found this laminated graph in front of the egg refrigerators. I laughed out loud and immediately snapped a photo. There were other people around me and they seemed confused by my photography - hopefully they didn't think the graph was helpful! I know the photo is only black and white above, but the printing was only black ink on white paper anyway.
 
 I think this "informative" data is intentionally misleading.
 

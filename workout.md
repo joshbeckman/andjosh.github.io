@@ -10,7 +10,9 @@ Before beginning, go through the "lead" exercises from each day. For each, using
 
 Each exercise below, except where delegated by the table, has an assigned number of reps. Each should be done with the maximum weight that still allows you to complete the reps.
 
-After four weeks, add 5–10% to your maxes (multiply the "weight" by 1.1), save,  and repeat the cycle.
+After four weeks, add 5–10% to your maxes (multiply the "weight" by 1.1), save, and repeat the cycle.
+
+Alternatively, I have a [bodyweight-only workout](/workout-bodyweight/#combinations) structure.
 
 ## Weight Calculator
 <label for="scratch">Scratchpad

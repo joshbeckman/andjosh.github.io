@@ -10,6 +10,7 @@ permalink: /lists/motorcycle/
 
 - [Karion 125](http://bornmotorco.com/born-bikes#/new-page/) _Born_
 - Ninja 300 _Kawasaki_
+- [Scrambler](http://scramblerducati.com/en) _Ducati_
 - CB350 _Honda_
 - Anything from _[Deus Customs](http://deuscustoms.com/bikes/models/)_
 

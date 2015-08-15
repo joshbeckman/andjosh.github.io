@@ -10,6 +10,7 @@ permalink: /about/
     .markdown-body{
         margin: 200px auto;
         box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        background: RGBA(255, 255, 248, 0.8);
     }
     .markdown-body p img{
         max-width: 100px !important;

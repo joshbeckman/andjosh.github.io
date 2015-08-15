@@ -19,6 +19,7 @@
     canvas.setAttribute('height', h * 2);
     canvas.style.width = w + 'px';
     canvas.style.height = h + 'px';
+    canvas.style.cursor = 'pointer';
 
     setInterval(drawPlaces, 33);
 

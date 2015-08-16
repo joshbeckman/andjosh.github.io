@@ -27,3 +27,4 @@ permalink: /lists/people-i-admire/
 - Annie Leibovitz
 - [Laura Pannack](http://laurapannack.com)
 - [Ed Ou](http://www.edouphoto.com)
+- [Sue Murphy](http://howsueisnow.com)

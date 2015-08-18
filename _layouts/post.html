@@ -17,14 +17,16 @@ layout: default
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <meta itemprop="author" content="Josh Beckman" />
     <h1 class=""><a itemprop="url" href="{{ page.url }}">{{ page.title }}</a></h1>
-    <p class="meta"><span itemprop="datePublished">{{ page.date | date_to_string }}</span></p>
+    <p class="meta">
+        <span itemprop="datePublished">{{ page.date | date_to_string }}</span>
+        <script id="narroAdd" src="//www.narro.co/static/addEmbed.js"></script>
+    </p>
     <div class="content" itemprop="articleBody">
         {{ content }}
     </div>
     <small class="meta">
         <a href="mailto:email@andjosh.com?subject=RE:{{ page.title }}" title="Comment/Reply">Comment/Reply</a>
     </small>
-    <script id="narroAdd" src="//www.narro.co/static/addEmbed.js"></script>
     {% if page.sub && page.sub_url %}
         <h6>
             <a href="{{ page.sub_url }}">Back to {{ page.sub }}</a>

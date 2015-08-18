@@ -30,7 +30,7 @@ permalink: /about/
 
 ![Josh Beckman](/images/page/joshSm.jpg)
 
-I build things for the internet and for your phones. I'm VP of Engineering for [ThreadMeUp](http://threadmeup.com) and one-half of [Team Josh](http://teamjosh.co). I live in downtown Chicago, where I also provide tech advising for early-stage companies and groups. Email me if you're interested.
+I build things for the internet and for your phones. I'm VP of Engineering for [ThreadMeUp](http://threadmeup.com) and one-half of [Team Josh](http://teamjosh.co) & [Zephyr Podcast](https://soundcloud.com/zephyrpodcast). I live in downtown Chicago, where I also provide tech advising for early-stage companies and groups. Email me if you're interested.
 
 I respond most readily via [email(at)andjosh.com](mailto:email@andjosh.com), and sometimes check Twitter [@twandjosh](http://twitter.com/twandjosh). I often deploy repositories of knowledge and computer code to [GitHub](//github.com/andjosh). I tend to make [quite a few lists](/lists) and [write hopefully helpful things](/).
 

@@ -16,11 +16,25 @@ layout: default
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <meta itemprop="author" content="Josh Beckman" />
-    <h1 class=""><a itemprop="url" href="{{ page.url }}">{{ page.title }}</a></h1>
+    <h2 class="site-title">
+        <a rel="home" href="/" title="{{ site.title }}">{{ site.title }}</a>
+    </h2>
+    <div class="about">
+        <a href="/" title="Posts" rel="home">Posts</a>
+        &mdash;
+        <a href="/about" title="About Josh" rel="about">About</a>
+        &mdash;
+        <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
+        &mdash;
+        <a href="/photos" title="Photos">Photos</a>
+        &mdash;
+        <a href="/rss.xml" title="Subscribe to the RSS feed" rel="alternate">RSS</a>
+    </div>
     <p class="meta">
         <span itemprop="datePublished">{{ page.date | date_to_string }}</span>
-        <script id="narroAdd" src="//www.narro.co/static/addEmbed.js"></script>
+        <script id="narroAdd" src="//www.narro.co/static/addEmbed.js" async></script>
     </p>
+    <h1 class=""><a itemprop="url" href="{{ page.url }}">{{ page.title }}</a></h1>
     <div class="content" itemprop="articleBody">
         {{ content }}
     </div>
@@ -32,19 +46,5 @@ layout: default
             <a href="{{ page.sub_url }}">Back to {{ page.sub }}</a>
         </h6>
     {% endif %}
-    <h2 class="site-title">
-        <a rel="home" href="/" title="{{ site.title }}">{{ site.title }}</a>
-    </h2>
-<div class="about">
-    <a href="/" title="Posts" rel="home">Posts</a>
-    &mdash;
-    <a href="/about" title="About Josh" rel="about">About</a>
-    &mdash;
-    <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
-    &mdash;
-    <a href="/photos" title="Photos">Photos</a>
-    &mdash;
-    <a href="/rss.xml" title="Subscribe to the RSS feed" rel="alternate">RSS</a>
-</div>
 </article>
 <img src="http://sounds.andjosh.com/record?id=andjosh&tone=261.63" style="display:none" />

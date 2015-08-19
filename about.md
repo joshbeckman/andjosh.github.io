@@ -18,9 +18,6 @@ permalink: /about/
         margin: 0.5em -3em 0.5em 1em !important;
         box-shadow: 0 0 5px rgba(0,0,0,0.5);
     }
-    .markdown-body .site-title {
-        display: none;
-    }
     @media only screen and (max-width :48em){
         .markdown-body p img{
             margin-right: 0 !important;

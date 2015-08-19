@@ -52,7 +52,7 @@ repos.pushActivity = function(id, data) {
         repos.activity.push({
             Repository: name,
             Commits:    data[i].total,
-            Week:       (new Date(data[i].week * 1000)).toJSON().substring(2, 10)
+            Week:       (new Date(data[i].week * 1000))
         });
     }
 
@@ -73,13 +73,15 @@ repos.makeGraph = function() {
 
     myChart.setBounds(60, 30, width - 100, height - 100);
     x = myChart.addCategoryAxis('x', 'Week');
-    x.addOrderRule('Date');
+    x.addOrderRule('Week');
+    x.timeField = 'Week';
+    x.tickFormat = '%x';
     myChart.addMeasureAxis('y', 'Commits');
     s = myChart.addSeries(
         'Repository',
-        dimple.plot.line
+        dimple.plot.bubble
     );
-    //s.interpolation = 'cardinal';
+
     myLegend = myChart.addLegend(
         60,
         10,

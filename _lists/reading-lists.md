@@ -45,6 +45,7 @@ permalink: /lists/reading/
 - Watchmen _Alan Moore_
 - The Salmon of Doubt _Douglas Adams_
 - __#__ [Elektrograd: Rusted Blood](https://www.smashwords.com/books/view/568621) _Warren Ellis_
+- In Praise of Shadows _Junichiro Tanizaki_
 
 <!--two items:-->
 

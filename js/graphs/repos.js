@@ -2,7 +2,9 @@
 window.repos = {
     count:      0,
     repos:      [],
-    activity:   []
+    activity:   [],
+    dailyActiviy: [],
+    start:      new Date()
 };
 
 repos.callUser = function(name) {
@@ -34,28 +36,47 @@ repos.catchUser = function(data) {
 
 repos.checkLimit = function(data, meta) {
     if (!data.push) {
-        alert(
+        document.getElementById('chartContainer').innerHTML = (
             'Rate limit from GitHub hit.\nReset in ' +
             Math.round(((new Date(meta['X-RateLimit-Reset'] * 1000)) -
-            (new Date()).getTime()) / 1000) + 's'
+            (new Date()).getTime()) / 1000) + 's. Try refreshing the page.'
         );
     }
 };
 
 repos.pushActivity = function(id, data) {
     var meta = data.meta,
-        name = repos.repos[id].name;
+        date = new Date(),
+        name = repos.repos[id].name,
+        daily = {
+                name:   name,
+                dates:  []
+            },
+        i = 0,
+        j = 0;
 
     data = data.data;
     repos.checkLimit(data, meta);
-    for (var i = 0; i < data.length; i++) {
+    for (i = 0; i < data.length; i++) {
+        date = new Date(data[i].week * 1000);
         repos.activity.push({
             Repository: name,
             Commits:    data[i].total,
-            Week:       (new Date(data[i].week * 1000))
+            Week:       date
         });
+        for (j = 0; j < data[i].days.length; j++) {
+            if (data[i].days[j]) {
+                daily.dates.push(date);
+                repos.start = new Date(
+                    Math.min(repos.start.getTime(), date.getTime())
+                );
+            }
+
+            date = new Date(date.getTime() + (1000 * 60 * 60 * 24 * 7));
+        }
     }
 
+    repos.dailyActiviy.push(daily);
     repos.count--;
     if (!repos.count)
         repos.makeGraph();
@@ -69,7 +90,17 @@ repos.makeGraph = function() {
         data = repos.activity,
         myLegend,
         x,
-        s;
+        s,
+        eventDropsChart = d3.chart.eventDrops()
+            .hasBottomAxis(false)
+            .hasDelimiter(false)
+            .eventLineColor('red')
+            .width(width)
+            .start(repos.start);
+
+    d3.select('#chartContainer1')
+        .datum(repos.dailyActiviy)
+        .call(eventDropsChart);
 
     myChart.setBounds(60, 30, width - 100, height - 100);
     x = myChart.addCategoryAxis('x', 'Week');
@@ -146,4 +177,13 @@ function asyncRequest(url, id, fn) {
     };
 
     doJSONP(url, "_callbacks." + name);
+}
+function color() {
+    var ti = (new Date()).getTime(),
+        i = parseInt(ti.toString()[ti.toString().length - 5], 10),
+        r = Math.floor(Math.sin(i) * 127 + 128),
+        g = Math.floor(Math.sin(i + 2) * 127 + 128),
+        b = Math.floor(Math.sin(i + 3) * 127 + 128);
+
+    return 'rgb(' + r + ', ' + g + ',' + b + ')';
 }

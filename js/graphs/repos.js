@@ -4,20 +4,21 @@ window.repos = {
     repos:      [],
     activity:   [],
     dailyActiviy: [],
-    start:      new Date()
+    start:      new Date(),
+    user:       window.location.search.split('user=')[1]
 };
 
 repos.callUser = function(name) {
     var s = document.createElement('script');
 
-    document.getElementById('chartContainer').innerHTML = '';
+    document.getElementById('chartContainer').innerHTML = '<h2>' + name + '</h2>';
     s.src = 'https://api.github.com/users/' + name +
         '/repos?type=owner&sort=pushed&callback=repos.catchUser' +
         '&access_token=a4b7b0d2e413d968ed23a793d28846130855e1ea';
     document.body.appendChild(s);
 };
 
-repos.callUser('andjosh');
+repos.callUser(repos.user ? repos.user.split('&')[0] : 'andjosh');
 
 repos.catchUser = function(data) {
     var s,
@@ -39,7 +40,7 @@ repos.checkLimit = function(data, meta) {
         document.getElementById('chartContainer').innerHTML = (
             'Rate limit from GitHub hit.\nReset in ' +
             Math.round(((new Date(meta['X-RateLimit-Reset'] * 1000)) -
-            (new Date()).getTime()) / 1000) + 's. Try refreshing the page.'
+            (new Date()).getTime()) / 1000) + 's. Or Github has to build it\'s cache. Try refreshing the page.'
         );
     }
 };
@@ -59,11 +60,12 @@ repos.pushActivity = function(id, data) {
     repos.checkLimit(data, meta);
     for (i = 0; i < data.length; i++) {
         date = new Date(data[i].week * 1000);
-        repos.activity.push({
-            Repository: name,
-            Commits:    data[i].total,
-            Week:       date
-        });
+        if (data[i].total)
+            repos.activity.push({
+                Repository: name,
+                Commits:    data[i].total,
+                Week:       date
+            });
         for (j = 0; j < data[i].days.length; j++) {
             if (data[i].days[j]) {
                 daily.dates.push(date);
@@ -76,7 +78,8 @@ repos.pushActivity = function(id, data) {
         }
     }
 
-    repos.dailyActiviy.push(daily);
+    if (daily.dates.length)
+        repos.dailyActiviy.push(daily);
     repos.count--;
     if (!repos.count)
         repos.makeGraph();

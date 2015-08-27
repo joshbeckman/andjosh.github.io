@@ -5,7 +5,7 @@ permalink: /lists/project/
 ---
 
 - __*__ [Narro](http://narro.co) _The simple way to listen to the web - as a podcast!_
-- [Sounds](https://github.com/andjosh/sounds) _Allows you to listen to data instead of watching it._
+- Murmur Club _A choose-your-own-adventure game, over email._
 
 <!--two items:-->
 
@@ -18,6 +18,7 @@ permalink: /lists/project/
 
 <!--two items:-->
 
+- [Sounds](https://github.com/andjosh/sounds) _Allows you to listen to data instead of watching it._
 - [Stark Lines](http://starklines.herokuapp.com) _Combine real-time Google Analytics data for multiple sites/apps into one graph._
 - [Nucre](https://github.com/andjosh/nucre) _Let anyone quickly, simply, pay you with a credit card._
 - [Alleyooop](http://alleyooop.info) _Your simple Dribbble newsletter service. Get the hook-up._

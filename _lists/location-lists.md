@@ -16,6 +16,7 @@ permalink: /lists/location/
 - Big Creek _Montana_
 - Moscow _Russia_
 - Sa Pa _Vietnam_
+- [Coboat](https://startupretreats.com/coboat)
 
 <!--two items:-->
 

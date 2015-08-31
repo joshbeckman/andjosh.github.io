@@ -5,7 +5,7 @@ permalink: /lists/project/
 ---
 
 - __*__ [Narro](http://narro.co) _The simple way to listen to the web - as a podcast!_
-- Murmur Club _A choose-your-own-adventure game, over email._
+- [Murmurs](http://murmurs.andjosh.com)  _A choose-your-own-adventure game, over email._
 
 <!--two items:-->
 

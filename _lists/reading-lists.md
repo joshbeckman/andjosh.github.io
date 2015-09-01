@@ -45,6 +45,7 @@ permalink: /lists/reading/
 - The Salmon of Doubt _Douglas Adams_
 - __#__ [Elektrograd: Rusted Blood](https://www.smashwords.com/books/view/568621) _Warren Ellis_
 - In Praise of Shadows _Junichiro Tanizaki_
+- [Speak](http://www.harpercollins.com/9780062391193/speak) _Louisa Hall_
 
 <!--two items:-->
 

@@ -1,9 +1,6 @@
 ---
 layout: post
 title: LadyNight
-date: 2015-07-25 00:00:00
-sub: Photos
-sub_url: /photos
 ---
 [Song of the night](https://www.youtube.com/watch?v=Z4TwbrihsNw)
 

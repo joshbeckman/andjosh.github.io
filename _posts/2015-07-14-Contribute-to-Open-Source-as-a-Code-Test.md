@@ -3,6 +3,8 @@ layout: post
 title: Contribute to Open Source as a Code Test
 ---
 
+<script id="narroAdd" src="//www.narro.co/static/addEmbed.js" async></script><br>
+
 I counted up the number of open source code projects I actively used or extended today. Just in the last twenty hours, I tallied over 50 libraries and applications and resources.
 
 When I'm evaluating potential hires onto [our team](http://tech.threadmeup.com), I'm looking at things like previous work experience. I'm also actively looking for proof of someone giving back to the development community.

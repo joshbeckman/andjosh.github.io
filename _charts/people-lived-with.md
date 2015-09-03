@@ -4,4 +4,5 @@ title: People Lived With
 permalink: /charts/people-lived-with/
 ---
 
-<script src="/js/graphs/people.js"></script>
+<script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>
+<script src="/js/charts/people.js"></script>

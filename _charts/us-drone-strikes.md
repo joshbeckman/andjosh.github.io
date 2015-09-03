@@ -30,6 +30,6 @@ permalink: /charts/github-repos/
     display: none;
 }
 </style>
-<script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>
 <script src="/js/vendor/eventDrops.js"></script>
-<script src="/js/charts/repos.js"></script>
+<script src="/js/charts/drones.js"></script>
+<script src="http://api.dronestre.am/data?callback=drones.load"></script>

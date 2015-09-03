@@ -1,7 +1,7 @@
 ---
-layout: graph
-title: Repo Contributions
-permalink: /graphs-repos/
+layout: chart
+title: GitHub Repo Contributions
+permalink: /charts/github-repos/
 ---
 
 <style>

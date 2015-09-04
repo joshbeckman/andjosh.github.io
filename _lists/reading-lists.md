@@ -4,9 +4,8 @@ title: Reading Lists
 permalink: /lists/reading/
 ---
 
-- __*__ [The Martian](https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)) _Andy Weir_
-- House of Leaves _Mark Z. Danielewski_
 - [The Jargon File](http://www.catb.org/jargon/oldversions/jarg262.txt) _various_
+- House of Leaves _Mark Z. Danielewski_
 
 <!--two items:-->
 
@@ -49,6 +48,7 @@ permalink: /lists/reading/
 
 <!--two items:-->
 
+- __*__ [The Martian](https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)) _Andy Weir_
 - The Elements of Style _E.B. White_
 - Trees _Warren Ellis_
 - __*__ On Keeping a Notebook _Joan Didion_

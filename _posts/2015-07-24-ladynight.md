@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photos
 title: LadyNight
 ---
 [Song of the night](https://www.youtube.com/watch?v=Z4TwbrihsNw)

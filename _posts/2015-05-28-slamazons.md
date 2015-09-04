@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photos
 title: Slamazons at The Annoyance Theater
 ---
 ![Slamazons](/images/slamazons/slamazons_01.JPG "")

@@ -2,7 +2,7 @@
 function expandPre(){for(var e,n=document.querySelectorAll(".highlight"),i=window.innerWidth,t=0;t<n.length;t++)e=Math.max(0,i-n[t].clientWidth),n[t].style.margin="0 -"+e/2+"px 16px",n[t].children[0].style.padding="20px "+e/2+"px"}expandPre();
 
 function expandImg() {
-    var c = document.querySelector('.content'),
+    var c = document.querySelector('.photos'),
         imgs = c ? c.querySelectorAll('img') : [],
         w = window.innerWidth,
         p = Math.min(1000, w);

@@ -1,7 +1,7 @@
 ---
 layout: chart
-title: GitHub Repo Contributions
-permalink: /charts/github-repos/
+title: United States Drone Strikes
+permalink: /charts/us-drone-strikes/
 ---
 
 <style>

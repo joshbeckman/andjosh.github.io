@@ -47,6 +47,18 @@ svg text {
 
 <div id="chartTargets"></div>
 
+// TODO: Bubble chart of deaths-per-strike by date, with trend line
+
+// TODO: either event drops or pie chart showing whether target was hit (accuracy)
+
+// TODO: Area chart of death types over time
+
+// TODO: pie chart of total civilian casualties to target casualties
+
+// we don't have the hour of attacks! Otherwise a night/day graph would be of interest.
+
+
+
 <script src="/js/vendor/eventDrops.js"></script>
 <script src="/js/charts/drones.js"></script>
 <script src="http://api.dronestre.am/data?callback=drones.load"></script>

@@ -30,6 +30,10 @@ permalink: /charts/github-repos/
     display: none;
 }
 </style>
+<form>
+    <input type="text" name="user" placeholder="GitHub username"/>
+    <button type="submit">Submit</button>
+</form>
 <script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>
 <script src="/js/vendor/eventDrops.js"></script>
 <script src="/js/charts/repos.js"></script>

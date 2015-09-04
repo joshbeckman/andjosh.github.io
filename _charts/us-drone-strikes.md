@@ -30,6 +30,18 @@ permalink: /charts/us-drone-strikes/
     display: none;
 }
 </style>
+### Strike Effects
+
+<div id="chartDeathsType"></div>
+
+### Strike Locations
+
+<div id="chartCountry"></div>
+
+### Strike Targets
+
+<div id="chartTargets"></div>
+
 <script src="/js/vendor/eventDrops.js"></script>
 <script src="/js/charts/drones.js"></script>
 <script src="http://api.dronestre.am/data?callback=drones.load"></script>

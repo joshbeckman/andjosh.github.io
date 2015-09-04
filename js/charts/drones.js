@@ -3,7 +3,12 @@
         targetDaily:            [],
         countryDaily:           [],
         deathsNumberDaily:      [],
-        deathsTypeDaily:        [],
+        deathsTypeDaily:        [
+                {name: 'Strikes Killing Targets', dates: []},
+                {name: 'Strikes Killing Civilians', dates: []},
+                {name: 'Strikes Injuring Civilians', dates: []},
+                {name: 'Strikes Killing Children', dates: []}
+            ],
         rangeStart:     new Date(),
         rangeEnd:       new Date()
     };
@@ -33,9 +38,45 @@
                     dates:  [d]
                 });
             }
-
-            console.log('pushTarget', name);
         }
+    };
+
+    drones.pushCountry = function(strike) {
+        var d = new Date(strike.date),
+            name = strike.country,
+            comp = '',
+            pushed = false,
+            s,
+            n;
+
+        for (s in drones.countryDaily) {
+            comp = drones.countryDaily[s].name;
+            if (comp == name) {
+                pushed = true;
+                drones.countryDaily[s].dates.push(d);
+            }
+        }
+
+        if (!pushed) {
+            drones.countryDaily.push({
+                name:   name,
+                dates:  [d]
+            });
+        }
+    };
+
+    drones.pushDeaths = function(strike) {
+        var d = new Date(strike.date),
+            dead = parseInt(strike.deaths_max, 10),
+            civil = parseInt(strike.civilians, 10),
+            child = parseInt(strike.children, 10),
+            injury = parseInt(strike.injuries, 10),
+            target = dead - civil;
+
+        if (child) drones.deathsTypeDaily[3].dates.push(d);
+        if (target) drones.deathsTypeDaily[0].dates.push(d);
+        if (civil) drones.deathsTypeDaily[1].dates.push(d);
+        if (injury) drones.deathsTypeDaily[2].dates.push(d);
     };
 
     drones.build = function() {
@@ -43,22 +84,36 @@
             eventDropsChart = d3.chart.eventDrops()
                 .hasBottomAxis(false)
                 .hasDelimiter(false)
-                .eventLineColor('red')
                 .width(width)
                 .start(drones.rangeStart);
 
-        d3.select('#chartContainer1')
+        d3.select('#chartTargets')
             .datum(drones.targetDaily)
-            .call(eventDropsChart);
+            .call(eventDropsChart
+                .eventLineColor('steelblue')
+            );
+        d3.select('#chartDeathsType')
+            .datum(drones.deathsTypeDaily)
+            .call(eventDropsChart
+                .eventLineColor('firebrick')
+            );
+        d3.select('#chartCountry')
+            .datum(drones.countryDaily)
+            .call(eventDropsChart
+                .eventLineColor('green')
+            );
     };
 
     drones.load = function(data) {
         var strikes = data.strike;
 
         document.getElementById('chartContainer1').innerHTML =
-            strikes.length + ' drone strikes conducted by the United States military.';
+            strikes.length + ' drone strikes conducted by the United States military.' +
+            ' Sourced, with thanks, from <a href="http://dronestre.am">dronestre.am</a>';
         for (var s in strikes) {
             drones.pushTarget(strikes[s]);
+            drones.pushDeaths(strikes[s]);
+            drones.pushCountry(strikes[s]);
             drones.rangeStart = new Date(
                 Math.min(
                     drones.rangeStart.getTime(),
@@ -66,6 +121,7 @@
                 )
             );
         }
+
         drones.build();
     };
 

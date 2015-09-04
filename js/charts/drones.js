@@ -107,6 +107,7 @@
     drones.load = function(data) {
         var strikes = data.strike;
 
+        document.getElementById('loading').innerHTML = '';
         document.getElementById('chartContainer1').innerHTML =
             strikes.length + ' drone strikes conducted by the United States military.' +
             ' Sourced, with thanks, from <a href="http://dronestre.am">dronestre.am</a>';

@@ -9,6 +9,10 @@ permalink: /charts/us-drone-strikes/
     fill: transparent;
     cursor: pointer;
 }
+svg text {
+    font-family: sans-serif;
+    font-size: 12px;
+}
 .y-axis path,
 .y-axis line,
 .x-axis path,
@@ -30,6 +34,7 @@ permalink: /charts/us-drone-strikes/
     display: none;
 }
 </style>
+<div id="loading">Calling all drones...</div>
 ### Strike Effects
 
 <div id="chartDeathsType"></div>

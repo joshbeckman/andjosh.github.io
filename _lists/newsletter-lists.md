@@ -60,6 +60,7 @@ permalink: /lists/newsletter/
 - [Grafik](https://www.grafik.net)
 - [The UX Newsletter](http://www.theuxnewsletter.com)
 - [asdlkfjhasfl;gjhaklsf](http://tinyletter.com/langer/)
+- [Brain Food](https://www.farnamstreetblog.com/newsletter)
 
 <!--two items:-->
 

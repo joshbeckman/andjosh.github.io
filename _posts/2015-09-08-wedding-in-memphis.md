@@ -22,6 +22,6 @@ By the numbers:
 ![Jenelle's mustache](/images/201509/mustache.jpg "Jenelle was born to wear a mustache")
 ![Music and grass and stars and drinks and friends and grass and love and grass](/images/201509/grass.jpg "Music and grass and stars and drinks and friends and grass and love and grass")
 ![Lee can also do magic with his pen](/images/201509/leePen.jpg "Lee can also do magic with his pen")
-![Giselda just wants to clean the room](/images/201509/giselda.jpg "Giselda just wants to clean the room")
+![Griselda just wants to clean the room](/images/201509/giselda.jpg "Griselda just wants to clean the room")
 ![Lee demonstrates DiMaso's paradox](/images/201509/leeCoCo.jpg "Lee demonstrates DiMaso's paradox.")
 

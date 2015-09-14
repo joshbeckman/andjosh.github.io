@@ -42,6 +42,7 @@ permalink: /lists/podcast/
 - VIVA RIOT
 - [Zephyr](https://soundcloud.com/zephyrpodcast) _Krishna and Me_
 - The Web Ahead
+- The Memory Palace
 
 <!--two items:-->
 

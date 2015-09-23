@@ -55,6 +55,8 @@ svg text {
 
 // TODO: pie chart of total civilian casualties to target casualties
 
+// TODO: Map the distance of each strike from Washington D.C.
+
 // we don't have the hour of attacks! Otherwise a night/day graph would be of interest.
 
 

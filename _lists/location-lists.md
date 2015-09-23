@@ -23,7 +23,17 @@ permalink: /lists/location/
 - __*__ County Cork _Ireland_
 - [Baltimore](https://vimeo.com/37561245) _Maryland_
 - Seattle _Washington_
+- Memphis _Tennessee_
+- Corpus Christi _Texas_
 - Lindenhurst _Illinois_
+- Bemidji _Minnesota_
+- All of _Michigan_
+- Akron _Ohio_
+- Pittsburgh _Pennsylvania_
+- Buffalo _New York_
+- Washington D.C.
+- Houston _Texas_
+- Montreal _Canada_
 - Kingston _Jamaica_
 - Lubbock _Texas_
 - Austin _Texas_

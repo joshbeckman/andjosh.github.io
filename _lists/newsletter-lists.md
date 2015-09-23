@@ -61,6 +61,8 @@ permalink: /lists/newsletter/
 - [The UX Newsletter](http://www.theuxnewsletter.com)
 - [asdlkfjhasfl;gjhaklsf](http://tinyletter.com/langer/)
 - [Brain Food](https://www.farnamstreetblog.com/newsletter)
+- Visual Journal Biweekly News
+- [Koi Vinh's Site](//subtraction.com)
 
 <!--two items:-->
 

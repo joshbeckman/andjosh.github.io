@@ -4,7 +4,7 @@ title: Reading Lists
 permalink: /lists/reading/
 ---
 
-- [The Jargon File](http://www.catb.org/jargon/oldversions/jarg262.txt) _various_
+- In Praise of Shadows _Junichiro Tanizaki_
 - House of Leaves _Mark Z. Danielewski_
 
 <!--two items:-->
@@ -43,7 +43,6 @@ permalink: /lists/reading/
 - Watchmen _Alan Moore_
 - The Salmon of Doubt _Douglas Adams_
 - __#__ [Elektrograd: Rusted Blood](https://www.smashwords.com/books/view/568621) _Warren Ellis_
-- In Praise of Shadows _Junichiro Tanizaki_
 - [Speak](http://www.harpercollins.com/9780062391193/speak) _Louisa Hall_
 
 <!--two items:-->
@@ -66,6 +65,7 @@ permalink: /lists/reading/
 - Meditations _Marcus Aurelius_
 - Metamorphosis _Franz Kafka_
 - __*__ At Work _Annie Leibovitz_
+- [The Jargon File](http://www.catb.org/jargon/oldversions/jarg262.txt) _various_
 - [The Tao of Programming](http://canonical.org/~kragen/tao-of-programming.html) _Geoffrey James_
 - You Have Too Much Shit _Chris Thomas_
 - __*__ Valve Handbook For New Employees

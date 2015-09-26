@@ -18,7 +18,7 @@ Now, I've started keeping lists not only of things I'm currently thinking about 
 - [People I Don't Know but Admire Lists](/lists/people-i-admire)
 - [Employment Lists](/lists/employment)
 - [Location Lists](/lists/location)
-- [Movie Lists](/lists/movie)
+- [Movie/Show Lists](/lists/movie-show)
 
 Partly inspired by [Max Fenton](http://maxfenton.com/biblio/).
 

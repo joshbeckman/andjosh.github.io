@@ -18,6 +18,7 @@ permalink: /lists/people-i-admire/
 - [Brianna Wu](http://www.briannawu.net)
 - [Bret Victor](http://worrydream.com)
 - Oliver Sacks
+- Slavoj Zizek
 
 <!--two items:-->
 

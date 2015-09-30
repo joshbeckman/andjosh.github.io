@@ -4,7 +4,7 @@ title: Reading Lists
 permalink: /lists/reading/
 ---
 
-- In Praise of Shadows _Junichiro Tanizaki_
+- Cunning Plans _Warren Ellis_
 - House of Leaves _Mark Z. Danielewski_
 
 <!--two items:-->
@@ -19,7 +19,6 @@ permalink: /lists/reading/
 - Society of Mind _Marvin Minsky_
 - Seveneves _Neal Stephenson_
 - Creativity, Inc _Ed Catmull_
-- Cunning Plans _Warren Ellis_
 - Health Plants of The World _Francesco Bianchini_
 - The New Modern Home Physician: 1950 Ed. _Victor Robinson_
 - Humans of New York _Brandon Stanton_
@@ -52,6 +51,7 @@ permalink: /lists/reading/
 - Trees _Warren Ellis_
 - __*__ On Keeping a Notebook _Joan Didion_
 - The Divine Comedy _Dante Alighieri_
+- In Praise of Shadows _Junichiro Tanizaki_
 - Iterating Grace _Koons Crooks_
 - [Zen Mind, Beginner's Mind](https://en.wikipedia.org/wiki/Zen_Mind,_Beginner%27s_Mind) _Shunryū Suzuki_
 - __*__ Fine Structure _Sam Hughes_

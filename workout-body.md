@@ -28,6 +28,7 @@ permalink: /workout-bodyweight/
     - _Focus abdomen_
 - One leg elevated
 - Plyometric || Clappers
+- Tornado
 
 ## Pull Ups
 - Standard
@@ -36,9 +37,12 @@ permalink: /workout-bodyweight/
 - Commando
     - perpendicular to bar, alternate head side to side
 - One handed
+- Face-through
+    - Pull head forward to rest in front of the bar
 
 ## Leg raises
 - Hanging from bar
+- Bat crunches hanging from bar
 - Leg raises from floor
 - Dragon flag from bench
 
@@ -48,16 +52,21 @@ permalink: /workout-bodyweight/
 - Lunges
 - Wall sits
 - Plyometric || Box Jump
+- Kneeling
+    - Start with one leg kneeling, stand up with other leg
 
 ## Sit Ups
 - Standard
 - Russian twist
 - Shadow boxing
 - Bicycles
+- V-ups
 
 ## Misc
 - Chair dips
 - Burpees
+- Mountain-climber squat-thrusts
+- Donkey squat-thrusts
 
 ---
 

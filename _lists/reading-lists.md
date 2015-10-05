@@ -4,7 +4,6 @@ title: Reading Lists
 permalink: /lists/reading/
 ---
 
-- Cunning Plans _Warren Ellis_
 - House of Leaves _Mark Z. Danielewski_
 
 <!--two items:-->
@@ -43,6 +42,9 @@ permalink: /lists/reading/
 - The Salmon of Doubt _Douglas Adams_
 - __#__ [Elektrograd: Rusted Blood](https://www.smashwords.com/books/view/568621) _Warren Ellis_
 - [Speak](http://www.harpercollins.com/9780062391193/speak) _Louisa Hall_
+- Aye, And Gomorrah... _Samuel R. Delany_
+- The Lives of Christopher Chant _Diana Wynne Jones_
+- No Silver Bullet _Frederick P. Brooks, Jr._
 
 <!--two items:-->
 
@@ -52,6 +54,7 @@ permalink: /lists/reading/
 - __*__ On Keeping a Notebook _Joan Didion_
 - The Divine Comedy _Dante Alighieri_
 - In Praise of Shadows _Junichiro Tanizaki_
+- Cunning Plans _Warren Ellis_
 - Iterating Grace _Koons Crooks_
 - [Zen Mind, Beginner's Mind](https://en.wikipedia.org/wiki/Zen_Mind,_Beginner%27s_Mind) _Shunryū Suzuki_
 - __*__ Fine Structure _Sam Hughes_

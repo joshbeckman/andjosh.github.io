@@ -31,6 +31,7 @@ permalink: /lists/newsletter/
 - This Week From Dwell
 - [Hot Pod](http://tinyletter.com/hotpod)
 - [Longform](//longform.org)
+- [Jack Cheng's Sunday](http://jackcheng.com/sunday)
 - [Startup Foundation Curated](//startupfoundation.co)
 - __*__ [A Song a Day](http://tinyletter.com/hotdoorknobs) _Alex Nadius_
 - [SiteInspire Weekly](//siteinspire.com)

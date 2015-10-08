@@ -4,6 +4,7 @@ title: Reading Lists
 permalink: /lists/reading/
 ---
 
+- Toast _Charles Stross_
 - House of Leaves _Mark Z. Danielewski_
 
 <!--two items:-->
@@ -30,7 +31,6 @@ permalink: /lists/reading/
 - __#__ Beacon 23 _Hugh Howey_
 - The First Forty-nine Stories _Ernest Hemmingway_
 - Ulysses _James Joyce_
-- Toast _Charles Stross_
 - The Little Manual of API Design _Jasmin Blanchette_
 - Capital in the Twenty-First Century _Thomas Piketty_
 - __#__ What We See When We Read _Peter Mendelsund_

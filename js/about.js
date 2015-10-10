@@ -81,3 +81,8 @@
         return 'rgb(' + r + ', ' + g + ',' + b + ')';
     }
 })(this, this.document);
+(function(window, document) {
+    document.getElementById('close').addEventListener('click', function(e) {
+        document.body.style.margin = '-100% -100%';
+    });
+})(this, this.document);

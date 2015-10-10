@@ -7,6 +7,9 @@ permalink: /about/
     html {
         background-image: url(/images/dot.gif);
     }
+    .content {
+        position: relative;
+    }
     .markdown-body{
         margin: 200px auto;
         box-shadow: 0 0 5px rgba(0,0,0,0.2);
@@ -21,13 +24,20 @@ permalink: /about/
         margin: 0.5em -3em 0.5em 1em !important;
         box-shadow: 0 0 5px rgba(0,0,0,0.5);
     }
+    #close {
+        position: absolute;
+        top: -140px;
+        left: -31px;
+        font-size: 40px;
+        cursor: pointer;
+    }
     @media only screen and (max-width :48em){
         .markdown-body p img{
             margin-right: 0 !important;
         }
     }
 </style>
-
+<span id="close" title="Hide this dumb box">&times;</span>
 ![Josh Beckman](/images/page/joshSm.jpg)
 
 I build things for the internet and for your phones. I'm VP of Engineering for [ThreadMeUp](http://threadmeup.com) and one-half of [Team Josh](http://teamjosh.co) & [Zephyr Podcast](https://soundcloud.com/zephyrpodcast). I live in downtown Chicago, where I also provide tech advising for early-stage companies and groups. Email me if you're interested.

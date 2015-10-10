@@ -10,6 +10,11 @@ permalink: /lists/reading/
 <!--two items:-->
 
 - Night Film _Marisha Pessl_
+- __#__ The Death and Life of Great American Cities _Jane Jacobs_
+- __#__ vocabularytest _Ryan McGinness_
+- __#__ [The Nature of Order](http://www.natureoforder.com/) _Christopher Alexander_
+- __#__ I Seem to be a Verb _Buckminster Fuller with Quentin Fiore and Jerome Agel_
+- __#__ Hold Everything Dear _John Berger_
 - U.S. Special Forces Medical Handbook _United States Special Forces_
 - The Pleasure of Finding Things Out _Richard Feynman_
 - __#__ The Sheep Look Up _John Brunner_

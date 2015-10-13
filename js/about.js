@@ -75,7 +75,7 @@
     function color() {
         var ti = (new Date()).getTime();
 
-        return 'hsl(' + ((ti - t) % 360) + ', 100%, 50%)';
+        return 'hsl(' + (((ti - t) / 100) % 360) + ', 100%, 50%)';
     }
 })(this, this.document);
 (function(window, document) {

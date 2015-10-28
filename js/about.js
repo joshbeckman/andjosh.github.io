@@ -3,6 +3,7 @@
         context = canvas.getContext('2d'),
         w = window.innerWidth,
         h = window.innerHeight,
+        t = (new Date()).getTime(),
         places = [
             //[21, 21],
             //[21, (h - (h % 20) + 1)],
@@ -72,13 +73,9 @@
     }
 
     function color() {
-        var ti = (new Date()).getTime(),
-            i = parseInt(ti.toString()[ti.toString().length - 5], 10),
-            r = Math.floor(Math.sin(i) * 127 + 128),
-            g = Math.floor(Math.sin(i + 2) * 127 + 128),
-            b = Math.floor(Math.sin(i + 3) * 127 + 128);
+        var ti = (new Date()).getTime();
 
-        return 'rgb(' + r + ', ' + g + ',' + b + ')';
+        return 'hsl(' + (((ti - t) / 100) % 360) + ', 100%, 50%)';
     }
 })(this, this.document);
 (function(window, document) {

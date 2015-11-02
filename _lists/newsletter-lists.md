@@ -29,6 +29,8 @@ permalink: /lists/newsletter/
 - The Brooks Review
 - __*__ [Just Another Crowd](http://tinyletter.com/seanbonner) _Sean Bonner_
 - This Week From Dwell
+- [Prostitunes](http://tinyletter.com/Prostitunes)
+- Four
 - [Hot Pod](http://tinyletter.com/hotpod)
 - [Longform](//longform.org)
 - [Jack Cheng's Sunday](http://jackcheng.com/sunday)

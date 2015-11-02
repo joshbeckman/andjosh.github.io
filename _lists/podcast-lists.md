@@ -6,9 +6,12 @@ permalink: /lists/podcast/
 
 - __*__ Benjamin Walker's Theory of Everything
 - The Bugle
+- Hot Pod
 - Debug
 - The Heart
 - Fresh Air
+- Between Worlds
+- __*__ Limetown
 - Giant Robots Smashing into other Giant Robots Podcast
 - __*__ [Josh Beckman on Narro](http://narro.co)
 - NPR: Bullseye with Jesse Thorn
@@ -37,12 +40,14 @@ permalink: /lists/podcast/
 - Reconcilable Differences
 - __*__ Reply All
 - Rocket
-- Serendipity
+- __*__ Serendipity
+- Waking Up _with Sam Harris_
 - Startup Podcast
 - VIVA RIOT
 - [Zephyr](https://soundcloud.com/zephyrpodcast) _Krishna and Me_
 - The Web Ahead
 - The Memory Palace
+- You Made it Weird
 
 <!--two items:-->
 

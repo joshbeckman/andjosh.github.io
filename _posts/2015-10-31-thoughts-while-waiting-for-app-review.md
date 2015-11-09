@@ -18,10 +18,6 @@ There are several parallel considerations between a solid web app and a solid na
 
 ### Update 2015-11-08
 
-Add to that list:
-
-- The stupidity of ignoring the rest of the world is juvenile.
-
 Got rejected on this first submission:
 
 > Apps or metadata that mentions the name of any other mobile platform will be rejected.

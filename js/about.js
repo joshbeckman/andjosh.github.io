@@ -1,8 +1,9 @@
 (function(window, document) {
     var canvas = document.createElement('canvas'),
         context = canvas.getContext('2d'),
-        w = window.innerWidth,
-        h = window.innerHeight,
+        html = document.querySelector('html'),
+        w = html.clientWidth,
+        h = html.clientHeight,
         t = (new Date()).getTime(),
         places = [
             //[21, 21],
@@ -11,6 +12,7 @@
             [(w - (w % 20) + 1), 21]
         ];
 
+    context.scale(2, 2);
     document.body.appendChild(canvas);
     canvas.style.position = 'absolute';
     canvas.style.zIndex = -1;

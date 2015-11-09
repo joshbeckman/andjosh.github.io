@@ -32,6 +32,7 @@ permalink: /lists/newsletter/
 - [Prostitunes](http://tinyletter.com/Prostitunes)
 - Four
 - [Hot Pod](http://tinyletter.com/hotpod)
+- [Data is Plural](http://tinyletter.com/data-is-plural)
 - [Longform](//longform.org)
 - [Jack Cheng's Sunday](http://jackcheng.com/sunday)
 - [Startup Foundation Curated](//startupfoundation.co)

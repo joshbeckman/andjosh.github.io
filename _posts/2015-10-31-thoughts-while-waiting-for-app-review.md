@@ -15,3 +15,15 @@ I've worked on teams submitting apps into closed platforms (iOS, Android, Blackb
 - But not really, because iOS has legacy software and hardware, too.
 
 There are several parallel considerations between a solid web app and a solid native app. I always enjoy optimizing page load for my web apps, and so it was this time. To optimize the app size of _Narro for iOS_, I used dynamically-generated images for the onboarding tutorial. I didn't have to include any images at all!
+
+### Update 2015-11-08
+
+Add to that list:
+
+- The stupidity of ignoring the rest of the world is juvenile.
+
+Got rejected on this first submission:
+
+> Apps or metadata that mentions the name of any other mobile platform will be rejected.
+
+_Argh_. Remove, recompile, resubmit.

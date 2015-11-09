@@ -12,7 +12,6 @@ permalink: /lists/newsletter/
 - [TinyLetter Forwards](http://tinyletter.com/forwards)
 - Thoughtbot
 - Merriam-Webster Word of the Day
-- [Mister Spoils](//misterspoils.com)
 - __*__ [Alleyooop](//alleyooop.info)
 - [Hacker News Daily](http://www.daemonology.net/hn-daily/)
 - [L'Oeil de la Photographie](http://www.loeildelaphotographie.com)
@@ -29,6 +28,9 @@ permalink: /lists/newsletter/
 - The Brooks Review
 - __*__ [Just Another Crowd](http://tinyletter.com/seanbonner) _Sean Bonner_
 - This Week From Dwell
+- [Mister Spoils](//misterspoils.com)
+- [Prostitunes](http://tinyletter.com/Prostitunes)
+- Four
 - [Hot Pod](http://tinyletter.com/hotpod)
 - [Longform](//longform.org)
 - [Jack Cheng's Sunday](http://jackcheng.com/sunday)
@@ -60,7 +62,6 @@ permalink: /lists/newsletter/
 - __*__ [Madame Ovary](http://tinyletter.com/amandanelson) _Amanda Nelson_
 - [Grafik](https://www.grafik.net)
 - [The UX Newsletter](http://www.theuxnewsletter.com)
-- [asdlkfjhasfl;gjhaklsf](http://tinyletter.com/langer/)
 - [Brain Food](https://www.farnamstreetblog.com/newsletter)
 - Visual Journal Biweekly News
 - [Koi Vinh's Site](//subtraction.com)
@@ -85,3 +86,4 @@ permalink: /lists/newsletter/
 - Feddit
 - Upvoted Weekly
 - The Short List
+- [asdlkfjhasfl;gjhaklsf](http://tinyletter.com/langer/)

@@ -82,6 +82,6 @@
 })(this, this.document);
 (function(window, document) {
     document.getElementById('close').addEventListener('click', function(e) {
-        document.body.style.margin = '-100% -100%';
+        document.body.style.margin = '-200% -200%';
     });
 })(this, this.document);

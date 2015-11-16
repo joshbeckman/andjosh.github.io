@@ -18,6 +18,7 @@ permalink: /lists/people-i-admire/
 - [Brianna Wu](http://www.briannawu.net)
 - [Bret Victor](http://worrydream.com)
 - Oliver Sacks
+- Laura Savino _[like this](https://vimeo.com/112107650)_
 - Slavoj Zizek
 
 <!--two items:-->

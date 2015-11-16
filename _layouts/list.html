@@ -5,9 +5,8 @@ layout: default
 .markdown-body {
     max-width: initial;
 }
-.markdown-body .site-title{
-    text-align: left;
-    font-size: 3rem;
+.markdown-body .meta {
+    text-align: center;
 }
 .site-title em {
     font-style: italic;
@@ -26,7 +25,7 @@ layout: default
 }
 .lists ul::before {
     content: 'Present';
-    font-family:Futura;
+    font-family:system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
     text-transform: uppercase;
     color: #E21119;
     letter-spacing: 0.1em;
@@ -59,16 +58,17 @@ layout: default
     }
 }
 </style>
-<div class="lists">
-    {{ content }}
-</div>
-<br/>
 <h2 class="site-title">
     <em>{{ page.title }} &</em> <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
 </h2>
 <p class="meta">
     <a href="/lists">&larr; See More Lists</a>
 </p>
+<div class="lists">
+    {{ content }}
+</div>
+<br/>
+
 <img src="http://sounds.andjosh.com/record?id=andjosh&tone=329.63" style="display:none" alt="sounds"/>
 <script>
 var a = document.querySelectorAll('.lists ul li strong');

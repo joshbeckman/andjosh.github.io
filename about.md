@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Josh Beckman
+title: About
 permalink: /about/
 ---
 <style>

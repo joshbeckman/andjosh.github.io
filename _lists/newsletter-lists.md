@@ -31,6 +31,7 @@ permalink: /lists/newsletter/
 - [Mister Spoils](//misterspoils.com)
 - [Prostitunes](http://tinyletter.com/Prostitunes)
 - Four
+- Swiss-Miss
 - [Hot Pod](http://tinyletter.com/hotpod)
 - [Data is Plural](http://tinyletter.com/data-is-plural)
 - [Longform](//longform.org)

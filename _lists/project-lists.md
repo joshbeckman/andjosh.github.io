@@ -5,7 +5,6 @@ permalink: /lists/project/
 ---
 
 - __*__ [Narro](http://narro.co) _The simple way to listen to the web - as a podcast!_
-- Narro _A native iOS app_
 - [Murmurs](http://murmurs.andjosh.com)  _A choose-your-own-adventure game, over email._
 
 <!--two items:-->
@@ -16,6 +15,7 @@ permalink: /lists/project/
 - PNG v. JPG _Tell me which format is better for this image._
 - Something _with the [Forecast.io](http://forecast.io) API_
 - RecList _You get three recommendations of anyone at all. Go._
+- Narro _for Android_
 
 <!--two items:-->
 

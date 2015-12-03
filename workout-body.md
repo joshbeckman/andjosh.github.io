@@ -85,3 +85,5 @@ Pick an exercise. You’re only going to be doing one during this circuit. This 
 - 19 reps
 - 2 reps
 - etc...
+- 10 reps
+- 10 reps

@@ -21,3 +21,7 @@ permalink: /about/
 I build things for the internet and for your phones. I'm VP of Engineering for [ThreadMeUp](http://threadmeup.com) and one-half of [Team Josh](http://teamjosh.co) & [Zephyr Podcast](https://soundcloud.com/zephyrpodcast). I live in downtown Chicago, where I also provide tech advising for early-stage companies and groups. Email me if you're interested.
 
 I respond most readily via [email(at)andjosh.com](mailto:email@andjosh.com), and sometimes check Twitter [@twandjosh](http://twitter.com/twandjosh). I often deploy repositories of knowledge and computer code to [GitHub](//github.com/andjosh). I tend to make [quite a few lists](/lists) and [write hopefully helpful things](/).
+
+---
+
+ <form action="https://tinyletter.com/andjosh" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/andjosh', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Subscribe to my product launch email list to be notified when I Iaunch new products or have major product announcements.</label><br><input type="email" style="width:140px" name="email" id="tlemail" placeholder="you@your-email.com"/><input type="hidden" value="1" name="embed"/><br><input type="submit" value="Subscribe" /></p></form>

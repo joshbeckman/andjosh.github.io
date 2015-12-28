@@ -11,6 +11,8 @@ permalink: /lists/newsletter/
 - [Hacckernewsletter](http://www.hackernewsletter.com)
 - [TinyLetter Forwards](http://tinyletter.com/forwards)
 - Thoughtbot
+- Primes
+- [Better Explained](http://betterexplained.com)
 - Merriam-Webster Word of the Day
 - __*__ [Alleyooop](//alleyooop.info)
 - [Hacker News Daily](http://www.daemonology.net/hn-daily/)

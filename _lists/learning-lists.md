@@ -14,11 +14,9 @@ permalink: /lists/learning/
 </style>
 
 - Usage of metric scales in everyday life _Celcius makes so much sense_
-- How to use a mouse left-handed
 - Lisp
 - Media playback in Swift
 - Graphing optimization in Swift
-- Spanish _more like aided remembering_
 - Rust
 - Guitar
 

@@ -4,9 +4,8 @@ title: Reading Lists
 permalink: /lists/reading/
 ---
 
-- Toast _Charles Stross_
+- Seveneves _Neal Stephenson_
 - House of Leaves _Mark Z. Danielewski_
-- [The Moon Won't Use the Door](http://philome.la/jacobtwop/the-moon-wont-use-the-door/play)
 
 <!--two items:-->
 
@@ -24,7 +23,6 @@ permalink: /lists/reading/
 - Eloquent JavaScript _Marijn Haverbeke_
 - Symbolic Logic _Lewis Carroll_
 - Society of Mind _Marvin Minsky_
-- Seveneves _Neal Stephenson_
 - Creativity, Inc _Ed Catmull_
 - Health Plants of The World _Francesco Bianchini_
 - The New Modern Home Physician: 1950 Ed. _Victor Robinson_
@@ -61,6 +59,8 @@ permalink: /lists/reading/
 - __*__ On Keeping a Notebook _Joan Didion_
 - The Divine Comedy _Dante Alighieri_
 - In Praise of Shadows _Junichiro Tanizaki_
+- __*__ Toast _Charles Stross_
+- [The Moon Won't Use the Door](http://philome.la/jacobtwop/the-moon-wont-use-the-door/play)
 - Cunning Plans _Warren Ellis_
 - Iterating Grace _Koons Crooks_
 - [Zen Mind, Beginner's Mind](https://en.wikipedia.org/wiki/Zen_Mind,_Beginner%27s_Mind) _Shunryū Suzuki_

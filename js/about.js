@@ -40,11 +40,10 @@
 
     function drawNext(place) {
         context.beginPath();
-        context.moveTo(place[0], place[1]);
+        context.arc(place[0], place[1], (Math.random() * 10), 0, (2 * Math.PI));
+        context.strokeStyle = context.fillStyle = color();
+        context.fill();
         walk(place);
-        context.lineTo(place[0], place[1]);
-        context.strokeStyle = color();
-        context.stroke();
     }
 
     function walk(place) {

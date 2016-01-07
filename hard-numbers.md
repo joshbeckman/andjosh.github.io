@@ -6,7 +6,7 @@ permalink: /hard-numbers/
 > Given an input of one-person development time, hires, and salary, it will calculate
 estimates of time and cost for a given project.
 
-Read [about how and why I made this](/2015-06-08-Hard-Numbers-Calculator).
+Read [about how and why I made this](/2015/06/08/Hard-Numbers-Calculator/).
 
 ---
 

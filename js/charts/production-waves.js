@@ -4,7 +4,7 @@ var width = document.body.clientWidth - 60,
     svg = dimple.newSvg('#chartContainer', width, height),
     name = window.prompt('What\'s the password?', ''),
     queryDate = window.location.href.split('today=')[1],
-    today = new Date(queryDate),
+    today = new Date(queryDate || null),
     domain = 'http://' + name + '.fulfill.co';
 
 function drawData(data) {

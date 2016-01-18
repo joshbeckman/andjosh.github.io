@@ -32,9 +32,9 @@ function drawData(data) {
         .append("text")
         .attr("x", 100)
         .attr("y", function (d, i) { return 10 + i * 10; })
-        .style("font-family", "sans-serif")
-        .style("font-size", "10px")
-        .style("color", "Black")
+        .style('font-family', 'sans-serif')
+        .style('font-size', '10px')
+        .style('color', 'black")
         .text(function (d) { return d; });
     svg.append("line")
         .attr("x1", x._scale(today))
@@ -47,7 +47,8 @@ function drawData(data) {
         .attr("y", y._scale.range()[1] - 2)
         .text(queryDate ? queryDate : 'Today')
         .style('font-size', '10px')
-        .style('stroke', '#d3d3d3');
+        .style('font-family', 'sans-serif')
+        .style('stroke', 'black');
 
     filterValues = dimple.getUniqueValues(data, 'category');
     myLegend.shapes.selectAll('rect')

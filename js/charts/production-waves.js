@@ -1,18 +1,24 @@
 var width = document.body.clientWidth - 60,
     height = Math.min(width - 200, window.innerHeight) - 200,
-    svg = dimple.newSvg('#chartContainer', width, height);
+    loading = document.getElementById('loading'),
+    svg = dimple.newSvg('#chartContainer', width, height),
+    name = window.prompt('What\'s the password?', ''),
+    domain = 'http://' + name + '.fulfill.co';
 
 function drawData(data) {
     var myChart = new dimple.chart(svg, data),
+        today = new Date(),
         myLegend,
         filterValues,
-        x,
+        x, y,
         s;
 
+    loading.innerHTML = '';
     myChart.setBounds(60, 30, width - 100, height - 100);
-    x = myChart.addCategoryAxis('x', 'date');
+    x = myChart.addTimeAxis('x', 'date', '%Y-%m-%d', '%Y/%m/%d');
     x.addOrderRule('Date');
-    myChart.addMeasureAxis('y', 'quantity');
+    x.ticks = 10;
+    y = myChart.addMeasureAxis('y', 'quantity');
     s = myChart.addSeries('category', dimple.plot.line);
     s.interpolation = 'cardinal';
     myLegend = myChart.addLegend(60, 10, width - 100, 20, 'right');
@@ -28,6 +34,18 @@ function drawData(data) {
         .style("font-size", "10px")
         .style("color", "Black")
         .text(function (d) { return d; });
+    svg.append("line")
+        .attr("x1", x._scale(today))
+        .attr("x2", x._scale(today))
+        .attr("y1", y._scale.range()[0])
+        .attr("y2", y._scale.range()[1])
+        .style('stroke', 'blueviolet');
+    svg.append("text")
+        .attr("x", x._scale(today) + 1)
+        .attr("y", y._scale.range()[1] - 2)
+        .text('Today')
+        .style('font-size', '10px')
+        .style('stroke', 'blueviolet');
 
     filterValues = dimple.getUniqueValues(data, 'category');
     myLegend.shapes.selectAll('rect')
@@ -57,22 +75,54 @@ function drawData(data) {
 
 (function getMovements() {
     var d = new Date(),
+        month = d.getMonth(),
+        year = d.getFullYear(),
+        f, p,
         name,
         start,
         meta;
 
-    name = window.prompt('What\'s the name?', '');
-    d.setMonth(d.getMonth() + 1);
-    d = d.toJSON().slice(0, 10);
-    start = 'http://' + name + '.fulfill.co/api/v1/movement' +
-        '?orderby=-ends_at&limit=500&ends_at__lt=' + d;
-    request(start, function(err, data, xhr) {
-        data = JSON.parse(data);
-        meta = data.meta;
-        data = data.data;
+    if (month > 0) {
+        d.setMonth(month - 1);
+    } else {
+        d.setMonth(11);
+        d.setFullYear(year - 1);
+    }
+
+    p = d.toJSON().slice(0, 10);
+    d = new Date();
+
+    if (month < 11) {
+        d.setMonth(month + 1);
+    } else {
+        d.setMonth(0);
+        d.setFullYear(year + 1);
+    }
+
+    f = d.toJSON().slice(0, 10);
+    loading.textContent = 'Loading.';
+    start = domain + '/api/v1/movement' +
+        '?orderby=-ends_at&limit=1000&ends_at__range=' + p + ',' + f;
+    makeRequests(start, function(data) {
         transformData(data, drawData);
     });
 })();
+
+function makeRequests(url, cb, data) {
+    data = data || [];
+    request(url, function(err, resp, xhr) {
+        resp = JSON.parse(resp);
+        meta = resp.meta;
+        data = data.concat(resp.data);
+        loading.textContent = 'Loading... ' +
+            Math.round((data.length / meta.count) * 100) + '% complete';
+        if (meta.next) {
+            makeRequests(domain + meta.next, cb, data);
+        } else {
+            cb(data);
+        }
+    });
+}
 
 function transformData(data, cb) {
     var results = [],
@@ -83,12 +133,12 @@ function transformData(data, cb) {
         item = data[i];
         d = (new Date(item.ends_at)).toJSON().slice(0, 10);
         results.push({
-            category:   'movements',
+            category:   'Movements ending',
             quantity:   1,
             date:       d
         });
         results.push({
-            category:   'units',
+            category:   'Units going to production',
             quantity:   item.sold,
             date:       d
         });

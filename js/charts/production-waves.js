@@ -41,13 +41,13 @@ function drawData(data) {
         .attr("x2", x._scale(today))
         .attr("y1", y._scale.range()[0])
         .attr("y2", y._scale.range()[1])
-        .style('stroke', 'blueviolet');
+        .style('stroke', '#d3d3d3');
     svg.append("text")
         .attr("x", x._scale(today) + 1)
         .attr("y", y._scale.range()[1] - 2)
         .text(queryDate ? queryDate : 'Today')
         .style('font-size', '10px')
-        .style('stroke', 'blueviolet');
+        .style('stroke', '#d3d3d3');
 
     filterValues = dimple.getUniqueValues(data, 'category');
     myLegend.shapes.selectAll('rect')

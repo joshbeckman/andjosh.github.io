@@ -3,11 +3,12 @@ var width = document.body.clientWidth - 60,
     loading = document.getElementById('loading'),
     svg = dimple.newSvg('#chartContainer', width, height),
     name = window.prompt('What\'s the password?', ''),
+    queryDate = window.location.href.split('today=')[1],
+    today = new Date(queryDate),
     domain = 'http://' + name + '.fulfill.co';
 
 function drawData(data) {
     var myChart = new dimple.chart(svg, data),
-        today = new Date(),
         myLegend,
         filterValues,
         x, y,
@@ -43,7 +44,7 @@ function drawData(data) {
     svg.append("text")
         .attr("x", x._scale(today) + 1)
         .attr("y", y._scale.range()[1] - 2)
-        .text('Today')
+        .text(queryDate ? queryDate : 'Today')
         .style('font-size', '10px')
         .style('stroke', 'blueviolet');
 
@@ -74,7 +75,7 @@ function drawData(data) {
 }
 
 (function getMovements() {
-    var d = new Date(),
+    var d = new Date(today),
         month = d.getMonth(),
         year = d.getFullYear(),
         f, p,
@@ -90,7 +91,7 @@ function drawData(data) {
     }
 
     p = d.toJSON().slice(0, 10);
-    d = new Date();
+    d = new Date(today);
 
     if (month < 11) {
         d.setMonth(month + 1);

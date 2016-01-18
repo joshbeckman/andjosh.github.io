@@ -47,8 +47,7 @@ function drawData(data) {
         .attr("y", y._scale.range()[1] - 2)
         .text(queryDate ? queryDate : 'Today')
         .style('font-size', '10px')
-        .style('font-family', 'sans-serif')
-        .style('stroke', 'black');
+        .style('font-family', 'sans-serif');
 
     filterValues = dimple.getUniqueValues(data, 'category');
     myLegend.shapes.selectAll('rect')

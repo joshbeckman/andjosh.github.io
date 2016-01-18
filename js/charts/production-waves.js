@@ -34,7 +34,7 @@ function drawData(data) {
         .attr("y", function (d, i) { return 10 + i * 10; })
         .style('font-family', 'sans-serif')
         .style('font-size', '10px')
-        .style('color', 'black")
+        .style('color', 'black')
         .text(function (d) { return d; });
     svg.append("line")
         .attr("x1", x._scale(today))

@@ -24,7 +24,7 @@ function drawData(data) {
     x = myChart.addTimeAxis('x', 'date', '%Y-%m-%d', '%Y/%m/%d');
     x.addOrderRule('Date');
     x.ticks = 10;
-    y = myChart.addLogAxis('y', 'quantity', 2);
+    y = myChart.addLogAxis('y', 'quantity');
     s = myChart.addSeries('category', dimple.plot.line);
     s.interpolation = 'cardinal';
     s.lineMarkers = true;

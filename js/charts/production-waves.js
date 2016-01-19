@@ -5,6 +5,11 @@ var width = document.body.clientWidth - 60,
     name = window.prompt('What\'s the password?', ''),
     queryDate = window.location.href.split('today=')[1],
     today = new Date(queryDate || (new Date())),
+    month = today.getMonth(),
+    year = today.getFullYear(),
+    DAYLENGTH = 1000 * 60 * 60 * 24,
+    past = new Date(today.getTime() - (DAYLENGTH * 30)),
+    future = new Date(today.getTime() + (DAYLENGTH * 30)),
     domain = 'http://' + name + '.fulfill.co';
 
 function drawData(data) {
@@ -25,6 +30,7 @@ function drawData(data) {
     s.lineMarkers = true;
     myLegend = myChart.addLegend(60, 10, width - 100, 20, 'right');
     myChart.draw();
+    //markWeekends();
     myChart.legends = [];
     svg.selectAll("title_text")
         .data(["Click legend to","show/hide category:"])
@@ -45,7 +51,7 @@ function drawData(data) {
     svg.append("text")
         .attr("x", x._scale(today) + 1)
         .attr("y", y._scale.range()[1] - 2)
-        .text(queryDate ? queryDate : 'Today')
+        .text(queryDate ? queryDate : 'Now')
         .style('font-size', '10px')
         .style('font-family', 'sans-serif');
 
@@ -73,35 +79,35 @@ function drawData(data) {
             myChart.data = dimple.filterData(data, 'category', filterValues);
             myChart.draw(800);
         });
+
+    function markWeekends() {
+        var t = new Date(past.toJSON().slice(0, 10)),
+            d;
+
+        while (t < future) {
+            d = t.getUTCDay();
+            if (d == 6) {
+                svg.append("rect")
+                    .attr("x", x._scale(t))
+                    .attr("width", Math.abs(x._scale(t) - x._scale(new Date(t.setUTCDate(t.getUTCDate() + 2)))))
+                    .attr("height", y._scale.range()[0])
+                    .attr("y", y._scale.range()[1])
+                    .style('fill', 'rgba(0,0,0,0.1)');
+            }
+            t = new Date(t.getTime() + DAYLENGTH);
+        }
+    }
 }
 
 (function getMovements() {
     var d = new Date(today),
-        month = d.getMonth(),
-        year = d.getFullYear(),
         f, p,
         name,
         start,
         meta;
 
-    if (month > 0) {
-        d.setMonth(month - 1);
-    } else {
-        d.setMonth(11);
-        d.setFullYear(year - 1);
-    }
-
-    p = d.toJSON().slice(0, 10);
-    d = new Date(today);
-
-    if (month < 11) {
-        d.setMonth(month + 1);
-    } else {
-        d.setMonth(0);
-        d.setFullYear(year + 1);
-    }
-
-    f = d.toJSON().slice(0, 10);
+    p = past.toJSON().slice(0, 10);
+    f = future.toJSON().slice(0, 10);
     loading.textContent = 'Loading.';
     start = domain + '/api/v1/movement' +
         '?orderby=-ends_at&limit=1000&ends_at__range=' + p + ',' + f;
@@ -128,7 +134,7 @@ function makeRequests(url, cb, data) {
 
 function transformData(data, cb) {
     var results = [],
-        item,
+        item, type,
         d, i;
 
     for (i = 0; i < data.length; i++) {
@@ -140,13 +146,43 @@ function transformData(data, cb) {
             date:       d
         });
         results.push({
-            category:   'Units going to production',
+            category:   'Total Units going to production',
             quantity:   item.sold,
+            date:       pushToWeekDay(d)
+        });
+        type = 'DTG units estimate';
+        results.push({
+            category:   type,
+            quantity:   item.sold >= 13 ? item.sold : 0,
+            date:       pushToWeekDay(d)
+        });
+        type = 'SCR units estimate';
+        results.push({
+            category:   type,
+            quantity:   item.sold >= 13 ? 0 : item.sold,
+            date:       pushToWeekDay(d)
+        });
+        
+        results.push({
+            category:   'Profit',
+            quantity:   item.profit / 100,
             date:       d
         });
     }
 
     cb(results);
+}
+
+function pushToWeekDay(date, d) {
+    if (!date.getDay)
+        date = new Date(date);
+    if ((d = date.getDay()) < 1) {
+        date = new Date(date.getTime() + (DAYLENGTH * 2));
+    } else if (d > 5) {
+        date = new Date(date.getTime() + DAYLENGTH);
+    }
+
+    return date.toJSON().slice(0, 10);
 }
 
 function request(url, cb, method, post, contenttype) {

@@ -5,6 +5,7 @@ var width = document.body.clientWidth - 60,
     name = window.prompt('What\'s the password?', ''),
     queryDate = window.location.href.split('today=')[1],
     today = new Date(queryDate || (new Date())),
+    todayStart = new Date(today.toJSON().substring(0, 10)),
     month = today.getMonth(),
     year = today.getFullYear(),
     DAYLENGTH = 1000 * 60 * 60 * 24,
@@ -43,15 +44,15 @@ function drawData(data) {
         .style('color', 'black')
         .text(function (d) { return d; });
     svg.append("line")
-        .attr("x1", x._scale(today))
-        .attr("x2", x._scale(today))
+        .attr("x1", x._scale(todayStart))
+        .attr("x2", x._scale(todayStart))
         .attr("y1", y._scale.range()[0])
         .attr("y2", y._scale.range()[1])
         .style('stroke', '#d3d3d3');
     svg.append("text")
-        .attr("x", x._scale(today) + 1)
+        .attr("x", x._scale(todayStart) + 1)
         .attr("y", y._scale.range()[1] - 2)
-        .text(queryDate ? queryDate : 'Now')
+        .text(queryDate ? queryDate : 'Today')
         .style('font-size', '10px')
         .style('font-family', 'sans-serif');
 

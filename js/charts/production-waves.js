@@ -26,7 +26,7 @@ function drawData(data) {
     x.ticks = 10;
     y = myChart.addLogAxis('y', 'quantity');
     s = myChart.addSeries('category', dimple.plot.line);
-    s.interpolation = 'cardinal';
+    //s.interpolation = 'cardinal';
     s.lineMarkers = true;
     myLegend = myChart.addLegend(60, 10, width - 100, 20, 'right');
     myChart.draw();

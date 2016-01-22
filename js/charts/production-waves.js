@@ -13,6 +13,9 @@ var width = document.body.clientWidth - 60,
     future = new Date(today.getTime() + (DAYLENGTH * 30)),
     domain = 'http://' + name + '.fulfill.co';
 
+todayStart = new Date(todayStart.getTime() +
+    (todayStart.getTimezoneOffset() * 60 * 1000));
+
 function drawData(data) {
     var myChart = new dimple.chart(svg, data),
         myLegend,
@@ -25,7 +28,7 @@ function drawData(data) {
     x = myChart.addTimeAxis('x', 'date', '%Y-%m-%d', '%Y/%m/%d');
     x.addOrderRule('Date');
     x.ticks = 10;
-    y = myChart.addLogAxis('y', 'quantity');
+    y = myChart.addMeasureAxis('y', 'quantity');
     s = myChart.addSeries('category', dimple.plot.line);
     //s.interpolation = 'cardinal';
     s.lineMarkers = true;

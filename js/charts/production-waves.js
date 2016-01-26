@@ -112,7 +112,7 @@ function drawData(data) {
 
     p = past.toJSON().slice(0, 10);
     f = future.toJSON().slice(0, 10);
-    loading.textContent = 'Loading.';
+    loading.innerHTML = '<p>Loading...</p>';
     start = domain + '/api/v1/movement' +
         '?orderby=-ends_at&limit=1000&ends_at__range=' + p + ',' + f;
     makeRequests(start, function(data) {
@@ -126,8 +126,12 @@ function makeRequests(url, cb, data) {
         resp = JSON.parse(resp);
         meta = resp.meta;
         data = data.concat(resp.data);
-        loading.textContent = 'Loading... ' +
-            Math.round((data.length / meta.count) * 100) + '% complete';
+        loading.innerHTML = '<p>Loading...' +
+            Math.round((data.length / meta.count) * 100) + '% complete</p>';
+        loading.innerHTML += '<div title="progress" style="' +
+            'height:1rem;border-radius:0.5rem;background:lightgrey;' +
+            'width:' + ((data.length / meta.count) * 100) + '%' +
+            '"></div>';
         if (meta.next) {
             makeRequests(domain + meta.next, cb, data);
         } else {
@@ -180,9 +184,10 @@ function transformData(data, cb) {
 function pushToWeekDay(date, d) {
     if (!date.getDay)
         date = new Date(date);
-    if ((d = date.getDay()) < 1) {
+    d = date.getUTCDay();
+    if (d > 5) {
         date = new Date(date.getTime() + (DAYLENGTH * 2));
-    } else if (d > 5) {
+    } else if (d < 1) {
         date = new Date(date.getTime() + DAYLENGTH);
     }
 

@@ -42,7 +42,9 @@
     display: block;
     font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    font-family: monospace;
+    font-style: normal;
 }
 .posts li span {
     display: inline-block;
@@ -51,7 +53,6 @@
     -webkit-transform: rotate(-90deg);
     position: relative;
     left: -66px;
-    font-family: monospace;
     letter-spacing: 1px
 }
 .markdown-body .site-title {
@@ -243,7 +244,7 @@
     -webkit-text-size-adjust: 100%;
     color: #111111;
     background-color: #fbfafa;
-    font-family: Baskerville, times, serif;
+    font-family: Garamond, Baskerville, times, serif;
     font-size: 18px;
     line-height: 1.6;
     word-wrap: break-word;
@@ -300,7 +301,7 @@
     box-sizing: border-box
 }
 .markdown-body input {
-    font: 13px/1.4 Baskerville, times, sans-serif
+    font: 13px/1.4 Garamond, Baskerville, times, serif
 }
 .markdown-body a {
     color: #0074D9;
@@ -639,14 +640,12 @@ html.night {
 .markdown-body.night a:visited {
     color: lightblue
 }
-.posts li span,
-.about,
-.meta,
 .markdown-body h1,
 .markdown-body h2,
 .markdown-body h3,
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-    font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
+    font-family: Baskerville, monospace, serif;
+    font-style: italic;
 }

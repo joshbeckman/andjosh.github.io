@@ -12,6 +12,7 @@ permalink: /lists/newsletter/
 - [TinyLetter Forwards](http://tinyletter.com/forwards)
 - Thoughtbot
 - Primes
+- Breaking Smart
 - [Better Explained](http://betterexplained.com)
 - Merriam-Webster Word of the Day
 - __*__ [Alleyooop](//alleyooop.info)

@@ -143,17 +143,18 @@ function makeRequests(url, cb, data) {
 function transformData(data, cb) {
     var results = [],
         item, type,
-        d, i, dDate;
+        d, i, dDate, cDate;
 
     for (i = 0; i < data.length; i++) {
         item = data[i];
         dDate = new Date(item.ends_at);
+        cDate = new Date(item.created_at);
         d = dDate.toJSON().slice(0, 10);
-        if (dDate < future && dDate > past)
+        if (cDate < future && cDate > past)
             results.push({
                 category:   'Movements launched',
                 quantity:   1,
-                date:       (new Date(item.created_at)).toJSON().slice(0, 10)
+                date:       cDate.toJSON().slice(0, 10)
             });
         results.push({
             category:   'Movements ending',

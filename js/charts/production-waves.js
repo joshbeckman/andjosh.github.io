@@ -143,11 +143,18 @@ function makeRequests(url, cb, data) {
 function transformData(data, cb) {
     var results = [],
         item, type,
-        d, i;
+        d, i, dDate;
 
     for (i = 0; i < data.length; i++) {
         item = data[i];
-        d = (new Date(item.ends_at)).toJSON().slice(0, 10);
+        dDate = new Date(item.ends_at);
+        d = dDate.toJSON().slice(0, 10);
+        if (dDate < future && dDate > past)
+            results.push({
+                category:   'Movements launched',
+                quantity:   1,
+                date:       (new Date(item.created_at)).toJSON().slice(0, 10)
+            });
         results.push({
             category:   'Movements ending',
             quantity:   1,
@@ -170,12 +177,12 @@ function transformData(data, cb) {
             quantity:   item.sold >= 13 ? 0 : item.sold,
             date:       pushToWeekDay(d)
         });
-        
-        results.push({
-            category:   'Profit',
-            quantity:   item.profit / 100,
-            date:       d
-        });
+        if (false)
+            results.push({
+                category:   'Profit',
+                quantity:   item.profit / 100,
+                date:       d
+            });
     }
 
     cb(results);

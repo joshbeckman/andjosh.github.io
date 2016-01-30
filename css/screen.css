@@ -57,7 +57,6 @@
 }
 .markdown-body .site-title {
     text-align: center;
-    text-transform: none;
     font-size: 1.25em;
     letter-spacing: normal;
     border-bottom: none;
@@ -66,11 +65,13 @@
     color: RGB(226, 17, 25) !important
 }
 .markdown-body .meta {
+    font-family: inherit;
     margin-bottom: 2rem
 }
 .about {
     text-align: center;
-    margin-bottom: 10em
+    margin-bottom: 10em;
+    font-family: inherit;
 }
 .about a {
     margin: 0 0.75em
@@ -243,7 +244,7 @@
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     color: #111111;
-    background-color: #fbfafa;
+    background-color: #fffff8;
     font-family: Garamond, Baskerville, times, serif;
     font-size: 18px;
     line-height: 1.6;
@@ -609,7 +610,7 @@
     border-radius: 50%;
     display: block;
     margin-left: -4.5px;
-    border: 2px solid RGB(226, 17, 25);
+    border: 2px solid rgb(226, 17, 25);
     animation: beat 1.4s infinite;
     transform-origin: center;
     z-index: 100;
@@ -646,6 +647,7 @@ html.night {
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-    font-family: Baskerville, monospace, serif;
-    font-style: italic;
+    font-family: Garamond, Baskerville, monospace, serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }

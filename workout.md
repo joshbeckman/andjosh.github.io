@@ -4,7 +4,7 @@ title: Workout
 permalink: /workout/
 ---
 
-This workout schedule is wrung out of a dozen others, and was geared toward my goal of strength gains. It will, however be suitable for most young men.
+This workout schedule is wrung out of a dozen others, and was geared toward my goal of strength gains. It will, however be suitable for most young adults.
 
 Before beginning, go through the "lead" exercises from each day. For each, using the heaviest weight you can manage, perform 5-9 reps. Use this result in the "weight" and "reps" fields. These values will be used to calculate your maximum capacity (one rep max) and the weekly weight plans.
 

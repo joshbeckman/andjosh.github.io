@@ -1,7 +1,7 @@
 var width = document.body.clientWidth - 60,
     height = Math.min(width - 200, window.innerHeight) - 200,
     svg = dimple.newSvg('#chartContainer', width, height),
-    url = 'https://gist.githubusercontent.com/andjosh/796a5b7ea4aa6d9638fa/raw/099417a13de3afa2cb40cad9f863388d6ad39941/narroCost.csv';
+    url = 'https://gist.githubusercontent.com/andjosh/796a5b7ea4aa6d9638fa/raw/';
 
 d3.csv(url, function(data) {
     var myChart = new dimple.chart(svg, data),

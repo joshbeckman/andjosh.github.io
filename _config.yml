@@ -14,4 +14,3 @@ collections:
     output: true
 
 permalink: pretty
-markdown: redcarpet

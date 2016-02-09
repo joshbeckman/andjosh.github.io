@@ -1,8 +1,9 @@
 var width = document.body.clientWidth - 60,
     height = Math.min(width - 200, window.innerHeight) - 200,
-    svg = dimple.newSvg('#chartContainer', width, height);
+    svg = dimple.newSvg('#chartContainer', width, height),
+    url = 'https://gist.githubusercontent.com/andjosh/796a5b7ea4aa6d9638fa/raw/099417a13de3afa2cb40cad9f863388d6ad39941/narroCost.csv';
 
-d3.csv('https://gist.githubusercontent.com/andjosh/796a5b7ea4aa6d9638fa/raw/2cda69d246dd0590078f90b243d23d9e67891909/narroCost.csv', function(data) {
+d3.csv(url, function(data) {
     var myChart = new dimple.chart(svg, data),
         x,
         s;

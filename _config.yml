@@ -14,3 +14,4 @@ collections:
     output: true
 
 permalink: pretty
+markdown: kramdown

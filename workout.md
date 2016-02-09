@@ -21,10 +21,10 @@ Alternatively, I have a [bodyweight-only workout](/workout-bodyweight/#combinati
     </textarea>
 </label><br/>
 <label for="weight">Weight
-    <input name="weight" type="number" value="225"></input>
+    <input name="weight" type="number" value="225">
 </label><br/>
 <label for="reps">Reps
-    <input name="reps" type="number" value="9"></input>
+    <input name="reps" type="number" value="9">
 </label><br/>
 One Rep Max: <span name="orm"></span><br/>
 <label for="week">Week

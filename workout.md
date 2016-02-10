@@ -35,6 +35,7 @@ One Rep Max: <span name="orm"></span><br/>
         <option value="4">4</option>
     </select>
 </label>
+
 <table name="weekTable">
     <caption>Week 1: <small>5 reps each</small></caption>
     <tr>
@@ -50,10 +51,12 @@ One Rep Max: <span name="orm"></span><br/>
         <td data-val="0.75">0</td>
     </tr>
 </table>
+
 ## Exercises
 [Day 1](#day-1) | [Day 2](#day-2) | [Day 3](#day-3) | [Day 4](#day-4) | [Day 5](#day-5)
 
 ### Day 1
+
 ##### BENCH PRESS 
 
 - Sets: 4
@@ -109,6 +112,7 @@ side raises.
 face pulls. 
 
 ### Day 2
+
 ##### BACK SQUAT 
 - Sets: 4 
 - Reps: See Table
@@ -152,6 +156,7 @@ face pulls.
 > Grasp the axle of an ab wheel and kneel down on the floor, placing the wheel in front of you. Brace your abs and roll forward until you feel your lower back is about to sag. Roll yourself back to the starting position.
 
 ### Day 3
+
 ##### WEIGHTED PULLUP 
 - Sets: 4
 - Reps: See Table
@@ -188,6 +193,7 @@ face pulls.
 > Hold a light dumbbell in each hand and perform a curl. Turn your palms over at the top and lower the weights with control using that reverse grip (Zottman curl). Do 8 reps. Now turn your palms to face your thighs and curl one arm at a time across your body, so your hand ends up near your opposite shoulder. Complete 8 reps on each arm. Finish with 8 reverse curls, palms facing down. Do not rest until all exercises in the circuit are completed.
 
 ### Day 4
+
 ##### INCLINE DUMBBELL PRESS 
 - Sets: 4
 - Reps: See Below
@@ -224,6 +230,7 @@ face pulls.
 > Use the rope attachment on a pulley machine and perform triceps push- downs for 8 reps. Next, perform 8 reps of triceps dips. Finally, perform 8 reps of pushups with your hands close together. Do not rest until all exercises in the circuit have been completed.
 
 ### Day 5
+
 ##### DEADLIFT 
 - Sets: 4
 - Reps: See Table

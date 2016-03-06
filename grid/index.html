@@ -1,0 +1,99 @@
+---
+layout: default
+title: Josh Beckman
+---
+<style>
+.markdown-body ul.posts {
+    max-width: 14rem;
+    margin: 0 auto;
+}
+.posts > span, .posts > a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background: rgba(0,0,0,0.1);
+    animation: fall .4s;
+}
+.posts > a{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    background: lightgrey;
+}
+.posts > span:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+@keyframes fall{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+</style>
+<meta name="description" content="Josh Beckman is a software/app engineer and developer of imaginary machines in Chicago" />
+<h1 class="site-title">
+    <a href="/" title="{{ site.title }}">{{ site.title }}</a>
+</h1>
+<div class="about">
+    <a tabindex=1 href="/about" title="About Josh Beckman">About</a>
+    <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
+    <a href="/rss.xml" title="Subscribe to the RSS feed" rel="alternate">RSS</a>
+    <a href="http://api.andjosh.com" title="My personal API" rel="alternate">API</a>
+</div>
+<ul id="posts"  class="posts">
+  {% for post in site.posts %}
+    <li data-color="{{ post.color }}">
+        <span>{{ post.date | date_to_string }}</span> <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+    </li>
+  {% endfor %}
+</ul>
+<script>
+(function() {
+    var wrapper = document.querySelector('.posts'),
+        posts = document.querySelectorAll('.posts li'),
+        anchor = false,
+        span = false,
+        n = new Date(),
+        o = new Date(posts[0].querySelector('span').textContent),
+        day = (1000 * 60 * 60 * 24),
+        diff = Math.floor((n.getTime() - o.getTime()) / day),
+        weekDay = 6 - n.getDay(),
+        i, j, k = 0;
+
+    for (j = 0; j < weekDay; j++) {
+        span = document.createElement('span');
+        span.title = (new Date(n.getTime() + day * (weekDay - j))).toDateString();
+        span.style.background = 'none';
+        setTimeout(wrapper.appendChild.bind(wrapper, span), k * 10);
+        k++;
+    }
+    for (j = 0; j < diff; j++) {
+        span = document.createElement('span');
+        span.title = (new Date(o.getTime() + day * (diff - j))).toDateString();
+        setTimeout(wrapper.appendChild.bind(wrapper, span), k * 10);
+        k++;
+    }
+    for (i = 0; i < posts.length; i++) {
+        anchor = document.createElement('a');
+        anchor.href = posts[i].children[1].children[0].href;
+        anchor.title = posts[i].textContent.trim();
+        anchor.style.background = posts[i].dataset.color;
+        setTimeout(wrapper.appendChild.bind(wrapper, anchor), k * 10);
+        n = new Date(posts[i].querySelector('span').textContent);
+        o = posts[i + 1] ?
+            new Date(posts[i + 1].querySelector('span').textContent) :
+            null;
+        if (o) {
+            diff = Math.floor((n.getTime() - o.getTime()) / day);
+            for (j = 1; j < diff; j++) {
+                span = document.createElement('span');
+                span.title = (new Date(o.getTime() + day * (diff - j))).toDateString();
+                setTimeout(wrapper.appendChild.bind(wrapper, span), k * 10);
+                k++;
+            }
+        }
+        wrapper.removeChild(posts[i]);
+        k++;
+    }
+})();
+</script>

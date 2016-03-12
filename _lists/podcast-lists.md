@@ -56,6 +56,7 @@ permalink: /lists/podcast/
 - Longform
 - The Bike Shed
 - [Song Exploder](//songexploder.net)
+- [The Morning Short](https://itunes.apple.com/us/podcast/morning-short-your-daily-dose/id1082252606)
 
 <!--two items:-->
 - __*__ This Developer's Life

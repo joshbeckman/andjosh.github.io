@@ -251,7 +251,7 @@
     font-family: Georgia, times, serif;
     font-size: 16px;
     font-weight: normal;
-    line-height: 1.9;
+    line-height: 1.75;
     word-wrap: break-word;
     min-width: 200px;
     max-width: 500px;
@@ -397,9 +397,10 @@
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     position: relative;
-    line-height: 1.4
+    line-height: 1.4;
+    margin: 2rem 0 1rem;
 }
 .markdown-body h1 .octicon-link,
 .markdown-body h2 .octicon-link,
@@ -473,12 +474,12 @@
 .markdown-body table,
 .markdown-body ul {
     margin-top: 0;
-    margin-bottom: 16px
+    margin-bottom: 1rem
 }
 .markdown-body hr {
     height: 1px;
     padding: 0;
-    margin: 16px 0;
+    margin: 1rem 0;
     background-color: #e7e7e7;
     border: 0
 }
@@ -494,21 +495,21 @@
     margin-bottom: 0
 }
 .markdown-body li>p {
-    margin-top: 16px
+    margin-top: 1rem
 }
 .markdown-body dl {
     padding: 0
 }
 .markdown-body dl dt {
     padding: 0;
-    margin-top: 16px;
+    margin-top: 1rem;
     font-size: 1em;
     font-style: italic;
     font-weight: 700
 }
 .markdown-body dl dd {
-    padding: 0 16px;
-    margin-bottom: 16px
+    padding: 0 1rem;
+    margin-bottom: 1rem
 }
 .markdown-body blockquote {
     padding: 0 15px;
@@ -570,11 +571,11 @@
     border: 0
 }
 .markdown-body .highlight {
-    margin-bottom: 16px
+    margin-bottom: 1rem
 }
 .markdown-body .highlight pre,
 .markdown-body pre {
-    padding: 16px;
+    padding: 1rem;
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;

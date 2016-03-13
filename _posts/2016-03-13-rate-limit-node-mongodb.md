@@ -14,7 +14,7 @@ Mongo has a useful feature called [a TTL index][2].
 You can tell Mongo to remove data for you! We will use this to remove expired request counts from our rate-limiting check. There are a couple important things to note about this feature:
 
 - As an index, it is set upon collection creation. If you want to change it, you'll have to do so manually.
-- The index-specific field, `expireAfterSeconds`, is _in seconds_. Unlike most other timestamps in your JavaScript code, _don't_ divide or multiply this by 1000.
+- The index-specific field, `expireAfterSeconds`, is _in seconds_. Unlike most other timestamps in your JavaScript code, _don't_ divide this by 1000.
 
 ### Throttle Model
 
@@ -47,7 +47,7 @@ Throttle = new Schema({
         type: Number,
         default: 1,
         required: true,
-        max: config.rateLimit.max, // 600, maximum number of requests in out TTL defined above
+        max: config.rateLimit.max, // 600
         min: 0
     }
 });
@@ -80,9 +80,13 @@ module.exports = function(request, response, next) {
         request.socket.remoteAddress ||
         request.connection.socket.remoteAddress;
 
-    ip = (ip || '').split(',')[0]; // this check is necessary for some clients that set an array of IP addresses
+    // this check is necessary for some clients that set an array of IP addresses
+    ip = (ip || '').split(',')[0]; 
+
     Throttle
-        .findOneAndUpdate({ip: ip}, { $inc: { hits: 1 } }, { upsert: false })
+        .findOneAndUpdate({ip: ip},
+            { $inc: { hits: 1 } },
+            { upsert: false })
         .exec(function(error, throttle) {
             if (error) {
                 response.statusCode = 500;
@@ -99,7 +103,9 @@ module.exports = function(request, response, next) {
                     } else if (!throttle) {
                         response.statusCode = 500;
                         return response.json({
-                            errors: [{message: 'Error checking rate limit'}]
+                            errors: [
+                                {message: 'Error checking rate limit'}
+                            ]
                         });
                     }
 
@@ -124,7 +130,9 @@ module.exports = function(request, response, next) {
         } else {
             response.statusCode = 429;
             return response.json({
-                errors: [{message: 'Rate Limit reached. Please wait and try again.'}]
+                errors: [
+                    {message: 'Rate Limit reached. Please wait and try again.'}
+                ]
             });
         }
     }

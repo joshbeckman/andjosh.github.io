@@ -73,7 +73,6 @@ func main() {
         if err != nil {
                 log.Fatal(err)
         }
-        defer ctl.session.Close()
 
         http.handleFunc("/", ctl.renderHello)
         http.ListenAndServe(":80", nil)
@@ -85,7 +84,9 @@ func (ctl *Controller) renderHello(w http.ResponseWriter, r *http.Request) {
         // desired database
         // Remember, ctl holds our persistent DB connection
         // already.
-        db := ctl.session.Clone().DB(os.Getenv("MONGO_DB"))
+        session := ctl.session.Clone()
+        defer session.Close()
+        db := session.DB(os.Getenv("MONGO_DB"))
         // Here, we'll simply retrieve one account from 
         // our Accounts collection, using the Account type
         // which I wrote out elsewhere.

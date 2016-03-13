@@ -3,39 +3,30 @@ layout: default
 title: Josh Beckman
 ---
 <meta name="description" content="Josh Beckman is a software/app engineer and developer of imaginary machines in Chicago" />
-<h1 class="site-title">
+<h1 style="text-align:center">
     <a href="/" title="{{ site.title }}">{{ site.title }}</a>
 </h1>
-<div class="about">
+<div style="text-align:center">
     <a href="/about" title="About Josh Beckman">About</a>
     <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
     <a href="/rss.xml" title="Subscribe to the RSS feed" rel="alternate">RSS</a>
     <a href="http://api.andjosh.com" title="My personal API" rel="alternate">API</a>
+    <a title="Currently building" class="" href="/now">Now</a>
 </div>
-<a title="Currently building" class="current" href="/now"></a>
-<ul id="posts"  class="posts">
+<p>
+    Currently in Chicago, building imaginary machines for <a href="//threadmeup.com">ThreadMeUp</a> &amp; <a href="//narro.co">Narro</a> &amp; others.
+</p>
+<table id="posts" style="width:100%">
   {% for post in site.posts %}
-    <li>
-        <span>{{ post.date | date_to_string }}</span> <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-    </li>
+    <tr>
+        <td>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </td>
+        <td>
+            <small>
+                <code>{{ post.date | date_to_string }}</code>
+            </small>
+        </td>
+    </tr>
   {% endfor %}
-</ul>
-<script>
-(function() {
-    var posts = document.querySelectorAll('.posts li'),
-        base = 35,
-        n = new Date(),
-        o = new Date(posts[0].querySelector('span').textContent),
-        diff = (n.getTime() - o.getTime()) / (1000 * 60 * 60);
-
-    posts[0].style.paddingTop = (base + diff) + 'px';
-    for (var i = 0; i < posts.length; i++) {
-        n = new Date(posts[i].querySelector('span').textContent);
-        o = posts[i + 1] ? new Date(posts[i + 1].querySelector('span').textContent) : null;
-        if (o) {
-            diff = (n.getTime() - o.getTime()) / (1000 * 60 * 60);
-            posts[i + 1].style.paddingTop = (base + diff) + 'px';
-        }
-    }
-})();
-</script>
+</table>

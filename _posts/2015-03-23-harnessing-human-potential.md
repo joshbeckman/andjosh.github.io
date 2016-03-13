@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Things Most of Us Do That Could Be Harnessed For Energy
+title: Could Be Harnessed For Energy
 ---
 
 - Physical exertion

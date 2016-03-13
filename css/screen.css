@@ -177,10 +177,10 @@ body {
 }
 
 .markdown-body code {
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace
+    font-family: monospace
 }
 .markdown-body pre {
-    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace
+    font: 12px monospace
 }
 .markdown-body .octicon {
     font: normal normal 16px octicons-anchor;

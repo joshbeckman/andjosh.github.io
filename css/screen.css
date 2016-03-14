@@ -9,7 +9,7 @@ body {
     word-wrap: break-word;
     max-width: 40rem;
     margin: 0 auto;
-    padding: 30px
+    padding: 1rem;
 }
 .highlight {
     background: transparent

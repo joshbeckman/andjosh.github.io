@@ -11,7 +11,7 @@ var width = document.body.clientWidth - 60,
     DAYLENGTH = 1000 * 60 * 60 * 24,
     past = new Date(today.getTime() - (DAYLENGTH * 30)),
     future = new Date(today.getTime() + (DAYLENGTH * 30)),
-    domain = 'http://' + name + '.fulfill.co';
+    domain = 'https://' + name + '.threadmeup.com';
 
 todayStart = new Date(todayStart.getTime() +
     (todayStart.getTimezoneOffset() * 60 * 1000));

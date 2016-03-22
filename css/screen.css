@@ -3,13 +3,14 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     font-family: Georgia, times, serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
-    line-height: 1.75;
+    line-height: 29px;
     word-wrap: break-word;
     max-width: 40rem;
     margin: 0 auto;
     padding: 1rem;
+    background-color: rgb(251, 251, 251);
 }
 .highlight {
     background: transparent
@@ -179,11 +180,8 @@ body {
 .markdown-body code {
     font-family: monospace
 }
-.markdown-body pre {
-    font: 12px monospace
-}
 .markdown-body .octicon {
-    font: normal normal 16px octicons-anchor;
+    font: normal normal 18px octicons-anchor;
     line-height: 1;
     display: inline-block;
     text-decoration: none;
@@ -247,8 +245,15 @@ body {
 .markdown-body h6:hover .anchor .octicon-link {
     display: inline-block
 }
+.markdown-body h1 {
+    font-size: 1.25em;
+}
 .markdown-body h1 .anchor {
     line-height: 1
+}
+.markdown-body h1 a{
+    text-decoration: none;
+    color: inherit;
 }
 .markdown-body h2 .anchor {
     line-height: 1
@@ -269,6 +274,9 @@ body {
 .markdown-body p {
     -webkit-hyphens: auto;
 }
+.markdown-body blockquote {
+    color: rgba(0,0,0,0.65);
+}
 
 .markdown-body img {
     max-width: 100%;
@@ -285,11 +293,9 @@ body {
     background: 0 0;
     border: 0
 }
-.markdown-body .highlight {
-    margin-bottom: 1rem
-}
 .markdown-body .highlight pre,
 .markdown-body pre {
+    margin: 0 -1rem 1rem -1rem;
     padding: 1rem;
     overflow: auto;
     font-size: 85%;

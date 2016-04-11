@@ -6,6 +6,7 @@ permalink: /lists/reading/
 
 - Seveneves _Neal Stephenson_
 - House of Leaves _Mark Z. Danielewski_
+- A Burglar's Guide to the City _Geoff Manaugh_
 
 <!--two items:-->
 
@@ -29,11 +30,15 @@ permalink: /lists/reading/
 - Humans of New York _Brandon Stanton_
 - Car Hacker's Handbook
 - The Shining _Stephen King_
+- The Universe in a Nutshell _Stephen Hawking_
 - The Shape of Design _Frank Chimero_
 - Accelerando _Charles Stross_
 - Harry Potter and the Methods of Rationality _Eliezer Yudkowsky_
 - Mysticism and Logic _Bertrand Russell_
 - __#__ Beacon 23 _Hugh Howey_
+- Some Thank You Notes _Justin Wolfe_
+- Naming & Necessity _Kripke_
+- Annabel Scheme _Robin Sloane_
 - The First Forty-nine Stories _Ernest Hemmingway_
 - Ulysses _James Joyce_
 - The Little Manual of API Design _Jasmin Blanchette_
@@ -44,16 +49,18 @@ permalink: /lists/reading/
 - Zen and the Art of Motorcycle Maintenance _Robert M. Pirsig_
 - [Ed](http://qntm.org/ed) _Sam Hughes_
 - Watchmen _Alan Moore_
+- The Planetary Omnibus _Warren Ellis, John Cassaday_
+- How to Be A Programmer _Braydie Grove_
 - The Salmon of Doubt _Douglas Adams_
 - __#__ [Elektrograd: Rusted Blood](https://www.smashwords.com/books/view/568621) _Warren Ellis_
 - [Speak](http://www.harpercollins.com/9780062391193/speak) _Louisa Hall_
-- Aye, And Gomorrah... _Samuel R. Delany_
 - The Lives of Christopher Chant _Diana Wynne Jones_
 - No Silver Bullet _Frederick P. Brooks, Jr._
 
 <!--two items:-->
 
 - __*__ [The Martian](https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)) _Andy Weir_
+- Aye, And Gomorrah... _Samuel R. Delany_
 - The Elements of Style _E.B. White_
 - Trees _Warren Ellis_
 - __*__ On Keeping a Notebook _Joan Didion_
@@ -73,6 +80,8 @@ permalink: /lists/reading/
 - Anatomy of the Human Body _Henry Gray_
 - __*__ Magnum Contact Sheets _Kristen Lubben_
 - Meditations _Marcus Aurelius_
+- __*__ Principles _Ray Dalio_
+- Raw Thought, Raw Nerve _Aaron Swartz_
 - Metamorphosis _Franz Kafka_
 - __*__ At Work _Annie Leibovitz_
 - [The Jargon File](http://www.catb.org/jargon/oldversions/jarg262.txt) _various_

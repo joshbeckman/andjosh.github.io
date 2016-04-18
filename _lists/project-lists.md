@@ -5,7 +5,6 @@ permalink: /lists/project/
 ---
 
 - __*__ [Narro](http://narro.co) _The simple way to listen to the web - as a podcast!_
-- [Five For Founders](http://fives.andjosh.com)  _A weekly email prompt to track your company's success_
 
 <!--two items:-->
 
@@ -21,6 +20,8 @@ permalink: /lists/project/
 
 <!--two items:-->
 
+- [translate-emoji](https://github.com/narroapp/translate-emoji) _Turn pesky emoji into plain English._
+- [Five For Founders](http://fives.andjosh.com)  _A weekly email prompt to track your company's success_
 - [Sounds](https://github.com/andjosh/sounds) _Allows you to listen to data instead of watching it._
 - [Stark Lines](http://starklines.herokuapp.com) _Combine real-time Google Analytics data for multiple sites/apps into one graph._
 - [Nucre](https://github.com/andjosh/nucre) _Let anyone quickly, simply, pay you with a credit card._

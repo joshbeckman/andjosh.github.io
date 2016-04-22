@@ -17,17 +17,13 @@ title: Josh Beckman
 <p style="text-align:center">
     In Chicago, building imaginary machines for <a href="//threadmeup.com">ThreadMeUp</a> &amp; <a href="//narro.co">Narro</a> &amp; others.
 </p>
-<table id="posts" style="width:100%">
-  {% for post in site.posts %}
-    <tr>
-        <td>
+<dl id="posts">
+    {% for post in site.posts %}
+        <dt>
+            <small>{{ post.date | date_to_string  }}</small>
+        </dt>
+        <dd>
             <a href="{{ post.url }}">{{ post.title }}</a>
-        </td>
-        <td>
-            <small>
-                <code>{{ post.date | date_to_string }}</code>
-            </small>
-        </td>
-    </tr>
-  {% endfor %}
-</table>
+        </dd>
+    {% endfor %}
+</dl>

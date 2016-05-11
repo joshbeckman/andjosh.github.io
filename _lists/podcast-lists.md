@@ -3,11 +3,6 @@ layout: list
 title: Podcast Lists
 permalink: /lists/podcast/
 ---
-- [Song Exploder](//songexploder.net)
-- [The Morning Short](https://itunes.apple.com/us/podcast/morning-short-your-daily-dose/id1082252606)
-
-<!--two items:-->
-
 - a16z
 - The Bike Shed
 - Longform
@@ -51,18 +46,21 @@ permalink: /lists/podcast/
 - __*__ Serendipity
 - Waking Up _with Sam Harris_
 - Startup Podcast
-- VIVA RIOT
 - [Zephyr](https://soundcloud.com/zephyrpodcast) _Krishna and Me_
 - The Web Ahead
 - The Memory Palace
 - You Made it Weird
 - Serial
+- Hanselminutes
 
-<!--two items:-->
+- [Song Exploder](//songexploder.net)
+- [The Morning Short](https://itunes.apple.com/us/podcast/morning-short-your-daily-dose/id1082252606)
+
 - __*__ This Developer's Life
 - Spoken Wikipedia
 - Shoptalk
 - Roderick on the Line
+- VIVA RIOT
 - Radio Drama Revival
 - On The Tropes
 - Isometric

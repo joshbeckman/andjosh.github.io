@@ -3,7 +3,14 @@ layout: list
 title: Podcast Lists
 permalink: /lists/podcast/
 ---
+- [Song Exploder](//songexploder.net)
+- [The Morning Short](https://itunes.apple.com/us/podcast/morning-short-your-daily-dose/id1082252606)
 
+<!--two items:-->
+
+- a16z
+- The Bike Shed
+- Longform
 - __*__ Benjamin Walker's Theory of Everything
 - The Bugle
 - Hot Pod
@@ -49,20 +56,12 @@ permalink: /lists/podcast/
 - The Web Ahead
 - The Memory Palace
 - You Made it Weird
-
-<!--two items:-->
-
-- a16z
-- Longform
-- The Bike Shed
-- [Song Exploder](//songexploder.net)
-- [The Morning Short](https://itunes.apple.com/us/podcast/morning-short-your-daily-dose/id1082252606)
+- Serial
 
 <!--two items:-->
 - __*__ This Developer's Life
 - Spoken Wikipedia
 - Shoptalk
-- Serial
 - Roderick on the Line
 - Radio Drama Revival
 - On The Tropes

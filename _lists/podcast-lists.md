@@ -3,6 +3,7 @@ layout: list
 title: Podcast Lists
 permalink: /lists/podcast/
 ---
+<!-- list one -->
 - a16z
 - The Bike Shed
 - Longform
@@ -53,9 +54,11 @@ permalink: /lists/podcast/
 - Serial
 - Hanselminutes
 
+<!-- list two -->
 - [Song Exploder](//songexploder.net)
 - [The Morning Short](https://itunes.apple.com/us/podcast/morning-short-your-daily-dose/id1082252606)
 
+<!-- list three -->
 - __*__ This Developer's Life
 - Spoken Wikipedia
 - Shoptalk

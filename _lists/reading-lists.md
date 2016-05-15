@@ -12,6 +12,7 @@ permalink: /lists/reading/
 <!--two items:-->
 
 - Night Film _Marisha Pessl_
+- The Sea Came in at Midnight _Steve Erickson_
 - __#__ The Death and Life of Great American Cities _Jane Jacobs_
 - __#__ vocabularytest _Ryan McGinness_
 - __#__ [The Nature of Order](http://www.natureoforder.com/) _Christopher Alexander_

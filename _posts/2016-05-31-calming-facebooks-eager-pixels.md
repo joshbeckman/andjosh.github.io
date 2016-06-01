@@ -65,7 +65,7 @@ window.fbq.disablePushState = true;
 window.fbq('init', this.props.fbAudiencePixel);
 // or
 window._fbq.disablePushState = true;
-window._fbq.push(['addPixelId', this.props.movementRtPixel]);
+window._fbq.push(['addPixelId', this.props.fbRetargetingPixel]);
 window._fbq.push(['track', 'PixelInitialized', {}]);
 ~~~
 

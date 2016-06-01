@@ -71,7 +71,7 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 
 After that change, everything seems error-free (at least from testing with Facebook's Pixel Helper). Time will tell if our customers continue to experience the same effects. It seems a shame that Facebook has this undocumented (I couldn't find any) flag that makes it play nice within single page apps. It seems an equal shame that Facebook would eagerly trigger its own, potentially erroneous, calls on global events. It also troubles me that the same React application (with multiple calls triggering Pixel Helper errors) seems to cause erroneous results on both ends of the spectrum. And it also troubles me that across our multiple e-commerce competitors, where we are the only one using an entirely React SPA, none have been able to yield a 1:1 ratio of internal conversions to Facebook pixel conversions.
 
-As anyone building a single page app right now, the best advice I can give is the `disablePushState`. That should be necessary for Angular, React, and mobile frameworks alike. I've been able to find one other codebase identifying this problem, [Segment.io's tag manager][8]. The good (or bad?) news is that the `disablePushState` flag seems to be the only Facebook pixel _magic flag_.
+As anyone building a single page app right now, the best advice I can give is to `disablePushState`. That should be necessary for Angular, React, and mobile frameworks alike. I've been able to find one other codebase identifying this problem, [Segment.io's tag manager][8]. The good (or bad?) news is that the `disablePushState` flag seems to be the only Facebook pixel _magic flag_.
 
 
 [1]: //www.threadmeup.com

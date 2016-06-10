@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
     padding: 1rem;
     background-color: rgb(251, 251, 251);
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica, helvetica neue, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 .highlight {
     background: transparent
@@ -270,9 +271,6 @@ body {
     line-height: 1.1
 }
 
-.markdown-body p {
-    -webkit-hyphens: auto;
-}
 .markdown-body blockquote {
     color: rgba(0,0,0,0.65);
 }

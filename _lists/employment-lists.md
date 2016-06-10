@@ -4,14 +4,19 @@ title: Employment Lists
 permalink: /lists/employment/
 ---
 
-- [ThreadMeUp](http://threadmeup.com)
+- [?](mailto:email@andjosh.com?subject=New Job)
 
 <!--two items:-->
 
 - Self
+- Team Josh
+- Mozilla
+- Google ATAP
+- GitHub
 
 <!--two items:-->
 
+- [ThreadMeUp](http://threadmeup.com)
 - [Afterskoolz](http://afterskoolz.com)
 - [Aggrego](http://aggrego.com)
 - [Wrapports](http://wrapports.com)

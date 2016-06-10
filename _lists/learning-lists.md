@@ -13,17 +13,17 @@ permalink: /lists/learning/
 }
 </style>
 
-- Usage of metric scales in everyday life _Celcius makes so much sense_
-- Lisp
+- Clojure
+- Android development
 - Media playback in Swift
 - Graphing optimization in Swift
-- Rust
 - Guitar
 
 <!--two items:-->
 
 - French
 - Violin
-- Java _Android development, especially_
 - Erlang
 - Magic
+- Lisp
+- Rust

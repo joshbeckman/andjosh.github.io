@@ -3,7 +3,7 @@ layout: page
 title: Now
 permalink: /now/
 ---
-Currently focused on [growing my own product](//narro.co), learning new language paradigms, and becoming better with team management.
+Currently focused on finding a new position, [growing my own product](//narro.co), learning new language paradigms, and becoming better at learning from mistakes.
 
 I [maintain lists of current (and previous) things](/lists) as well.
 

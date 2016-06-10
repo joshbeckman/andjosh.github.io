@@ -20,8 +20,7 @@ title: Josh Beckman
 <ol id="posts" reversed>
     {% for post in site.posts %}
         <li>
-            <cite><a href="{{ post.url }}">{{ post.title }}</a></cite>
-            <small>{{ post.date | date_to_string  }}</small>
+            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
         </li>
     {% endfor %}
 </ol>

@@ -55,6 +55,8 @@ permalink: /lists/podcast/
 - Hanselminutes
 
 <!-- list two -->
+- [Track Changes](https://trackchanges.postlight.com)
+- [On Being](http://www.onbeing.org)
 - [Song Exploder](//songexploder.net)
 - [The Morning Short](https://itunes.apple.com/us/podcast/morning-short-your-daily-dose/id1082252606)
 

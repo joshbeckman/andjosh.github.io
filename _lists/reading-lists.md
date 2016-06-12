@@ -11,6 +11,7 @@ permalink: /lists/reading/
 
 <!--two items:-->
 
+- The God of Small Things _Arundhati Roy_
 - Night Film _Marisha Pessl_
 - The Sea Came in at Midnight _Steve Erickson_
 - __#__ The Death and Life of Great American Cities _Jane Jacobs_

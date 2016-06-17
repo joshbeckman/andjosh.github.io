@@ -18,7 +18,7 @@ permalink: /about/
 </style>
 ![Josh Beckman](/images/page/mustache.jpg)
 
-I build things for the internet and for your phones. I'm the founder of [Narro](//narro.co) and one-half of [Team Josh](http://teamjosh.co) & [Zephyr Podcast](https://soundcloud.com/zephyrpodcast). Recently, I was VP of Engineering for [ThreadMeUp](http://threadmeup.com). I live in downtown Chicago, where I also do contract development work and provide tech advising for early-stage companies & groups. Email me if you're interested.
+I build things for the internet and for your phones. I'm the founder of [Narro](//narro.co) and a member of [No Nonsense Agency](http://no.nonsense.agency) & [Zephyr Podcast](https://soundcloud.com/zephyrpodcast). Recently, I was VP of Engineering for [ThreadMeUp](http://threadmeup.com). I live in downtown Chicago, where I also do contract development work and provide tech advising for early-stage companies & groups. Email me if you're interested.
 
 I respond most readily via [email(at)andjosh.com](mailto:email@andjosh.com), and sometimes check Twitter [@twandjosh](http://twitter.com/twandjosh). I often deploy repositories of knowledge and computer code to [GitHub](//github.com/andjosh). I tend to make [quite a few lists](/lists) and [write hopefully helpful things](/). If you want to know what I'm reading, you can follow through my [Narro](//narro.co) podcast: [on.narro.co/josh](http://on.narro.co/josh).
 

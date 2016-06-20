@@ -5,9 +5,7 @@ permalink: /lists/reading/
 ---
 
 - Seveneves _Neal Stephenson_
-- If Hemingway Wrote JavaScript _Angus Croll_
 - House of Leaves _Mark Z. Danielewski_
-- A Burglar's Guide to the City _Geoff Manaugh_
 
 <!--two items:-->
 
@@ -66,6 +64,8 @@ permalink: /lists/reading/
 - Aye, And Gomorrah... _Samuel R. Delany_
 - The Elements of Style _E.B. White_
 - Trees _Warren Ellis_
+- If Hemingway Wrote JavaScript _Angus Croll_
+- A Burglar's Guide to the City _Geoff Manaugh_
 - __*__ On Keeping a Notebook _Joan Didion_
 - The Divine Comedy _Dante Alighieri_
 - In Praise of Shadows _Junichiro Tanizaki_

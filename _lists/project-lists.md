@@ -5,6 +5,8 @@ permalink: /lists/project/
 ---
 
 - __*__ [Narro](http://narro.co) _The simple way to listen to the web - as a podcast!_
+- Narro _for Android_
+- GitHub [chiptune generator](https://gist.github.com/andjosh/0be99e32b5e21dc9990d8e969e9e1078) _Listen to contribution graphs_
 
 <!--two items:-->
 
@@ -15,7 +17,6 @@ permalink: /lists/project/
 - PNG v. JPG _Tell me which format is better for this image._
 - Something _with the [Forecast.io](http://forecast.io) API_
 - RecList _You get three recommendations of anyone at all. Go._
-- Narro _for Android_
 - StoryTime _App that delivers a story to you based on your amount of free time_
 
 <!--two items:-->

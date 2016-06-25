@@ -6,7 +6,7 @@ permalink: /lists/project/
 
 - __*__ [Narro](http://narro.co) _The simple way to listen to the web - as a podcast!_
 - Narro _for Android_
-- GitHub [chiptune generator](https://gist.github.com/andjosh/0be99e32b5e21dc9990d8e969e9e1078) _Listen to contribution graphs_
+- GitHub [chiptune generator](https://github.com/andjosh/contributions-chiptune) _Listen to contribution graphs_
 
 <!--two items:-->
 

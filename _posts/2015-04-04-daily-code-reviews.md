@@ -41,6 +41,8 @@ It also allows everyone to keep a pulse on the changes made to projects they are
 
 Daily commenting also makes it easy for us to formulate things like style guides, as they naturally fall out of our discussions.
 
+__Edit:__ I have since [expanded on the benefits of code reviews](/2016/08/11/the-benefits-of-daily-code-review/) for individual team members.
+
 ---
 
 > Originally posted on the [ThreadMeUp](//threadmeup.com) engineering blog.

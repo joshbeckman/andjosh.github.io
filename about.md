@@ -20,7 +20,7 @@ permalink: /about/
 
 I build things for the internet and for your phones. I'm the founder of [Narro](//narro.co), Lead Engineer at [OfficeLuv](//officeluv.com), and a member of [No Nonsense Agency](http://no.nonsense.agency) & [Zephyr Podcast](https://soundcloud.com/zephyrpodcast). I live in downtown Chicago, where I also do contract development work and provide tech advising for early-stage companies & groups. Email me if you're interested.
 
-I respond most readily via [email(at)andjosh.com](mailto:email@andjosh.com), and sometimes check Twitter [@twandjosh](http://twitter.com/twandjosh). I often deploy repositories of knowledge and computer code to [GitHub](//github.com/andjosh). I tend to make [quite a few lists](/lists) and [write hopefully helpful things](/). If you want to know what I'm reading, you can follow through my [Narro](//narro.co) podcast: [on.narro.co/josh](http://on.narro.co/josh).
+I respond most readily via [email(at)andjosh.com](mailto:email@andjosh.com), and sometimes check Twitter [@twandjosh](http://twitter.com/twandjosh). I often deploy repositories of knowledge and computer code to [GitHub](//github.com/andjosh). I tend to make [quite a few lists](/lists) and [write hopefully helpful things](/). If you want to know what I'm reading, you can follow through my [Narro](//narro.co) podcast: [narro.co/playable/josh](https://www.narro.co/playable/josh).
 
 ---
 

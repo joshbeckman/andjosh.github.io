@@ -4,7 +4,7 @@ title: Reading Lists
 permalink: /lists/reading/
 ---
 
-- Seveneves _Neal Stephenson_
+- Write Better Software _Fog Creek Software_
 - House of Leaves _Mark Z. Danielewski_
 
 <!--two items:-->
@@ -62,6 +62,7 @@ permalink: /lists/reading/
 
 <!--two items:-->
 
+- __*__ Seveneves _Neal Stephenson_
 - __*__ [The Martian](https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)) _Andy Weir_
 - Aye, And Gomorrah... _Samuel R. Delany_
 - The Elements of Style _E.B. White_

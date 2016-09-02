@@ -4,7 +4,6 @@ title: Reading Lists
 permalink: /lists/reading/
 ---
 
-- Write Better Software _Fog Creek Software_
 - House of Leaves _Mark Z. Danielewski_
 
 <!--two items:-->
@@ -22,7 +21,6 @@ permalink: /lists/reading/
 - U.S. Special Forces Medical Handbook _United States Special Forces_
 - The Pleasure of Finding Things Out _Richard Feynman_
 - __#__ The Sheep Look Up _John Brunner_
-- What If? _Randall Munroe_
 - Onlisp _Paul Graham_
 - Eloquent JavaScript _Marijn Haverbeke_
 - Symbolic Logic _Lewis Carroll_
@@ -67,6 +65,8 @@ permalink: /lists/reading/
 - Aye, And Gomorrah... _Samuel R. Delany_
 - The Elements of Style _E.B. White_
 - Trees _Warren Ellis_
+- Write Better Software _Fog Creek Software_
+- __*__ What If? _Randall Munroe_
 - If Hemingway Wrote JavaScript _Angus Croll_
 - A Burglar's Guide to the City _Geoff Manaugh_
 - __*__ On Keeping a Notebook _Joan Didion_

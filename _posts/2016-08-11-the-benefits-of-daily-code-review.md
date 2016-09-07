@@ -32,4 +32,4 @@ If you have been practicing regular code reviews with your team, [I'd love to he
 
 [1]: /2015/04/04/daily-code-reviews/
 [2]: //elenichappen.com
-[3]: /about
+[3]: /contact

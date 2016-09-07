@@ -14,10 +14,11 @@ permalink: /lists/learning/
 </style>
 
 - Clojure
-- Android development
+- Elixir
+- Android/iOS beacon technology
 - Media playback in Swift
-- Graphing optimization in Swift
 - Guitar
+- Piano
 
 <!--two items:-->
 

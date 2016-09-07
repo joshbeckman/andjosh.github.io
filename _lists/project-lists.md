@@ -4,8 +4,7 @@ title: Project Lists
 permalink: /lists/project/
 ---
 
-- __*__ [Narro](http://narro.co) _The simple way to listen to the web - as a podcast!_
-- Narro _for Android_
+- __*__ [Narro](//narro.co) _The simple way to listen to the web - as a podcast!_
 - GitHub [chiptune generator](https://github.com/andjosh/contributions-chiptune) _Listen to contribution graphs_
 
 <!--two items:-->
@@ -21,6 +20,8 @@ permalink: /lists/project/
 
 <!--two items:-->
 
+- Narro _for Android_
+- Narro _for iOS_
 - [translate-emoji](https://github.com/narroapp/translate-emoji) _Turn pesky emoji into plain English._
 - [Five For Founders](http://fives.andjosh.com)  _A weekly email prompt to track your company's success_
 - [Sounds](https://github.com/andjosh/sounds) _Allows you to listen to data instead of watching it._

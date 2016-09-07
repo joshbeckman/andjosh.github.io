@@ -5,17 +5,19 @@ permalink: /lists/reading/
 ---
 
 - House of Leaves _Mark Z. Danielewski_
+- A FIVE-STAGE MODEL OF THE MENTAL ACTIVITIES INVOLVED INDIRECTED SKILL ACQUISITION
 
 <!--two items:-->
 
+- Foundation _Isaac Asimov_
 - The God of Small Things _Arundhati Roy_
 - Night Film _Marisha Pessl_
 - The Sea Came in at Midnight _Steve Erickson_
 - __#__ The Death and Life of Great American Cities _Jane Jacobs_
 - __#__ vocabularytest _Ryan McGinness_
 - __#__ [The Nature of Order](http://www.natureoforder.com/) _Christopher Alexander_
-- __+__ [Manhattan Transcripts](Bernard Tschumi)
-- __+__ [Home Fittings](Janice Kerbel)
+- __#__ [Manhattan Transcripts] _Bernard Tschumi_
+- __#__ [Home Fittings] _Janice Kerbel_
 - __#__ I Seem to be a Verb _Buckminster Fuller with Quentin Fiore and Jerome Agel_
 - __#__ Hold Everything Dear _John Berger_
 - U.S. Special Forces Medical Handbook _United States Special Forces_

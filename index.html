@@ -3,23 +3,26 @@ layout: default
 title: Josh Beckman
 ---
 <meta name="description" content="Josh Beckman is a software/app engineer and developer of imaginary machines in Chicago" />
-<h1 style="text-align:center">
-    <a href="/" title="{{ site.title }}">{{ site.title }}</a>
+<h1 class="site-title">
+    <a href="/" title="{{ site.title }}">Josh Beckman</a>
 </h1>
-<div style="text-align:center">
-    <a href="/about" title="About Josh Beckman">About</a>
+<div class="about">
+    <a href="/contact" title="Contact Josh" rel="about">Contact</a>
     <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
     <a href="//vsco.com/andjosh" title="Photos">Photos</a>
     <a href="/rss.xml" title="Subscribe to the RSS feed" rel="alternate">RSS</a>
-    <a href="http://api.andjosh.com" title="My personal API" rel="alternate">API</a>
 </div>
-<p style="text-align:center">
-In Chicago, building imaginary machines for <a href="//narro.co">Narro</a> &amp; <a href="//officeluv.com">OfficeLuv</a> &amp; <a href="http://no.nonsense.agency">No Nonsense</a> &amp; others.
+<p class="index-about"><br/>
+I build imaginary machines for the internet and for your phones. I’m the founder of <a href="//narro.co">Narro</a>, Lead Engineer at <a href="//officeluv.com">OfficeLuv</a>, and a member of <a href="http://no.nonsense.agency">No Nonsense Agency</a> &amp; <a href="https://soundcloud.com/zephyrpodcast">Zephyr Podcast</a>. I live in downtown Chicago, where I also do contract development work and provide tech advising for early-stage companies &amp; groups.
 </p>
-<ol id="posts" reversed>
-    {% for post in site.posts %}
-        <li>
-            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li>
-    {% endfor %}
-</ol>
+{% for post in site.posts %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        <h3 class="post-year" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h3>
+        <ul class="post-list">
+        {% assign date = currentdate %}
+    {% endif %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% if forloop.last %}</ul>{% endif %}
+{% endfor %}

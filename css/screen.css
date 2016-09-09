@@ -9,6 +9,7 @@ body {
     max-width: 40rem;
     margin: 0 auto;
     padding: 1rem;
+    color: #333;
     background-color: rgb(251, 251, 251);
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica, helvetica neue, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }

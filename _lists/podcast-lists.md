@@ -9,7 +9,6 @@ permalink: /lists/podcast/
 - Longform
 - __*__ Benjamin Walker's Theory of Everything
 - The Bugle
-- Hot Pod
 - Debug
 - The Heart
 - Fresh Air
@@ -19,7 +18,6 @@ permalink: /lists/podcast/
 - Giant Robots Smashing into other Giant Robots Podcast
 - __*__ [Josh Beckman on Narro](http://narro.co)
 - NPR: Bullseye with Jesse Thorn
-- __*__ On The Grid
 - Product Hunt Radio
 - Robot or Not?
 - The Rocketship Podcast
@@ -27,13 +25,18 @@ permalink: /lists/podcast/
 - __*__ Selected Shorts
 - Slate Presents Lexicon Valley
 - The Talk Show With John Gruber
+- Ungeniused
+- Unjustly Maligned
 - This American Life
-- This Week in Startups
-- __*__ Wiretap from CBC Radio
+- Startups for the Rest of Us
+- The Knowledge Project
+- Learn French with Daily Podcasts
+- Learn Spanish with Daily Podcasts
 - 99% Invisible
+- Invisibilia
 - __*__ Accidental Tech Podcast
-- Analogue
-- A Prarie Home Companion
+- Analog(ue)
+- A Prairie Home Companion's News From Lake Wobegon
 - The Arcade by Hazlitt
 - Context Matters
 - Death, Sex & Money
@@ -49,10 +52,15 @@ permalink: /lists/podcast/
 - Startup Podcast
 - [Zephyr](https://soundcloud.com/zephyrpodcast) _Krishna and Me_
 - The Web Ahead
-- The Memory Palace
+- __*__ The Memory Palace
 - You Made it Weird
 - Serial
 - Hanselminutes
+- Clockwise
+- DN FM
+- Planet Money
+- Release Notes
+- Under the Radar
 
 <!-- list two -->
 - [Back to Work](http://5by5.tv/b2w)
@@ -63,18 +71,22 @@ permalink: /lists/podcast/
 
 <!-- list three -->
 - __*__ This Developer's Life
+- __*__ Wiretap from CBC Radio
 - Spoken Wikipedia
 - Shoptalk
 - Roderick on the Line
 - VIVA RIOT
 - Radio Drama Revival
+- Hot Pod
 - On The Tropes
 - Isometric
 - Happy Monday
+- __*__ On The Grid
 - The Brooks Review - Podcast
 - Bitsplitting
+- Viva Riot
 - __*__ A Life Well Wasted
-- Release Notes
 - __*__ Pragmatic
 - NSBrief
+- This Week in Startups
 - Drama of the Week

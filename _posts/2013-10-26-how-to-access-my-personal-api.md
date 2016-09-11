@@ -3,6 +3,8 @@ layout: post
 title: How To Access My Personal API
 ---
 
+> __Update:__ This API has since been retired.
+
 I though it would be useful to have access to basic information about a person in a standardized format, query-able and programmable without having to muck around with a third-party social-media application.
 
 > An API into your person could be quick and useful.
@@ -20,8 +22,8 @@ and frameworks. It supports JSONP with an optional `callback` parameter.
 No keys required, possible uses for an API like this (especially if others
 implement something similar) include:
 
-- Dynamically calculated ages for operatros of a "personal API"
-- Statistics on laguange or framework usage
+- Dynamically calculated ages for operators of a "personal API"
+- Statistics on language or framework usage
 - Graphing opening locations
 - Dynamically display latest blog posts, by person
 - Operating a repository of users' associated social accounts

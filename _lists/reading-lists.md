@@ -5,10 +5,14 @@ permalink: /lists/reading/
 ---
 
 - House of Leaves _Mark Z. Danielewski_
-- A FIVE-STAGE MODEL OF THE MENTAL ACTIVITIES INVOLVED INDIRECTED SKILL ACQUISITION
 
 <!--two items:-->
 
+- Understanding Power _Noam Chomsky_
+- Build & Launch _Justin Jackson_
+- Graphic Presentation _Willard Brinton_
+- The House of God _Samuel Shem_
+- Stellar Astrophysics _Edward Brown_
 - Foundation _Isaac Asimov_
 - The God of Small Things _Arundhati Roy_
 - Night Film _Marisha Pessl_
@@ -62,6 +66,7 @@ permalink: /lists/reading/
 
 <!--two items:-->
 
+- __*__ Systemantics _John Gall_
 - __*__ Seveneves _Neal Stephenson_
 - __*__ [The Martian](https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)) _Andy Weir_
 - Aye, And Gomorrah... _Samuel R. Delany_
@@ -77,6 +82,7 @@ permalink: /lists/reading/
 - __*__ Toast _Charles Stross_
 - [The Moon Won't Use the Door](http://philome.la/jacobtwop/the-moon-wont-use-the-door/play)
 - Cunning Plans _Warren Ellis_
+- A FIVE-STAGE MODEL OF THE MENTAL ACTIVITIES INVOLVED INDIRECTED SKILL ACQUISITION
 - Iterating Grace _Koons Crooks_
 - [Zen Mind, Beginner's Mind](https://en.wikipedia.org/wiki/Zen_Mind,_Beginner%27s_Mind) _Shunryū Suzuki_
 - __*__ Fine Structure _Sam Hughes_

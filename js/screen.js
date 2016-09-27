@@ -16,3 +16,25 @@ function expandImg() {
 }
 
 window.addEventListener('load', expandImg, false);
+
+function color() {
+    var ti = (new Date).getTime();
+
+    i = parseInt(ti.toString()[ti.toString().length - 4], 10);
+    var r = Math.floor( Math.sin(i) * 127 + 128 );
+    var g = Math.floor( Math.sin(i + 2) * 127 + 128 );
+    var b = Math.floor( Math.sin(i + 3) * 127 + 128 );
+    return 'rgb(' + r + ',' + g + ',' + b + ')';
+}
+function color2(num) {
+    var ti = (new Date).getTime();
+
+    i = parseInt(ti.toString()[ti.toString().length - 4], 10);
+    var r = Math.abs(num - Math.floor( Math.sin(i) * 127 + 128 ));
+    var g = Math.abs(num - Math.floor( Math.sin(i + 2) * 127 + 128 ));
+    var b = Math.abs(num - Math.floor( Math.sin(i + 3) * 127 + 128 ));
+    return 'rgb(' + r + ',' + g + ',' + b + ')';
+}
+document.querySelector('.header h1').style.color = color2(0);
+document.querySelector('.header .meta').style.color = color2(0);
+document.querySelector('.header').style.backgroundColor = color2(255);

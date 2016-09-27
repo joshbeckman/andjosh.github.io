@@ -15,11 +15,15 @@ layout: default
 <meta property="og:site_name"   content="www andjosh" />
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
-    <meta itemprop="author" content="Josh Beckman" />
-    <h1 class=""><a itemprop="url" href="{{ page.url }}">{{ page.title }}</a></h1>
-    <p class="meta">
-        <small itemprop="datePublished">{{ page.date | date_to_string }}</small>
-    </p>
+    <div class="header">
+        <div class="header-inner">
+            <meta itemprop="author" content="Josh Beckman" />
+            <h1 class=""><a itemprop="url" href="{{ page.url }}">{{ page.title }}</a></h1>
+            <p class="meta">
+                <small itemprop="datePublished">{{ page.date | date_to_string }}</small>
+            </p>
+        </div>
+    </div>
     <div class="content" itemprop="articleBody">
         {{ content }}
     </div>

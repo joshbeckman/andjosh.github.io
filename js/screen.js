@@ -17,24 +17,28 @@ function expandImg() {
 
 window.addEventListener('load', expandImg, false);
 
-function color() {
-    var ti = (new Date).getTime();
+function color2(num, ti, off) {
+    ti = ti ? (new Date(ti)).getTime() : (new Date).getTime();
+    off = off || 4;
 
-    i = parseInt(ti.toString()[ti.toString().length - 4], 10);
-    var r = Math.floor( Math.sin(i) * 127 + 128 );
-    var g = Math.floor( Math.sin(i + 2) * 127 + 128 );
-    var b = Math.floor( Math.sin(i + 3) * 127 + 128 );
+    i = parseInt(ti.toString()[ti.toString().length - off], 10);
+    var r = Math.abs(num - Math.floor( Math.sin(i) * 127 + 28 ));
+    var g = Math.abs(num - Math.floor( Math.sin(i + 2) * 127 + 28 ));
+    var b = Math.abs(num - Math.floor( Math.sin(i + 3) * 127 + 28 ));
     return 'rgb(' + r + ',' + g + ',' + b + ')';
 }
-function color2(num) {
-    var ti = (new Date).getTime();
+(function(window, document) {
+    var pubTime = document.querySelector('.header .meta'),
+        title = document.querySelector('.header h1'),
+        header = document.querySelector('.header');
 
-    i = parseInt(ti.toString()[ti.toString().length - 4], 10);
-    var r = Math.abs(num - Math.floor( Math.sin(i) * 127 + 128 ));
-    var g = Math.abs(num - Math.floor( Math.sin(i + 2) * 127 + 128 ));
-    var b = Math.abs(num - Math.floor( Math.sin(i + 3) * 127 + 128 ));
-    return 'rgb(' + r + ',' + g + ',' + b + ')';
-}
-document.querySelector('.header h1').style.color = color2(0);
-document.querySelector('.header .meta').style.color = color2(0);
-document.querySelector('.header').style.backgroundColor = color2(255);
+    if (pubTime) {
+        pubTime = pubTime.textContent;
+        document.querySelector('.header .meta').style.color = 'white';
+    }
+    title.style.color = 'white';
+    header.style.backgroundColor = color2(25, pubTime, 8);
+    header.style.backgroundImage =
+        'linear-gradient(90deg, ' + color2(25, pubTime, 8) +
+        ', ' + color2(0, pubTime, 8) + ')';
+})(this, this.document);

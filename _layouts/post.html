@@ -26,22 +26,26 @@ layout: default
     </div>
     <div class="content" itemprop="articleBody">
         {{ content }}
+        <small class="meta">
+            <a href="mailto:email@andjosh.com?subject=RE:{{ page.title }}" title="Comment/Reply">Comment/Reply</a>
+        </small>
+        {% if page.sub && page.sub_url %}
+            <h6>
+                <a href="{{ page.sub_url }}">Back to {{ page.sub }}</a>
+            </h6>
+        {% endif %}
     </div>
-    <small class="meta">
-        <a href="mailto:email@andjosh.com?subject=RE:{{ page.title }}" title="Comment/Reply">Comment/Reply</a>
-    </small>
-    {% if page.sub && page.sub_url %}
-        <h6>
-            <a href="{{ page.sub_url }}">Back to {{ page.sub }}</a>
-        </h6>
-    {% endif %}
 </article>
-<h2 class="site-title">
-    <a rel="home" href="/" title="{{ site.title }}">{{ site.title }}</a>
-</h2>
-<div class="about">
-    <a href="/" title="Archive">Archive</a>
-    <a href="/contact" title="Contact Josh" rel="about">Contact</a>
-    <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
-    <a href="//vsco.com/andjosh" title="Photos">Photos</a>
+<div class="header">
+    <div class="header-inner">
+        <h2 class="site-title">
+            <a rel="home" href="/" title="{{ site.title }}">{{ site.title }}</a>
+        </h2>
+        <div class="about">
+            <a href="/" title="Archive">Archive</a>
+            <a href="/contact" title="Contact Josh" rel="about">Contact</a>
+            <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
+            <a href="//vsco.com/andjosh" title="Photos">Photos</a>
+        </div>
+    </div>
 </div>

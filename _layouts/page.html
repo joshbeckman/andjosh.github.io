@@ -1,17 +1,26 @@
 ---
 layout: default
 ---
-
-<h1 class="site-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<div class="header">
+    <div class="header-inner">
+        <h1 class="site-title">
+            <a href="{{ page.url }}">{{ page.title }}</a>
+        </h1>
+    </div>
+</div>
 <div class="content">
     {{ content }}
 </div>
-<h2 class="site-title">
-    <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
-</h2>
-<div class="about">
-    <a href="/" title="Archive">Archive</a>
-    <a href="/contact" title="Contact Josh" rel="about">Contact</a>
-    <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
-    <a href="//vsco.com/andjosh" title="Photos">Photos</a>
+<div class="header">
+    <div class="header-inner">
+        <h2 class="site-title">
+            <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
+        </h2>
+        <div class="about">
+            <a href="/" title="Archive">Archive</a>
+            <a href="/contact" title="Contact Josh" rel="about">Contact</a>
+            <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
+            <a href="//vsco.com/andjosh" title="Photos">Photos</a>
+        </div>
+    </div>
 </div>

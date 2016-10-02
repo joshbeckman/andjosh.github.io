@@ -11,14 +11,23 @@ layout: default
 .dimple-legend-key {
     cursor: pointer;
 }
+.grpahs, #loading, #chartContainer1, #chartContainer {
+    margin: 1rem;
+}
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
-<h2 class="site-title">
-    <em>{{ page.title }} &</em> <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
-</h2>
-<p class="meta">
-    <a href="/charts">&larr; See More Charts</a>
-</p>
+<div class="header">
+    <div class="header-inner">
+        <h1 class="site-title">
+            <em>{{ page.title }} &</em> <a href="/" rel="home" title="{{ site.title }}">{{ site.title }}</a>
+        </h1>
+    </div>
+</div>
+<div class="content"
+    <p class="meta">
+        <a href="/charts">&larr; See More Charts</a>
+    </p>
+</div>
 <div id="loading"></div>
 <div id="chartContainer"></div>
 <div id="chartContainer1"></div>

@@ -37,8 +37,94 @@ function color2(num, ti, off) {
         document.querySelector('.header .meta').style.color = 'white';
     }
     title.style.color = 'white';
+    title.style.zIndex = '2';
     header.style.backgroundColor = color2(25, pubTime, 8);
     header.style.backgroundImage =
         'linear-gradient(90deg, ' + color2(25, pubTime, 8) +
         ', ' + color2(0, pubTime, 8) + ')';
+})(this, this.document);
+(function(window, document) {
+    var canvas = document.createElement('canvas'),
+        context = canvas.getContext('2d'),
+        header = document.querySelector('.header'),
+        title = header.querySelector('h1'),
+        lt = title.offsetLeft * 2,
+        tt = title.offsetTop * 2,
+        rt = lt + title.clientWidth * 2,
+        bt = tt + title.clientHeight * 2,
+        w = header.clientWidth,
+        h = header.clientHeight,
+        color = header.style.backgroundColor,
+        ix = w * 2,
+        iy = 0,
+        data = [
+            //[21, 21],
+            //[21, (h - (h % 20) + 1)],
+            //[(w - (w % 20) + 1), ((h * 2) - ((h * 2) % 20) + 1)],
+            [(w - (w % 20) + 1), 21]
+        ];
+
+    context.scale(2, 2);
+    document.body.appendChild(canvas);
+    canvas.style.position = 'absolute';
+    canvas.style.top =
+        canvas.style.left = 0;
+    canvas.setAttribute('width', w * 2);
+    canvas.setAttribute('height', h * 2);
+    canvas.style.width = w + 'px';
+    canvas.style.height = h + 'px';
+    context.strokeStyle = context.fillStyle = 'rgba(255,255,255,0.25)';
+    context.lineWidth = 2;
+
+    var xfunc = minus,
+        yfunc = minus,
+        velocity = [],
+        xc = Math.round(Math.random() * 50),
+        yc = Math.round(Math.random() * 50);
+
+    var interval = null; //setInterval(tick, 1000/33);
+    canvas.addEventListener('click', stop);
+ 
+    function tick() {
+        context.beginPath();
+        context.moveTo(ix, iy);
+        if (ix > (w * 2)) {
+            xfunc = minus;
+        }
+        if (ix < 0) {
+            xfunc = plus;
+        }
+        if (iy > (h * 2)) {
+            yfunc = minus;
+        }
+        if (iy < 0) {
+            yfunc = plus;
+        }
+        if ((ix > lt) && (ix < rt)) {
+            if ((iy < bt) && (iy > tt)) {
+            }
+        }
+        velocity = [ix, iy];
+        ix = xfunc(ix, xc);
+        iy = yfunc(iy, yc);
+        velocity[0] -= ix;
+        velocity[1] -= iy;
+        context.lineTo(ix, iy);
+        context.stroke();
+    }
+    function minus(v, n) {
+        return v -= n;
+    }
+    function plus(v, n) {
+        return v += n;
+    }
+    function stop() {
+        if (!interval) {
+            interval = setInterval(tick, 1000/33);
+            return;
+        }
+        clearInterval(interval);
+        interval = null;
+    }
+    window.canvas = canvas;
 })(this, this.document);

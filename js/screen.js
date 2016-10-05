@@ -17,11 +17,9 @@ function expandImg() {
 
 window.addEventListener('load', expandImg, false);
 
-function color2(num, ti, off) {
-    ti = ti ? (new Date(ti)).getTime() : (new Date).getTime();
-    off = off || 4;
-
-    i = parseInt(ti.toString()[ti.toString().length - off], 10);
+function color2(num, ti) {
+    ti = ti ? (new Date(ti)).toJSON() : (new Date).toJSON();
+    i = parseInt(ti.slice(8, 10), 10);
     var r = Math.abs(num - Math.floor( Math.sin(i) * 127 + 28 ));
     var g = Math.abs(num - Math.floor( Math.sin(i + 2) * 127 + 28 ));
     var b = Math.abs(num - Math.floor( Math.sin(i + 3) * 127 + 28 ));
@@ -38,14 +36,14 @@ function color2(num, ti, off) {
     }
     title.style.color = 'white';
     title.style.zIndex = '2';
-    header.style.backgroundColor = color2(25, pubTime, 8);
+    header.style.backgroundColor = color2(25, pubTime);
     header.style.backgroundImage =
-        'linear-gradient(90deg, ' + color2(25, pubTime, 8) +
-        ', ' + color2(0, pubTime, 8) + ')';
-    header.setAttribute('data-one', color2(25, pubTime, 8));
-    header.setAttribute('data-two', color2(0, pubTime, 8));
+        'linear-gradient(90deg, ' + color2(25, pubTime) +
+        ', ' + color2(0, pubTime) + ')';
+    header.setAttribute('data-one', color2(25, pubTime));
+    header.setAttribute('data-two', color2(0, pubTime));
 })(this, this.document);
-function bouncyBall(window, document) {
+function bouncyBall() {
     var canvas = document.createElement('canvas'),
         context = canvas.getContext('2d'),
         header = document.querySelector('.header'),
@@ -130,8 +128,8 @@ function bouncyBall(window, document) {
     }
     window.canvas = canvas;
 }
-//bouncyBall(this, this.document);
-function constellation(window, document) {
+//bouncyBall();
+function constellation() {
     var canvas = document.createElement('canvas'),
         context = canvas.getContext('2d'),
         header = document.querySelector('.header'),
@@ -199,12 +197,6 @@ function constellation(window, document) {
             context.stroke();
         }
     }
-    function minus(v, n) {
-        return v -= n;
-    }
-    function plus(v, n) {
-        return v += n;
-    }
     function stop() {
         clearInterval(interval);
         if (dropped) {
@@ -217,4 +209,5 @@ function constellation(window, document) {
     }
     window.canvas = canvas;
 }
-constellation(this, this.document);
+//constellation();
+console.info('Want to see something fun? Try `constellation()` or `bouncyBall()`');

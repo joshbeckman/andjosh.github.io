@@ -6,12 +6,24 @@ body {
     font-weight: normal;
     line-height: 29px;
     word-wrap: break-word;
-    max-width: 40rem;
-    margin: 0 auto;
-    padding: 1rem;
+    padding: 0;
+    margin: 0;
     color: #333;
     background-color: rgb(251, 251, 251);
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica, helvetica neue, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+.header {
+    
+}
+.header-inner {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.content {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 1rem;
 }
 .highlight {
     background: transparent

@@ -305,8 +305,3 @@ function hypot(a, b) {
   return hi + 3 * lo / 32 + Math.max(0, 2 * lo - hi) / 8 + Math.max(0, 4 * lo - hi) / 16
 }
 })(this, this.document);
-(function(window, document) {
-    document.getElementById('close').addEventListener('click', function(e) {
-        document.body.style.margin = '-200% -200%';
-    });
-})(this, this.document);

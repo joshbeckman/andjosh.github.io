@@ -3,6 +3,8 @@ layout: post
 title: Rate-Limit Your Node.js API in Mongo
 ---
 
+__Update:__ After a request by [Jason Humphrey](https://github.com/GreenPioneer), I've released this implementation as a standalone NPM module: [mongo-throttle](https://github.com/andjosh/mongo-throttle).
+
 I needed to build a rate-limiting middleware for the new [Narro public API][1], and I was [inspired to make the database do my heavy lifting][3]. In Narro's case, that's MongoDB.
 
 ### Expiring Records From MongoDB

@@ -17,7 +17,7 @@ I read [Valve's Handbook for New Employees][3] as the most organic and captivati
 
 I watch and listen to [Sarah Kay captivate][6] with perfect timing, pure enthusiasm, and plenty of emotion. Her first poem is a near-perfect piece of performance, in my opinion. It reminds me that delivery is immensely important to the success of your message.
 
-I listen to [Ira Glass talk about the gap while creating][5] and think about the importance of maintaining that gap. In my experience, a great swatch of developers and tech workers allow that gap to close very quickly; meeting their own expectations and readily defending their work as the best possible. I remind myself that better work should always extend my grasp and I should know where to find it.
+I listen to [Ira Glass talk about the gap while creating][5] and think about the importance of maintaining that gap. In my experience, a great swath of developers and tech workers allow that gap to close very quickly; meeting their own expectations and readily defending their work as the best possible. I remind myself that better work should always extend my grasp and I should know where to find it.
 
 [0]: https://www.principles.com
 [1]: https://vimeo.com/112107650

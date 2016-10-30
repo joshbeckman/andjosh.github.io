@@ -5,6 +5,7 @@ permalink: /lists/reading/
 ---
 
 - Permutation City _Greg Egan_
+- [Culture and Empire](http://cultureandempire.com) _Pieter Hintjens_
 - House of Leaves _Mark Z. Danielewski_
 
 <!--two items:-->

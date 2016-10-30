@@ -10,6 +10,7 @@ permalink: /lists/reading/
 
 <!--two items:-->
 
+- Hard-boiled Wonderland and the End of the World _Haruki Murakami_
 - Understanding Power _Noam Chomsky_
 - Build & Launch _Justin Jackson_
 - Graphic Presentation _Willard Brinton_

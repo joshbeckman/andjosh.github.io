@@ -14,6 +14,7 @@ permalink: /lists/employment/
 - Mozilla
 - Google ATAP
 - GitHub
+- Kickstarter
 
 <!--two items:-->
 

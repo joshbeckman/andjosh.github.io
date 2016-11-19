@@ -264,6 +264,9 @@ body {
     text-decoration: none;
     color: inherit;
 }
+.markdown-body .site-title {
+    margin: 1rem 0;
+}
 .markdown-body h2 .anchor {
     line-height: 1
 }
@@ -342,6 +345,13 @@ body {
 }
 .markdown-body .post-list li {
     margin-bottom: 0.25rem;
+}
+.markdown-body .header-inner .about {
+    margin-top: 1rem;
+}
+.markdown-body .header-inner .about-header a {
+    color: white;
+    opacity: 0.8;
 }
 .markdown-body .about a {
     margin: 0 0.15rem;

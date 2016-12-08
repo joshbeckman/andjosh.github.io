@@ -20,7 +20,7 @@ permalink: /lists/daily/
 - Feed the animals
 - Shave/Teeth
 - Pack clothes
-- Got to gym
+- Exercise
 - __Travel__
 - Drink water
 - Read Slack
@@ -47,7 +47,15 @@ permalink: /lists/daily/
 
 <!--two items:-->
 
-- Give someone positive feedback
+- What did you do well? What should you repeat?
+- What should you not repeat? What did you do poorly?
+- What opportunities do I have to provide recognition?
+- Who can I connect with at a personal level?
+- Take time to provide intentional listening.
+- What change ideas can I discuss and seek input for?
+- What small thing can I do this week to build new relationships?
+- Seek one-on-one time with my direct reports
+- Tell a story this week that connects an employee action or decision to the values of the company.
 
 <!--two items:-->
 

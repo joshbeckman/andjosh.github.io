@@ -47,15 +47,16 @@ permalink: /lists/daily/
 
 <!--two items:-->
 
-- What did you do well? What should you repeat?
-- What should you not repeat? What did you do poorly?
+- What did I do well? What should I repeat?
+- What should I not repeat? What did I do poorly?
 - What opportunities do I have to provide recognition?
 - Who can I connect with at a personal level?
 - Take time to provide intentional listening.
 - What change ideas can I discuss and seek input for?
 - What small thing can I do this week to build new relationships?
-- Seek one-on-one time with my direct reports
+- Seek one-on-one time with my direct reports.
 - Tell a story this week that connects an employee action or decision to the values of the company.
+- Which things have I been ruminating on that are not worth the time? Act swiftly on small things.
 
 <!--two items:-->
 

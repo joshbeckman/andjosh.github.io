@@ -17,21 +17,25 @@ I enjoyed the focus on the filial relationship between the two men. They were ob
 I kept hoping to for a return to ANY of the vignette stories applying their theories. The book leads with a basketball recruit applying heuristics in the absence of the researched theories. Why have the initial hook with the basketball recruits if we never returned to them? I feel that maybe this and others were meant to flesh out actual application of the theory, but the payoff never really materialized for me. 
 
 ## Bookmarked Passages
-
-You can tell the author didn't enjoy research texts completely, but this sounds great to me. 
+ 
 > "On what would become a three-volume, molasses sense, axiom-filled textbook called Foundations of Measurement - more than a thousand pages of arguments and proofs of how to measure stuff."
 
+You can tell the author didn't enjoy research texts completely, but this sounds great to me.
+
+> You could beat the doctor by replacing him with an equation created by people who knew nothing about medicine and had simply asked a few questions of doctors.
+
 This gave me ideas about how humans could be transitioning to a period where our jobs are strictly to recognize patterns in a chaos and translate that into computer models. Then you let the computer work and apply those models since the humans cannot reliably do so. That would be the dichotomy of utility between the humans and the computers. 
-> You could beat the doctor by replacing him with an equation created by people who knew nothing about medicine and had simply asked a few questions of doctors. 
 
 > Some people like to walk while they talk. Amos liked to shoot baskets. 
 
 > "They had a certain style of working", recalls Paul Slovic, "which is they just talked to each other for hour after hour after hour."
-
-This is true of memory techniques that I'm trying to teach myself. Stories cement ideas for people. 
+ 
 > "That was the moment I gave up in decision analysis", Danny said. "No one ever made a decision because of a number. They need a story."
 
-> The understanding of numbers is so weak that they don't communicate anything. Everyone feels that those probabilities are not real - that they are just something on somebody's mind. 
+This is true of memory techniques that I'm trying to teach myself. Stories cement ideas for people.
 
-This is one more reason to wipe envy out of your eyes. It's the basest form of regret. 
+> The understanding of numbers is so weak that they don't communicate anything. Everyone feels that those probabilities are not real - that they are just something on somebody's mind. 
+ 
 > Envy was different [than regret]. Envy did not require a person to exert the slightest effort to imagine a path to the alternative state. [...] Envy, in some strange way, required no imagination. 
+
+This is one more reason to wipe envy out of your eyes. It's the basest form of regret.

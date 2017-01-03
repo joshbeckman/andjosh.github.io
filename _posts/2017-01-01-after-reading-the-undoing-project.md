@@ -3,7 +3,7 @@ layout: post
 title: After Reading The Undoing Project
 ---
 
-My brother's gift to me this Christmas was _The Undoing Project_, a novel by Michael Lewis on the work done by researchers Daniel Kahneman and Amos 
+My brother's gift to me this Christmas was [_The Undoing Project_][0], a novel by Michael Lewis on the work done by researchers Daniel Kahneman and Amos 
 Tversky. I read it from December 27 through January 1. 
 
 I had studied the work by these two authors in my college courses, but had no idea bout their personal history or tangential work. It was a splendid reminder of those ideas, and I was captivated by the description of their relationship. I wanted to write down some initial thoughts afterward. These are not in any particular order, just as they came to mind. 
@@ -39,3 +39,6 @@ This is true of memory techniques that I'm trying to teach myself. Stories cemen
 > Envy was different [than regret]. Envy did not require a person to exert the slightest effort to imagine a path to the alternative state. [...] Envy, in some strange way, required no imagination. 
 
 This is one more reason to wipe envy out of your eyes. It's the basest form of regret.
+
+
+[0]: https://www.goodreads.com/book/show/30334134-the-undoing-project

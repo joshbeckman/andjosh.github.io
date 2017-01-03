@@ -5,7 +5,6 @@ permalink: /lists/reading/
 ---
 
 - Permutation City _Greg Egan_
-- [Culture and Empire](http://cultureandempire.com) _Pieter Hintjens_
 - House of Leaves _Mark Z. Danielewski_
 
 <!--two items:-->
@@ -69,6 +68,8 @@ permalink: /lists/reading/
 
 <!--two items:-->
 
+- __*__ [Culture and Empire](http://cultureandempire.com) _Pieter Hintjens_
+- The Undoing Project _Michael Lewis_
 - __*__ Systemantics _John Gall_
 - __*__ Seveneves _Neal Stephenson_
 - __*__ [The Martian](https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)) _Andy Weir_

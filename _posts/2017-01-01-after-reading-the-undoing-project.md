@@ -12,7 +12,7 @@ I am not a fan of jumping around time scales in a historical account of things. 
 
 It's been a while since I read a dramatization. I wonder if the movies made of his previous books influenced this style. I know this is the author that wrote _Moneyball_ and _The Big Short_, so I wonder if seeing his previous work put to screen caused some of this book to read like a screenplay. Several of the chapter openings read more like scenes from a film. 
 
-I enjoyed the focus on the filial relationship between the two men. They were obviously dependent, emotionally and intellectually, on each other for a long time. And it was especially interesting to learn about their eventual disagreements. 
+I enjoyed the focus on the loving relationship between the two men. They were obviously dependent, emotionally and intellectually, on each other for a long time. And it was especially interesting to learn about their eventual disagreements. 
 
 I kept hoping to for a return to ANY of the vignette stories applying their theories. The book leads with a basketball recruit applying heuristics in the absence of the researched theories. Why have the initial hook with the basketball recruits if we never returned to them? I feel that maybe this and others were meant to flesh out actual application of the theory, but the payoff never really materialized for me. 
 

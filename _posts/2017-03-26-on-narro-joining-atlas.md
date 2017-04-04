@@ -3,7 +3,7 @@ layout: post
 title: On Narro Joining Stripe Atlas Beta
 ---
 
-In June, I applied for Narro's entry into the [Stripe Atlas][0] beta program. Since building [Narro][1] incrementally, the worry of financial separation crept up on me a bit. Between the end of one job and the start of another, I had a perfect time to formalize the structure of Narro into a real entity. I thought I could provide a reivew of Stripe Atlas for anyone considering the program.
+In June, I applied for Narro's entry into the [Stripe Atlas][0] beta program. Since building [Narro][1] incrementally, the worry of financial separation crept up on me a bit. Between the end of one job and the start of another, I had a perfect time to formalize the structure of Narro into a real entity. I thought I could provide a review of Stripe Atlas for anyone considering the program.
 
 Luckily, the "kit" you are provided once in Atlas is like a self-inflating mattress. The team sends along prescribed documents (bylaws, company structure, tax registration, etc.) that you can simply ratify (or edit to suit your needs). A bank account is created and connected for you (at [Silicon Valley Bank][2]) and hooked up to a new Stripe account. As I was previously running Narro on an existing Stripe account, I just transferred the credentials to my extant account - no interruption for Narro's customers/subscriptions. The whole process took maybe two weeks from the first document to the last signature.
 

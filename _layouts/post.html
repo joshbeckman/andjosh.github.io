@@ -18,7 +18,9 @@ layout: default
     <div class="header">
         <div class="header-inner">
             <meta itemprop="author" content="Josh Beckman" />
-            <h1 class=""><a itemprop="url" href="{{ page.url }}">{{ page.title }}</a></h1>
+            <h1 class="site-title">
+                <a itemprop="url" href="{{ page.url }}">{{ page.title }}</a>
+            </h1>
             <p class="meta">
                 <small itemprop="datePublished">{{ page.date | date_to_string }}</small>
             </p>
@@ -26,9 +28,11 @@ layout: default
     </div>
     <div class="content" itemprop="articleBody">
         {{ content }}
-        <small class="meta">
+        <p class="meta">
+            <small>
             <a href="mailto:email@andjosh.com?subject=RE:{{ page.title }}" title="Comment/Reply">Comment/Reply</a>
-        </small>
+            </small>
+        </p>
         {% if page.sub && page.sub_url %}
             <h6>
                 <a href="{{ page.sub_url }}">Back to {{ page.sub }}</a>

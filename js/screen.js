@@ -25,7 +25,7 @@ function color2(num, ti) {
     var b = Math.abs(num - Math.floor( Math.sin(i + 3) * 127 + 28 ));
     return 'rgb(' + r + ',' + g + ',' + b + ')';
 }
-(function(window, document) {
+0 && (function(window, document) {
     var pubTime = document.querySelector('.header .meta'),
         title = document.querySelector('.header h1'),
         header = document.querySelector('.header');

@@ -4,7 +4,7 @@ title: Workout
 permalink: /workout/
 ---
 
-This workout schedule is wrung out of a dozen others, and was geared toward my goal of strength gains. It will, however be suitable for most young adults.
+This workout schedule is wrung out of a dozen others, and was geared toward my goal of strength gains. It will, however be suitable for most young adults, [wolverines][0], and [rocks][1].
 
 Before beginning, go through the "lead" exercises from each day. For each, using the heaviest weight you can manage, perform 5-9 reps. Use this result in the "weight" and "reps" fields. These values will be used to calculate your maximum capacity (one rep max) and the weekly weight plans.
 
@@ -52,8 +52,11 @@ One Rep Max: <span name="orm"></span><br/>
     </tr>
 </table>
 
-## Exercises
+## Exercises (First Variation)
 [Day 1](#day-1) | [Day 2](#day-2) | [Day 3](#day-3) | [Day 4](#day-4) | [Day 5](#day-5)
+
+## Exercises (Second Variation)
+[Day 1](#day-1-ii) | [Day 2](#day-2-ii) | [Day 3](#day-3-ii) | [Day 4](#day-4-ii) | [Day 5](#day-5-ii)
 
 ### Day 1
 
@@ -266,6 +269,178 @@ face pulls.
 
 > Wedge one end of a barbell into the corner of a room and load the other end. Grasp it with both hands and twist to one side explosively. Then twist to the other.
 
+## Second Variation
+
+### Day 1 (II)
+
+##### Dumbbell Bench Press
+- Sets: 4
+- Reps: See table
+- Rest 60 sec.
+
+##### Flat Bench Cable Flyes
+- Sets: 3
+- Reps: to failure
+- Rest 60 sec.
+
+##### Medium Grip bench press
+- Sets: 4
+- Reps: 10
+- Rest 60 sec.
+
+##### Incline dumbbell bench press
+- Sets: 5
+- Reps: 10
+- Rest 60 sec.
+
+##### Standing Cable crossover (Flyes)
+- Sets: 4
+- Reps: 10
+- Rest 60 sec.
+
+##### Incline barbell bench press
+- Sets: 3
+- Reps: 10
+- Rest 60 sec.
+
+### Day 2 (II)
+
+##### Leg press
+- Sets: 4
+- Reps: 25
+- Rest: 60 sec.
+
+##### Standing calf raise
+- Sets: 3
+- Reps: to failure
+- Rest: 60 sec.
+
+##### Barbell Walking lunge
+- Sets: 4
+- Reps: 20
+- Rest: 60 sec.
+
+##### Seated leg extensions
+- Sets: 3
+- Reps: 20
+- Rest: 60 sec.
+
+##### Seated leg curl
+- Sets: 3
+- Reps: 20
+- Rest: 60 sec.
+
+##### Thigh abductor
+- Sets: 3
+- Reps: 15
+- Rest: 60 sec.
+
+### Day 3 (II)
+
+##### Barbell curls
+- Sets: 3
+- Reps: 10
+- Rest: 60 sec.
+
+##### Hammer curls
+- Sets: 4
+- Reps: 10
+- Rest: 60 sec.
+
+##### Spider/Preacher curls
+- Sets: 4
+- Reps: to failure
+- Rest: 60 sec.
+
+##### Triceps pushdown/extensions
+- Sets: 3
+- Reps: 10
+- Rest: 60 sec.
+
+##### Triceps Dips
+- Sets: 3
+- Reps: to failure
+- Rest: 60 sec.
+
+##### Hanging leg raises
+- Sets: 4
+- Reps: 20
+- Rest: 60 sec.
+
+##### Rope crunches
+- Sets: 4
+- Reps: 20
+- Rest: 60 sec.
+
+##### Russian twists
+- Sets: 4
+- Reps: 20
+- Rest: 60 sec.
+
+### Day 4 (II)
+
+##### Wide-grip lat pulldowns
+- Sets: 4
+- Reps: 10
+- Rest: 60 sec.
+
+##### Deadlift
+- Sets: 4
+- Reps: 10
+- Rest: 60 sec.
+
+##### Barbell Shrug
+- Sets: 4
+- Reps: 15
+- Rest: 60 sec.
+
+##### Pullups
+- Sets: 4
+- Reps: 15
+- Rest: 60 sec.
+
+##### Back extensions
+- Sets: 4
+- Reps: 15
+- Rest: 60 sec.
+
+##### One-armed dumbbell row
+- Sets: 4
+- Reps: 15
+- Rest: 60 sec.
+
+##### Inverted row
+- Sets: 3
+- Reps: to failure
+- Rest: 60 sec.
+
+### Day 5 (II)
+
+##### Dumbbell shoulder press
+- Sets: 4
+- Reps: 12
+- Rest: 60 sec.
+
+##### Front dumbbell raises
+- Sets: 4
+- Reps: 12
+- Rest: 60 sec.
+
+##### Side dumbbell raises
+- Sets: 4
+- Reps: 12
+- Rest: 60 sec.
+
+##### Standing military press
+- Sets: 4
+- Reps: 12
+- Rest: 60 sec.
+
+##### Reverse Flyes
+- Sets: 3
+- Reps: 10
+- Rest: 60 sec.
+
 ## Meals
 - One:
     - Eggs, Oatmeal
@@ -277,3 +452,6 @@ face pulls.
     - Fish, avocado, broccoli
 
 <script src="/js/workout.js"></script>
+
+[0]: https://www.bodybuilding.com/fun/mutant-strength-hugh-jackmans-wolverine-workout-plan.html
+[1]: https://www.bodybuilding.com/content/dwayne-johnson-rock-hard-hercules-workout-and-diet-plan.html

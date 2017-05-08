@@ -13,7 +13,7 @@ permalink: /workout-bodyweight/
 - Feet elevated
     - _Focus shoulders_
 - Full body elevated
-- Dive Bomber || Hindu
+- Dive Bomber (Hindu)
     - _Focus shoulders_
 - Walled Hindu
     - feet on the wall, 90deg
@@ -27,7 +27,7 @@ permalink: /workout-bodyweight/
 - Superman
     - _Focus abdomen_
 - One leg elevated
-- Plyometric || Clappers
+- Plyometric (Clappers)
 - Tornado
 
 ## Pull Ups

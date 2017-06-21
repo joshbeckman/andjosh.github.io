@@ -120,6 +120,7 @@ pre {
     overflow: auto;
 }
 pre code {
+    padding: 0;
     background: none;
 }
 

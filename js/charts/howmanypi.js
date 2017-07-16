@@ -14,6 +14,7 @@ var width      = document.body.clientWidth - 60,
 (function fetchData() {
     var url = 'https://howmanypi.herokuapp.com';
 
+    loading.innerHTML = 'Fetching data...';
     request(url, function(err, body) {
         body = JSON.parse(body);
         draw(transformData(body));
@@ -21,6 +22,7 @@ var width      = document.body.clientWidth - 60,
 })();
 
 function transformData(data) {
+    loading.innerHTML = 'Crunching numbers...';
     return [
         data.map(function(d, i, arr) {
             if (!i) return null;        // exempt first data point

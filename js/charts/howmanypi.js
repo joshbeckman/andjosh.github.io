@@ -30,7 +30,7 @@ function transformData(data) {
             return {
                 category: 'Dwelling Within 50 RSSI',
                 quantity: d.devices.filter(function(dd) {
-                    if (!arr[1 - 1].devices[0]) return false;
+                    if (!arr[i - 1].devices[0]) return false;
                     return dd.rssi > -50
                         && arr[i - 1].devices.filter(function(ddd) {
                             return ddd.rssi > -50 && ddd.mac === dd.mac;

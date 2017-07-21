@@ -87,7 +87,7 @@ x = myChart.addTimeAxis('x', 'date', null, '%H:%M %m/%d');
     y = myChart.addMeasureAxis('y', 'quantity');
     s = myChart.addSeries('category', dimple.plot.line);
     //s.interpolation = 'cardinal';
-    s.lineMarkers = true;
+    //s.lineMarkers = true;
     myLegend = myChart.addLegend(60, 10, width - 100, 20, 'right');
     myChart.draw();
     myChart.legends = [];

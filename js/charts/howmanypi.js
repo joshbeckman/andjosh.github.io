@@ -86,6 +86,12 @@ x = myChart.addTimeAxis('x', 'date', null, '%H:%M %m/%d');
     x.ticks = 10;
     y = myChart.addMeasureAxis('y', 'quantity');
     s = myChart.addSeries('category', dimple.plot.line);
+    myChart.defaultColors = [
+        new dimple.color('#F18770'),
+        new dimple.color('#A45FAA'),
+        new dimple.color('#4CB0B9'),
+        new dimple.color('#00a98c')
+    ];
     //s.interpolation = 'cardinal';
     //s.lineMarkers = true;
     myLegend = myChart.addLegend(60, 10, width - 100, 20, 'right');

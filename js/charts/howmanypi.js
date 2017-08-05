@@ -27,9 +27,11 @@ function transformData(data) {
     return [
         data.map(function(d, i, arr) {
             if (!i) return null;        // exempt first data point
+            if (!d.devices[0]) return { category: 'Dwelling Within 50 RSSI', quantity: 0, date: d.created_at };
             return {
                 category: 'Dwelling Within 50 RSSI',
                 quantity: d.devices.filter(function(dd) {
+                    if (!arr[i - 1].devices[0]) return false;
                     return dd.rssi > -50
                         && arr[i - 1].devices.filter(function(ddd) {
                             return ddd.rssi > -50 && ddd.mac === dd.mac;
@@ -39,6 +41,7 @@ function transformData(data) {
             };
         }, []).slice(1),
         data.map(function(d) {
+            if (!d.devices[0]) return { category: 'Within 75 RSSI', quantity: 0, date: d.created_at };
             return {
                 category: 'Within 75 RSSI',
                 quantity: d.devices.filter(function(dd) {
@@ -48,6 +51,7 @@ function transformData(data) {
             };
         }),
         data.map(function(d) {
+            if (!d.devices[0]) return { category: 'Within 50 RSSI', quantity: 0, date: d.created_at };
             return {
                 category: 'Within 50 RSSI',
                 quantity: d.devices.filter(function(dd) {
@@ -57,6 +61,7 @@ function transformData(data) {
             };
         }),
         data.map(function(d) {
+            if (!d.devices[0]) return { category: 'Total', quantity: 0, date: d.created_at };
             return {
                 category: 'Total',
                 quantity: d.devices.length,
@@ -82,8 +87,14 @@ x = myChart.addTimeAxis('x', 'date', null, '%H:%M %m/%d');
     x.ticks = 10;
     y = myChart.addMeasureAxis('y', 'quantity');
     s = myChart.addSeries('category', dimple.plot.line);
+    myChart.defaultColors = [
+        new dimple.color('#F18770'),
+        new dimple.color('#A45FAA'),
+        new dimple.color('#4CB0B9'),
+        new dimple.color('#00a98c')
+    ];
     //s.interpolation = 'cardinal';
-    s.lineMarkers = true;
+    //s.lineMarkers = true;
     myLegend = myChart.addLegend(60, 10, width - 100, 20, 'right');
     myChart.draw();
     myChart.legends = [];

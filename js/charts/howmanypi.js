@@ -11,15 +11,16 @@ var width      = document.body.clientWidth - 60,
     past       = new Date(today.getTime() - (DAYLENGTH * 30)),
     future     = new Date(today.getTime() + (DAYLENGTH * 30));
 
-(function fetchData() {
-    var url = 'https://howmanypi.herokuapp.com';
-
+(function fetchData(url, data) {
     loading.innerHTML = 'Fetching data...';
     request(url, function(err, body) {
         body = JSON.parse(body);
-        draw(transformData(body));
+        data = data.concat(body.data);
+        if (body.meta.next)
+            return fetchData(body.meta.next, data);
+        draw(transformData(data));
     });
-})();
+})('https://howmanypi.herokuapp.com', []);
 
 function transformData(data) {
     loading.innerHTML = 'Crunching numbers...';

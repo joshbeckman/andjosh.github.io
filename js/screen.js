@@ -25,21 +25,21 @@ function color2(num, ti) {
     var b = Math.abs(num - Math.floor( Math.sin(i + 3) * 127 + 28 ));
     return 'rgb(' + r + ',' + g + ',' + b + ')';
 }
-0 && (function(window, document) {
+(function(window, document) {
     var pubTime = document.querySelector('.header .meta'),
         title = document.querySelector('.header h1'),
         header = document.querySelector('.header');
 
     if (pubTime) {
         pubTime = pubTime.textContent;
-        document.querySelector('.header .meta').style.color = 'white';
+        //document.querySelector('.header .meta').style.color = 'white';
     }
-    title.style.color = 'white';
-    title.style.zIndex = '2';
-    header.style.backgroundColor = color2(25, pubTime);
-    header.style.backgroundImage =
-        'linear-gradient(90deg, ' + color2(25, pubTime) +
-        ', ' + color2(0, pubTime) + ')';
+    //title.style.color = 'white';
+    //title.style.zIndex = '2';
+    //header.style.backgroundColor = color2(25, pubTime);
+    //header.style.backgroundImage =
+    //'linear-gradient(90deg, ' + color2(25, pubTime) +
+    //', ' + color2(0, pubTime) + ')';
     header.setAttribute('data-one', color2(25, pubTime));
     header.setAttribute('data-two', color2(0, pubTime));
 })(this, this.document);
@@ -73,7 +73,7 @@ function bouncyBall() {
     canvas.setAttribute('height', h * 2);
     canvas.style.width = w + 'px';
     canvas.style.height = h + 'px';
-    context.strokeStyle = context.fillStyle = 'rgba(255,255,255,0.25)';
+    context.strokeStyle = context.fillStyle = 'rgba(0,0,0,0.25)';
     context.lineWidth = 2;
 
     var xfunc = minus,
@@ -155,7 +155,7 @@ function constellation() {
     canvas.setAttribute('height', h * 2);
     canvas.style.width = w + 'px';
     canvas.style.height = h + 'px';
-    context.strokeStyle = context.fillStyle = 'rgba(255,255,255,0.25)';
+    context.strokeStyle = context.fillStyle = 'rgba(0,0,0,0.25)';
     var lg = context.createLinearGradient(0, 0, w * 2, 0);
     lg.addColorStop(0, header.dataset.one);
     lg.addColorStop(1, header.dataset.two);
@@ -210,4 +210,4 @@ function constellation() {
     window.canvas = canvas;
 }
 //constellation();
-console.info('Want to see something fun? Try `constellation()` or `bouncyBall()`');
+//console.info('Want to see something fun? Try `constellation()` or `bouncyBall()`');

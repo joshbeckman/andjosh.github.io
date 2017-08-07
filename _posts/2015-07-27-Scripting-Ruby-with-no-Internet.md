@@ -6,7 +6,7 @@ As I sit, I'm riding on the commuter rail as it creaks and staggers its way Nort
 
 So, I wrote [a little Ruby script](https://github.com/andjosh/dotfiles/blob/master/bin/jpost) - aptly - for creating a new Jekyll draft or post from the command line.
 
-```ruby
+~~~ruby
 #!/usr/bin/env ruby
 
 # jpost
@@ -35,7 +35,7 @@ name += '.md'
 front_matter = '---\nlayout: post\ntitle: ' + ARGV.join(' ') + '\n---\n'
 
 exec('echo "' + front_matter + '" > ' + name + ' && $EDITOR ' + name)
-```
+~~~
 
 When I worked as a photojournalist, there was a concept of _chimping_: glancing at the camera LCD immediately after each photograph taken. Most photographers viewed it as a cheapening of the craft - many extolled the benefits of photographing with old film Nikons simply because you were not tempted to check the camera incessantly.
 

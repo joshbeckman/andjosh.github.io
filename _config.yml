@@ -1,4 +1,4 @@
-url: http://andjosh.com
+url: https://www.andjosh.com
 author: Josh Beckman
 email: email@andjosh.com
 title: Josh
@@ -11,6 +11,8 @@ collections:
   lists:
     output: true
   charts:
+    output: true
+  decks:
     output: true
 
 permalink: pretty

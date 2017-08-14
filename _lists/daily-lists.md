@@ -27,27 +27,26 @@ permalink: /lists/daily/
 - Read and respond to Slack
 - Read and respond to email
 - Read and respond to texts
-- Check Twitter support requests
-- Check general server statuses (_should be removed_)
+- Read and respond to Twitter
 - Glance through yesterday's code changes
-- Check iOS/Android crash reports
 - _General work_
-- __Lunch__
+- __Eat__
 - Read Hacker News
 - Read an article or watch a lecture
 - Read and respond to email
 - Read and respond to Slack
 - _General work_
+- 1-on-1 sessions
 - Group Code Review
 - _General work_
 - Read and respond to email
 - __Travel__
-- Listen to podcasts
-- __Dinner__
+- Listen to podcasts/readings
+- __Eat__
 - Catch up with Marybeth
-- Practice Spanish/French
-- Practice piano
 - _Work on personal projects_
+- Practice piano
+- Practice Spanish/French
 - Write something
 - Read something
 
@@ -68,7 +67,6 @@ permalink: /lists/daily/
 - Exercise
 - Practice piano
 - Practice guitar
-- [Middle C][2]
 - Practice trumpet
 - Write up a talk proposal
 

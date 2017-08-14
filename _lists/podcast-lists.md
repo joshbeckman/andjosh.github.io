@@ -5,17 +5,18 @@ permalink: /lists/podcast/
 ---
 <!-- list one -->
 - a16z
-- The Bike Shed
+- __*__ The Art of Product
+- __*__ The Bike Shed
 - Longform
 - __*__ Benjamin Walker's Theory of Everything
+- Love + Radio
+- The Nod
 - The Bugle
 - Debug
 - The Heart
 - Fresh Air
-- Pilot
 - Between Worlds
-- __*__ Limetown
-- Giant Robots Smashing into other Giant Robots Podcast
+- __*__ Giant Robots Smashing into other Giant Robots Podcast
 - __*__ [Josh Beckman on Narro](http://narro.co)
 - NPR: Bullseye with Jesse Thorn
 - Product Hunt Radio
@@ -37,32 +38,44 @@ permalink: /lists/podcast/
 - __*__ Accidental Tech Podcast
 - Analog(ue)
 - A Prairie Home Companion's News From Lake Wobegon
-- The Arcade by Hazlitt
-- Context Matters
+- Beautiful Stories from Anonymous People
 - Death, Sex & Money
 - Exponent
 - In Our Time
 - The Incomparable
 - Radiolab from WNYC
-- Reconcilable Differences
+- __*__ Reconcilable Differences
 - __*__ Reply All
 - Rocket
 - __*__ Serendipity
 - Waking Up _with Sam Harris_
 - Startup Podcast
-- [Zephyr](https://soundcloud.com/zephyrpodcast) _Krishna and Me_
 - The Web Ahead
 - __*__ The Memory Palace
-- You Made it Weird
-- Serial
 - Hanselminutes
 - Clockwise
-- DN FM
 - Planet Money
 - Release Notes
 - Under the Radar
+- Do By Friday
+- Download
+- Fragmented - Android Developer Podcast
+- __*__ Heavyweight
+- Homecoming
+- The Liminal
+- O'Reilly Programming Podcast
+- Request For Commits
+- Roderick on the Line
+- The Truth
+- Tweet of The Day
+- The Way I Heard It with Mike Rowe
+- What Trump Can Teach Us About Con Law
+- Working File
+- You Are Not So Smart
+- You Look Nice Today
 
 <!-- list two -->
+- [Zephyr](https://soundcloud.com/zephyrpodcast) _Krishna and Me_
 - [Back to Work](http://5by5.tv/b2w)
 - [Track Changes](https://trackchanges.postlight.com)
 - [On Being](http://www.onbeing.org)
@@ -70,23 +83,35 @@ permalink: /lists/podcast/
 - [The Morning Short](https://itunes.apple.com/us/podcast/morning-short-your-daily-dose/id1082252606)
 
 <!-- list three -->
+- The Arcade by Hazlitt
+- __*__ Limetown
+- Build Phase
+- Canvas
+- Runtime
+- DN FM
+- Serial
+- Pilot
+- You Made it Weird
+- Context Matters
 - __*__ This Developer's Life
 - __*__ Wiretap from CBC Radio
 - Spoken Wikipedia
 - Shoptalk
-- Roderick on the Line
 - VIVA RIOT
 - Radio Drama Revival
 - Hot Pod
+- Hypercritical
 - On The Tropes
 - Isometric
+- The Laila and Brenda Show
 - Happy Monday
 - __*__ On The Grid
 - The Brooks Review - Podcast
 - Bitsplitting
 - Viva Riot
 - __*__ A Life Well Wasted
-- __*__ Pragmatic
+- Pragmatic
+- More Perfect
 - NSBrief
 - This Week in Startups
 - Drama of the Week

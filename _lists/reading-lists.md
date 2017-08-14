@@ -6,6 +6,7 @@ permalink: /lists/reading/
 
 - Permutation City _Greg Egan_
 - House of Leaves _Mark Z. Danielewski_
+- Harry Potter and the Methods of Rationality _Eliezer Yudkowsky_
 
 <!--two items:-->
 
@@ -18,6 +19,7 @@ permalink: /lists/reading/
 - Foundation _Isaac Asimov_
 - The God of Small Things _Arundhati Roy_
 - Night Film _Marisha Pessl_
+- Geek Love
 - The Sea Came in at Midnight _Steve Erickson_
 - __#__ The Death and Life of Great American Cities _Jane Jacobs_
 - __#__ vocabularytest _Ryan McGinness_
@@ -27,7 +29,6 @@ permalink: /lists/reading/
 - __#__ I Seem to be a Verb _Buckminster Fuller with Quentin Fiore and Jerome Agel_
 - __#__ Hold Everything Dear _John Berger_
 - U.S. Special Forces Medical Handbook _United States Special Forces_
-- The Pleasure of Finding Things Out _Richard Feynman_
 - __#__ The Sheep Look Up _John Brunner_
 - Onlisp _Paul Graham_
 - Eloquent JavaScript _Marijn Haverbeke_
@@ -42,11 +43,8 @@ permalink: /lists/reading/
 - The Universe in a Nutshell _Stephen Hawking_
 - The Shape of Design _Frank Chimero_
 - Accelerando _Charles Stross_
-- Harry Potter and the Methods of Rationality _Eliezer Yudkowsky_
 - Mysticism and Logic _Bertrand Russell_
 - __#__ Beacon 23 _Hugh Howey_
-- Some Thank You Notes _Justin Wolfe_
-- Naming & Necessity _Kripke_
 - Annabel Scheme _Robin Sloane_
 - The First Forty-nine Stories _Ernest Hemmingway_
 - Ulysses _James Joyce_
@@ -65,9 +63,19 @@ permalink: /lists/reading/
 - [Speak](http://www.harpercollins.com/9780062391193/speak) _Louisa Hall_
 - The Lives of Christopher Chant _Diana Wynne Jones_
 - No Silver Bullet _Frederick P. Brooks, Jr._
+- Breaking the Mishap Chain
+- The Tree of Knowledge _Maturana, Varela_
 
 <!--two items:-->
 
+- Letters from a Self-Made Merchant to His Son
+- __*__ A People's History of the United States _Howard Zinn_
+- Some Thank You Notes _Justin Wolfe_
+- Naming & Necessity _Kripke_
+- __*__ 300 Arguments _Sarah Manguso_
+- The Philosophy of Physics
+- The Pleasure of Finding Things Out _Richard Feynman_
+- __*__ [17776: What football will look like in the future](https://www.sbnation.com/a/17776-football)
 - __*__ [Culture and Empire](http://cultureandempire.com) _Pieter Hintjens_
 - The Undoing Project _Michael Lewis_
 - __*__ Systemantics _John Gall_

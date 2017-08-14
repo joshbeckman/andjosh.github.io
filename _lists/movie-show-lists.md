@@ -8,8 +8,6 @@ permalink: /lists/movie-show/
 <!--two items:-->
 
 - Mr. Show
-- Blade Runner _again_
-- Banksy Does New York _from Maddie_
 
 <!--two items:-->
 

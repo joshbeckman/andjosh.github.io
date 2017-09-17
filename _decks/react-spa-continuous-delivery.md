@@ -22,11 +22,13 @@ date: 2017-09-27
 
 ## What is a CI/CD Setup in GitLab?
 
+![Gitlab](https://media.giphy.com/media/xsE65jaPsUKUo/giphy-downsized.gif)
+
 ---
 
 - [GitLab CI](https://about.gitlab.com/features/gitlab-ci-cd/)
 - Based on Docker
-- Shared or hosted
+- Shared or hosted/BYOM
 - Triggered by & linked to code
 - Artifacts, etc.
 
@@ -66,7 +68,15 @@ production:
 
 ---
 
+## Example CI/CD Flow
+
+![](https://www.dropbox.com/s/c6hzylx1mfoul5d/ci_cd.svg?raw=1)
+
+---
+
 ## Pros and Cons of a Static SPA
+
+![Static SPA](https://media.giphy.com/media/Vfie0DJryAde8/giphy-downsized.gif)
 
 ---
 
@@ -80,6 +90,8 @@ production:
 ---
 
 ## CI/CD with a Static SPA
+
+![Buckets](https://media.giphy.com/media/NupBpyol6gaiY/giphy-tumblr.gif)
 
 ---
 
@@ -108,6 +120,8 @@ staging:
 
 ## Dynamically Upgrading Continuous Sessions
 
+![Deliver new code](https://media.giphy.com/media/r2MkQEOe7niGk/giphy-downsized.gif)
+
 ---
 
 - On the page for months!
@@ -130,6 +144,8 @@ staging:
 ---
 
 ## Dealing with Data Upgrades on-Client
+
+![Upgrade](https://media.giphy.com/media/uBQNLeszLtiNO/giphy-downsized.gif)
 
 ---
 

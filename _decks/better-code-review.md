@@ -6,9 +6,11 @@ presented_at: Chicago JavaScript Meetup, Chicago Tech Leads
 date: 2016-11-15
 ---
 
+## Why do it?
+
 ![](http://i.giphy.com/hvM1tC6CPba5a.gif)
 
-## Why do it?
+---
 
 - Articulate your thoughts
 - Critique others
@@ -25,9 +27,11 @@ Your team will get better. Your product will get better. The community will get 
 ---
 
 
+## On a team
+
 ![](http://i.giphy.com/1264KaMcpCzySY.gif)
 
-## On a team
+---
 
 Have a secondary or rotation location.
 
@@ -50,9 +54,11 @@ Present even if you are the only one working on the app or in the language or ev
 ---
 
 
+## On a distributed team
+
 ![](http://i.giphy.com/3o7TKHr47g10ixHpvy.gif)
 
-## On a distributed team
+---
 
 Share a call; share the screen.
 
@@ -64,9 +70,11 @@ We all know Skype sucks, but there are others. [Meetspace][0]?
 ---
 
 
+## On an individual team, side projects, etc.
+
 ![](http://i.giphy.com/VfyC5j7sR4cso.gif)
 
-## On an individual team, side projects, etc.
+---
 
 Have others review your code!
 
@@ -81,6 +89,8 @@ Make pull requests to single-person code bases.
 
 ## Current Code Review Practices
 
+---
+
 __Team__: Meeting daily at 1:30pm at a rotating desk, limit to 30 min
 
 __Individual Projects__: Asking friends to review remotely
@@ -89,9 +99,11 @@ __Individual Projects__: Asking friends to review remotely
 ---
 
 
+## Tools to use
+
 ![](http://i.giphy.com/3hQ0hZDo4QhR6.gif)
 
-## Tools to use
+---
 
 Use [ghi][1] for GitHub
 
@@ -111,9 +123,11 @@ If the team is large enough, have a [Code of Construction][2].
 ---
 
 
+## How to transform an existing code review system
+
 ![](http://i.giphy.com/hwDQrYvbyqgBq.gif)
 
-## How to transform an existing code review system
+ ---
 
 Start by meeting as a group. One person will probably have to own it. 
 
@@ -123,9 +137,11 @@ Stop wasting code review just on senior engineers.
 ---
 
 
+## How to write comments
+
 ![](http://i.giphy.com/xHAc8lG6pPH8I.gif)
 
-## How to write comments
+---
 
 Do it even when in person.
 
@@ -137,9 +153,11 @@ Whenever possible, put example code in the comment.
 ---
 
 
+## Gotchas
+
 ![](http://i.giphy.com/EyNdkaG6plg4w.gif)
 
-## Gotchas
+---
 
 What to do if your distributed team is across incomparable timezones.
 
@@ -156,6 +174,7 @@ Make more pull requests and smaller ones.
 
 
 ## Things to not talk about immediately 
+
 - Structure of branches
 - Structure of pull request description
 - Connection between pull requests and issue tracker

@@ -1,6 +1,6 @@
 ---
 layout: deck
-title: React SPA Continuous Delivery
+title: React SPA Continuous Delivery with GitLab
 permalink: /presents/react-spa-continuous-delivery/
 presented_at: React Chicago Meetup
 date: 2017-09-27

@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }}</title>
+    <meta name="author" content="{{ site.author }}" />
+    <link href="{{ "/rss.xml" | prepend: site.baseurl | prepend: site.url }}" rel="alternate" title="{{ site.title }}" type="application/xml" />
+    <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+    <link rel="me" href="https://github.com/andjosh" />
+    <link rel="me" href="https://twitter.com/twandjosh" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/favicon.png" />
+    <meta content="/favicon.png" name="twitter:image" property="og:image" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <link rel="stylesheet" href="/css/reveal.css">
+    <link rel="stylesheet" href="/css/reveal-black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="/css/reveal-zenburn.css">
+<style>
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal p,
+body
+{
+    font-family: serif;
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+    {{ content }}
+</div>
+</div>
+<script src="/js/reveal-head.min.js"></script>
+<script src="/js/reveal.js"></script>
+<script>
+// More info about config & dependencies:
+// - https://github.com/hakimel/reveal.js#configuration
+// - https://github.com/hakimel/reveal.js#dependencies
+Reveal.initialize({
+        dependencies: [
+                { src: '/js/reveal-marked.js' },
+                { src: '/js/reveal-markdown.js' },
+                { src: '/js/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+});
+</script>
+</body>

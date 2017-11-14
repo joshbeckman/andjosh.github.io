@@ -495,3 +495,67 @@ class RNEmbeddedViews: NSObject {
 
 </section>
 </section>
+<section data-markdown>
+
+## Finding Platform Differences
+
+- Custom navigation control
+- Text inputs
+- Tactile inputs
+- Accessibility features
+- Some flexbox layouts
+    - Conflixts with Flat UI
+
+</section>
+<section data-markdown>
+
+## Juggling Platform Differences
+
+- Platform wrappers with shared.js within
+
+~~~
+     ____________   ___________
+    | android.js | |  ios.js   |
+    |            | |           |
+    | loads  ____|_|____ loads |
+    |_______| shared.js |______|
+            |           |
+            |  Main UI  |
+            |___________|
+
+
+~~~
+
+</section>
+<section data-markdown>
+
+## Debugging Crash Reports
+
+- iOS has been easy
+- Pain & confusion
+    - `Caused by: java.lang.IllegalArgumentException:`
+    - Serialization too large?
+    - Bad memory cleanup?
+
+</section>
+<section data-markdown>
+
+## Future Requests
+
+- Break down the debug wall
+- Better docs on embedded usage
+- Reproducible installations
+- Upgrade paths
+
+</section>
+<section data-markdown>
+
+## Future Prospects
+
+- All apps in React Native?
+- Is native development still relevant?
+- What will our next app contain?
+
+_We are not enemies, but friends. We must not be enemies._
+
+</section>

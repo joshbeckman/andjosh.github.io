@@ -363,3 +363,135 @@ public class CurrentCleaningBridge extends ReactContextBaseJavaModule {
 
 </section>
 </section>
+<section data-markdown>
+
+## Communicating to Parent View
+- Special brdige case
+- Bridges are ad-hoc instances
+- How to tell a parent of variable resize?
+
+</section>
+<section>
+<section data-markdown>
+
+## Example Java Embedded View Singleton
+~~~java
+public interface RNEmbeddedViewInterface {
+    void onRootLayout(String rootView, float x, float y, float width, float height);
+}
+public class RNEmbeddedViewSingleton {
+
+    private static final RNEmbeddedViewSingleton ourInstance
+        = new RNEmbeddedViewSingleton();
+
+    public static RNEmbeddedViewSingleton getInstance() {
+        return ourInstance;
+    }
+
+    private RNEmbeddedViewSingleton() {
+    }
+    // ...
+}
+~~~
+
+</section>
+<section data-markdown>
+
+## Example Java Embedded View Singleton
+~~~java
+// ...
+public class RNEmbeddedViewSingleton {
+    // ...
+    private RNEmbeddedViewInterface mListener;
+
+    public void registerListener(RNEmbeddedViewInterface listener) {
+        this.mListener = listener;
+    }
+
+    public void removeListener(RNEmbeddedViewInterface listener) {
+        if (mListener == listener) {
+            this.mListener = null;
+        }
+    }
+    // ...
+}
+~~~
+
+</section>
+<section data-markdown>
+
+## Example Java Embedded View Singleton, Continued
+~~~java
+// RNEmbeddedViewSingleton.getInstance().registerListener(this);
+
+public class RNEmbeddedViewSingleton {
+    //...
+    public void onRootLayout(String rootView, float x, float y, float width, float height) {
+        if (mListener == null) {
+            return;
+        }
+        mListener.onRootLayout(rootView, x, y, width, height);
+    }
+}
+~~~
+
+</section>
+</section>
+<section>
+<section data-markdown>
+
+## Example Swift Embedded View Singleton
+~~~swift
+struct RNViewLayout {
+    let x: NSNumber
+    let y: NSNumber
+    let width: NSNumber
+    let height: NSNumber
+}
+
+protocol RNEmbeddedViewsDelegate {
+    func onLayout(RootView: NSString, dimensions: RNViewLayout)
+}
+
+class RNEmbeddedViews: NSObject {
+    // ...
+}
+~~~
+
+</section>
+<section data-markdown>
+
+## Example Swift Embedded View Singleton, Continued
+~~~swift
+// ...
+class RNEmbeddedViews: NSObject {
+    var delegate: RNEmbeddedViewsDelegate?
+
+    class func shared() -> RNEmbeddedViews {
+        struct Singleton {
+            static let instance = RNEmbeddedViews()
+        }
+        return Singleton.instance
+    }
+    // ...
+    // RNEmbeddedViews.shared().delegate = self
+}
+~~~
+
+</section>
+<section data-markdown>
+
+## Example Swift Embedded View Singleton, Continued
+~~~swift
+// ...
+class RNEmbeddedViews: NSObject {
+    // ...
+    func triggeredLayout(RootView: NSString, x: NSNumber, y: NSNumber, width: NSNumber, height: NSNumber) {
+        let dimensions = RNViewLayout(x: x, y: y, width: width, height: height)
+        self.delegate?.onLayout(RootView: RootView, dimensions: dimensions)
+    }
+}
+~~~
+
+</section>
+</section>

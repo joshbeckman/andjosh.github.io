@@ -38,6 +38,7 @@ permalink: /lists/reading/
 - Health Plants of The World _Francesco Bianchini_
 - The New Modern Home Physician: 1950 Ed. _Victor Robinson_
 - Humans of New York _Brandon Stanton_
+- __#__ Autonomous _Annalee Newitz_
 - Car Hacker's Handbook
 - The Shining _Stephen King_
 - The Universe in a Nutshell _Stephen Hawking_

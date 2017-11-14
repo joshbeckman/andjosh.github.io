@@ -7,9 +7,12 @@ date: 2017-11-16
 ---
 
 <section data-markdown>
+
 # Bridge Existing iOS & Android Apps with React Native
+
 </section>
 <section data-markdown>
+
 ## Intro
 - Josh
     - https://www.andjosh.com
@@ -17,51 +20,81 @@ date: 2017-11-16
     - https://www.officeluv.com
 - Team
     - https://officeluv.github.io
+
 </section>
 <section data-markdown>
+
+## Today
+- Our path to React Native
+- Problems
+- Solutions
+- Problems
+- Solutions
+- Thoughts on our future
+
+</section>
+<section data-markdown>
+
 ## We Needed
 - A screen rewrite existing in iOS/Android companion apps
 - Nearly double the screens in those apps
 - On both platforms
 - Within ~3 weeks
+
 </section>
 <section data-markdown>
+
 ## What About React Native?
 - Consolidate UI
 - Double developer resources
 - Leverage Yoga (_flexbox_) to fit our design
-- Remotely control of UI/functionality?
+- Remotely affect UI/functionality?
+
 </section>
 <section data-markdown>
+
 ## Demo
  Which parts are React Native?
+
 </section>
 <section data-markdown>
-## Where Is The Best Fit?
+
+## Where Is Best?
 
 - Leave existing code intact
-- New UIViewController/Activity
-- New UIView/Fragment
+- New UIViewControllers, Activities
+- New UIViews, Fragments
+
 </section>
 <section data-markdown>
+
 ## Where Is Trouble?
 
 - Installation will [probably] be a pain
+    - Days in our case
 - Heavy API integration within the UI
+    - Slows integration
 - Support of very old Android devices
+    - Erodes features & responsiveness
+
 </section>
 <section data-markdown>
+
 ## Where Is Your Time Spent?
 
 - 1/3 in React Native
 - 1/3 building bridges
 - 1/3 massaging props
+
 </section>
 <section>
 <section data-markdown>
+
 ## The Installation Process
+
 </section>
 <section data-markdown>
+
 ## Separate Repos
 
 - To leverage React testing
@@ -74,19 +107,23 @@ date: 2017-11-16
 |_ android-field-staff
 |_ rn-field-staff
 ~~~
+
 </section>
 <section data-markdown>
+
 ## iOS Installation
 
 - Clone iOS
-- Install pods (_on latest cocoapods_)
+- Install latest cocoapods
 - Clone RN
 - Install node modules
 - Symlink to iOS repo
 - Start RN bundle server
 - Run iOS simulator
+
 </section>
 <section data-markdown>
+
 ## Android Installation
 
 - Clone Android
@@ -96,15 +133,21 @@ date: 2017-11-16
 - Symlink to Android repo
 - Start RN bundle server
 - Run Android simulator
+
 </section>
 </section>
 <section data-markdown>
+
 ## Building Bridges
 
-- Get in, get out
+- Get in.
+- Get out.
 - Embrace the _single direction_ of props
+
 </section>
+<section >
 <section data-markdown>
+
 ## Example React Native Bridge
 ~~~js
 import { NativeModules } from 'react-native';
@@ -120,6 +163,15 @@ export const componentDidMount = () => {
     if (!isImplemented('componentDidMount')) return;
     bridge.componentDidMount();
 };
+~~~
+
+</section>
+<section data-markdown>
+
+## Example React Native Bridge With Args
+~~~js
+import { NativeModules } from 'react-native';
+const bridge = NativeModules.CurrentCleaningBridge;
 export const onSubmit = (note) => {
     if (!isImplemented('onSubmit')) return;
     bridge.onSubmit(note || '');
@@ -129,14 +181,59 @@ export const onRootLayout = (x, y, width, height) => {
     bridge.onRootLayout(x || 0, y || 0, width || 0, height || 0);
 };
 ~~~
+
+</section>
+<section data-markdown>
+
+## Example React Native Bridge Usage
+~~~js
+export default class Foo extends React.PureComponent {
+    _onLayout = (event) => {
+        const { x, y, width, height } =
+            event.nativeEvent.layout;
+        bridge.onRootLayout(x, y, width, height);
+    }
+    render() {
+        return (
+            &lt;View onLayout={this._onLayout}&gt;
+            &lt;/View&gt;
+    }
+}
+~~~
+
+</section>
 </section>
 <section>
 <section data-markdown>
+
 ## Example Swift iOS Bridge
+- Leverage Swift
+- Expose modules in Objective-C
+
 </section>
 <section data-markdown>
+
+## Obj-C Bridge Implementation
+
+~~~objc
+#import "CurrentCleaningBridgingHeader.h"
+#import "React/RCTBridgeModule.h"
+
+@interface RCT_EXTERN_MODULE(CurrentCleaningBridge, NSObject)
+
+RCT_EXTERN_METHOD(onSubmit:(NSString * __nonnull)note)
+RCT_EXTERN_METHOD(onRootLayout:(NSNumber * __nonnull)x y:(NSNumber * __nonnull)y width:(NSNumber * __nonnull)width height:(NSNumber * __nonnull)height)
+RCT_EXTERN_METHOD(componentDidMount)
+
+@end
+~~~
+
+</section>
+<section data-markdown>
+
 ## Obj-C Bridge Header
 ~~~objc
+// Look to the Swift definition...
 #ifndef CurrentCleaningBridgingHeader_h
 #define CurrentCleaningBridgingHeader_h
 
@@ -146,22 +243,10 @@ export const onRootLayout = (x, y, width, height) => {
 
 #endif
 ~~~
+
 </section>
 <section data-markdown>
-## Obj-C Bridge Implementation
 
-~~~objc
-#import "CurrentCleaningBridgingHeader.h"
-#import "React/RCTBridgeModule.h"
-
-@interface RCT_EXTERN_MODULE(CurrentCleaningBridge, NSObject)
-RCT_EXTERN_METHOD(onSubmit:(NSString * __nonnull)note)
-RCT_EXTERN_METHOD(onRootLayout:(NSNumber * __nonnull)x y:(NSNumber * __nonnull)y width:(NSNumber * __nonnull)width height:(NSNumber * __nonnull)height)
-RCT_EXTERN_METHOD(componentDidMount)
-@end
-~~~
-</section>
-<section data-markdown>
 ## Swift Bridge
 ~~~swift
 import Foundation
@@ -171,17 +256,30 @@ import Firebase
 class CurrentCleaningBridge: NSObject {
 
     @objc func componentDidMount() -> Void {
+        // good for nothing...
     }
 
     @objc func onRootLayout(_ x: NSNumber, y: NSNumber, width: NSNumber, height: NSNumber) -> Void {
         RNEmbeddedViews.shared()
-            .triggeredLayout(RootView: "CurrentCleaning", x: x, y: y, width: width, height: height)
+            .triggeredLayout(RootView: "CurrentCleaning",
+                x: x, y: y, width: width, height: height)
     }
+}
+~~~
 
+</section>
+<section data-markdown>
+
+## Swift Bridge, Continued
+~~~swift
+@objc(CurrentCleaningBridge)
+class CurrentCleaningBridge: NSObject {
+    //...
     @objc func onSubmit(_ note: NSString) -> Void {
         FIRAnalytics.logEvent(withName: Constant.Analytics.Events.updateCheckinNote,
             parameters: [:])
-        StaffAPIClient.sharedClient().updateCurrentCheckinNote(note: note as String)
+        StaffAPIClient.sharedClient()
+            .updateCurrentCheckinNote(note: note as String)
         { (checkin, error) in
             if (error != nil) {
                 // Handle err....
@@ -190,5 +288,78 @@ class CurrentCleaningBridge: NSObject {
     }
 }
 ~~~
+
+</section>
+</section>
+<section>
+<section data-markdown>
+
+## Example Java Android Bridge
+~~~java
+// import ...
+public class CurrentCleaningBridge extends ReactContextBaseJavaModule {
+    private static final String TAG = "CurrentCleaningBridge";
+    public CurrentCleaningBridge(ReactApplicationContext reactContext) {
+        super(reactContext);
+    }
+
+    @Override
+    public String getName() {
+        return "CurrentCleaningBridge";
+    }
+}
+
+~~~
+
+</section>
+<section data-markdown>
+
+## Example Java Android Bridge, Continued
+~~~java
+public class CurrentCleaningBridge extends ReactContextBaseJavaModule {
+    // ...
+    @ReactMethod
+    public void componentDidMount() {
+        // good for nothing...
+    }
+
+    @ReactMethod
+    public void onRootLayout(float x, float y, float width, float height) {
+        CurrentCleaningSingleton.getInstance()
+            .onRootLayout("CurrentCleaning", x, y, width, height);
+    }
+}
+
+~~~
+
+</section>
+<section data-markdown>
+
+## Example Java Android Bridge, Continued
+~~~java
+public class CurrentCleaningBridge extends ReactContextBaseJavaModule {
+    // ...
+    @ReactMethod
+    public void onSubmitNote(String note) {
+        StaffAPI.getInstance()
+            .updateCheckinNote(getReactApplicationContext(), note,
+            new APICallbackInterface() {
+            @Override
+            public void onResponse(VolleyError error, JSONObject response) {
+                if (error != null) {
+                    // handle error...
+                }
+            }
+        });
+    }
+
+    @Override
+    public String getName() {
+        return "CurrentCleaningBridge";
+    }
+}
+
+~~~
+
 </section>
 </section>

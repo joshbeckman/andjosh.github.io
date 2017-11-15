@@ -92,6 +92,10 @@ date: 2017-11-16
 
 ## The Installation Process
 
+- Generally able to
+    - [Follow docs on facebook.github.io][0]
+
+[0]: http://facebook.github.io/react-native/releases/0.46/docs/integration-with-existing-apps.html
 </section>
 <section data-markdown>
 
@@ -134,6 +138,182 @@ date: 2017-11-16
 - Start RN bundle server
 - Run Android simulator
 
+</section>
+</section>
+<section>
+<section data-markdown>
+
+## Loading RN Views
+
+- Construct with the native lifecycle in mind
+- Build a dedicated function to create props
+    - With empty state as default
+
+</section>
+<section data-markdown>
+
+## Loading iOS RN View
+
+~~~swift
+class RunningLateViewController: UIViewController {
+    var runningLateViewRN: RCTRootView?
+    var runningLateViewRNURL = "an URL or bundle"
+
+    override func loadView() {
+        super.loadView()
+        self.runningLateViewRN = RCTRootView(
+            bundleURL:           self.runningLateViewRNURL,
+            moduleName:          "RunningLate",
+            initialProperties:   self.buildProps()
+                as [NSObject : AnyObject],
+            launchOptions:       nil
+        )
+        self.view = self.runningLateViewRN!
+    }
+    // ...
+}
+~~~
+
+</section>
+<section data-markdown>
+
+## Loading iOS RN View, Continued
+
+~~~swift
+//...
+class RunningLateViewController: UIViewController {
+    // ...
+    func buildProps(cleaning) -> NSDictionary {
+        // build our props here...
+    }
+
+    func fetchAPICall() {
+        // call our api, then...
+        DispatchQueue.main.async() {
+            (self.view as! RCTRootView).appProperties =
+                self.buildProps() as [NSObject : AnyObject]
+        }
+    }
+}
+~~~
+
+</section>
+<section data-markdown>
+
+## Loading Android RN View
+
+~~~java
+public class RNRunningLateActivity  extends AppCompatActivity {
+    private ReactRootView mReactRootView;
+    private ReactInstanceManager mReactInstanceManager;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_rn_running_late);
+        mReactInstanceManager = ReactInstanceManagerAPI.getInstance()
+                .buildReactInstanceManager("running-late.shared.bundle",
+                        "running-late.shared.js");
+        mReactRootView = (ReactRootView) findViewById(R.id.react_root);
+        mReactRootView.startReactApplication(mReactInstanceManager,
+                "RunningLateShared", this.buildProps(null));
+    }
+    // ...
+}
+~~~
+
+</section>
+<section data-markdown>
+
+## Loading Android RN View, Continued
+
+~~~java
+public class RNRunningLateActivity  extends AppCompatActivity {
+    // ...
+    private Bundle buildProps(JSONArray data) {
+        // Build props...
+    }
+
+    void fetchAPICall() {
+        // call api, then...
+        Bundle props = buildProps(data);
+        mReactRootView.setAppProperties(props);
+    }
+    // ...
+}
+~~~
+
+</section>
+<section data-markdown>
+
+## Loading Android RN View, Continued
+
+~~~java
+public class RNRunningLateActivity  extends AppCompatActivity {
+    // ...
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (mReactInstanceManager != null) {
+            mReactInstanceManager.onHostResume(this, this);
+        }
+        fetchAPICall();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (mReactInstanceManager != null) {
+            mReactInstanceManager.onHostPause(this);
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mReactInstanceManager != null) {
+            mReactInstanceManager.onHostDestroy();
+        }
+    }
+
+    @Override
+    public void invokeDefaultOnBackPressed() {
+        if (mReactInstanceManager != null) {
+            mReactInstanceManager.onBackPressed();
+        } else {
+            super.onBackPressed();
+        }
+    }
+}
+~~~
+
+</section>
+<section data-markdown>
+## Example RN View
+
+~~~js
+export default class RunningLateShared
+extends React.PureComponent {
+    // ...
+    render() {
+        return (
+            &lt;View style={styles.container}&gt;
+                &lt;Text style={styles.shiftTime}&gt;
+                    {formatTime(this.props.shift.start)}
+                &lt;/Text&gt;
+                {this.renderAvatar(styles.staffImageWrapTop)}
+                &lt;View style={styles.noteView}&gt;
+                    {!this.state.submitted &&
+                        // ...
+                    }
+                    {this.state.submitted &&
+                        // ...
+                    }
+                &lt;/View&gt;
+            &lt;/View&gt;
+        );
+    }
+}
+~~~
 </section>
 </section>
 <section data-markdown>
@@ -546,6 +726,7 @@ class RNEmbeddedViews: NSObject {
 - Better docs on embedded usage
 - Reproducible installations
 - Upgrade paths
+- Ability to pre-render views
 
 </section>
 <section data-markdown>

@@ -26,6 +26,7 @@ date: 2017-11-16
 
 ## Today
 - Our path to React Native
+- Overview of Embedded React Native
 - Problems
 - Solutions
 - Problems
@@ -51,10 +52,11 @@ date: 2017-11-16
 - Remotely affect UI/functionality?
 
 </section>
-<section data-markdown>
+<section>
 
-## Demo
- Which parts are React Native?
+    <h2>Demo</h2>
+    <p>Which parts are React Native?</p>
+ <video class="stretch" data-autoplay src="https://www.dropbox.com/s/6hjtzeo2z73j1xs/ScreenRecording_11-15-2017%2018%3A02.mp4?raw=1"></video>
 
 </section>
 <section data-markdown>
@@ -78,15 +80,6 @@ date: 2017-11-16
     - Erodes features & responsiveness
 
 </section>
-<section data-markdown>
-
-## Where Is Your Time Spent?
-
-- 1/3 in React Native
-- 1/3 building bridges
-- 1/3 massaging props
-
-</section>
 <section>
 <section data-markdown>
 
@@ -94,6 +87,7 @@ date: 2017-11-16
 
 - Generally able to
     - [Follow docs on facebook.github.io][0]
+- But...
 
 [0]: http://facebook.github.io/react-native/releases/0.46/docs/integration-with-existing-apps.html
 </section>
@@ -139,6 +133,39 @@ date: 2017-11-16
 - Run Android simulator
 
 </section>
+</section>
+<section data-markdown>
+
+## Embedded React Native
+
+An overview of React Native and native communication
+~~~
+                                   Props
++----------------+ <----------------+
+|                |                  |
+|  React Native  |                  |
+|      View      |         +--------+---------+
+|                |         |                  |
++-------+--------+         |  Native Control  |
+        |                  |                  |
+        |    +----------+  +------------------+
+        +--> |          |
+             |  Native  |
+             |  Bridge  |
+             |          |
+             +----------+
+
+~~~
+
+</section>
+<section data-markdown>
+
+## Where Is Your Time Spent?
+
+- 1/3 in React Native
+- 1/3 building bridges
+- 1/3 massaging props
+
 </section>
 <section>
 <section data-markdown>
@@ -551,6 +578,30 @@ public class CurrentCleaningBridge extends ReactContextBaseJavaModule {
 - How to tell a parent of variable resize?
 
 </section>
+<section data-markdown>
+
+## RN Bridge Singleton
+
+A way to communicate back to our parent
+~~~
+                                   Props
++----------------+ <----------------+
+|                |                  |
+|  React Native  |                  |
+|      View      |         +--------+---------+
+|                |         |                  |
++-------+--------+         |  Native Control  |
+        |                  |                  |
+        |    +----------+  +------------------+
+        +--> |          |
+             |  Native  |           ^
+             |  Bridge  |           |
+             |          +-----------+
+             +----------+      Bridge Singleton
+
+~~~
+
+</section>
 <section>
 <section data-markdown>
 
@@ -739,5 +790,25 @@ class RNEmbeddedViews: NSObject {
 - What will our next app contain?
 
 _We are not enemies, but friends. We must not be enemies._
+
+</section>
+<section data-markdown>
+
+## Get Started
+
+- Create a RN repo
+- Link to your native app(s)
+- Choose a simple view/fragment
+- Rewrite it in React
+- Pass it props
+- Build a bridge
+- Repeat!
+
+</section>
+<section data-markdown>
+
+## Thanks!
+
+[www.andjosh.com/presents](https://www.andjosh.com/presents)
 
 </section>

@@ -181,6 +181,7 @@ An overview of React Native and native communication
 
 ## Loading iOS RN View
 
+Instantiate the RN view with [bare] props
 ~~~swift
 class RunningLateViewController: UIViewController {
     var runningLateViewRN: RCTRootView?
@@ -206,6 +207,7 @@ class RunningLateViewController: UIViewController {
 
 ## Loading iOS RN View, Continued
 
+Asynchronous loading of new props
 ~~~swift
 //...
 class RunningLateViewController: UIViewController {
@@ -229,6 +231,7 @@ class RunningLateViewController: UIViewController {
 
 ## Loading Android RN View
 
+Instantiate the RN view with [bare] props
 ~~~java
 public class RNRunningLateActivity  extends AppCompatActivity {
     private ReactRootView mReactRootView;
@@ -253,6 +256,7 @@ public class RNRunningLateActivity  extends AppCompatActivity {
 
 ## Loading Android RN View, Continued
 
+Asynchronous loading of new props
 ~~~java
 public class RNRunningLateActivity  extends AppCompatActivity {
     // ...
@@ -274,6 +278,7 @@ public class RNRunningLateActivity  extends AppCompatActivity {
 
 ## Loading Android RN View, Continued
 
+Start asynchronous props in native lifecycle
 ~~~java
 public class RNRunningLateActivity  extends AppCompatActivity {
     // ...
@@ -317,6 +322,7 @@ public class RNRunningLateActivity  extends AppCompatActivity {
 <section data-markdown>
 ## Example RN View
 
+Such lovely, concise UI logic
 ~~~js
 export default class RunningLateShared
 extends React.PureComponent {
@@ -356,6 +362,8 @@ extends React.PureComponent {
 <section data-markdown>
 
 ## Example React Native Bridge
+
+Always check for bridge methods
 ~~~js
 import { NativeModules } from 'react-native';
 const bridge = NativeModules.CurrentCleaningBridge;
@@ -376,6 +384,8 @@ export const componentDidMount = () => {
 <section data-markdown>
 
 ## Example React Native Bridge With Args
+
+Always fall back to default args
 ~~~js
 import { NativeModules } from 'react-native';
 const bridge = NativeModules.CurrentCleaningBridge;
@@ -393,6 +403,8 @@ export const onRootLayout = (x, y, width, height) => {
 <section data-markdown>
 
 ## Example React Native Bridge Usage
+
+Call the bridge as you would HTTP
 ~~~js
 export default class Foo extends React.PureComponent {
     _onLayout = (event) => {
@@ -422,6 +434,7 @@ export default class Foo extends React.PureComponent {
 
 ## Obj-C Bridge Implementation
 
+Decalre visisble methods and args
 ~~~objc
 #import "CurrentCleaningBridgingHeader.h"
 #import "React/RCTBridgeModule.h"
@@ -439,6 +452,8 @@ RCT_EXTERN_METHOD(componentDidMount)
 <section data-markdown>
 
 ## Obj-C Bridge Header
+
+Defer to Swift auto-gen headers
 ~~~objc
 // Look to the Swift definition...
 #ifndef CurrentCleaningBridgingHeader_h
@@ -455,6 +470,8 @@ RCT_EXTERN_METHOD(componentDidMount)
 <section data-markdown>
 
 ## Swift Bridge
+
+Handle basic message passing
 ~~~swift
 import Foundation
 import Firebase
@@ -465,7 +482,6 @@ class CurrentCleaningBridge: NSObject {
     @objc func componentDidMount() -> Void {
         // good for nothing...
     }
-
     @objc func onRootLayout(_ x: NSNumber, y: NSNumber, width: NSNumber, height: NSNumber) -> Void {
         RNEmbeddedViews.shared()
             .triggeredLayout(RootView: "CurrentCleaning",
@@ -478,6 +494,8 @@ class CurrentCleaningBridge: NSObject {
 <section data-markdown>
 
 ## Swift Bridge, Continued
+
+Delegate actual logic to other objects
 ~~~swift
 @objc(CurrentCleaningBridge)
 class CurrentCleaningBridge: NSObject {
@@ -502,6 +520,8 @@ class CurrentCleaningBridge: NSObject {
 <section data-markdown>
 
 ## Example Java Android Bridge
+
+Declare namespace and accept context
 ~~~java
 // import ...
 public class CurrentCleaningBridge extends ReactContextBaseJavaModule {
@@ -522,6 +542,8 @@ public class CurrentCleaningBridge extends ReactContextBaseJavaModule {
 <section data-markdown>
 
 ## Example Java Android Bridge, Continued
+
+Handle basic message passing
 ~~~java
 public class CurrentCleaningBridge extends ReactContextBaseJavaModule {
     // ...
@@ -543,6 +565,8 @@ public class CurrentCleaningBridge extends ReactContextBaseJavaModule {
 <section data-markdown>
 
 ## Example Java Android Bridge, Continued
+
+Delegate actual logic to other objects
 ~~~java
 public class CurrentCleaningBridge extends ReactContextBaseJavaModule {
     // ...
@@ -558,11 +582,6 @@ public class CurrentCleaningBridge extends ReactContextBaseJavaModule {
                 }
             }
         });
-    }
-
-    @Override
-    public String getName() {
-        return "CurrentCleaningBridge";
     }
 }
 
@@ -606,6 +625,8 @@ A way to communicate back to our parent
 <section data-markdown>
 
 ## Example Java Embedded View Singleton
+
+Declare interface and create singleton
 ~~~java
 public interface RNEmbeddedViewInterface {
     void onRootLayout(String rootView, float x, float y, float width, float height);
@@ -629,6 +650,8 @@ public class RNEmbeddedViewSingleton {
 <section data-markdown>
 
 ## Example Java Embedded View Singleton
+
+Handle listener registration
 ~~~java
 // ...
 public class RNEmbeddedViewSingleton {
@@ -652,6 +675,8 @@ public class RNEmbeddedViewSingleton {
 <section data-markdown>
 
 ## Example Java Embedded View Singleton, Continued
+
+Call listener with bridge method
 ~~~java
 // RNEmbeddedViewSingleton.getInstance().registerListener(this);
 
@@ -672,6 +697,8 @@ public class RNEmbeddedViewSingleton {
 <section data-markdown>
 
 ## Example Swift Embedded View Singleton
+
+Declare interface and class
 ~~~swift
 struct RNViewLayout {
     let x: NSNumber
@@ -693,6 +720,8 @@ class RNEmbeddedViews: NSObject {
 <section data-markdown>
 
 ## Example Swift Embedded View Singleton, Continued
+
+Configure delegate registration
 ~~~swift
 // ...
 class RNEmbeddedViews: NSObject {
@@ -713,6 +742,8 @@ class RNEmbeddedViews: NSObject {
 <section data-markdown>
 
 ## Example Swift Embedded View Singleton, Continued
+
+Call delegate with bridge method
 ~~~swift
 // ...
 class RNEmbeddedViews: NSObject {

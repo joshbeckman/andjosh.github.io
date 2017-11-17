@@ -14,7 +14,10 @@ Tomorrow is biking up the mountain to integrate React Native into our Android ap
 
 I will write up all of this once a full release cycle is complete.
 
+__Update:__ This made its way into [a full talk on bridging native apps with React Native][4].
+
 [0]: https://facebook.github.io/react-native/
 [1]: https://swift.org
 [2]: https://gitlab.com/nevzat
 [3]: https://www.youtube.com/watch?v=fYGPcfUqzL0
+[4]: http://www.andjosh.com/presents/bridge-existing-ios-android-apps-react-native/

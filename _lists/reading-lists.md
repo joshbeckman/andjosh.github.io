@@ -4,14 +4,15 @@ title: Reading Lists
 permalink: /lists/reading/
 ---
 
-- Permutation City _Greg Egan_
-- House of Leaves _Mark Z. Danielewski_
-- Harry Potter and the Methods of Rationality _Eliezer Yudkowsky_
+- Understanding Power _Noam Chomsky_
+- Inadequate Equilibria _Eliezer Yudkowsky_
 
 <!--two items:-->
 
 - Hard-boiled Wonderland and the End of the World _Haruki Murakami_
-- Understanding Power _Noam Chomsky_
+- README _Neal Stephenson_
+- House of Leaves _Mark Z. Danielewski_
+- Three Body Problem _Liu Cixin_
 - Build & Launch _Justin Jackson_
 - Graphic Presentation _Willard Brinton_
 - The House of God _Samuel Shem_
@@ -47,7 +48,7 @@ permalink: /lists/reading/
 - Mysticism and Logic _Bertrand Russell_
 - __#__ Beacon 23 _Hugh Howey_
 - Annabel Scheme _Robin Sloane_
-- The First Forty-nine Stories _Ernest Hemmingway_
+- __#__ The First Forty-nine Stories _Ernest Hemmingway_
 - Ulysses _James Joyce_
 - The Little Manual of API Design _Jasmin Blanchette_
 - Capital in the Twenty-First Century _Thomas Piketty_
@@ -69,8 +70,10 @@ permalink: /lists/reading/
 
 <!--two items:-->
 
+- __*__ Permutation City _Greg Egan_
 - Letters from a Self-Made Merchant to His Son
 - __*__ A People's History of the United States _Howard Zinn_
+- Harry Potter and the Methods of Rationality _Eliezer Yudkowsky_
 - Some Thank You Notes _Justin Wolfe_
 - Naming & Necessity _Kripke_
 - __*__ 300 Arguments _Sarah Manguso_

@@ -3,7 +3,7 @@ html {
   background-image: linear-gradient(0deg, #fafafa, white 40%, #fafafa);
 }
 body {
-  font: 1.125em/1.4 Athelas, Georgia, serif;
+  font: 1.25em/1.4 Athelas, Georgia, serif;
   background: white;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -53,9 +53,6 @@ h1 a, .site-title a {
 .post-list a {
     text-decoration: none;
 }
-.meta, .about {
-    font-size: 1rem;
-}
 .meta {
     color: #aaa;
     margin-bottom: 2rem;
@@ -67,7 +64,7 @@ h1 a, .site-title a {
     justify-content: space-around;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: smaller;
+    font-size: small;
     letter-spacing: .1rem;
 }
 .about a {

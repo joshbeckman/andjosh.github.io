@@ -31,9 +31,11 @@ layout: default
         <p class="meta">
             <small>
             <a href="mailto:email@andjosh.com?subject=RE:{{ page.title }}" title="Comment/Reply">Comment/Reply</a>
+            &nbsp;or&nbsp;
+            <a href="https://github.com/andjosh/andjosh.github.io/blob/master/{{ page.path }}" target="_blank" title="Suggest an edit">Suggest an edit</a>
             </small>
         </p>
-        {% if page.sub && page.sub_url %}
+        {% if page.sub and page.sub_url %}
             <h6>
                 <a href="{{ page.sub_url }}">Back to {{ page.sub }}</a>
             </h6>

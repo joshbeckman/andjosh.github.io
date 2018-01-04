@@ -37,9 +37,12 @@ const queue   = kue.createQueue(redis);  // connect Kue to Redis
 program
     .version(pkg.version)
     .description('Remove/delete jobs from kue queue')
-    .option('-s, --state <state>', 'specify the state of jobs to remove [complete]', 'complete')
-    .option('-n, --number <number>', 'specify the max number of jobs [1000]', '1000')
-    .option('-t, --type <type>', 'specify the type of jobs to remove (RegExp)', '')
+    .option('-s, --state <state>',
+        'specify the state of jobs to remove [complete]', 'complete')
+    .option('-n, --number <number>',
+        'specify the max number of jobs [1000]', '1000')
+    .option('-t, --type <type>',
+        'specify the type of jobs to remove (RegExp)', '')
     .parse(process.argv);
 
 const maxIndex = parseInt(program.number, 10) - 1;
@@ -87,9 +90,12 @@ const queue   = kue.createQueue(redis);  // connect Kue to Redis
 program
     .version(pkg.version)
     .description('Requeue jobs into kue queue')
-    .option('-s, --state <state>', 'specify the state of jobs to remove [failed]', 'failed')
-    .option('-n, --number <number>', 'specify the max number of jobs [1000]', '1000')
-    .option('-t, --type <type>', 'specify the type of jobs to remove (RegExp)', '')
+    .option('-s, --state <state>',
+        'specify the state of jobs to remove [failed]', 'failed')
+    .option('-n, --number <number>',
+        'specify the max number of jobs [1000]', '1000')
+    .option('-t, --type <type>',
+        'specify the type of jobs to remove (RegExp)', '')
     .parse(process.argv);
 
 const maxIndex = parseInt(program.number, 10) - 1;
@@ -136,7 +142,7 @@ $ ./bin/remove --help
 #     -h, --help             output usage information
 ~~~
 
-And an example execution to remove 1 job from the failed state of type matching `/foo/`:
+And an example execution to remove one job from the failed state of type matching `/foo/`:
 
 ~~~sh
 $ ./bin/remove -n 1 -s failed -t foo

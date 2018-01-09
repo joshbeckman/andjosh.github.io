@@ -4,21 +4,22 @@ title: Reading Lists
 permalink: /lists/reading/
 ---
 
-- Understanding Power _Noam Chomsky_
+- __*__ Understanding Power _Noam Chomsky_
 - Inadequate Equilibria _Eliezer Yudkowsky_
 
 <!--two items:-->
 
-- Hard-boiled Wonderland and the End of the World _Haruki Murakami_
-- README _Neal Stephenson_
+- __#__ Hard-boiled Wonderland and the End of the World _Haruki Murakami_
+- __#__ README _Neal Stephenson_
 - House of Leaves _Mark Z. Danielewski_
-- Three Body Problem _Liu Cixin_
+- __#__ Zen and the Art of Motorcycle Maintenance _Robert M. Pirsig_
+- __#__ Three Body Problem _Liu Cixin_
 - Build & Launch _Justin Jackson_
 - Graphic Presentation _Willard Brinton_
 - The House of God _Samuel Shem_
 - Stellar Astrophysics _Edward Brown_
 - Foundation _Isaac Asimov_
-- The God of Small Things _Arundhati Roy_
+- __#__ The God of Small Things _Arundhati Roy_
 - Night Film _Marisha Pessl_
 - Geek Love
 - The Sea Came in at Midnight _Steve Erickson_
@@ -54,16 +55,15 @@ permalink: /lists/reading/
 - Capital in the Twenty-First Century _Thomas Piketty_
 - __#__ What We See When We Read _Peter Mendelsund_
 - __#__ Ancillary Justice _Ann Leckie_
-- __#__ [Trigger Warning](http://www.indiebound.org/book/9780062330260?aff=jenmyers) _Niel Gaiman_
-- Zen and the Art of Motorcycle Maintenance _Robert M. Pirsig_
+- [Trigger Warning](http://www.indiebound.org/book/9780062330260?aff=jenmyers) _Niel Gaiman_
 - [Ed](http://qntm.org/ed) _Sam Hughes_
 - Watchmen _Alan Moore_
 - The Planetary Omnibus _Warren Ellis, John Cassaday_
 - How to Be A Programmer _Braydie Grove_
 - The Salmon of Doubt _Douglas Adams_
 - __#__ [Elektrograd: Rusted Blood](https://www.smashwords.com/books/view/568621) _Warren Ellis_
-- [Speak](http://www.harpercollins.com/9780062391193/speak) _Louisa Hall_
-- The Lives of Christopher Chant _Diana Wynne Jones_
+- __#__ [Speak](http://www.harpercollins.com/9780062391193/speak) _Louisa Hall_
+- __#__ The Lives of Christopher Chant _Diana Wynne Jones_
 - No Silver Bullet _Frederick P. Brooks, Jr._
 - Breaking the Mishap Chain
 - The Tree of Knowledge _Maturana, Varela_

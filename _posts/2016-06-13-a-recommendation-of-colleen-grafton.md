@@ -4,7 +4,7 @@ title: A Recommendation of Colleen Grafton
 ---
 Out of all the engineers I have known, Colleen is the most structured and economical. While working together, she has grown tenfold in her abilities and her assertiveness. She would be a valuable asset to any group, both her technical skills and her personality.
 
-Colleen methodical in her approach programming features and fixing bugs. She will gather any information before making a decision, searching for precedents before writing her own solution. She will consistently refactor previous solutions to fit new and future input, while maintaining a keen eye on old or external factors. She is a member that will make your team much greater than the sum of its parts.
+Colleen methodically approaches programming features and fixing bugs. She will gather any information before making a decision, searching for precedents before writing her own solution. She will consistently refactor previous solutions to fit new and future input, while maintaining a keen eye on old or external factors. She is a member that will make your team much greater than the sum of its parts.
 
 While beginning on our team as a junior PHP developer, Colleen quickly expanded. She aided in the planning and completion of automated build and test processes across multi-tiered microservice architectures and legacy systems. She also, on her own accord, began training in new languages, eventually contributing to our node.js server code and our client-side JavaScript applications. I was elated to see her confidence grow alongside her technical abilities.
 

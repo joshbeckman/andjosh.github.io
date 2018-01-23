@@ -49,6 +49,7 @@ console.log('func took', time, 'ms');
 performance.mark("func-start");
 func();
 performance.mark("func-end");
+// Make some [globally-spaced] marks
 
 // Measure between two different marks
 performance.measure("func", "func-start", "func-end");
@@ -67,7 +68,7 @@ console.log("func took", measure.duration, "ms")
 [Gist of perf.js](https://gist.github.com/andjosh/4bb4db766354384a65accbb4f12e4b7f)
 
 - Handles <IE10 browser support
-- [More] Functional API
+- Preserves Functional API
 - Basic quantitative helpers
 - Other goodies
 </section>
@@ -84,35 +85,16 @@ console.log("func took", perf.duration("func"), "ms");
 ~~~
 </section>
 </section>
-<section data-markdown>
-## Aggregating measurements
-
-~~~js
-// ....
-console.log("func has a sample size of",
-    perf.getEntriesByName("func").length);
-
-console.log("func has a 95th percentile of",
-    perf.percentile("func", 0.95), "ms");
-
-console.log("func averages", perf.mean("func"), "ms");
-
-console.log("func has a standard deviation of",
-    perf.sdev("func"), "ms");
-
-~~~
-</section>
 <section>
 <section data-markdown>
 ### This is a bit opaque, how can we visualize?
 
-- [Sparkline in your console!](https://github.com/johan/console.sparkline)
 - Setting thresholds and then warning
 - Reporting warnings to ourselves
     - Remote [User timings](https://developers.google.com/analytics/devguides/collection/analyticsjs/user-timings)
 </section>
 <section data-markdown>
-### Performance measurements & console.sparkline
+### Performance measurements & [console.sparkline](https://github.com/johan/console.sparkline)
 
 ![JS console.sparkline](/images/console-sparkline.png)
 </section>
@@ -133,6 +115,24 @@ console.log("func has a standard deviation of",
 
 A single measurement/snapshot is not enough
 </section>
+</section>
+<section data-markdown>
+## Aggregating measurements
+
+~~~js
+// ....
+console.log("func has a sample size of",
+    perf.getEntriesByName("func").length);
+
+console.log("func has a 95th percentile of",
+    perf.percentile("func", 0.95), "ms");
+
+console.log("func averages", perf.mean("func"), "ms");
+
+console.log("func has a standard deviation of",
+    perf.sdev("func"), "ms");
+
+~~~
 </section>
 <section>
 <section data-markdown>

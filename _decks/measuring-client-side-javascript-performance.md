@@ -65,7 +65,7 @@ console.log("func took", measure.duration, "ms")
 <section data-markdown>
 ## Performance API++
 
-[Gist of perf.js](https://gist.github.com/andjosh/4bb4db766354384a65accbb4f12e4b7f)
+[performance-plus repo](https://github.com/andjosh/performance-plus)
 
 - Handles <IE10 browser support
 - Preserves Functional API

@@ -164,7 +164,8 @@ const perfMiddleware = store => next => action => {
     return result;
 };
 ~~~
-[gist](https://gist.github.com/andjosh/bfa99324875e9352aa2c719dad9743c1)
+
+[redux-performance-plus repo](https://github.com/andjosh/redux-performance-plus)
 </section>
 <section data-markdown>
 ## Self-throttling Redux

@@ -18,7 +18,7 @@ permalink: /contact/
 </style>
 ![Josh Beckman](/images/page/mustache.jpg)
 
-I used to be a photojournalist, an EMT, and a handyman. [Read about my current status](/) if you're interested. You can [book time to meet](//calendly.com/andjosh/30min) and become great friends. I respond most readily via [email(at)andjosh.com](mailto:email@andjosh.com), and sometimes check Twitter [@twandjosh](http://twitter.com/twandjosh). I often deploy repositories of knowledge and computer code to [GitHub](//github.com/andjosh). I tend to make [quite a few lists](/lists) and [write hopefully helpful things](/). If you want to know what I'm reading, you can follow through my [Narro](//narro.co) podcast: [narro.co/playable/josh](https://www.narro.co/playable/josh).
+I used to be a photojournalist, an EMT, and a handyman. [Read about my current status](/) if you're interested. You can [book time to meet](//calendly.com/andjosh/30min) and become great friends. I respond most readily via [email(at)andjosh.com](mailto:email@andjosh.com), and sometimes check Twitter [@andjosh_](http://twitter.com/andjosh_). I often deploy repositories of knowledge and computer code to [GitHub](//github.com/andjosh). I tend to make [quite a few lists](/lists) and [write hopefully helpful things](/). If you want to know what I'm reading, you can follow through my [Narro](//narro.co) podcast: [narro.co/playable/josh](https://www.narro.co/playable/josh).
 
 ---
 

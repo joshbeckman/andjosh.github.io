@@ -1,21 +1,9 @@
 ---
 layout: default
 ---
-<div class="header">
-    <div class="header-inner">
-        <h1 class="site-title">
-            <a href="{{ page.url }}">{{ page.title }}</a>
-        </h1>
+<div class="f4 lh-copy pr6-l pl6-l">
+    <div class="fl-ns w-70-l pa4 mb5">
+        {{ content }}
     </div>
-</div>
-<div class="content">
-    {{ content }}
-</div>
-<hr/>
-<div class="about">
-    <a href="/" title="Home" rel="home">Home</a>
-    <a href="/presents" title="Presentations">Talks</a>
-    <a href="/contact" title="Contact Josh" rel="about">Contact</a>
-    <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
-    <a href="{{ site.photos_link }}" title="Photos">Photos</a>
+    {% include sidebar.html %}
 </div>

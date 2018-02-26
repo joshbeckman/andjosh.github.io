@@ -8,6 +8,7 @@
     <link href="{{ "/rss.xml" | prepend: site.baseurl | prepend: site.url }}" rel="alternate" title="{{ site.title }}" type="application/xml" />
     <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
@@ -21,7 +22,18 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 </head>
-<body class="markdown-body">
+<body class="sans-serif bg-white">
+    {% if page.image %}
+    <div class="hero cover" style="background-image:url({{ page.image }});background-position:center center;">
+    {% else %}
+    <div class="hero cover" style="background-image:url(/images/purple-fade.png);background-position:center center;">
+    {% endif %}
+        <div class="pv6-ns pa5 tl-ns tc">
+            <h1 class="f-headline-ns f3 lh-title balance-text dib ph4 pv2 black bg-white">
+                {{ page.title }}
+            </h1>
+        </div>
+    </div>
 
   {{ content }}
 

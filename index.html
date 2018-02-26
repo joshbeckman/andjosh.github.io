@@ -1,32 +1,16 @@
 ---
-layout: default
+layout: page
 title: Josh Beckman
 ---
 <meta name="description" content="Josh Beckman is a software/app engineer and developer of imaginary machines in Chicago" />
-<h1 class="site-title">
-    <a href="/" title="{{ site.title }}">Josh Beckman</a>
-</h1>
-<div class="content">
-    <p class="index-about"><br/>
-    I build imaginary machines for the internet and for your phones. I’m the founder of <a href="//narro.co">Narro</a>, leading the engineering team at <a href="//officeluv.com">OfficeLuv</a>, and a member of the <a href="http://no.nonsense.agency">No Nonsense Agency</a>. I live in downtown Chicago, where I also do contract development work and provide tech advising for early-stage companies &amp; groups. Recently, I have focused my thoughts on building better code review cultures.
-    </p>
-    <hr/>
-    <div class="about">
-        <a href="/contact" title="Contact Josh" rel="about">Contact</a>
-        <a href="/presents" title="Presentations">Talks</a>
-        <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
-        <a href="{{ site.photos_link }}" title="Photos">Photos</a>
-        <a href="/rss.xml" title="Subscribe to the RSS feed" rel="alternate">RSS</a>
-    </div>
-    {% for post in site.posts %}
-        {% assign currentdate = post.date | date: "%Y" %}
-        {% if currentdate != date %}
-            {% unless forloop.first %}</ol>{% endunless %}
-            <h3 class="post-year" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h3>
-            <ol class="post-list" reversed>
-            {% assign date = currentdate %}
-        {% endif %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% if forloop.last %}</ol>{% endif %}
-    {% endfor %}
-</div>
+{% for post in site.posts %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+        {% unless forloop.first %}</ol>{% endunless %}
+        <h3 class="post-year" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h3>
+        <ol class="list pa0" reversed>
+        {% assign date = currentdate %}
+    {% endif %}
+    <li class="mb4-l mb3"><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% if forloop.last %}</ol>{% endif %}
+{% endfor %}

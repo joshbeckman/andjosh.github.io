@@ -2,6 +2,7 @@
 layout: page
 title: Lists
 permalink: /lists/
+image: /images/page/list.jpg
 ---
 I grew up in a family that makes lists. [Every. Day.](/images/page/list.jpg)
 

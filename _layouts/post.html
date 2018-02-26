@@ -13,40 +13,29 @@ layout: default
 <meta property="og:url"         content="{{ page.url }}" />
 <meta property="og:image"       content="http://www.andjosh.com/favicon.png" />
 <meta property="og:site_name"   content="www andjosh" />
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="header">
-        <div class="header-inner">
-            <meta itemprop="author" content="Josh Beckman" />
-            <h1 class="site-title">
-                <a itemprop="url" href="{{ page.url }}">{{ page.title }}</a>
-            </h1>
-            <p class="meta">
-                <small itemprop="datePublished">{{ page.date | date_to_string }}</small>
-            </p>
+<div class="f4 lh-copy pr6-l pl6-l">
+    <article class="fl-ns w-70-l pa4 mb5" itemscope itemtype="http://schema.org/BlogPosting">
+        <meta itemprop="author" content="Josh Beckman" />
+        <div class="dib f5 ph3 pv1 mt3">
+            <a class="b" itemprop="url" href="{{ page.url }}" itemprop="datePublished">
+                {{ page.date | date_to_string }}
+            </a>
         </div>
-    </div>
-    <div class="content" itemprop="articleBody">
-        {{ content }}
-        <p class="meta">
+        <div class="content" itemprop="articleBody">
+            {{ content }}
+        </div>
+        <div class="ma5">
             <small>
             <a href="mailto:email@andjosh.com?subject=RE:{{ page.title }}" title="Comment/Reply">Comment/Reply</a>
             &nbsp;or&nbsp;
             <a href="https://github.com/andjosh/andjosh.github.io/blob/master/{{ page.path }}" target="_blank" title="Suggest an edit">Suggest an edit</a>
             </small>
-        </p>
+        </div>
         {% if page.sub and page.sub_url %}
             <h6>
                 <a href="{{ page.sub_url }}">Back to {{ page.sub }}</a>
             </h6>
         {% endif %}
-    </div>
-</article>
-<hr/>
-<div class="about">
-    <a href="/" title="Home" rel="home">Home</a>
-    <a href="/presents" title="Presentations">Talks</a>
-    <a href="/contact" title="Contact Josh" rel="about">Contact</a>
-    <a href="/lists" title="Lists of Preset, Past, &amp; Future">Lists</a>
-    <a href="{{ site.photos_link }}" title="Photos">Photos</a>
+    </article>
+    {% include sidebar.html %}
 </div>

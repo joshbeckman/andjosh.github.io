@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ThreadMeUp Daily Code Reviews
+image: /images/201504/tmu_eng.jpg
 ---
 ![ThreadMeUp Engineering](/images/201504/tmu_eng.jpg)
 We have daily code reviews at 1pm. Everyone in the engineering team sits around our big wooden table and one person tethers their screen to the big television. People can eat their lunch here, but everyone pays attention.

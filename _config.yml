@@ -2,13 +2,9 @@ url: https://www.andjosh.com
 author: Josh Beckman
 email: email@andjosh.com
 title: Josh
-photos_link: https://www.icloud.com/sharedalbum/#B0v5oqs3qG9WbTL
+photos_link: https://www.instagram.com/photos.andjosh/
 
 collections:
-  fictions:
-    output: true
-  photos:
-    output: true
   lists:
     output: true
   charts:

@@ -1,122 +1,68 @@
-body {
-  font: 1.4em/1.5 Athelas, Georgia, serif;
-  background: white;
+a {
+    color: #5E2CA5;
+    text-decoration: none;
+    text-shadow: 0 1px 0 white;
+    border-bottom: 3px solid #FFA3D7;
 }
-@media screen and (max-width:60em) {
-    body {
-      font: 1.1em/1.5 Athelas, Georgia, serif;
-      background: white;
-    }
-}
-h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 1em;
-}
-blockquote {
-    border-left: 3px solid #aaa;
-    margin-left: 23px;
-    padding-left: 17px;
-}
-code {
-    border-radius: 3px;
-    padding: 0.2em 0.35em;
+.content blockquote {
+    border-left: 3px solid #00449E;
     margin: 0;
-    color: #333;
+    padding: 1rem 1.25rem;
+    font-size: 1.4rem;
+    color: #00449E
 }
-img {
-    max-width: 100%;
-}
-a:visited {
-    color: darkblue;
-}
-
-.markdown-body {
-    box-sizing: border-box;
-    min-width: 200px;
-    max-width: 38em;
-    margin: 0 auto;
-    word-wrap: break-word;
-    padding: 2rem;
-    min-height: 100vh;
-}
-.markdown-body .content {
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-}
-h1 a, .site-title a {
-    text-decoration: none;
-}
-.post-list {
-    line-height: 2rem;
-    list-style-type: none;
-    padding-left: 0;
-}
-.post-list a {
-    text-decoration: none;
-}
-.meta {
-    color: #aaa;
-    margin-bottom: 2rem;
-}
-.about {
-    margin-top: 1.5rem;
-    display: flex;
-    justify-content: space-around;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: small;
-    letter-spacing: .1rem;
-}
-.about a {
-    text-decoration: none;
-}
-
-.markdown-body .anchor {
+.anchor {
+    border: none;
     float: left;
     padding-right: 4px;
     margin-left: -20px;
     line-height: 1;
 }
 
-.markdown-body .anchor:focus {
+.anchor:focus {
   outline: none;
 }
-.markdown-body .octicon {
+.octicon {
   display: inline-block;
   vertical-align: text-bottom;
 }
-.markdown-body .octicon-link:before {
+.octicon-link:before {
     content: '#';
 }
-.markdown-body h1 .octicon-link,
-.markdown-body h2 .octicon-link,
-.markdown-body h3 .octicon-link,
-.markdown-body h4 .octicon-link,
-.markdown-body h5 .octicon-link,
-.markdown-body h6 .octicon-link {
+h1 .octicon-link,
+h2 .octicon-link,
+h3 .octicon-link,
+h4 .octicon-link,
+h5 .octicon-link,
+h6 .octicon-link {
   color: #1b1f23;
   vertical-align: middle;
   visibility: hidden;
 }
 
-.markdown-body h1:hover .anchor,
-.markdown-body h2:hover .anchor,
-.markdown-body h3:hover .anchor,
-.markdown-body h4:hover .anchor,
-.markdown-body h5:hover .anchor,
-.markdown-body h6:hover .anchor {
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
   text-decoration: none;
 }
 
-.markdown-body h1:hover .anchor .octicon-link,
-.markdown-body h2:hover .anchor .octicon-link,
-.markdown-body h3:hover .anchor .octicon-link,
-.markdown-body h4:hover .anchor .octicon-link,
-.markdown-body h5:hover .anchor .octicon-link,
-.markdown-body h6:hover .anchor .octicon-link {
+h1:hover .anchor .octicon-link,
+h2:hover .anchor .octicon-link,
+h3:hover .anchor .octicon-link,
+h4:hover .anchor .octicon-link,
+h5:hover .anchor .octicon-link,
+h6:hover .anchor .octicon-link {
   visibility: visible;
 }
 
-pre, code {
+.content p code {
+    padding: 0.25rem 0.5rem
+}
+.content pre, code {
+    font-size: 1rem;
     word-wrap: initial;
     background-color: rgba(27, 31, 35, 0.05);
 }

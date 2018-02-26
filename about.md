@@ -10,7 +10,7 @@ I built the engineering team and product at [ThreadMeup](//threadmeup.com) from 
 
 Before that, I was the first engineering hire at [Aggrego](//aggrego.com), a kind of startup incubator.
 
-And before that, I used to be a photojournalist, an EMT, and a construction worker.
+And before that, I used to be a photojournalist, an EMT, and a construction worker. I studied Neuroscience and machine learning at the University of Illinois.
 
 You can [book time to meet](//calendly.com/andjosh/30min) and we'll become great friends.
 

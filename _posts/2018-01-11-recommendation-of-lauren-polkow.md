@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Recommendation of Lauren Polkow
+image: /images/IMG_0024.jpg
 ---
 
 When I sat down with Lauren for the first time, I knew immediately that it was the chance of a lifetime to work with her. Such a spark of energy, intelligence, and enthusiasm for the customer walked into the room that it was impossible to resist the opportunity to learn. She is one of the best guides I have found, and the best product leader that I have known.

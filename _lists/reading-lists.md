@@ -4,8 +4,7 @@ title: Reading Lists
 permalink: /lists/reading/
 ---
 
-- __*__ Understanding Power _Noam Chomsky_
-- Inadequate Equilibria _Eliezer Yudkowsky_
+- [Trigger Warning](http://www.indiebound.org/book/9780062330260?aff=jenmyers) _Niel Gaiman_
 
 <!--two items:-->
 
@@ -55,7 +54,6 @@ permalink: /lists/reading/
 - Capital in the Twenty-First Century _Thomas Piketty_
 - __#__ What We See When We Read _Peter Mendelsund_
 - __#__ Ancillary Justice _Ann Leckie_
-- [Trigger Warning](http://www.indiebound.org/book/9780062330260?aff=jenmyers) _Niel Gaiman_
 - [Ed](http://qntm.org/ed) _Sam Hughes_
 - Watchmen _Alan Moore_
 - The Planetary Omnibus _Warren Ellis, John Cassaday_
@@ -70,6 +68,9 @@ permalink: /lists/reading/
 
 <!--two items:-->
 
+- __*__ Understanding Power _Noam Chomsky_
+- Inadequate Equilibria _Eliezer Yudkowsky_
+- Men Explain Things to Me _Rebecca Solnit_ 
 - __*__ Permutation City _Greg Egan_
 - Letters from a Self-Made Merchant to His Son
 - __*__ A People's History of the United States _Howard Zinn_

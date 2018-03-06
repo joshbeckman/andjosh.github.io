@@ -13,12 +13,9 @@ Now, I've started keeping lists not only of things I'm currently thinking about 
 - [Project Lists](/lists/project)
 - [Podcast Lists](/lists/podcast)
 - [Newsletter Lists](/lists/newsletter)
-- [Learning Lists](/lists/learning)
 - [Camera Lists](/lists/camera)
 - [Motorcycle Lists](/lists/motorcycle)
 - [People I Don't Know but Admire Lists](/lists/people-i-admire)
-- [Employment Lists](/lists/employment)
-- [Location Lists](/lists/location)
 
 Partly inspired by [Max Fenton](http://maxfenton.com/biblio/).
 

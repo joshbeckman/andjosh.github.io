@@ -34,6 +34,8 @@ Running an event loop to completion or interruption
 <section data-markdown>
 ### Interactive / Session
 Great for destructive or constructive actions
+
+`command (begin session)`
 </section>
 <section>
 <script src="https://asciinema.org/a/176637.js" id="asciicast-176637" async data-size="big" data-cols="60" data-rows="16"></script>
@@ -41,6 +43,8 @@ Great for destructive or constructive actions
 <section data-markdown>
 ### Single Command
 Great for compositional, single-purpose scripts
+
+`command [arguments]`
 ```bash
 
 $ ls -l -a
@@ -57,6 +61,8 @@ drwxr-xr-x  15 Josh  staff   510 Apr 15 17:26 .git
 <section data-markdown>
 ### Multiple Commands
 More like complete applications
+
+`prefix command [arguments]`
 ```bash
 $ git log --pretty=format:%s
 new:usr: Add initial working version
@@ -363,6 +369,15 @@ Data, rather than directive
 </section>
 <section>
 <script src="https://asciinema.org/a/176432.js" id="asciicast-176432" async data-size="big" data-cols="60" data-rows="16"></script>
+</section>
+<section data-markdown>
+### Placement Matters
+```bash
+#
+$ [env] node [node-flags] &lt;script&gt; [argv]
+# [stdin]
+#
+```
 </section>
 <section data-markdown>
 ## Frameworks

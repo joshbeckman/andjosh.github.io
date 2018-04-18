@@ -338,6 +338,7 @@ process {
 <section data-markdown>
 ### Executing with environment variables
 Pervasive, global, shared
+
 Like cues, rather than directives
 </section>
 <section>
@@ -346,6 +347,7 @@ Like cues, rather than directives
 <section data-markdown>
 ### Executing with flags/argv
 Specific, pedantic
+
 Like directives, rather than cues
 
 _Will exclude node-specific flags placed before the script name._
@@ -356,6 +358,7 @@ _Will exclude node-specific flags placed before the script name._
 <section data-markdown>
 ### Standard Input
 Powerful in conjunction with others
+
 Data, rather than directive
 </section>
 <section>

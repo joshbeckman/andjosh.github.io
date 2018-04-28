@@ -6,22 +6,23 @@ title: Josh Beckman
 {% for post in site.posts %}
     {% assign currentdate = post.date | date: "%Y" %}
     {% if currentdate != date %}
-        {% unless forloop.first %}</ol>{% endunless %}
-        <h3 class="post-year" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h3>
-        <ol class="list pa0" reversed>
+        <h3 class="f2" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h3>
         {% assign date = currentdate %}
     {% endif %}
-    <li class="mb4-l mb3">
-        {% if post.title %}
+    {% if post.title and post.title != '' %}
+        <h4 class="f3">
             <a href="{{ post.url }}">
                 {{ post.title }}
             </a>
-        {% else %}
+        </h4>
+    {% else %}
+        <div class="measure mb3">
             {{ post.content }}
-            (<a href="{{ post.url }}">
-                {{ post.date | date_to_string }}
-            </a>)
-        {% endif %}
-    </li>
-    {% if forloop.last %}</ol>{% endif %}
+            <p class="f5 mt0">
+                (<a href="{{ post.url }}">
+                    {{ post.date | date_to_string }}
+                </a>)
+            </p>
+        </div>
+    {% endif %}
 {% endfor %}

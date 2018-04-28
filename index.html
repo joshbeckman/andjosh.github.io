@@ -11,6 +11,17 @@ title: Josh Beckman
         <ol class="list pa0" reversed>
         {% assign date = currentdate %}
     {% endif %}
-    <li class="mb4-l mb3"><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li class="mb4-l mb3">
+        {% if post.title %}
+            <a href="{{ post.url }}">
+                {{ post.title }}
+            </a>
+        {% else %}
+            {{ post.content }}
+            (<a href="{{ post.url }}">
+                {{ post.date | date_to_string }}
+            </a>)
+        {% endif %}
+    </li>
     {% if forloop.last %}</ol>{% endif %}
 {% endfor %}

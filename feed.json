@@ -9,7 +9,7 @@ layout: null
 	"items": [
 		{% for post in site.posts limit:10 %}
 		{
-			"id": "{{ post.url }}",
+			"id": "{{ site.url }}{{ post.url }}",
 			"title": {{ post.title | jsonify }},
 			"content_html": {{ post.content | jsonify }},
 			"date_published": "{{ post.date | date_to_xmlschema }}",

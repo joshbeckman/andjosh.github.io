@@ -27,21 +27,11 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 </head>
-<body class="sans-serif bg-white">
-    {% if page.image %}
-    <div class="hero cover" style="background-image:url({{ page.image }});background-position:center center;">
-    {% else %}
-    <div class="hero cover" style="background-image:url(/images/purple-fade.png);background-position:center center;">
-    {% endif %}
-        <div class="pv6-ns pa5 tl-ns tc">
-            <h1 class="f-headline-ns f3 lh-title balance-text dib ph4 pv2 black bg-white">
-                {% if page.title  and page.title != ''%}
-                    {{ page.title }}
-                {% else %}
-                    {{ site.title }}, {{ page.date | date_to_string }}
-                {% endif %}
-            </h1>
-        </div>
+<body class="serif bg-white pr6-l pl6-l">
+    <div class="bt bb bw1 mv4 mh3">
+        <h3 class="ttu tracked f4 mv1 normal dib">
+            {{ site.title }}
+        </h3>
     </div>
 
   {{ content }}

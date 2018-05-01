@@ -21,11 +21,18 @@ layout: default
 <meta property="og:url"         content="{{ page.url }}" />
 <meta property="og:image"       content="http://www.andjosh.com/favicon.png" />
 <meta property="og:site_name"   content="www andjosh" />
-<div class="f4 lh-copy pr6-l pl6-l">
-    <article class="fl-ns w-70-l pa4 mb5" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="f4 lh-copy pr6-l">
+    <article class="fl-ns w-60-l pa3 mb5 mr6-l" itemscope itemtype="http://schema.org/BlogPosting">
         <meta itemprop="author" content="Josh Beckman" />
-        <div class="dib f5 ph3 pv1 mt3">
-            <a class="b" itemprop="url" href="{{ page.url }}" itemprop="datePublished">
+        <h1 class="mv0 normal">
+            {% if page.title  and page.title != ''%}
+                {{ page.title }}
+            {% else %}
+                {{ site.title }}, {{ page.date | date_to_string }}
+            {% endif %}
+        </h1>
+        <div class="dib f5 pv1 mt3 ttu">
+            <a class="" itemprop="url" href="{{ page.url }}" itemprop="datePublished">
                 {{ page.date | date_to_string }}
             </a>
         </div>

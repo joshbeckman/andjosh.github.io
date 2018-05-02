@@ -7,14 +7,14 @@ layout: default
         <div class="post-image">
             <img src="{{ page.image }}" alt="{{ page.title }}"/>
         </div>
+        {% endif %}
         <h1 class="mv0 normal">
-            {% if page.title  and page.title != ''%}
+            {% if page.title and page.title != ''%}
                 {{ page.title }}
             {% else %}
                 {{ site.title }}, {{ page.date | date_to_long_string }}
             {% endif %}
         </h1>
-        {% endif %}
         <div class="content w-80-l" itemprop="articleBody">
             {{ content }}
         </div>

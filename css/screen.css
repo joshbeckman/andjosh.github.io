@@ -8,11 +8,10 @@ a {
     border-bottom: 1px solid #FFA3D7;
 }
 .content blockquote {
-    border-left: 3px solid #00449E;
+    border-left: 3px solid #FFA3D7;
     margin: 0;
-    padding: 1rem 1.25rem;
+    padding: .01rem 2rem;
     font-size: 1.4rem;
-    color: #00449E
 }
 .anchor {
     border: none;

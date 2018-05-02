@@ -6,8 +6,14 @@ title: Josh Beckman
     <div class="fl-ns w-70-l pa3 mb5">
         <div class="content mw-8" itemprop="articleBody">
             <meta name="description" content="Josh Beckman is a software/app engineer and developer of imaginary machines in Chicago" />
-            {% for post in site.posts %}
-                {% assign currentdate = post.date | date: "%Y" %}
+            {% for post in paginator.posts %}
+                {% if post.image %}
+                    <div class="post-image">
+                        <a class="bw0" href="{{ post.url }}">
+                            <img src="{{ post.image }}" alt="{{ post.title }}"/>
+                        </a>
+                    </div>
+                {% endif %}
                 {% if post.title and post.title != '' %}
                     <div class="mb5">
                         <h4 class="f3 mb0 lh-title">
@@ -32,6 +38,20 @@ title: Josh Beckman
                     </div>
                 {% endif %}
             {% endfor %}
+            <!-- Pagination links -->
+            <div class="pagination">
+              {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+              {% else %}
+                <span class="previous">Previous</span>
+              {% endif %}
+              <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+              {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+              {% else %}
+                <span class="next ">Next</span>
+              {% endif %}
+            </div>
         </div>
     </div>
     {% include sidebar.html %}

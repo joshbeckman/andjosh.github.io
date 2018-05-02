@@ -5,24 +5,27 @@ title: Josh Beckman
 <meta name="description" content="Josh Beckman is a software/app engineer and developer of imaginary machines in Chicago" />
 {% for post in site.posts %}
     {% assign currentdate = post.date | date: "%Y" %}
-    {% if currentdate != date %}
-        <h3 class="f2" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h3>
-        {% assign date = currentdate %}
-    {% endif %}
     {% if post.title and post.title != '' %}
-        <h4 class="f3">
-            <a href="{{ post.url }}">
-                {{ post.title }}
-            </a>
-        </h4>
-    {% else %}
-        <div class="measure mb3">
-            {{ post.content }}
-            <p class="f5 mt0">
-                (<a href="{{ post.url }}">
-                    {{ post.date | date_to_string }}
-                </a>)
+        <div class="mb5">
+            <h4 class="f3 mb0 lh-title">
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+            </h4>
+            <p class="f5 mt0 tracked">
+                {{ post.date | date_to_long_string }}
             </p>
+        </div>
+    {% else %}
+        <div class="mb5">
+            <div class="measure">
+                {{ post.content }}
+            </div>
+            <div class="f5 tracked">
+                <a href="{{ post.url }}">
+                    {{ post.date | date_to_long_string }}
+                </a>
+            </div>
         </div>
     {% endif %}
 {% endfor %}

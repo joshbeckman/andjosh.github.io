@@ -4,39 +4,32 @@ layout: default
 
 <meta name="twitter:card"       content="summary" />
 <meta name="twitter:site"       content="@twandjosh" />
-{% if page.title and page.title != ''%}
-<meta name="twitter:title"      content="{{ page.title }}" />
-{% else %}
-<meta name="twitter:title"      content="{{ site.title }}, {{ page.date | date_to_string }}" />
-{% endif %}
-<meta name="twitter:description"content="{{ page.date | date_to_string }}" />
-<meta name="twitter:image"      content="http://www.andjosh.com/favicon.png" />
+<meta name="twitter:description"content="{{ page.date | date_to_long_string }}" />
 <meta name="twitter:url"        content="{{ page.url }}" />
-{% if page.title and page.title != ''%}
-<meta property="og:title"       content="{{ page.title }}" />
-{% else %}
-<meta property="og:title"       content="{{ site.title }}, {{ page.date | date_to_string }}" />
-{% endif %}
 <meta property="og:type"        content="article" />
 <meta property="og:url"         content="{{ page.url }}" />
-<meta property="og:image"       content="http://www.andjosh.com/favicon.png" />
 <meta property="og:site_name"   content="www andjosh" />
-<div class="f4 lh-copy pr6-l">
-    <article class="fl-ns w-60-l pa3 mb5 mr6-l" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="f4 lh-copy">
+    <article class="fl-ns w-70-l pa3 mb5 pt0" itemscope itemtype="http://schema.org/BlogPosting">
         <meta itemprop="author" content="Josh Beckman" />
+        {% if page.image %}
+        <div class="post-image">
+            <img src="{{ page.image }}" alt="{{ page.title }}"/>
+        </div>
+        {% endif %}
         <h1 class="mv0 normal">
             {% if page.title  and page.title != ''%}
                 {{ page.title }}
             {% else %}
-                {{ site.title }}, {{ page.date | date_to_string }}
+                {{ site.title }}, {{ page.date | date_to_long_string }}
             {% endif %}
         </h1>
-        <div class="dib f5 pv1 mt3 ttu">
+        <div class="dib f6 pv1 mt3 ttu">
             <a class="" itemprop="url" href="{{ page.url }}" itemprop="datePublished">
-                {{ page.date | date_to_string }}
+                {{ page.date | date_to_long_string }}
             </a>
         </div>
-        <div class="content" itemprop="articleBody">
+        <div class="content w-80-l" itemprop="articleBody">
             {{ content }}
         </div>
         <div class="ma5">

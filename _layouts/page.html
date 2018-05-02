@@ -1,9 +1,23 @@
 ---
 layout: default
 ---
-<div class="f4 lh-copy pr6-l pl6-l">
-    <div class="fl-ns w-70-l pa4 mb5">
-        {{ content }}
+<div class="f4 lh-copy">
+    <div class="fl-ns w-70-l pa3 mb5">
+        {% if page.image %}
+        <div class="post-image">
+            <img src="{{ page.image }}" alt="{{ page.title }}"/>
+        </div>
+        <h1 class="mv0 normal">
+            {% if page.title  and page.title != ''%}
+                {{ page.title }}
+            {% else %}
+                {{ site.title }}, {{ page.date | date_to_long_string }}
+            {% endif %}
+        </h1>
+        {% endif %}
+        <div class="content w-80-l" itemprop="articleBody">
+            {{ content }}
+        </div>
     </div>
     {% include sidebar.html %}
 </div>

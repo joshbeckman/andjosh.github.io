@@ -1,11 +1,11 @@
-.serif {
-  font-family: Garmond, Baskerville, Times New Roman, serif;
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
 }
 a {
-    color: #5E2CA5;
+    color: inherit;
     text-decoration: none;
     text-shadow: 0 1px 0 white;
-    border-bottom: 3px solid #FFA3D7;
+    border-bottom: 1px solid #FFA3D7;
 }
 .content blockquote {
     border-left: 3px solid #00449E;
@@ -70,8 +70,7 @@ h6:hover .anchor .octicon-link {
     background-color: rgba(27, 31, 35, 0.05);
 }
 pre {
-    padding: 1em 2rem;
-    margin: 1rem -2rem;
+    padding: 1em;
     overflow: auto;
 }
 pre code {

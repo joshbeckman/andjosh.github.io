@@ -6,7 +6,7 @@
     {% if page.title  and page.title != ''%}
         <title>{{ page.title }}</title>
     {% else %}
-        <title>{{ site.title }}, {{ page.date | date_to_string }}</title>
+        <title>{{ site.title }}, {{ page.date | date_to_long_string }}</title>
     {% endif %}
     <meta name="author" content="{{ site.author }}" />
     <link href="{{ "/rss.xml" | prepend: site.baseurl | prepend: site.url }}" rel="alternate" title="{{ site.title }}" type="application/xml" />
@@ -26,11 +26,27 @@
     <meta content="/favicon.png" name="twitter:image" property="og:image" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    {% if page.image %}
+    <meta property="og:image"       content="{{ page.image }}" />
+    <meta name="twitter:image"      content="{{ page.image }}" />
+    {% endif %}
+    {% if page.title and page.title != ''%}
+    <meta property="og:title"       content="{{ page.title }}" />
+    <meta name="twitter:title"      content="{{ page.title }}" />
+    {% else %}
+    <meta property="og:title"       content="{{ site.title }}, {{ page.date | date_to_long_string }}" />
+    <meta name="twitter:title"      content="{{ site.title }}, {{ page.date | date_to_long_string }}" />
+    {% endif %}
 </head>
-<body class="serif bg-white pr6-l pl6-l">
+<body class="baskerville bg-white pr6-l pl6-l">
     <div class="bt bb bw1 mv4 mh3">
         <h3 class="ttu tracked f4 mv1 normal dib">
-            {{ site.title }}
+            <a href="/" class="bw0 mr2" title="home" rel="home">
+                <img src="/images/purple-fade.png" alt="{{ site.title }}" width="28" height="28" class="dib v-mid br2"/>
+            </a>
+            <span class="dib v-mid">
+                {{ site.title }}
+            </span>
         </h3>
     </div>
 

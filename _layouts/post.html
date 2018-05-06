@@ -24,7 +24,7 @@ layout: default
                 {{ site.title }}, {{ page.date | date_to_long_string }}
             {% endif %}
         </h1>
-        <div class="dib f6 pv1 mt3 ttu">
+        <div class="dib pv2 mt3 ttu">
             <a class="" itemprop="url" href="{{ page.url }}" itemprop="datePublished">
                 {{ page.date | date_to_long_string }}
             </a>
@@ -32,12 +32,10 @@ layout: default
         <div class="content mw7" itemprop="articleBody">
             {{ content }}
         </div>
-        <div class="ma5">
-            <small>
+        <div class="ma5 f4">
             <a href="mailto:email@andjosh.com?subject=RE:{{ page.title }}" title="Comment/Reply">Comment/Reply</a>
             &nbsp;or&nbsp;
             <a href="https://github.com/andjosh/andjosh.github.io/blob/master/{{ page.path }}" target="_blank" title="Suggest an edit">Suggest an edit</a>
-            </small>
         </div>
         {% if page.sub and page.sub_url %}
             <h6>

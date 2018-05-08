@@ -2,7 +2,9 @@ url: https://www.andjosh.com
 author: Josh Beckman
 email: email@andjosh.com
 title: Josh
-photos_link: https://www.instagram.com/photos.andjosh/
+tagline: 'A Jekyll theme'
+description: 'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+baseurl: /
 
 collections:
   lists:
@@ -12,7 +14,12 @@ collections:
   decks:
     output: true
 
+links:
+  newsletter: http://tinyletter.com/andjosh
+  photos: https://www.instagram.com/photos.andjosh/
+
 markdown: kramdown
+highlighter: pygments
 permalink: pretty
 paginate: 20
 paginate_path: '/page:num'

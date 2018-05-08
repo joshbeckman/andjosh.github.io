@@ -1,57 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {% if page.title  and page.title != ''%}
-        <title>{{ page.title }}</title>
-    {% else %}
-        <title>{{ site.title }}, {{ page.date | date_to_long_string }}</title>
-    {% endif %}
-    <meta name="author" content="{{ site.author }}" />
-    <link href="{{ "/rss.xml" | prepend: site.baseurl | prepend: site.url }}" rel="alternate" title="{{ site.title }}" type="application/xml" />
-    <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
-    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-    <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-    <link rel="micropub" href="https://micropub-andjosh.herokuapp.com/micropub/main">
-    <link rel="me" href="https://github.com/andjosh" />
-    <link rel="me" href="https://twitter.com/twandjosh" />
-    <link rel="shortcut icon" href="/favicon.png" />
-    <link rel="apple-touch-icon" href="/favicon.png" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="/favicon.png" />
-    <meta content="/favicon.png" name="twitter:image" property="og:image" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    {% if page.image %}
-    <meta property="og:image"       content="{{ page.image }}" />
-    <meta name="twitter:image"      content="{{ page.image }}" />
-    {% endif %}
-    {% if page.title and page.title != ''%}
-    <meta property="og:title"       content="{{ page.title }}" />
-    <meta name="twitter:title"      content="{{ page.title }}" />
-    {% else %}
-    <meta property="og:title"       content="{{ site.title }}, {{ page.date | date_to_long_string }}" />
-    <meta name="twitter:title"      content="{{ site.title }}, {{ page.date | date_to_long_string }}" />
-    {% endif %}
-</head>
-<body class="baskerville bg-white pr6-l pl6-l">
-    <div class="bt bb bw1 mv4 mh3">
-        <h3 class="ttu tracked f4 mv1 normal dib">
-            <a href="/" class="bw0 mr2" title="home" rel="home">
-                <img src="/images/purple-fade.png" alt="{{ site.title }}" width="28" height="28" class="dib v-mid br2"/>
-            </a>
-            <span class="dib v-mid">
-                {{ site.headers | sample }}
-            </span>
-        </h3>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include sidebar.html %}
+
+    <div class="content container">
+      {{ content }}
     </div>
 
-  {{ content }}
-
-<script type="text/javascript" src="/js/screen.js" async></script>
-</body>
+  </body>
 </html>

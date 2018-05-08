@@ -2,46 +2,24 @@
 layout: default
 ---
 
-<meta name="twitter:card"       content="summary" />
-<meta name="twitter:site"       content="@twandjosh" />
-<meta name="twitter:description"content="{{ page.date | date_to_long_string }}" />
-<meta name="twitter:url"        content="{{ page.url }}" />
-<meta property="og:type"        content="article" />
-<meta property="og:url"         content="{{ page.url }}" />
-<meta property="og:site_name"   content="www andjosh" />
-<div class="f4 lh-copy">
-    <article class="fl-ns w-70-l pa3 mb5 pt0" itemscope itemtype="http://schema.org/BlogPosting">
-        <meta itemprop="author" content="Josh Beckman" />
-        {% if page.image %}
-        <div class="post-image">
-            <img src="{{ page.image }}" alt="{{ page.title }}"/>
-        </div>
-        {% endif %}
-        <h1 class="mv0 normal">
-            {% if page.title  and page.title != ''%}
-                {{ page.title }}
-            {% else %}
-                {{ site.title }}, {{ page.date | date_to_long_string }}
-            {% endif %}
-        </h1>
-        <div class="dib pv2 mt3 ttu">
-            <a class="" itemprop="url" href="{{ page.url }}" itemprop="datePublished">
-                {{ page.date | date_to_long_string }}
-            </a>
-        </div>
-        <div class="content mw7" itemprop="articleBody">
-            {{ content }}
-        </div>
-        <div class="ma5 f4">
-            <a href="mailto:email@andjosh.com?subject=RE:{{ page.title }}" title="Comment/Reply">Comment/Reply</a>
-            &nbsp;or&nbsp;
-            <a href="https://github.com/andjosh/andjosh.github.io/blob/master/{{ page.path }}" target="_blank" title="Suggest an edit">Suggest an edit</a>
-        </div>
-        {% if page.sub and page.sub_url %}
-            <h6>
-                <a href="{{ page.sub_url }}">Back to {{ page.sub }}</a>
-            </h6>
-        {% endif %}
-    </article>
-    {% include sidebar.html %}
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+  {{ content }}
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
 </div>

@@ -2,7 +2,7 @@
 layout: deck
 title: Code Review Doesn't Have to Suck
 permalink: /presents/better-code-review/
-presented_at: Chicago JavaScript Meetup, Chicago Tech Leads
+presented_at: Chicago JavaScript Meetup, Chicago Tech Leads Meetup
 date: 2016-11-15
 ---
 

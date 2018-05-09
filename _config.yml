@@ -3,7 +3,7 @@ author: Josh Beckman
 email: email@andjosh.com
 title: Josh
 tagline: 'A Jekyll theme'
-description: 'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description: 'Founder of <a href="https://www.narro.co" target="_blank">Narro</a>. Leading the product & engineering team at <a href="https://www.officeluv.com" target="_blank">OfficeLuv</a>.'
 baseurl: /
 
 collections:
@@ -15,8 +15,18 @@ collections:
     output: true
 
 links:
-  newsletter: http://tinyletter.com/andjosh
-  photos: https://www.instagram.com/photos.andjosh/
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Talks
+    url: /presents/
+  - title: Newsletter
+    url: http://tinyletter.com/andjosh
+  - title: Photos
+    url: https://www.instagram.com/photos.andjosh/
+  - title: RSS
+    url: /rss.xml
 
 markdown: kramdown
 highlighter: pygments

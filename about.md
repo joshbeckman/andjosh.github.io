@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Josh who?
+title: About Josh Beckman
 permalink: /about/
 image: /images/page/mustache.jpg
 ---

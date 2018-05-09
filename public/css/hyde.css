@@ -182,6 +182,7 @@ a.sidebar-nav-item:focus {
  * within blog posts. To use, add the class of your choosing to the `body`.
  */
 .theme-base-josh .sidebar {
+  background-color: #903465;
   background-image: url('/favicon.png');
   background-size: cover;
   background-position: center;

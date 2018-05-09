@@ -1,10 +1,10 @@
 url: https://www.andjosh.com
+baseurl: /
 author: Josh Beckman
 email: email@andjosh.com
 title: Josh
 tagline: 'A Jekyll theme'
 description: 'Founder of <a href="https://www.narro.co" target="_blank">Narro</a>. Leading the product & engineering team at <a href="https://www.officeluv.com" target="_blank">OfficeLuv</a>.'
-baseurl: /
 
 collections:
   lists:

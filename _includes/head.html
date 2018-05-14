@@ -20,9 +20,33 @@
   <link rel="stylesheet" href="/public/css/hyde.css">
 
   <!-- Icons -->
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/favicon.png" />
+    <meta content="/favicon.png" name="twitter:image" property="og:image" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.png">
                                  <link rel="shortcut icon" href="/favicon.png">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+    <meta name="author" content="{{ site.author }}" />
+    <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+    <link rel="micropub" href="https://micropub-andjosh.herokuapp.com/micropub/main">
+    <link rel="me" href="https://github.com/andjosh" />
+    <link rel="me" href="https://twitter.com/twandjosh" />
+    {% if page.image %}
+    <meta property="og:image"       content="{{ page.image }}" />
+    <meta name="twitter:image"      content="{{ page.image }}" />
+    {% endif %}
+    {% if page.title and page.title != ''%}
+    <meta property="og:title"       content="{{ page.title }}" />
+    <meta name="twitter:title"      content="{{ page.title }}" />
+    {% else %}
+    <meta property="og:title"       content="{{ site.title }}, {{ page.date | date_to_long_string }}" />
+    <meta name="twitter:title"      content="{{ site.title }}, {{ page.date | date_to_long_string }}" />
+    {% endif %}
 </head>

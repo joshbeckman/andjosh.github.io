@@ -13,6 +13,7 @@ date: 2018-06-26
 </section>
 <section data-markdown>
 
+- You probably have "bugs" due to this stuff
 - This is complicated
 - Ask questions!
 

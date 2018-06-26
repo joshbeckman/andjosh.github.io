@@ -3,7 +3,7 @@ layout: reveal
 title: Twice Around The JS Event Loop
 permalink: /presents/twice-around-the-javascript-event-loop/
 presented_at: Chicago JavaScript Meetup
-date: 2018-05-26
+date: 2018-06-26
 ---
 
 <section data-markdown>

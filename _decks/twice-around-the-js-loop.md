@@ -30,6 +30,26 @@ date: 2018-05-26
 ## What Happens?
 
 ```js
+const s = new Date().getSeconds();
+var elapsed;
+
+setTimeout(() => {
+  console.log("Ran after " + (new Date().getSeconds() - s) + " seconds");
+}, 500);
+
+while(true) {
+  elapsed = new Date().getSeconds() - s;
+  if (elapsed >= 2) {
+    console.log("Good, looped for 2 seconds");
+    break;
+  }
+}
+```
+</section>
+<section data-markdown>
+## What Happens?
+
+```js
 function foo() {
     setTimeout(function foo() {
         Promise.resolve('foo')
@@ -65,13 +85,18 @@ Task-driven
 
 - Events
 - Timeout/Interval
-- HTTP
+- XHR
+- Window messages
+
+Also called Events or Messages
 </section>
 <section data-markdown>
-## Microtasks/Jobs
+## Microtasks
 
 - Promises
 - Object observers
+
+Also called Jobs
 </section>
 <section data-markdown>
 ## Animation Tasks
@@ -81,11 +106,14 @@ Task-driven
 <section data-markdown>
 ## Browser Event Loop
 
-1. Run the oldest task in macrotask queue until stack empty.
+1. Run the oldest task in macrotask queue until stack bottom.
 2. Run _all_ tasks in microtask queue until empty.
-3. Run _all_ present tasks in animation queue until stack empty.
+3. Once per frame, run _all_ present tasks in animation queue until stack bottom.
 4. Run _all_ tasks in microtask queue until empty.
 5. Rinse, repeat (loop)
+</section>
+<section data-markdown>
+![Browser JS runtime general model](/images/js-runtime-microtask-model.png)
 </section>
 <section data-markdown>
 ## Browser Event Loop
@@ -93,9 +121,6 @@ Task-driven
 - Macrotasks created in-loop are processed next loop
 - Microtasks created in-loop are processed until queue is empty
 - Animation tasks created in-loop are processed next loop
-</section>
-<section data-markdown>
-![Browser JS runtime general model](/images/js-runtime-microtask-model.png)
 </section>
 <section data-markdown>
 ## Stack Bottom
@@ -145,6 +170,12 @@ button.click();
 This matters for changing styles!
 </section>
 <section data-markdown>
+## Browser JS Guidelines
+
+- Identify your macro/micro tasks
+- Find stack bottom
+</section>
+<section data-markdown>
 ## Node.js
 
 Queue-governed
@@ -175,6 +206,7 @@ Task-driven
 1. Run the oldest task in Timers queue until new.
 2. Run the oldest task in nextTick queue until empty.
 3. Run the oldest task in Promise queue until empty.
+4. Repeat 2 and 3 until both are empty.
 </section>
 <section data-markdown>
 ## Node.js Event Loop 2
@@ -182,6 +214,7 @@ Task-driven
 1. Run the oldest task in I/O queue until new.
 2. Run the oldest task in nextTick queue until empty.
 3. Run the oldest task in Promise queue until empty.
+4. Repeat 2 and 3 until both are empty.
 </section>
 <section data-markdown>
 ## Node.js Event Loop 3
@@ -189,6 +222,7 @@ Task-driven
 1. Run the oldest task in Immediates queue until new.
 2. Run the oldest task in nextTick queue until empty.
 3. Run the oldest task in Promise queue until empty.
+4. Repeat 2 and 3 until both are empty.
 </section>
 <section data-markdown>
 ## Node.js Event Loop 4
@@ -196,6 +230,7 @@ Task-driven
 1. Run the oldest task in I/O Close queue until new.
 2. Run the oldest task in nextTick queue until empty.
 3. Run the oldest task in Promise queue until empty.
+4. Repeat 2 and 3 until both are empty.
 </section>
 <section data-markdown>
 ## Node.js Event Loop
@@ -209,6 +244,12 @@ Task-driven
 - Poll for I/O
 </section>
 <section data-markdown>
+## Node.js Guidelines
+
+- Sort your tasks into queues
+- Watch your I/O starvation
+</section>
+<section data-markdown>
 ## But Why?
 
 - Computing styles
@@ -216,6 +257,31 @@ Task-driven
 - Triggering manual events
 - Batching Promises
 - Ordering callbacks
+</section>
+<section>
+<section data-markdown>
+## Super Fun Quiz
+
+```js
+setTimeout(() => console.log('this is setTimeout 1'), 0);
+setTimeout(() => {
+    console.log('this is setTimeout 2');
+    Promise.resolve().then(() => {
+        console.log('this is promise added inside setTimeout');
+    });
+}, 0);
+setTimeout(() => console.log('this is setTimeout 3'), 0);
+setTimeout(() => console.log('this is setTimeout 4'), 0);
+setTimeout(() => console.log('this is setTimeout 5'), 0);
+
+Promise.resolve.then(() => console.log('this is promise 1'));
+Promise.resolve().then(() => {
+    Promise.resolve().then(() => {
+        console.log('this is the inner promise inside promise');
+    });
+});
+```
+</section>
 </section>
 <section>
 <section data-markdown>
@@ -237,6 +303,16 @@ process.env.UV_THREADPOOL_SIZE = 4; // default
 ```
 
 </section>
+</section>
+<section data-markdown>
+## Good Resources
+
+- [Node.js Event Loop Details](https://jsblog.insiderattack.net/event-loop-and-the-big-picture-nodejs-event-loop-part-1-1cb67a182810)
+- [General JS Runtime Model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop#Event_loop)
+- [Browser JS Event Loop](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
+- [Browser JS Event Loop Bugs/Differences](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
+- [Node.js Event Loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
+- [HTML Standard for JS Task Queues](https://html.spec.whatwg.org/multipage/webappapis.html#task-queue)
 </section>
 <section data-markdown>
 

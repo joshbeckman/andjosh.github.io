@@ -227,6 +227,16 @@ Event demultiplexer
 - `libuv`
 
 </section>
+<section data-markdown>
+## libuv
+
+External modules that makes use of native C++ and libuv is likely to use the thread pool (think: database access).
+
+```js
+process.env.UV_THREADPOOL_SIZE = 4; // default
+```
+
+</section>
 </section>
 <section data-markdown>
 

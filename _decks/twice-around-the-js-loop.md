@@ -25,7 +25,7 @@ date: 2018-06-26
 - JavaScript is event-driven
 - JavaScript is asynchronous
 - JavaScript is non-blocking
-- JavaScript is the same in Node.js & the browser
+- JavaScript runs the same in Node.js & the browser
 </section>
 <section data-markdown>
 ## What Happens?

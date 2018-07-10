@@ -14,7 +14,7 @@ And before that, I used to be a photojournalist, an EMT, and a construction work
 
 You can [book time to meet](//calendly.com/andjosh/30min) and we'll become great friends.
 
-I respond most readily via [email(at)andjosh.com](mailto:email@andjosh.com), and sometimes check Twitter [@andjosh_](//twitter.com/andjosh_). I sometimes remember to share photos on Instagram [@photos.andjosh](//instagram.com/photos.andjosh).
+I respond most readily via [email(at)andjosh.com](mailto:email@andjosh.com), and Twitter [@andjosh_](//twitter.com/andjosh_).
 
 I often deploy repositories of knowledge and computer code to [GitHub](//github.com/andjosh). I tend to make [quite a few lists](/lists) and [write hopefully helpful things](/). I'm open to advising [on AngelList](//angel.co/andjosh).
 

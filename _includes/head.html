@@ -9,15 +9,16 @@
   <title>
     {% if page.title == site.title %}
       {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
+    {% elsif page.title and page.title != ''%}
       {{ page.title }} &middot; {{ site.title }}
+    {% else %}
+      {{ page.date | date_to_long_string }} &middot; {{ site.title }}
     {% endif %}
   </title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/hyde.css">
 
   <!-- Icons -->
     <meta name="msapplication-TileColor" content="#ffffff" />

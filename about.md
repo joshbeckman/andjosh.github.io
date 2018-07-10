@@ -4,9 +4,9 @@ title: About Josh Beckman
 permalink: /about/
 image: /images/page/mustache.jpg
 ---
-I'm the founder of <a href="//narro.co">Narro</a>, the best way to listen to the internet. I'm currently leading the engineering team at <a href="//officeluv.com">OfficeLuv</a>. I'm also a member of the <a href="http://no.nonsense.agency">No Nonsense Agency</a>.
+I'm the founder of <a href="//narro.co">Narro</a>, the best way to listen to the internet. I'm currently leading the product & engineering team at <a href="//officeluv.com">OfficeLuv</a>. I'm also a member of the <a href="http://no.nonsense.agency">No Nonsense Agency</a>.
 
-I built the engineering team and product at [ThreadMeup](//threadmeup.com) from a team of 4 to over 30.
+I built the engineering team and product at [ThreadMeUp](//threadmeup.com) from a team of 4 to over 30.
 
 Before that, I was the first engineering hire at [Aggrego](//aggrego.com), a kind of startup incubator.
 

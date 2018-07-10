@@ -347,9 +347,11 @@ tbody tr:nth-child(odd) th {
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+}
+.post-title + .post-date {
+  margin-top: -.5rem;
 }
 
 /* Related posts */
@@ -427,4 +429,47 @@ a.pagination-item:hover {
     border-top-right-radius:    4px;
     border-bottom-right-radius: 4px;
   }
+}
+
+
+
+/*
+ * Themes
+ *
+ * As of v1.1, Hyde includes optional themes to color the sidebar and links
+ * within blog posts. To use, add the class of your choosing to the `body`.
+ */
+.theme-base-josh .sidebar {
+  background-color: #903465;
+  background-image: url('/favicon.png');
+  background-size: cover;
+  background-position: center;
+}
+.theme-base-josh .content a,
+.theme-base-josh .related-posts li a:hover {
+  color: #D5008F;
+}
+.theme-base-josh .masthead img {
+    display: inline;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+.theme-base-josh .masthead nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+.theme-base-josh .masthead a {
+    color: white;
+}
+.theme-base-josh .masthead nav a {
+    margin: 0 0.5rem;
+}
+@media (max-width: 30em) {
+    .theme-base-josh .masthead img,
+    .theme-base-josh .masthead nav {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
 }

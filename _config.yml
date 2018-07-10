@@ -15,16 +15,12 @@ collections:
     output: true
 
 links:
-  - title: Home
-    url: /
   - title: About
     url: /about/
   - title: Talks
     url: /presents/
   - title: Newsletter
     url: http://tinyletter.com/andjosh
-  - title: Photos
-    url: https://www.instagram.com/photos.andjosh/
   - title: RSS
     url: /rss.xml
 

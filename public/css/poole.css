@@ -445,9 +445,15 @@ a.pagination-item:hover {
   background-size: cover;
   background-position: center;
 }
+.theme-base-josh a {
+  text-decoration: underline;
+}
 .theme-base-josh .content a,
 .theme-base-josh .related-posts li a:hover {
   color: #D5008F;
+}
+.theme-base-josh .masthead .masthead-home-link {
+  text-decoration: none;
 }
 .theme-base-josh .masthead img {
     display: inline;
@@ -464,6 +470,9 @@ a.pagination-item:hover {
 }
 .theme-base-josh .masthead nav a {
     margin: 0 0.5rem;
+}
+.theme-base-josh .masthead nav a.active {
+    font-weight: bold;
 }
 @media (max-width: 30em) {
     .theme-base-josh .masthead img,

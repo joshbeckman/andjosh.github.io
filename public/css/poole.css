@@ -439,6 +439,18 @@ a.pagination-item:hover {
  * As of v1.1, Hyde includes optional themes to color the sidebar and links
  * within blog posts. To use, add the class of your choosing to the `body`.
  */
+.theme-base-josh {
+  font-family: Avenir;
+}
+.theme-base-josh h1,
+.theme-base-josh h2,
+.theme-base-josh h3,
+.theme-base-josh h4,
+.theme-base-josh h5,
+.theme-base-josh h6
+{
+  font-weight: 100;
+}
 .theme-base-josh .sidebar {
   background-color: #903465;
   background-image: url('/favicon.png');

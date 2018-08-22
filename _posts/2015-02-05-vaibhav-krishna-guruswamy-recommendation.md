@@ -1,9 +1,7 @@
 ---
 layout: post
 title: A Recommendation of Vaibhav Krishna Guruswamy
-tags:
-- People
-- Recommendation
+tags: [recommendation]
 ---
 
 I have known Krishna since interviewing him over a scrambled, laggy Skype connection for a position with me at [Aggrego](http://aggrego.com). That was in December of 2013. We decided to hire him, and I am lucky we did.

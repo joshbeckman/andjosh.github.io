@@ -17,20 +17,14 @@ layout: default
     {{ page.date | date_to_string }}
   </a>
   {{ content }}
-</div>
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
+<div class="related-tags">
+  {% if page.tags.size > 0 %}
+    {% capture tags_content %} Tagged with: {% endcapture %}
+    {% for tag in page.tags %}
+        {% capture tags_content_temp %}{{ tags_content }}<a href="/tags/{{ tag }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+        {% assign tags_content = tags_content_temp %}
     {% endfor %}
-  </ul>
+  {% endif %}
+  <p><small>{{ tags_content }}</small></p>
+</div>
 </div>

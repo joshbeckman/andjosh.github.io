@@ -38,20 +38,20 @@ defaults:
       layout: tag
 
 links:
-  - title: About
-    url: /about/
   - title: Talks
     url: /presents/
   - title: Newsletter
     url: /newsletter/
   - title: RSS
     url: /rss.xml
+  - title: Contact
+    url: /contact/
 
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 20
-paginate_path: '/page:num'
+paginate_path: '/posts/page:num/'
 
 plugins: [jekyll-paginate]
 

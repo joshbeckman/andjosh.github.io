@@ -13,9 +13,13 @@ layout: default
     </div>
   {% endif %}
   <h1 class="post-title">{{ page.title }}</h1>
-  <a href="{{ page.url }}" class="post-date">
-    {{ page.date | date_to_string }}
-  </a>
+  <div class="post-meta-wrap">
+      <div class="post-meta">
+          <a href="{{ page.url }}" class="post-date" rel="bookmark">
+              <time>{{ page.date | date_to_string }}</time>
+          </a>
+      </div>
+  </div>
   {{ content }}
 <div class="related-tags">
   {% if page.tags.size > 0 %}

@@ -391,7 +391,6 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
@@ -440,22 +439,12 @@ a.pagination-item:hover {
  * within blog posts. To use, add the class of your choosing to the `body`.
  */
 .theme-base-josh {
-  font-family: Avenir;
-}
-.theme-base-josh h1,
-.theme-base-josh h2,
-.theme-base-josh h3,
-.theme-base-josh h4,
-.theme-base-josh h5,
-.theme-base-josh h6
-{
-  font-weight: 100;
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, sans-serif;
 }
 .theme-base-josh .sidebar {
   background-color: #903465;
-  background-image: url('/favicon.png');
-  background-size: cover;
-  background-position: center;
+  background-image: linear-gradient(135deg,#7E4577,#913465);
+  box-shadow: 0 -.2rem .75rem rgba(0,0,0,.2) inset;
 }
 .theme-base-josh a {
   text-decoration: underline;
@@ -479,6 +468,10 @@ a.pagination-item:hover {
 }
 .theme-base-josh .masthead a {
     color: white;
+    text-decoration: none;
+}
+.theme-base-josh .sidebar a {
+    color: white;
 }
 .theme-base-josh .masthead nav a {
     margin: 0 0.5rem;
@@ -486,7 +479,58 @@ a.pagination-item:hover {
 .theme-base-josh .masthead nav a.active {
     font-weight: bold;
 }
+.theme-base-josh .masthead-title small {
+    float: right;
+    position: relative;
+    top: 1.25rem;
+}
+.theme-base-josh .post {
+    margin-bottom: 6rem;
+}
+.post-meta-wrap {
+    border-top: 1px solid #999;
+    text-align: center;
+    position: relative;
+    margin-top: 2.5rem;
+}
+.post-meta-wrap .post-meta {
+    position: relative;
+    top: 0;
+}
+.post-meta-wrap .post-date {
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    top: -1rem;
+    background: #fff;
+    padding: 0 20px;
+}
+.about {
+    padding-top: 10vh;
+}
+.sidebar .about {
+    color: white;
+}
+.sidebar .about h1 {
+    color: white;
+    margin: 0;
+    padding: 2rem 0;
+}
+.about .emphasis {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 .2rem .75rem rgba(0,0,0,.2);
+    background-image: linear-gradient(135deg,rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.2));
+}
 @media (max-width: 30em) {
+    .theme-base-josh .masthead-title small {
+        float: none;
+        position: relative;
+        top: 0;
+    }
     .theme-base-josh .masthead img,
     .theme-base-josh .masthead nav {
         text-align: center;

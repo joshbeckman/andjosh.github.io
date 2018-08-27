@@ -4,9 +4,11 @@ title: Reading Lists
 permalink: /lists/reading/
 ---
 
-- [Trigger Warning](http://www.indiebound.org/book/9780062330260?aff=jenmyers) _Niel Gaiman_
+## Presently
 
-<!--two items:-->
+- Lab Girl _Hope Jahren_
+
+## Future
 
 - __#__ Hard-boiled Wonderland and the End of the World _Haruki Murakami_
 - __#__ README _Neal Stephenson_
@@ -66,8 +68,9 @@ permalink: /lists/reading/
 - Breaking the Mishap Chain
 - The Tree of Knowledge _Maturana, Varela_
 
-<!--two items:-->
+## Past
 
+- __*__ [Trigger Warning](http://www.indiebound.org/book/9780062330260?aff=jenmyers) _Niel Gaiman_
 - __*__ Understanding Power _Noam Chomsky_
 - Inadequate Equilibria _Eliezer Yudkowsky_
 - Men Explain Things to Me _Rebecca Solnit_ 

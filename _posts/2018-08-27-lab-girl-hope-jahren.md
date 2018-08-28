@@ -10,6 +10,8 @@ I was generously gifted [Lab Girl by Hope Jahren](https://www.penguinrandomhouse
 
 I loved the rhythm of this book: chapters alternated between her memories and thoughtful paths into botanical research. I love connections between a life experience and scientific themes or analogies. I loved the author's tone and her wit; I wanted to meet her more with each section. I loved the way it would cause me to drift my eyes off the page in thought after reading a scientific explanation and would glue my eyes to the page through a teaching experience.
 
+The author and her partner Bill continuously reminded me of my uncle, Tom and his teaching partner (basically my aunt), Karen. They were my scientific teachers during my childhood and high school years, taking me (and my friends) on camping trips, mud-treks, and surgical tours. They had a similarly complex and intimate career together and taught me more than I probably realize.
+
 I bookmarked more passages toward the beginning of the book, as I think the ideas meshed into a better arc that tapered off as the story passed into later years.
 
 ## Bookmarked Passages

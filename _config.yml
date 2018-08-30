@@ -38,6 +38,8 @@ defaults:
       layout: tag
 
 links:
+  - title: Posts
+    url: /posts/
   - title: Talks
     url: /presents/
   - title: Newsletter

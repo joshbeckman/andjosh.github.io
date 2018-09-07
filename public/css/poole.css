@@ -525,6 +525,9 @@ a.pagination-item:hover {
     box-shadow: 0 .2rem .75rem rgba(0,0,0,.2);
     background-image: linear-gradient(135deg,rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.2));
 }
+.home-footer {
+  margin-bottom: 5rem;
+}
 @media (max-width: 30em) {
     .theme-base-josh .masthead-title small {
         float: none;

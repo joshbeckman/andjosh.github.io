@@ -99,11 +99,6 @@ window.location.reload(true);
 - [Location.reload() - Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Location/reload)
 - [Navigator.onLine - Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorOnLine/onLine)
 </section>
-<section data-markdown data-background-image="https://media.giphy.com/media/r2MkQEOe7niGk/giphy-downsized.gif">
-
-# {{ page.title }}
-
-</section>
 <section data-markdown>
 
 ## We're Hiring @ OfficeLuv!

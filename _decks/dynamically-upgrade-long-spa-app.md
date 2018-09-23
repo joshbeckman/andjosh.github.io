@@ -3,7 +3,7 @@ layout: reveal
 title: Dynamically Upgrade Your JS App
 permalink: /presents/dynamically-upgrade-long-spa-sessions/
 presented_at: JSCamp Chicago 2018
-date: 2018-09-20
+date: 2018-09-21
 ---
 
 <section data-markdown data-background-image="https://media.giphy.com/media/uBQNLeszLtiNO/giphy-downsized.gif">
@@ -12,16 +12,22 @@ date: 2018-09-20
 
 </section>
 <section data-markdown>
+<script type="text/template">
 ### The Problem
 
-- Customers on the page for months!
-- But we get better constantly!
+Customers on the page for months! <!-- .element: class="fragment" -->
+
+But we get better constantly! <!-- .element: class="fragment" -->
+</script>
 </section>
 <section data-markdown>
+<script type="text/template">
 ### How Do Other Clients Handle This?
 
-- Updating desktop apps?
-- Auto-updating phone apps?
+Updating desktop apps? <!-- .element: class="fragment" -->
+
+Auto-updating phone apps? <!-- .element: class="fragment" -->
+</script>
 </section>
 <section data-markdown>
 ### Watch For a Version

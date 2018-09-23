@@ -40,8 +40,23 @@ body
 {
     font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 }
-.reveal .slides {
-    text-align: left;
+.reveal.slide {
+    background-color: #1c1e20;
+    background: -moz-radial-gradient(center, circle cover, #333 0%, #1c1e20 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #333), color-stop(100%, #1c1e20));
+    background: -webkit-radial-gradient(center, circle cover, #333 0%, #1c1e20 100%);
+    background: -o-radial-gradient(center, circle cover, #333 0%, #1c1e20 100%);
+    background: -ms-radial-gradient(center, circle cover, #333 0%, #1c1e20 100%);
+    background: radial-gradient(center, circle cover, #333 0%, #1c1e20 100%);
+}
+.reveal pre {
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+.reveal pre code {
+    padding: 3rem;
+    border-radius: 1rem;
+    background-color: #2b2b2b;
 }
 </style>
 </head>

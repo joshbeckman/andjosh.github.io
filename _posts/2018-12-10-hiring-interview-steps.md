@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hiring Retrospective: Interview Steps
+title: Hiring Retrospective - Interview Steps
 tags:
     - hiring
 ---

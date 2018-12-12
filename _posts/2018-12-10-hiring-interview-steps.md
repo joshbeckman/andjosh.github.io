@@ -7,7 +7,7 @@ tags:
 
 After interviewing all Summer and Fall, we've found the next member of [our OfficeLuv Product Team][0], a talented and thoughtful software engineer.
 
-This hiring cycle, I wanted to approach recruitment as we would a product feature or epic. Part of that, of source, is having a good retrospective. Here's the first part, a simple overview of the steps in our interview process. This is also for my good friend Bruce Ackerman, who is also [hiring at Printavo][1].
+This hiring cycle, I wanted to approach recruitment as we would a product feature or epic. Part of that, of course, is having a good retrospective. Here's the first part, a simple overview of the steps in our interview process. This is also for my good friend Bruce Ackerman, who is also [hiring at Printavo][1].
 
 ## Job Description
 

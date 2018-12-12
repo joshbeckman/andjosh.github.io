@@ -13,9 +13,9 @@ This hiring cycle, I wanted to approach recruitment as we would a product featur
 
 We had this role open and the job posted for **5 1/2 months** (mid-June through the end of November). We received applicants every week (not every day) throughout the cycle, but with most applying in June/July and October/November.
 
-During that time, we syndicated the job on 7 main sources: our open-source projects/site, our company careers page, AngelList, Indeed, LinkedIn, HackerNews (the monthly _Who’s Hiring?_ post), and a couple Chicago-based Slack groups.
+During that time, we syndicated the job on **7** main sources: our open-source projects/site, our company careers page, AngelList, Indeed, LinkedIn, HackerNews (the monthly _Who’s Hiring?_ post), and a couple Chicago-based Slack groups.
 
-Of those 7 sites, the ranking by most to fewest applicants was: Indeed, AngelList, career page, HackerNews, LinkedIn, our open-source site, and finally the Chicago Slack groups.
+For those syndication sites, the ranking by most to fewest applicants was: Indeed, AngelList, career page, HackerNews, LinkedIn, our open-source site, and finally the Chicago Slack groups.
 
 For the final **2 1/2 months**, we used recruiters to source additional, higher-quality candidates. In terms of candidate volume, the recruiters ranked somewhere between our career page and HackerNews during their active months.
 
@@ -27,10 +27,10 @@ All combined, we sourced approximately **150 candidates** throughout the job’s
 
 I wrote previously about [the steps][1] in this role’s hiring process. Here were the advancement rates through those steps:
 
-- 150 candidates
-- 30 phone/coffee/code interviews (_roughly 20% of candidates_)
-- 7 on-site interviews (_roughly 23% of phone interviews_)
-- 1 offer made (and accepted) (_roughly 14% of on-site interviews_)
+- **150** candidates
+- **30** phone/coffee/code interviews (_20% of candidates_)
+- **7** on-site interviews (_23% of phone interviews_)
+- **1** offer made (and accepted) (_14% of on-site interviews_)
 
 Proportionally, we advanced recruiter-referred candidates much more than general applicants. Candidates we reached out to directly also advanced much farther than others. This is the first hiring cycle in which I've kept such specific numbers, so I’m not yet aware of how these advancement rates compare to an average hiring flow.
 

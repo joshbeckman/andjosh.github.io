@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Client-side Tracking Revisited
+date: 2015-02-22 00:00:00 Z
+layout: post
 ---
+
 [Robert Katzki](http://katzki.de) recently asked me if I still hold on my lack of Google Analytics/other tracking.
 
 I was fortunate enough to be tested on this front with the popularity of the "[Open Protocols](/2015/02/15/using-open-protocols/)" post on [Hacker News](http://news.ycombinator.com). Honestly, I did have a couple moments during that time when I wished for a live visitors counter. But that wish was only for personal interest and, probably, vanity. It would have served no real purpose.

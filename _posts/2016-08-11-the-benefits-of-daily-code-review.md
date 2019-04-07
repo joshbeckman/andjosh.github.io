@@ -1,7 +1,9 @@
 ---
-layout: post
 title: The Benefits of Daily Code Review
+date: 2016-08-11 00:00:00 Z
+layout: post
 ---
+
 I wrote a while ago about [a methodology for daily code reviews][1], one which we implemented originally at ThreadMeUp. Now that I'm building a new team at OfficeLuv, I've been excited to start them again. Recently, I was talking to [a very good friend of mine][2] and found myself reasoning through the importance of team code reviews. I think it boils down to four main skills for individual team members.
 
 ### Articulate Your Thoughts

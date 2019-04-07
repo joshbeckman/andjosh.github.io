@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Augmented
+date: 2015-05-05 00:00:00 Z
+layout: post
 sub: Current Future
-sub_url: /fictions/current-future
-date: 2015-05-05 00:00:00
+sub_url: "/fictions/current-future"
 ---
 
 What about a future where some members of society have computers and artificial intelligence implanted into their brains?

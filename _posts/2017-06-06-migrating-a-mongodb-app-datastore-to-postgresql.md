@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Migrating a MongoDB App Datastore to PostgreSQL
+date: 2017-06-06 00:00:00 Z
+layout: post
 ---
 
 A couple weeks ago, [Narro][0] had a nice uptick in usage from Pro users that resulted in a large increase in data stored by the application. That is always pleasant but this time, I had a corresponding uptick in price for the data storage. Time for a change!

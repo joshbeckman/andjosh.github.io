@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Talks and Presentations
-permalink: /presents/
-image: /images/IMG_0605.jpg
+permalink: "/presents/"
+layout: page
+image: "/images/IMG_0605.jpg"
 ---
+
 {% for deck in site.decks reversed %}
     {% assign currentdate = deck.date | date: "%Y" %}
     {% if currentdate != date %}

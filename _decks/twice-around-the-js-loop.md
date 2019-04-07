@@ -1,9 +1,9 @@
 ---
-layout: reveal
 title: Twice Around The JS Event Loop
-permalink: /presents/twice-around-the-javascript-event-loop/
+date: 2018-06-26 00:00:00 Z
+permalink: "/presents/twice-around-the-javascript-event-loop/"
+layout: reveal
 presented_at: Chicago JavaScript Meetup
-date: 2018-06-26
 ---
 
 <section data-markdown>

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: gatrack.js 1.3 Released
+date: 2014-12-14 00:00:00 Z
+layout: post
 ---
 
 A new release of [gatrack](https://github.com/jbckmn/gatrack.js) is out today. 

@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Calming Facebook's Eager Pixels
+date: 2016-05-31 00:00:00 Z
+layout: post
 ---
+
 Working at [an e-commerce startup][1], I get asked to implement new tracking features every day. I built out the integration points for Google Analytics, Google's retargeting pixel, Google's conversion pixel, Facebook's retargeting pixel, Facebook's conversion pixel, Facebook's Audience pixel (and here is where I run out of breath). That's not even a complete list.
 
 Facebook's Audience pixel, of that group, is the most recent to the table. It was [introduced last year][2] as the replacement to both Facebook's conversion pixel and retargeting pixel. With it, Facebook also introduced a new tracking library, `fbevents.js` (replacing the `fbds.js` library, which was shared between the retargeting and conversion pixels). Phew. There goes my second breath.

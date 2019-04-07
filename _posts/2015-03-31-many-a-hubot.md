@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Many A Hubot
+date: 2015-03-31 00:00:00 Z
+layout: post
 ---
+
 I've spent the last few nights working and reworking through a tangential thought.
 
 I was thinking about so many examples of recombinatory ideas. By this I mean all those largely successful ideas that stem from the simple combination of multiple other, simpler ideas. Usually, these precursor memes are well-known or outmoded.

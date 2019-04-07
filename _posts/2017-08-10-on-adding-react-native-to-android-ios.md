@@ -1,6 +1,7 @@
 ---
-layout: post
 title: On Adding React Native to Existing iOS and Android Apps
+date: 2017-08-10 00:00:00 Z
+layout: post
 ---
 
 > I write in defense of the beliefs I fear are least defensible. Everything else feels like homework.

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Timestamp - Chicago Tech Meetup
+date: 2015-07-22 00:00:00 Z
+layout: post
 ---
 
 I leave work just before 6pm, walking about a mile to an office in River North. I stand outside the front door of the building with a small group of other attendees, waiting for someone upstairs to unlock the door remotely.

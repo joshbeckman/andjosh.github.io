@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Unique Humans.txt Files
+date: 2015-12-17 00:00:00 Z
+layout: post
 ---
+
 I was making `robots.txt` and `humans.txt` files for Narro recently, and I wanted to find a few unique examples. I was looking for something that included more than the boilerplate code from [humanstxt.org](http://humanstxt.org). I think that the `humans.txt` file should be place for a bit of expression. I think rigid structure should be avoided. Please send me any others, but here are the interesting ones I found:
 
 - [Tumblr](//tumblr.com/humans.txt)

@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Increased Speed and Urgency
+date: 2015-10-05 00:00:00 Z
+layout: post
 ---
+
 From Jack Dorsey's re-introduction as CEO of Twitter today:
 
 <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr">My focus is to build teams that move fast, and learn faster. In the past 3 months we have increased our speed and urgency at both companies.</p>&mdash; Jack (@jack) <a href="https://twitter.com/jack/status/651003529444765696">October 5, 2015</a></blockquote>

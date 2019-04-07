@@ -1,10 +1,11 @@
 ---
-published: true
-title: 'Weeknote of September 05, 2018'
+title: Weeknote of September 05, 2018
+date: 2018-09-07 00:00:00 Z
 tags:
-  - weeknote
-  - burnout
+- weeknote
+- burnout
 ---
+
 In the past, I've talked with my good friend [Vaibhav Krishna](https://twitter.com/twybv) about how important it is to recognize your mental reserves and drives as an exhaustible resource. Writing and dissecting software, you will often feel the tug of an idea. Just as often, you will be set upon a problem and find no interest grow as you dig fingers into the solution.
 
 Usually, it's your job to find the solution (and probably define the problem). Hopefully you'll be getting paid for those. You'll slog through the keystrokes and requirements uphill, only to find yourself doing it again next month.

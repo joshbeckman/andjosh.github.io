@@ -1,9 +1,9 @@
 ---
-layout: deck
 title: Code Review Doesn't Have to Suck
-permalink: /presents/better-code-review/
+date: 2016-11-15 00:00:00 Z
+permalink: "/presents/better-code-review/"
+layout: deck
 presented_at: Chicago JavaScript Meetup, Chicago Tech Leads Meetup
-date: 2016-11-15
 ---
 
 ## Why do it?

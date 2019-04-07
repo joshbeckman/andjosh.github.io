@@ -1,7 +1,7 @@
 ---
-layout: list
 title: Reading Lists
-permalink: /lists/reading/
+permalink: "/lists/reading/"
+layout: list
 ---
 
 ## Presently

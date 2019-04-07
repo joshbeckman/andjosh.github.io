@@ -1,6 +1,7 @@
 ---
-layout: post
 title: After Reading The Undoing Project
+date: 2017-01-01 00:00:00 Z
+layout: post
 ---
 
 My brother's gift to me this Christmas was [_The Undoing Project_][0], a novel by Michael Lewis on the work done by researchers Daniel Kahneman and Amos 

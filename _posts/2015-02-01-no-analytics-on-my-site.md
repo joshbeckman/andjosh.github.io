@@ -1,9 +1,11 @@
 ---
-layout: post
 title: Why I Don't Have Analytics on My Site Anymore
+date: 2015-02-01 00:00:00 Z
 tags:
 - Site Architecture
+layout: post
 ---
+
 When I moved my site to yet another format, I had a chance to remove client-side analytics. I had been thinking about removing it for a couple months.
 
 - If something on my site is popular, I'll find out about it through an increasing number of other sources. _Read: social media_

@@ -1,8 +1,9 @@
 ---
-layout: post
 title: Hiring Retrospective - Interview Steps
+date: 2018-12-10 00:00:00 Z
 tags:
-    - hiring
+- hiring
+layout: post
 ---
 
 After interviewing all Summer and Fall, we've found the next member of [our OfficeLuv Product Team][0], a talented and thoughtful software engineer.

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: People will always personalize
+date: 2015-03-05 00:00:00 Z
+layout: post
 ---
 
 Some time ago, a group of us from [ThreadMeUp](http://tech.threadmeup.com) took a trip out to one of our suppliers' warehouses.  We were given a tour of the packing floor, one with over 200 employees actively carrying products to and fro.

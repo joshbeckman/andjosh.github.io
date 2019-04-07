@@ -1,9 +1,10 @@
 ---
-layout: page
 title: About Josh Beckman
-permalink: /about/
-image: /images/page/mustache.jpg
+permalink: "/about/"
+layout: page
+image: "/images/page/mustache.jpg"
 ---
+
 I'm the founder of <a href="//narro.co">Narro</a>, the best way to listen to the Internet. I'm currently leading the product & engineering team at <a href="//officeluv.com">OfficeLuv</a>. I'm also a member of the <a href="http://no.nonsense.agency">No Nonsense Agency</a>.
 
 I built the engineering team and product at [ThreadMeUp](//threadmeup.com) from a team of 4 to over 30.

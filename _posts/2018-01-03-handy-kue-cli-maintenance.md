@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Handy Kue Maintenance CLI Scripts
+date: 2018-01-03 00:00:00 Z
+layout: post
 ---
+
 Building systems at my last few companies, it has been enormously useful to have a robust queueing platform. I've tried Amazon's SQS, NATS, and a couple others but Automattic's [Kue][0] has been the best combination of performance and introspection.
 
 Once you're really using any queue for large batching tasks, you will eventually run into issues with stuck jobs and jobs that need to be evicted early. This is called _queue maintenance_. You should have code that automatically sweeps the queue clean based on your own rules of retry, etc.

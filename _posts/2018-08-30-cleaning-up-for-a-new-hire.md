@@ -1,8 +1,11 @@
 ---
-layout: post
 title: Cleaning Up For a New Hire
-tags: [hiring]
+date: 2018-08-30 00:00:00 Z
+tags:
+- hiring
+layout: post
 ---
+
 I’m hiring a new full-stack engineer for the OfficeLuv team, and there’s nothing quite like a new hire to kick your team into shape. I’ve written about how [new hires are a valuable resource](https://www.andjosh.com/2015/08/30/new-hires-are-a-valuable-resource/) in the past, and each time I focus on drawing more and more value. This current cycle I’ve already noticed a change in my behavior in these past few weeks: I’m cleaning up in anticipation of guests.
 
 Whenever someone agrees to join your team, they are also entering a home. You and the rest of the team have been living and building and rebuilding there, for eight hours daily, in the dust and the muck. You’ve been able to build something that works (you’re hiring!), but there are always dirty areas that you would never write again. You know about these areas - you probably list them over a drink with other engineers. 

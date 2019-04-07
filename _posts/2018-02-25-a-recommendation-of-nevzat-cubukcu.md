@@ -1,8 +1,10 @@
 ---
-layout: post
 title: A Recommendation of Nevzat Cubukcu
-image: /images/IMG_0465.jpg
+date: 2018-02-25 00:00:00 Z
+layout: post
+image: "/images/IMG_0465.jpg"
 ---
+
 We hired Nevzat as our third engineer and Android device expert. How can you _not_ be impressed when he came to the interview with projects to demonstrate complex matrix manipulations of on-device images that he built to teach himself the Android SDK? He, of course, continued to teach himself while on our team. He also pulled us to place customer delight in the front of our minds while also tirelessly improving out product.
 
 While not knowing any JavaScript upon his first day at [OfficeLuv][0], Nevzat was contributing to our single-page applications within a week. After we finished the release of our Java Android app, he switched completely to client-side JavaScript development without skipping a beat. He would eventually spearhead the conversion of our Android app into a React Native system. I have not yet worked with anyone so agile in their adoption of new languages and technical paradigms as Nevzat.

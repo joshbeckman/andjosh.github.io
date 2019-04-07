@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Hard Numbers Calculator
+date: 2015-06-08 00:00:00 Z
+layout: post
 ---
 
 When you're leading a team of developers for a startup company, you often get asked to define hard numbers. You get asked questions like:

@@ -1,9 +1,9 @@
 ---
-layout: deck
 title: Testing React Apps
-permalink: /presents/testing-react-apps/
+date: 2017-08-31 00:00:00 Z
+permalink: "/presents/testing-react-apps/"
+layout: deck
 presented_at: React Chicago Meetup
-date: 2017-08-31
 ---
 
 <script>

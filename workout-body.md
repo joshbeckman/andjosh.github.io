@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Bodyweight Workout
-permalink: /workout-bodyweight/
+permalink: "/workout-bodyweight/"
+layout: page
 ---
 
 ## Push Ups

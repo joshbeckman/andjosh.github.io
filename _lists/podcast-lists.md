@@ -1,8 +1,9 @@
 ---
-layout: list
 title: Podcast Lists
-permalink: /lists/podcast/
+permalink: "/lists/podcast/"
+layout: list
 ---
+
 <!-- list one -->
 - a16z
 - __*__ The Art of Product

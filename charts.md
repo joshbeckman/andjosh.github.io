@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Charts
-permalink: /charts/
+permalink: "/charts/"
+layout: page
 ---
 
 There is a distinction between data visualization and data analysis.

@@ -1,7 +1,9 @@
 ---
-layout: post
 title: My Bookmarks Are All Bookmarklets
+date: 2016-04-21 00:00:00 Z
+layout: post
 ---
+
 I love all my bookmarks. None of them actually go to any websites, though. They're all bookmarklets.
 
 > A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) is a little app that runs in your browser.

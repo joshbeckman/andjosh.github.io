@@ -1,9 +1,10 @@
 ---
-layout: post
 title: Writing Database Middleware in Go
+date: 2015-01-31 00:00:00 Z
 tags:
 - Go
 - Database
+layout: post
 ---
 
 I've been writing two main types of Go programs recently. One routes `http` input through a series of transformations and calculations and one receives `http` input to transform or return data stores.

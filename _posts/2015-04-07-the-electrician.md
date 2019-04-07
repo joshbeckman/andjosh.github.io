@@ -1,6 +1,7 @@
 ---
-layout: post
 title: The Electrician
+date: 2015-04-07 00:00:00 Z
+layout: post
 ---
 
 At our office, we have desks for everyone. We have multiple televisions, each with an Apple TV. We have high ceilings and handmade wooden meeting tables. We have walls covered in chalkboard paint and walls covered in dry-erase paint.

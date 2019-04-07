@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Contact Josh Beckman
-permalink: /contact/
-image: /images/page/mustache.jpg
+permalink: "/contact/"
+layout: page
+image: "/images/page/mustache.jpg"
 ---
+
 _If you want to talk software or product/engineering teams, I want to talk to you._
 
 I like reading things. If you write something worth reading, please tell me.

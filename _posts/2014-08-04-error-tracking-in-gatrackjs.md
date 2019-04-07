@@ -1,9 +1,10 @@
 ---
-layout: post
 title: Error Tracking in gatrack.js
+date: 2014-08-04 00:00:00 Z
 tags:
 - Google Analytics
 - Javascript
+layout: post
 ---
 
 I'm releasing a new [gatrack.js](https://github.com/jbckmn/gatrack.js/releases) this week (previously [introduced back in January](http://words.andjosh.com/post/track-all-the-things-in-google-analytics)). Amongst some minor fallback improvements, the main changes are:

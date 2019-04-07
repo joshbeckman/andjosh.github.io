@@ -1,7 +1,9 @@
 ---
-layout: post
 title: A Recommendation of Colleen Grafton
+date: 2016-06-13 00:00:00 Z
+layout: post
 ---
+
 Out of all the engineers I have known, Colleen is the most structured and economical. While working together, she has grown tenfold in her abilities and her assertiveness. She would be a valuable asset to any group, both her technical skills and her personality.
 
 Colleen methodically approaches programming features and fixing bugs. She will gather any information before making a decision, searching for precedents before writing her own solution. She will consistently refactor previous solutions to fit new and future input, while maintaining a keen eye on old or external factors. She is a member that will make your team much greater than the sum of its parts.

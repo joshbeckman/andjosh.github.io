@@ -1,7 +1,7 @@
 ---
-layout: chart
 title: HowManyPi*
-permalink: /charts/howmanypip/
+permalink: "/charts/howmanypip/"
+layout: chart
 ---
 
 <script src="//d3js.org/d3.v4.min.js"></script>

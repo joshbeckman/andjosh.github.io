@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Code Samples
-permalink: /code-samples/
+permalink: "/code-samples/"
+layout: page
 ---
 
 Here are some samples of previous code I've written. Not all are recent, as I'm not using _every_ language _every_ day. I also try to list out [past and present projects](/lists/project), and usually my spare time is spent building [Narro](//www.narro.co), and it's [many services](//narro.co/apps), all of which I have written myself. You can view some abstract details (and tech stacks) for previous companies where I have worked on my LinkedIn page ([linkedin.com/in/andjosh](//linkedin.com/in/andjosh)) or GitHub ([github.com/andjosh](//github.com/andjosh)). Leading multiple teams, I have [organized and maintained daily code review sessions](/2015/04/04/daily-code-reviews/) and [encouraged introspection](http://fives.andjosh.com), which helped the team's progress immensely.

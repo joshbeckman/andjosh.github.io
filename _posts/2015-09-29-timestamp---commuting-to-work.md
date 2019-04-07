@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Timestamp - Commuting to Work
+date: 2015-09-29 00:00:00 Z
+layout: post
 ---
+
 I wake up between 6:30 and 7:30. This can happen before an alarm or after sleeping straight through two. It depends more on the day before than the night before.
 
 Wiping sleep from my eyes, I take a shower. Feed the cats while I shave and slip in my contacts over the bathroom sink. I put on clothes, usually pants and a t-shirt and then gather things into my pockets. These include: house keys, bike-lock keys, credit card, CTA card, any cash I have left, and my phone. After opening the window Marybeth has closed the night before, I put on my shoes by the door.

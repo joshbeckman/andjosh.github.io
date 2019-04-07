@@ -1,10 +1,11 @@
 ---
-layout: reveal
 title: Build Your Own Node.js CLI Package
-permalink: /presents/build-a-nodejs-cli-package/
+date: 2018-04-16 00:00:00 Z
+permalink: "/presents/build-a-nodejs-cli-package/"
+layout: reveal
 presented_at: Chicago Node.js Meetup
-date: 2018-04-16
 ---
+
 <style>
 div.asciicast iframe {
 width: 100% !important;

@@ -1,9 +1,9 @@
 ---
-layout: deck
 title: React SPA Continuous Delivery with GitLab
-permalink: /presents/react-spa-continuous-delivery/
+date: 2017-09-27 00:00:00 Z
+permalink: "/presents/react-spa-continuous-delivery/"
+layout: deck
 presented_at: React Chicago Meetup
-date: 2017-09-27
 ---
 
 ## What is CI/CD?

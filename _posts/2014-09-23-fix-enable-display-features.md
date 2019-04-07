@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Fix to Enable Display Features - Google Analytics iOS SDK
+date: 2014-09-23 00:00:00 Z
+layout: post
 ---
 
 In the official Google Analytics iOS SDK documentation, this function call will enable Display Features in your app:

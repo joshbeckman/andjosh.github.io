@@ -1,6 +1,7 @@
 ---
-layout: post
 title: That Feeling of a Pending Break-Through
+date: 2014-08-26 00:00:00 Z
+layout: post
 ---
 
 From The Verge, [This is Uber's playbook for sabotaging Lyft](http://www.theverge.com/2014/8/26/6067663/this-is-ubers-playbook-for-sabotaging-lyft): 

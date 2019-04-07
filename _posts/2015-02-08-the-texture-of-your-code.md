@@ -1,9 +1,11 @@
 ---
-layout: post
 title: The texture of your code
+date: 2015-02-08 00:00:00 Z
 tags:
 - Code Architecture
+layout: post
 ---
+
 I've been thinking about intuitive methods of code review. Last week, I read an article about [the Japanese onomatopoeic words used to describe texture](http://www.spoon-tamago.com/2015/01/16/nendo-chocolates-japanese-onomatopoeic-words-texture/) that resonated with something I've been inkling about for a bit.
 
 I think you can get a sense for the texture of your code. I think there's a consistent difference between the layout and connections of poorly-written functions and well-written ones. There's a common term for one aspect of this already: spaghetti code.

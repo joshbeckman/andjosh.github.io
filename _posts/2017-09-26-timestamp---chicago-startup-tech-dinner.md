@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Timestamp - Chicago Startup Tech Dinner
+date: 2017-09-26 00:00:00 Z
+layout: post
 ---
 
 I am invited to a dinner with other team leaders from other tech startup companies in the city. We meet at a comfortable restaurant and order cocktails. Out of our nine members, two are women. Eight are white. Two business founders, three engineers, two product managers, two marketers.

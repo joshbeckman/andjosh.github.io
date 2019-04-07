@@ -1,8 +1,9 @@
 ---
-layout: post
 title: Asynchronous Learning and Why I Bookmark First
+date: 2015-02-01 00:00:00 Z
 tags:
 - Habits
+layout: post
 ---
 
 Whenever I come across an interesting article or piece of writing, I add it to my reading list.

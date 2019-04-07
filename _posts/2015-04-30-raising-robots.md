@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Fiction - Raising Robots
+date: 2015-04-30 00:00:00 Z
+layout: post
 ---
 
 It wasn't as if she were the only one to figure it out how to build an intelligence. Not even near the first.

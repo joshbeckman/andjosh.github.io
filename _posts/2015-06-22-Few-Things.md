@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Few Things
+date: 2015-06-22 00:00:00 Z
+layout: post
 ---
 
 Note from my journal, 2015/06/18:

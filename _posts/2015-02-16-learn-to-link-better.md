@@ -1,9 +1,11 @@
 ---
-layout: post
 title: How To Link Like You Mean It
+date: 2015-02-16 00:00:00 Z
 tags:
 - App Architecture
+layout: post
 ---
+
 Links within your text do two things:
 
 1. Provide me with valuable information or context

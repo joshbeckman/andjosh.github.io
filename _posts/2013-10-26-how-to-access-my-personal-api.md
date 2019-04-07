@@ -1,6 +1,7 @@
 ---
-layout: post
 title: How To Access My Personal API
+date: 2013-10-26 00:00:00 Z
+layout: post
 ---
 
 > __Update:__ This API has since been retired.

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Rate-Limit Your Node.js API in Mongo
+date: 2016-03-13 00:00:00 Z
+layout: post
 ---
 
 __Update:__ After a request by [Jason Humphrey](https://github.com/GreenPioneer), I've released this implementation as a standalone NPM module: [mongo-throttle](https://github.com/andjosh/mongo-throttle).

@@ -1,9 +1,9 @@
 ---
-layout: reveal
 title: Dynamically Upgrade Your JS App
-permalink: /presents/dynamically-upgrade-long-spa-sessions/
+date: 2018-09-21 00:00:00 Z
+permalink: "/presents/dynamically-upgrade-long-spa-sessions/"
+layout: reveal
 presented_at: JSCamp Chicago 2018
-date: 2018-09-21
 ---
 
 <section data-markdown data-background-image="https://media.giphy.com/media/uBQNLeszLtiNO/giphy-downsized.gif">

@@ -1,8 +1,10 @@
 ---
-layout: post
 title: Instead of Writing
+date: 2016-03-06 00:00:00 Z
+layout: post
 color: brown
 ---
+
 A list of things I did yesterday _instead_ of writing a thoughtful piece here:
 
 - Built [Five For Founders](http://fives.andjosh.com)

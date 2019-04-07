@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Workout
-permalink: /workout/
+permalink: "/workout/"
+layout: page
 ---
 
 This workout schedule is wrung out of a dozen others, and was geared toward my goal of strength gains. It will, however be suitable for most young adults, [wolverines][0], and [rocks][1].

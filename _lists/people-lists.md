@@ -1,7 +1,7 @@
 ---
-layout: list
 title: People I Don't Know but Admire Lists
-permalink: /lists/people-i-admire/
+permalink: "/lists/people-i-admire/"
+layout: list
 ---
 
 <style>

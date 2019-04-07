@@ -1,7 +1,7 @@
 ---
-layout: list
 title: Newsletter Lists
-permalink: /lists/newsletter/
+permalink: "/lists/newsletter/"
+layout: list
 ---
 
 - __*__ [Everything Changes](http://www.theawl.com/subscribe) _Laura Olin_

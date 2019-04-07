@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Bad Graphs in the Wild
+date: 2015-08-11 00:00:00 Z
+layout: post
 ---
+
 ![Is this intentionally misleading?](/images/201508/1.jpg)
 
 I recently used this example as a source of interview questions, so I thought it would be worthwhile to write it down.

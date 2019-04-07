@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Theory of Push & Pull
+date: 2015-04-15 00:00:00 Z
+layout: post
 ---
 
 I've been forming a theory of team management. In explaining it, I've been talking about it in terms of _push_ and _pull_.

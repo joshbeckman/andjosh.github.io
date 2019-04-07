@@ -1,7 +1,7 @@
 ---
-layout: chart
 title: United States Drone Strikes
-permalink: /charts/us-drone-strikes/
+permalink: "/charts/us-drone-strikes/"
+layout: chart
 ---
 
 <style>

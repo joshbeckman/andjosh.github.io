@@ -1,7 +1,7 @@
 ---
-layout: list
 title: Motorcycle Lists
-permalink: /lists/motorcycle/
+permalink: "/lists/motorcycle/"
+layout: list
 ---
 
 - __*__ 2008 230M _Honda_

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Cubic Mapping of Text
+date: 2015-07-12 00:00:00 Z
+layout: post
 ---
 
 For the past several months, I've taken daily notes. Previously, I scribbled and jotted thoughts into several paperback notebooks, but now I type daily into my iOS/OSX Notes application. Each day begins with a new note, date stamped at the top.

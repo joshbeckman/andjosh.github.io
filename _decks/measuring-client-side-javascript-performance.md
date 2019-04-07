@@ -1,9 +1,9 @@
 ---
-layout: reveal
 title: Measuring Client-Side JavaScript Performance
-permalink: /presents/measuring-client-side-javascript-performance/
+date: 2018-01-21 00:00:00 Z
+permalink: "/presents/measuring-client-side-javascript-performance/"
+layout: reveal
 presented_at: Chicago JavaScript Meetup
-date: 2018-01-21
 ---
 
 <section data-markdown>

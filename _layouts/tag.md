@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <p>{{ page.title }}</p>
 <hr/>
 <div class="posts">

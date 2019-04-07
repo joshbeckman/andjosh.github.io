@@ -1,7 +1,7 @@
 ---
-layout: list
 title: Daily Lists
-permalink: /lists/daily/
+permalink: "/lists/daily/"
+layout: list
 ---
 
 <style>

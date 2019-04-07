@@ -1,9 +1,9 @@
 ---
-layout: deck
 title: Don't Call Back, I'll Just Wait Here
-permalink: /presents/escape-callbacks-koa-async-await/
+date: 2017-06-21 00:00:00 Z
+permalink: "/presents/escape-callbacks-koa-async-await/"
+layout: deck
 presented_at: Chicago Node.js Meetup
-date: 2017-06-21
 ---
 
 ## JavaScript has non-blocking async i/o

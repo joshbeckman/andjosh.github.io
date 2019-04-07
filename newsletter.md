@@ -1,8 +1,9 @@
 ---
-layout: page
 title: A Newsletter and Josh
-permalink: /newsletter/
+permalink: "/newsletter/"
+layout: page
 ---
+
 I send a weekly-ish newsletter about things interesting to people thinking about or working in tech and teams.
 
 <form

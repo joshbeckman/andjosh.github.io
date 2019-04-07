@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Contribute to Open Source as a Code Test
+date: 2015-07-14 00:00:00 Z
+layout: post
 ---
 
 <script id="narroAdd" src="//www.narro.co/static/addEmbed.js" async></script><br>

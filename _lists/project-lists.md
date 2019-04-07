@@ -1,7 +1,7 @@
 ---
-layout: list
 title: Project Lists
-permalink: /lists/project/
+permalink: "/lists/project/"
+layout: list
 ---
 
 - __*__ [Narro](//narro.co) _The simple way to listen to the web - as a podcast!_

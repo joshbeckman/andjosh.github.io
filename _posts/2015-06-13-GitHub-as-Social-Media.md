@@ -1,6 +1,7 @@
 ---
-layout: post
 title: GitHub as Social Media
+date: 2015-06-13 00:00:00 Z
+layout: post
 ---
 
 GitHub already allows you to follow other users publicly. It displays your _followers_ publicly, too.

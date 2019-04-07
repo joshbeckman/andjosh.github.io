@@ -16,7 +16,9 @@ title: Home
     {% endif %}
     {% if post.title and post.title != '' %}
         <h2 class="post-title">
-            {{ post.title }}
+            <a href="{{ post.url }}">
+                {{ post.title }}
+            </a>
         </h2>
           <div class="post-meta-wrap">
               <div class="post-meta">

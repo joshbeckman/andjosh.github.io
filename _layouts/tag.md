@@ -18,11 +18,17 @@ layout: default
         {% endif %}
         {% if post.title and post.title != '' %}
             <h2 class="post-title">
-              {{ post.title }}
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
             </h2>
-            <a href="{{ post.url }}" class="post-date">
-              {{ post.date | date_to_string }}
-            </a>
+            <div class="post-meta-wrap">
+                <div class="post-meta">
+                    <a href="{{ post.url }}" class="post-date" rel="bookmark">
+                        <time>{{ post.date | date_to_string }}</time>
+                    </a>
+                </div>
+            </div>
         {% else %}
             <a href="{{ post.url }}" class="post-date">
               {{ post.date | date_to_string }}

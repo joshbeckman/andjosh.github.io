@@ -489,6 +489,10 @@ a.pagination-item:hover {
 .theme-base-josh .post {
     margin-bottom: 6rem;
 }
+.theme-base-josh .post-title a {
+  color: #303030;
+  text-decoration: none;
+}
 
 .theme-base-josh h1,
 .theme-base-josh h2,

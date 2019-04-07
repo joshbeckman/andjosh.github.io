@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   branch: master
   repo: andjosh/andjosh.github.io
 publish_mode: editorial_workflow

@@ -22,3 +22,5 @@ fields:
   label: Date
   config:
     date_format: YYYY-MM-DD
+pages:
+- _posts/reading-a-product-manager-argue-with-an-engineer.md

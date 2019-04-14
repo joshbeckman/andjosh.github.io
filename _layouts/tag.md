@@ -3,6 +3,7 @@ layout: default
 ---
 
 <p>{{ page.title }}</p>
+{{ content }}
 <hr/>
 <div class="posts">
   {% if site.tags[page.slug] %}

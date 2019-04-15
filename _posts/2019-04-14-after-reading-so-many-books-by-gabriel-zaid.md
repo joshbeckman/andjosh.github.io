@@ -11,7 +11,7 @@ I finished [So Many Books (Gabriel Zaid)](https://www.pauldrybooks.com/products/
 
 As I’m currently authoring and publishing apps more than authoring and publishing books, all of my favorite passages struck me as reflective of the software industry.
 
-—-
+---
 
 > Many people read paragraph by paragraph, sounding out a text, like a child reading letter by letter or word by word. The next level, which many do not reach, is to grasp a book all at once, in its entirety.
 >
@@ -23,7 +23,7 @@ Damn. What a good passage. I feel like this is so much of whether you can give a
 
 To the point about people favoring the oral over the written side, I feel that many developers suffer from the opposite; they prefer to code because they are stuck sounding out keyword after keyword and have trouble articulating their larger goal in human words. This is why my teams will always focus on communication and comments in addition to the underlying functionality.
 
-—-
+---
 
 > The cost of reading would be much reduced if more authors respected the readers’ time and published less.
 
@@ -31,7 +31,7 @@ To the point about people favoring the oral over the written side, I feel that m
 
 So many developers evangelizing their new favorite language or tool to solve all the problems and all the things. Each new idea exists not in the center but in concert with every other language and framework. No one piece or option should or ever could make all the sound or be used in even most products we will build.
 
-—-
+---
 
 > With more education, more and more people want to be published. More want to be published than want to read. “I need you to hear me, more than I need to hear you.” \[...\] Not even poets want to read poetry, unless they are required to do so in order to see their own work published.
 
@@ -39,7 +39,7 @@ This has been one of the farthest reaching ideas I took away from this book. I s
 
 This, especially, will be a point of self-improvement I take away from this book.
 
-—-
+---
 
 > Books are published faster than ever. More is being published every day than you could ever read. \[...\] Your ignorance grows faster than your knowledge.
 

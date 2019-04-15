@@ -27,10 +27,6 @@ To the point about people favoring the oral over the written side, I feel that m
 
 > The cost of reading would be much reduced if more authors respected the readers’ time and published less.
 
-Our time would be much better spent if we could avoid repeating ourselves in the errors we make with each new programming standard and framework.
-
-—-
-
 > People want to be at the center of the world’s stage and conversation, but the world’s conversations are myriad and continued and concurrent. The true art of publishing involves placing the text in the middle of a conversation, adding to it, knowing how to feed the flames.
 
 This reminded me of developers evangelizing their new favorite language or tool to solve all the problems and all the things. Each new idea exists not in the center but in concert with every other language and framework. No one piece or option should or ever could make all the sound or be used in even most products we will build.

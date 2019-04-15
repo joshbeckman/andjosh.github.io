@@ -26,6 +26,6 @@ fields:
   name: mf-photo
   label: Image
 pages:
-- _posts/after-reading-so-many-books-by-gabriel-zaid.md
+- _posts/2019-04-14-after-reading-so-many-books-by-gabriel-zaid.md
 - _posts/using-external-apis-in-custom-ruby-ransackers.md
 - _posts/reading-a-product-manager-argue-with-an-engineer.md

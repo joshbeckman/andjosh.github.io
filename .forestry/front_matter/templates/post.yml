@@ -22,6 +22,9 @@ fields:
   label: Date
   config:
     date_format: YYYY-MM-DD
+- type: file
+  name: mf-photo
+  label: Image
 pages:
 - _posts/after-reading-so-many-books-by-gabriel-zaid.md
 - _posts/using-external-apis-in-custom-ruby-ransackers.md

@@ -29,7 +29,7 @@ To the point about people favoring the oral over the written side, I feel that m
 
 > People want to be at the center of the world’s stage and conversation, but the world’s conversations are myriad and continued and concurrent. The true art of publishing involves placing the text in the middle of a conversation, adding to it, knowing how to feed the flames.
 
-This reminded me of developers evangelizing their new favorite language or tool to solve all the problems and all the things. Each new idea exists not in the center but in concert with every other language and framework. No one piece or option should or ever could make all the sound or be used in even most products we will build.
+So many developers evangelizing their new favorite language or tool to solve all the problems and all the things. Each new idea exists not in the center but in concert with every other language and framework. No one piece or option should or ever could make all the sound or be used in even most products we will build.
 
 —-
 
@@ -37,7 +37,7 @@ This reminded me of developers evangelizing their new favorite language or tool 
 
 This has been one of the farthest reaching ideas I took away from this book. I see this play out in the community (and in my own habits) where open source developers will ask for donations toward their work but will not also donate to others. Many people will present at meetups and then forgo attending the talks of others.
 
-This, especially, will be a point of self-improvement I have taken away from this book.
+This, especially, will be a point of self-improvement I take away from this book.
 
 —-
 

@@ -2,7 +2,7 @@
 title: Contact Josh Beckman
 permalink: "/contact/"
 layout: page
-image: "/images/page/mustache.jpg"
+image: "/images/page/monet_josh.jpg"
 ---
 
 _If you want to talk software or product/engineering teams, I want to talk to you._

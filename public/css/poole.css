@@ -439,9 +439,8 @@ a.pagination-item:hover {
  * within blog posts. To use, add the class of your choosing to the `body`.
  */
 .theme-base-josh {
-  font-family: Athelas, Charter, Baskerville, serif;
-  font-family: Consolas, Menlo, Courier, monospace;
-  font-size: 14px;
+  font-family: Avenir Next, Avenir, Helvetrica, sans-serif;
+  font-size: 16px;
 }
 .theme-base-josh .sidebar {
   background-color: #903465;
@@ -499,8 +498,6 @@ a.pagination-item:hover {
 .theme-base-josh h3,
 .theme-base-josh h4,
 .theme-base-josh h5 {
-    font-family: Avenir Next, Avenir, Helvetrica, sans-serif;
-    font-weight: 500;
 }
 .theme-base-josh h2 {
     margin-top: 1.5rem;
@@ -530,7 +527,6 @@ a.pagination-item:hover {
     top: -0.6rem;
     background: #fff;
     padding: 0 20px;
-    font-family: Avenir Next, Avenir, Helvetrica, sans-serif;
 }
 .about {
     padding-top: 10vh;

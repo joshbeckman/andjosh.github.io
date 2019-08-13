@@ -580,6 +580,9 @@ a.pagination-item:hover {
     .theme-base-josh h5 {
         color: #eee;
     }
+    .theme-base-josh blockquote {
+        color: #ddd;
+    }
     .post-meta-wrap .post-date {
         background: #303030;
     }

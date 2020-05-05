@@ -17,6 +17,7 @@
   </title>
 
   <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700|Alegreya:400,400i,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
 
@@ -31,7 +32,7 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
-    <meta name="author" content="{{ site.author }}" />
+    <meta name="author" content="{{ site.author.name }}" />
     <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
@@ -50,4 +51,12 @@
     <meta property="og:title"       content="{{ site.title }}, {{ page.date | date_to_long_string }}" />
     <meta name="twitter:title"      content="{{ site.title }}, {{ page.date | date_to_long_string }}" />
     {% endif %}
+    <!-- Dublin Core metadata for Zotero -->
+    <meta property="dc:title" content="{{ page.title  }}" />
+    <meta property="dc:creator" content="{% if page.author %}{{ page.author  }}{% else %}{{ site.author.name  }}{% endif %}" />
+    <meta property="dc:identifier" content="{{ resource_url  }}" />
+    {% if page.editor %}<meta property="dc:contributor" content="{{ page.editor  }}" />{% endif %}
+    {% if page.publication-date %}<meta property="dc:date" content="{{ page.publication-date  }}" />{% endif %}
+    {% if page.rights %}<meta property="dc:rights" content="{{ page.rights  }}" />{% endif %}
+    <meta property="dc:source" content="{% if page.source %}{{ page.source  }}{% else %}{{ site.title  }}{% endif %}" />
 </head>

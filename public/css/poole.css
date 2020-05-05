@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia, serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -212,19 +212,13 @@ pre code {
 
 /* Quotes */
 blockquote {
-  padding: .5rem 1rem;
+  padding: .75rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  background-color: oldlace;
+  border-radius: 3px;
 }
 blockquote p:last-child {
   margin-bottom: 0;
-}
-@media (min-width: 30em) {
-  blockquote {
-    padding-right: 5rem;
-    padding-left: 1.25rem;
-  }
 }
 
 img {
@@ -349,6 +343,7 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-bottom: 1rem;
   color: #9a9a9a;
+  font-style: italic;
 }
 .post-title + .post-date {
   margin-top: -.5rem;
@@ -439,8 +434,13 @@ a.pagination-item:hover {
  * within blog posts. To use, add the class of your choosing to the `body`.
  */
 .theme-base-josh {
-  font-family: Avenir Next, Avenir, Helvetrica, sans-serif;
+  font-family: Alegreya, Georgia, serif;
   font-size: 16px;
+}
+@media (min-width: 40rem) {
+    .theme-base-josh {
+      font-size: 18px;
+    }
 }
 .theme-base-josh .sidebar {
   background-color: #903465;
@@ -498,6 +498,7 @@ a.pagination-item:hover {
 .theme-base-josh h3,
 .theme-base-josh h4,
 .theme-base-josh h5 {
+  font-family: Alegreya Sans, sans-serif;
 }
 .theme-base-josh h2 {
     margin-top: 1.5rem;
@@ -505,7 +506,6 @@ a.pagination-item:hover {
 
 .theme-base-josh pre,
 .theme-base-josh code {
-    font-size: inherit;
 }
 
 .post-meta-wrap {
@@ -524,7 +524,7 @@ a.pagination-item:hover {
     font-size: 14px;
     text-decoration: none;
     position: relative;
-    top: -0.6rem;
+    top: -0.8rem;
     background: #fff;
     padding: 0 20px;
 }
@@ -582,6 +582,9 @@ a.pagination-item:hover {
     }
     .post-meta-wrap .post-date {
         background: #303030;
+    }
+    blockquote, pre, code {
+      background-color: #202020;
     }
 }
 @media (prefers-dark-interface) {

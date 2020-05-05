@@ -5,3 +5,10 @@
         url('TTF/ClearSans-Regular.ttf')  format('truetype'),
         url('SVG/ClearSans-Regular.svg#svgFontName') format('svg');
 }
+@font-face {
+    font-family: 'Clear Sans Bold';
+    src:url('EOT/ClearSans-Bold.eot?#iefix') format('embedded-opentype'), 
+        url('WOFF/ClearSans-Bold.woff') format('woff'), 
+        url('TTF/ClearSans-Bold.ttf')  format('truetype'),
+        url('SVG/ClearSans-Bold.svg#svgFontName') format('svg');
+}

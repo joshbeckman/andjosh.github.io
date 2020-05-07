@@ -541,6 +541,10 @@ tbody tr:nth-child(odd) th {
 .home-footer {
   margin-bottom: 5rem;
 }
+.name-svg {
+  height: 100px;
+  width: 100px;
+}
 @media (max-width: 30em) {
     .theme-base-josh .masthead-title small {
         float: none;

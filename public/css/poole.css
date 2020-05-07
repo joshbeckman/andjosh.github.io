@@ -132,8 +132,7 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #999;
 }
 
 abbr {
@@ -394,15 +393,9 @@ tbody tr:nth-child(odd) th {
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid #eee;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
-}
-
-/* Only provide a hover state for linked pagination items */
-a.pagination-item:hover {
-  background-color: #f5f5f5;
 }
 
 @media (min-width: 30em) {
@@ -521,10 +514,9 @@ a.pagination-item:hover {
 .post-meta-wrap .post-date {
     display: inline-block;
     color: #999;
-    font-size: 14px;
     text-decoration: none;
     position: relative;
-    top: -0.8rem;
+    top: -0.75rem;
     background: #fff;
     padding: 0 20px;
 }

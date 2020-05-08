@@ -4,41 +4,67 @@
   {% include head.html %}
 
   <body class="theme-base-josh">
-
-    <div class="sidebar">
+    <div class="home">
       <div class="container">
         <div class="about">
-            <h1>Josh Beckman</h1>
             <p>
-                I'm the founder of <a href="https://www.narro.co">Narro</a>, the best way to listen to the Internet. I'm currently leading the product & engineering team at <a href="https://www.officeluv.com">OfficeLuv</a>, the best way to order for your office.
+                I'm the founder of <a href="https://www.narro.co">Narro</a>, the best way to listen to the Internet. I'm currently leading the product & engineering team at <a href="https://www.officeluv.com">OfficeLuv</a>, the best way to order for your office. I specialize in starting and growing startup engineering teams, and architecting mobile and web products for two-sided marketplaces.
             </p>
             <p>
-                If you want to know what I’m reading, you can follow through <a href="https://www.narro.co/playable/josh">my Narro podcast</a> or through <a href="/newsletter">my newsletter</a>.
+                If you want to know what I’m reading, you can follow <a href="https://www.narro.co/playable/josh">my Narro podcast</a> or through <a href="/tags/notes">my notes</a>.
+                For future updates, you can sign up for <a href="/newsletter">monthly emails</a>, where I share writing, notes, and anything interesting I've created or found. Or you can be old and reliable and get new posts via <a href="/rss.xml">RSS</a>.
             </p>
             <p class="">
-                If you want to talk software or product/engineering teams,<br/>please <a href="/contact">reach out to me</a>.
+                If you want to talk software or product/engineering teams, please <a href="/contact">reach out to me</a>.
             </p>
         </div>
-        <header class="masthead">
-            <h3 class="masthead-title">
-              <a class="masthead-home-link" href="/" rel="home" title="{{ site.title }}">
-                {% include name.html %}
-              </a>
-              <small>
-                <nav class="sidebar-nav">
-                  {% for link in site.links %}
-                      <a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
-                  {% endfor %}
-                </nav>
-              </small>
-            </h3>
-        </header>
+        <a class="masthead-home-link" href="/" rel="home" title="{{ site.title }}">
+            {% include name.html %}
+        </a>
+        <div class="home-posts">
+          <p>
+            Recent Posts
+          </p>
+          {% for post in site.posts limit: 3 %}
+          <div class="home-post">
+            {% if post.title and post.title != '' %}
+                <h4 class="post-title">
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h4>
+            {% else %}
+                <a href="{{ post.url }}" class="post-date">
+                  {{ post.date | date_to_string }}
+                </a>
+            {% endif %}
+          </div>
+          {% endfor %}
+          <p id="latest-posts" class="post-date">
+            <a href="/posts">
+              All Posts &rarr;
+            </a>
+          </p>
+        </div>
+        <div class="home-talks">
+          <p>
+            Recent Talks
+          </p>
+          {% assign foo = site.decks | reverse %}
+          {% for deck in foo limit: 3 %}
+          <div class="home-talk">
+            <h4 class="post-title">
+                <a href="{{ deck.url }}">{{ deck.title }}</a>
+            </h4>
+          </div>
+          {% endfor %}
+          <p id="latest-talks" class="post-date">
+            <a href="/presents">
+              &larr; All Talks
+            </a>
+          </p>
+        </div>
       </div>
     </div>
-
-    <div class="content container">
-      {{ content }}
-    </div>
-
   </body>
 </html>

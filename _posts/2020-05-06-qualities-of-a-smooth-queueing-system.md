@@ -23,7 +23,9 @@ __Plan for expansion of your queue hierarchy__ because you don't know all the qu
 
 ### Exception Handling
 
-__Whitelist exceptions to discard or retry__ instead of taking a blacklisting approach. Many queue systems will make it equally easy to take a whielisting or a blacklisting approach to the problem of retrying or discarding exceptions. You should definitely take a whitelisting approach, to remove any unexpected retries or discards.
+__Whitelist exceptions to discard or retry__ instead of taking a blacklisting approach. Many queue systems will make it equally easy to take a whielisting or a blacklisting approach to the problem of retrying or discarding exceptions. You should definitely take a whitelisting approach, to remove any unexpected retries or discards. For example, you probably want to retry any jobs that are calling external APIs and receive a server error. Or you will probably want to discard jobs that deal with notifying users of a record that has been destroyed since the job was originally enqueued.
+
+__Retry jobs with jitter__. When retrying a job, _always_ add a variable delay (jitter) in between attempts. This eliminates a whole class of problems introduced by jobs of the same type or concern hitting a service in concert. Even if you don't think this will be an issue internally, your external services will perform better if you treat them better.
 
 __Configure a dedicated failure queue for each queue.__ This allows your team or your queueing system to handle these failures (after retry and discard logic has been applied) separately. This is important once you have thousands of jobs flowing through your queues, as failures of different priority will necessitate different attention. If you're operating at a lower rate, you can maintain a single failure queue until the volume necessitates it, as we did.
 
@@ -35,11 +37,11 @@ __Provide queue introspection__ by an external system or the queue itself. Queue
 
 __Have a notification system for failures and queue velocity changes__ so that you can understand the queues' behavior. This was one of the first aspects that we built into our own queues so that we could manually handle failures. That's fine to start, and will annoy you enough to build the requeueing logic. We have not yet built notifications for changes queue velocity, but we have recently seen some behaviors that could be better expected if we had such a notification.
 
-__Have a method of estimating queue lead time.__ This becomes important if you want to have accurate and effective scaling algorithms. We take the approach of recording execution time for a sample of jobs of each type in our queue. Then, as our queue introspection probes report on the queue depth, workers, and more, they also report on the estimated execution time for each job currently in the queues. This allows our scaling algorithms to take not only queue depth but also queue lead time into account when scaling. This had been a convenient, though probably not required aspect of our scaling logic.
+__Have a method of estimating queue lead time.__ This becomes important if you want to have accurate and effective scaling algorithms. We take the approach of recording execution time for a sample of jobs of each type in our queue. Then, as our queue introspection probes report on the queue depth, workers, and more, they also report on the estimated execution time for each job currently in the queues. This allows our scaling algorithms to take not only queue depth but also queue lead time into account when scaling. This had been a convenient, though probably not required aspect of our scaling logic. We've used [Appsignal][2] to estimate durations pretty effectively, but any APM system should do.
 
 ### Scaling
 
-__Scale queue workers based on the introspection__ described above. Maintaining a constant worker pool will be wasteful, so having a system of rules (simply a step function at first) to scale workers up or down based on queue depth saves you a _ton_ of money in aggregate. A simple step function can evolve into a context-based algorithm, but scaling is a necessity.
+__Scale queue workers based on the introspection__ described above. Maintaining a constant worker pool will be wasteful, so having a system of rules (simply a step function at first) to scale workers up or down based on queue depth saves you a _ton_ of money in aggregate. A simple step function can evolve into a context-based algorithm, but scaling is a necessity. We've easily shaved off hundreds of dollars from our monthly bills by tweaking our queue scaling algorithms.
 
 __Scale at an interval that maps to your throughput change rate.__ Your scaling assessment and its effect must be commensurate with the acceleration or deceleration of your queue depth. So, if your queue depth changes during the day, but generally increases over the course of an hour, you should be introspecting your queues at a reasonable fraction of that rate. If your queue depth changes drastically minute to minute, you need to be introspecting once a second and you need to have your scaling commands take effect within a few seconds. If your scaling effects take longer than it takes for your queue to grow or shrink, your commands are out of date and will have unintended effects.
 
@@ -47,3 +49,4 @@ Though there are many queueing SAAS products out there, I've never seen one that
 
 [0]: https://elenichappen.com
 [1]: https://www.officeluv.com
+[2]: https://appsignal.com

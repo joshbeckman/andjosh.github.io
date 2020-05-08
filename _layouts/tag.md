@@ -2,9 +2,10 @@
 layout: default
 ---
 
-<p>{{ page.title }}</p>
+<p>
+    All posts tagged with <em>{{ page.slug }}</em>:
+</p>
 {{ content }}
-<hr/>
 <div class="posts">
   {% if site.tags[page.slug] %}
     {% for post in site.tags[page.slug] %}
@@ -39,6 +40,9 @@ layout: default
       </div>
     {% endfor %}
   {% else %}
-    <p>There are no posts in this tag.</p>
+    <blockquote>
+      <p>There are no posts with this tag.</p>
+    </blockquote>
+    <p>View <a href="/posts">all posts</a>.</p>
   {% endif %}
 </div>

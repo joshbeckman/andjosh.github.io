@@ -520,30 +520,33 @@ tbody tr:nth-child(odd) th {
     background: #fff;
     padding: 0 20px;
 }
-.about {
-    padding-top: 10vh;
+.home {
+  padding-top: 20vh;
+  min-height: 100vh;
+  background-color: #903465;
+  background-image: linear-gradient(135deg,#7E4577,#913465);
+  color: white;
 }
-.sidebar .about {
-    color: white;
+.theme-base-josh .home h1,
+.theme-base-josh .home h2,
+.theme-base-josh .home h3,
+.theme-base-josh .home h4,
+.theme-base-josh .home h5,
+.theme-base-josh .home h6,
+.theme-base-josh .home a {
+  color: white;
 }
-.sidebar .about h1 {
-    color: white;
-    margin: 0;
-    padding: 2rem 0;
+.theme-base-josh .home-posts {
+  margin-top: 6vh;
+  padding-bottom: 6vh;
 }
-.about .emphasis {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 1rem;
-    padding: 1rem;
-    box-shadow: 0 .2rem .75rem rgba(0,0,0,.2);
-    background-image: linear-gradient(135deg,rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.2));
-}
-.home-footer {
-  margin-bottom: 5rem;
+.theme-base-josh .home-talks {
+  padding-bottom: 10vh;
+  text-align: right;
 }
 .name-svg {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 }
 @media (max-width: 30em) {
     .theme-base-josh .masthead-title small {

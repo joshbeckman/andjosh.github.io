@@ -17,7 +17,9 @@ layout: default
     {% endif %}
     {% if post.title and post.title != '' %}
         <h2 class="post-title">
-            {{ post.title }}
+            <a href="{{ post.url }}" class="post-title-link">
+              {{ post.title }}
+            </a>
         </h2>
           <div class="post-meta-wrap">
               <div class="post-meta">
@@ -31,7 +33,7 @@ layout: default
           {{ post.date | date_to_string }}
         </a>
     {% endif %}
-    {{ post.content }}
+    {{ post.excerpt }}
   </div>
   {% endfor %}
 </div>

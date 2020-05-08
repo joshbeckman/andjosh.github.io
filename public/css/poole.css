@@ -428,11 +428,11 @@ tbody tr:nth-child(odd) th {
  */
 .theme-base-josh {
   font-family: Alegreya, Georgia, serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 @media (min-width: 40rem) {
     .theme-base-josh {
-      font-size: 18px;
+      font-size: 20px;
     }
 }
 .theme-base-josh .sidebar {
@@ -521,11 +521,16 @@ tbody tr:nth-child(odd) th {
     padding: 0 20px;
 }
 .home {
-  padding-top: 20vh;
+  padding-top: 5vh;
   min-height: 100vh;
   background-color: #903465;
   background-image: linear-gradient(135deg,#7E4577,#913465);
   color: white;
+}
+@media (min-width: 40rem) {
+    .home {
+      padding-top: 20vh;
+    }
 }
 .theme-base-josh .home h1,
 .theme-base-josh .home h2,

@@ -2,6 +2,8 @@
 title: On Narro Joining Stripe Atlas Beta
 date: 2017-03-26 00:00:00 Z
 layout: post
+tags:
+- writing
 ---
 
 In June, I applied for Narro's entry into the [Stripe Atlas][0] beta program. Since building [Narro][1] incrementally, the worry of financial separation crept up on me a bit. Between the end of one job and the start of another, I had a perfect time to formalize the structure of Narro into a real entity. I thought I could provide a review of Stripe Atlas for anyone considering the program.

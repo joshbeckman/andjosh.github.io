@@ -2,6 +2,8 @@
 title: To Revisit When Starting a New Job
 date: 2016-10-17 00:00:00 Z
 layout: post
+tags:
+- hiring
 ---
 
 After starting at and helping to start companies multiple times, I've noticed a few writings and lectures that I tend to revisit each time. Even when not moving to a new group, I tend to watch or read these every few months. The beginning of this list came out of a question from the wonderful [Jane Kim][7].

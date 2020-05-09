@@ -2,6 +2,8 @@
 title: A Recommendation of Vasyl Stetsyuk
 date: 2016-06-13 00:00:00 Z
 layout: post
+tags:
+- recommendation
 ---
 
 Vasyl is an eager and diligent QA Lead. While we were working together, a member of our team remarked that they had met no other QA leader more interested in the actual technology, and I would agree. He is a splendid team leader, and defined our testing processes for the group. I would trust him to test my applications again in a heartbeat.

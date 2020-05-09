@@ -2,6 +2,9 @@
 title: Handy Kue Maintenance CLI Scripts
 date: 2018-01-03 00:00:00 Z
 layout: post
+tags:
+- code
+- javascript
 ---
 
 Building systems at my last few companies, it has been enormously useful to have a robust queueing platform. I've tried Amazon's SQS, NATS, and a couple others but Automattic's [Kue][0] has been the best combination of performance and introspection.

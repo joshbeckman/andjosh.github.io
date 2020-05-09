@@ -2,7 +2,7 @@
 title: Asynchronous Learning and Why I Bookmark First
 date: 2015-02-01 00:00:00 Z
 tags:
-- Habits
+- learning
 layout: post
 ---
 

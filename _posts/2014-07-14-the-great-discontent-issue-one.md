@@ -2,6 +2,8 @@
 title: The Great Discontent Issue One - First Look
 date: 2014-07-14 00:00:00 Z
 layout: post
+tags:
+- popular
 ---
 
 I was eager to back the Kickstarter campaign for the first physical issue of The Great Discontent back in [early February][1]. The investment paid off on Thursday afternoon when I picked up my copy from the mailroom.

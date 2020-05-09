@@ -2,6 +2,9 @@
 title: Memory Leaks Using Canvas in Node
 date: 2015-09-23 00:00:00 Z
 layout: post
+tags:
+- code
+- javascript
 ---
 
 At [ThreadMeUp](//threadmeup.com), we do much of our image manipulation and generation using HTML5 `Canvas` objects. This allows us to build some interesting tech, like mirroring client-side interactions with the `canvas` onto a Node server representation.

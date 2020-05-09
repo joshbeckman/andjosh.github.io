@@ -2,6 +2,8 @@
 title: A Recommendation of Colleen Grafton
 date: 2016-06-13 00:00:00 Z
 layout: post
+tags:
+- recommendation
 ---
 
 Out of all the engineers I have known, Colleen is the most structured and economical. While working together, she has grown tenfold in her abilities and her assertiveness. She would be a valuable asset to any group, both her technical skills and her personality.

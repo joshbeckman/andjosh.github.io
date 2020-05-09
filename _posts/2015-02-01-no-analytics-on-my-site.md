@@ -1,8 +1,6 @@
 ---
 title: Why I Don't Have Analytics on My Site Anymore
 date: 2015-02-01 00:00:00 Z
-tags:
-- Site Architecture
 layout: post
 ---
 

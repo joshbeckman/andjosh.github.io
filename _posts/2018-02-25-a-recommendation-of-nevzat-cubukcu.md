@@ -3,6 +3,8 @@ title: A Recommendation of Nevzat Cubukcu
 date: 2018-02-25 00:00:00 Z
 layout: post
 image: "/images/IMG_0465.jpg"
+tags:
+- recommendation
 ---
 
 We hired Nevzat as our third engineer and Android device expert. How can you _not_ be impressed when he came to the interview with projects to demonstrate complex matrix manipulations of on-device images that he built to teach himself the Android SDK? He, of course, continued to teach himself while on our team. He also pulled us to place customer delight in the front of our minds while also tirelessly improving out product.

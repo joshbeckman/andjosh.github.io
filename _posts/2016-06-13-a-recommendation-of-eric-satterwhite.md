@@ -2,6 +2,8 @@
 title: A Recommendation of Eric Satterwhite
 date: 2016-06-13 00:00:00 Z
 layout: post
+tags:
+- recommendation
 ---
 
 Working with Eric is, I imagine, akin to preparing dinner with a sushi master chef. He is one of the most confident developers, and rightly so. I have learned more from him in the last year than any other on our team. Eric's not content with his current abilities, though - he is constantly seeking new challenges and paradigms to test.

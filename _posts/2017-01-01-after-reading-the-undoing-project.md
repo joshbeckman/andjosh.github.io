@@ -2,10 +2,11 @@
 title: After Reading The Undoing Project
 date: 2017-01-01 00:00:00 Z
 layout: post
+tags:
+- reading
 ---
 
-My brother's gift to me this Christmas was [_The Undoing Project_][0], a novel by Michael Lewis on the work done by researchers Daniel Kahneman and Amos 
-Tversky. I read it from December 27 through January 1. 
+My brother's gift to me this Christmas was [_The Undoing Project_][0], a novel by Michael Lewis on the work done by researchers Daniel Kahneman and Amos Tversky. I read it from December 27 through January 1. 
 
 I had studied the work by these two authors in my college courses, but had no idea bout their personal history or tangential work. It was a splendid reminder of those ideas, and I was captivated by the description of their relationship. I wanted to write down some initial thoughts afterward. These are not in any particular order, just as they came to mind. 
 

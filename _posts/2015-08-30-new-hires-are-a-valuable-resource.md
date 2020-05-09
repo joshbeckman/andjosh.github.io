@@ -2,6 +2,8 @@
 title: New Hires are a Valuable Resource
 date: 2015-08-30 00:00:00 Z
 layout: post
+tags:
+- hiring
 ---
 
 We've brought on two engineers in the last four weeks, and aiming to keep up the pace. I'm constantly reminded of how valuable new hires can be. The person can be senior, green, front-end, back-end, local, or remote. All that needs to happen is open communication and clear on-boarding. The new member's point of view will take care of the rest.

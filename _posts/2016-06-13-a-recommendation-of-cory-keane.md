@@ -2,6 +2,8 @@
 title: A Recommendation of Cory Keane
 date: 2016-06-13 00:00:00 Z
 layout: post
+tags:
+- recommendation
 ---
 
 Cory is as earnest as he is steadfast. He is as honest as he is pragmatic. We built a team together, around the ideals we share. We set out goals a year in advance and completed them in half the time. I would work with him again, and I would recommend him to guide a project in any climate.

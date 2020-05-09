@@ -3,6 +3,8 @@ title: Hiring Retrospective - Advancement Rate
 date: 2018-12-11 00:00:00 Z
 tags:
 - hiring
+- popular
+- writing
 layout: post
 ---
 

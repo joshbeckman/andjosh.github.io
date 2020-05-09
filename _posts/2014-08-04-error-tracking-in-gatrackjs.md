@@ -2,8 +2,9 @@
 title: Error Tracking in gatrack.js
 date: 2014-08-04 00:00:00 Z
 tags:
-- Google Analytics
-- Javascript
+- code
+- javascript
+- popular
 layout: post
 ---
 

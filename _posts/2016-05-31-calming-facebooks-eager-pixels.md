@@ -2,6 +2,9 @@
 title: Calming Facebook's Eager Pixels
 date: 2016-05-31 00:00:00 Z
 layout: post
+tags:
+- code
+- javascript
 ---
 
 Working at [an e-commerce startup][1], I get asked to implement new tracking features every day. I built out the integration points for Google Analytics, Google's retargeting pixel, Google's conversion pixel, Facebook's retargeting pixel, Facebook's conversion pixel, Facebook's Audience pixel (and here is where I run out of breath). That's not even a complete list.

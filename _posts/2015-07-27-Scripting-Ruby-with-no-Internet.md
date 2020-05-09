@@ -2,6 +2,8 @@
 title: Scripting Ruby with no Internet
 date: 2015-07-27 00:00:00 Z
 layout: post
+tags:
+- code
 ---
 
 As I sit, I'm riding on the commuter rail as it creaks and staggers its way North. I intended to write some thoughts down, but got distracted in the hassle of touching a new Jekyll post.

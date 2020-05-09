@@ -2,7 +2,7 @@
 title: Your App Is Not Better Than An Open Protocol
 date: 2015-02-15 00:00:00 Z
 tags:
-- App Architecture
+- popular
 layout: post
 ---
 

@@ -2,6 +2,8 @@
 title: Recruitment Searching on GitHub
 date: 2016-09-08 00:00:00 Z
 layout: post
+tags:
+- hiring
 ---
 
 We're currently looking for Senior Mobile (iOS / Android) and Senior Fullstack Engineers [at OfficeLuv](//www.officeluv.com/careers). Finding great developers is...difficult. I will occasionally search for individuals on GitHub, where I can find a scrap of contact information and reach out.

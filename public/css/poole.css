@@ -440,6 +440,12 @@ tbody tr:nth-child(odd) th {
   background-image: linear-gradient(135deg,#7E4577,#913465);
   box-shadow: 0 -.2rem .75rem rgba(0,0,0,.2) inset;
 }
+.theme-base-josh .default-layout-container + .sidebar {
+  box-shadow: 0 .2rem .75rem rgba(0,0,0,.2) inset;
+}
+.theme-base-josh .default-layout-container + .sidebar .masthead {
+  margin-bottom: 0;
+}
 .theme-base-josh a {
   text-decoration: underline;
 }
@@ -480,6 +486,9 @@ tbody tr:nth-child(odd) th {
 }
 .theme-base-josh .post {
     margin-bottom: 6rem;
+}
+.theme-base-josh .default-layout-container {
+  min-height: 100vh;
 }
 .theme-base-josh .post-title a {
   color: #303030;

@@ -487,6 +487,10 @@ tbody tr:nth-child(odd) th {
 .theme-base-josh .post {
     margin-bottom: 6rem;
 }
+.theme-base-josh .post .footnotes {
+  border-top: 1px solid #999;
+  font-size: 0.8rem;
+}
 .theme-base-josh .default-layout-container {
   min-height: 100vh;
 }

@@ -3,6 +3,7 @@ layout: post
 title: 'After Reading: So Many Books by Gabriel Zaid'
 tags:
 - reading
+- writing
 date: 2019-04-14 05:00:00 +0000
 mf-photo: "/media/0EAC8C6E-C55F-4118-B68E-2BF67341F1F8.jpeg"
 

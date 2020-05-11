@@ -23,9 +23,9 @@
         </a>
         <div class="home-posts">
           <p>
-            Recent Posts
+            Recent Writing
           </p>
-          {% for post in site.posts limit: 3 %}
+          {% for post in site.tags['writing'] limit: 3 %}
           <div class="home-post">
             {% if post.title and post.title != '' %}
                 <h4 class="post-title">

@@ -4,6 +4,7 @@ title: Correct Ruby Threads and ActiveRecord Connections
 tags:
 - code
 - ruby
+- writing
 ---
 
 Recently, we had an opportunity to trivially parallelize some ActiveRecord queries in our Ruby server. In a common response structure, we needed to both query for the actual data requested along with some meta-information about pagination, etc.

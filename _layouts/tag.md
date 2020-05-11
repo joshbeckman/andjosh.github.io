@@ -36,6 +36,9 @@ layout: default
             <a href="{{ post.url }}" class="post-date">
               {{ post.date | date_to_string }}
             </a>
+            {% if page.slug == 'notes' %}
+                {{ post.content }}
+            {% endif %}
         {% endif %}
       </div>
     {% endfor %}

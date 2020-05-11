@@ -4,7 +4,7 @@ permalink: "/newsletter/"
 layout: page
 ---
 
-I send a weekly-ish newsletter about things interesting to people thinking about or working in tech and teams.
+I send a monthly-ish newsletter about things interesting to people thinking about or working in tech and teams.
 
 <form
   action="https://buttondown.email/api/emails/embed-subscribe/andjosh"

@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+name = "_posts/#{Time.now.to_s.split(' ').first}-#{Time.now.to_i}.md"
+front_matter = '---\nlayout: post\ntitle: \'\'\ntags:\n- notes\n---\n\n' + ARGV.join(' ')
+
+exec('echo "' + front_matter + '" > ' + name + ' && vim ' + name)

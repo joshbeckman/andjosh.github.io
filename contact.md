@@ -9,7 +9,7 @@ _If you want to talk software or product/engineering teams, I want to talk to yo
 
 I like reading things. If you write something worth reading, please tell me.
 
-My email addresses are josh@ any domain I control, including this one. My handle on most social networks and IM platforms is andjosh (e.g. [@andjosh](//github.com/andjosh) on Github, [@andjosh_](//twitter.com/andjosh_) on Twitter, etc.). I strongly prefer email as a communication method. 
+My email addresses are josh@ any domain I control, including this one. I'm [@andjosh](//github.com/andjosh) on Github, [@josh_beckman](//twitter.com/josh_beckman) on Twitter. I strongly prefer email as a communication method. 
 
 I want to hear from you. I hope you reach out.
 

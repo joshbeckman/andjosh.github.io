@@ -17,7 +17,7 @@ But both of these definitions are forward-looking. Tech debt is time we borrow n
 
 > Why can't we build this new feature right away? We need refactor this are of the system. Oh, that's tech debt! _Maybe_.
 
-I think too many product teams identify too much of their work as tech debt. If you have an architecture that designed to service a catalog of 10,000 products (your maximum projected size at that time) and now must be amended to service two more orders of magnitude, I don't think that's tech debt. The work required to bring that architecture in line with your new requirements should be tech investment towards that new goal.
+I think too many product teams identify too much of their work as tech debt. If you have an architecture that was designed to service a catalog of 10,000 products (your maximum projected size at that time) and now must be amended to service two more orders of magnitude, I don't think that's tech debt. The work required to bring that architecture in line with your new requirements should be tech investment towards that new goal.
 
 When you have work at hand to refactor a product area, think about whether the current requirements were expected at the time you built it. If they were, this is tech debt - work you decided in the past to do now. If the requirements are in a new direction, this is tech investment you're spending now to go in that new direction. This is the backward-looking distinction between tech debt and tech investment.
 

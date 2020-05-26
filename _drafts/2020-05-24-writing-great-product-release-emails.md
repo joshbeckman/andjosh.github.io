@@ -1,6 +1,8 @@
 ---
 layout: post
 title: On Writing Great Product Release Emails
+tags:
+- writing
 ---
 
 If you release software, you'll need to communicate new features and bug-fixes to your users. Eleni has written about how OfficeLuv [practices writing our customer-facing blog posts announcing features][1] before we build, but we don't announce every feature in our customer-facing changelog. We do, however, put out an internal product release email every week. It has remained a constant pulse over our 4 years, but we've improved the structure and content over time.

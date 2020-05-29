@@ -37,12 +37,12 @@ defaults:
     type: my_tags
   values:
     layout: tag
-url: https://www.andjosh.com
+url: https://www.joshbeckman.org
 baseurl: ''
 author:
   name: Josh Beckman
-  url: https://www.andjosh.com
-  email: email@andjosh.com
+  url: https://www.joshbeckman.org
+  email: josh@joshbeckman.org
 tagline: Director of Engineering
 description: Founder of <a href="https://www.narro.co" target="_blank">Narro</a>.
   Leading the product & engineering team at <a href="https://www.officeluv.com" target="_blank">OfficeLuv</a>.

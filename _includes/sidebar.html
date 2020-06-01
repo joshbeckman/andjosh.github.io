@@ -1,18 +1,14 @@
 <div class="sidebar">
   <div class="container">
     <header class="masthead">
-        <h3 class="masthead-title">
-          <a class="masthead-home-link" href="/" rel="home" title="{{ site.title }}">
-            <img src="/images/name.svg" alt="{{ site.title }}" width="100" class="icon"/>
-          </a>
-          <small>
-            <nav class="sidebar-nav">
-              {% for link in site.links %}
-                  <a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
-              {% endfor %}
-            </nav>
-          </small>
-        </h3>
+        <a class="masthead-home-link" href="/" rel="home" title="{{ site.title }}">
+          <img src="/images/name.svg" alt="{{ site.title }}" width="100" class="icon"/>
+        </a>
+        <nav class="sidebar-nav">
+          {% for link in site.links %}
+              <a class="sidebar-nav-item{% if page.url == link.url %} active{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
+          {% endfor %}
+        </nav>
     </header>
   </div>
 </div>

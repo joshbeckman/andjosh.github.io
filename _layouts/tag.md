@@ -2,10 +2,12 @@
 layout: default
 ---
 
-<p>
-    All posts tagged with <em>{{ page.slug }}</em>:
-</p>
-{{ content }}
+<div class="tag-lead">
+  <p class="">
+      All posts tagged with <strong>{{ page.slug }}</strong>:
+  </p>
+  {{ content }}
+</div>
 <div class="posts">
   {% if site.tags[page.slug] %}
     {% for post in site.tags[page.slug] %}
@@ -25,12 +27,10 @@ layout: default
                     {{ post.title }}
                 </a>
             </h2>
-            <div class="post-meta-wrap">
-                <div class="post-meta">
-                    <a href="{{ post.url }}" class="post-date" rel="bookmark">
-                        <time>{{ post.date | date_to_string }}</time>
-                    </a>
-                </div>
+            <div class="post-meta">
+                <a href="{{ post.url }}" class="post-date" rel="bookmark">
+                    <time>{{ post.date | date_to_string }}</time>
+                </a>
             </div>
         {% else %}
             <a href="{{ post.url }}" class="post-date">

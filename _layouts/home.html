@@ -64,6 +64,24 @@
             </a>
           </p>
         </div>
+        <div class="home-blogroll">
+          <p>
+            Recommended Blogs
+          </p>
+          {% assign links = site.blogroll | sample: 3 %}
+          {% for link in links %}
+              <div class="home-blogroll-link">
+                <h4 class="post-title">
+                    <a href="{{ link.url }}" rel="nofollow">{{ link.title }}</a>
+                </h4>
+              </div>
+          {% endfor %}
+          <p id="latest-talks" class="post-date">
+            <a href="/blogroll">
+              All Recommended &rarr;
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   </body>

@@ -471,13 +471,21 @@ tbody tr:nth-child(odd) th {
 .theme-base-josh .home a {
   color: white;
 }
+.theme-base-josh .home-posts h4,
+.theme-base-josh .home-talks h4,
+.theme-base-josh .home-blogroll h4 {
+  font-size: 1rem;
+}
 .theme-base-josh .home-posts {
   margin-top: 6vh;
   padding-bottom: 6vh;
 }
 .theme-base-josh .home-talks {
-  padding-bottom: 10vh;
+  padding-bottom: 6vh;
   text-align: right;
+}
+.theme-base-josh .home-blogroll {
+  padding-bottom: 10vh;
 }
 .name-svg {
   height: 150px;

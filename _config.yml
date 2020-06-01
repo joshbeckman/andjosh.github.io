@@ -75,3 +75,32 @@ headers:
 - Josh
 prose:
   media: images
+blogroll:
+  - title: Charity Majors
+    url: https://charity.wtf
+  - title: Christine Dodrill
+    url: https://christine.website/blog
+  - title: Grumpy Website
+    url: https://grumpy.website
+  - title: High Scalability
+    url: http://highscalability.com/blog/
+  - title: Nadia Eghbal
+    url: https://nadiaeghbal.com
+  - title: Simon Eskildsen
+    url: https://sirupsen.com
+  - title: Indexed
+    url: https://thisisindexed.com
+  - title: Fred Hebert
+    url: https://ferd.ca
+  - title: Jenn Schiffer
+    url: https://livelaugh.blog
+  - title: Rachel By the Bay
+    url: https://rachelbythebay.com/w/
+  - title: Brent Simmons
+    url: https://inessential.com
+  - title: Dan Luu
+    url: https://danluu.com
+  - title: Maciej Cegłowski
+    url: //idlewords.com
+  - title: Marco Arment
+    url: //marco.org

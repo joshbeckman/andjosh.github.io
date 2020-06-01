@@ -1,0 +1,13 @@
+---
+title: Recommended Blogs
+permalink: "/blogroll/"
+layout: page
+---
+
+{% assign n = site.blogroll | size %}
+{% assign links = site.blogroll | sample: n %}
+{% for link in links %}
+  <p>
+    <a href="{{ link.url }}" rel="nofollow">{{ link.title }}</a>
+  </p>
+{% endfor %}

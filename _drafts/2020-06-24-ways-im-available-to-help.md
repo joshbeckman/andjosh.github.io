@@ -9,7 +9,12 @@ To better open my experience and privilege as a resource for others, I wanted to
 
 I generally prefer email as a medium for these communications, especially in our initial conversation(s). So if you tweet at me or send a LinkedIn message, don't expect a [quick] reply.
 
-Ways I’m available to help anyone:
+Note that I am a self-taught, white, straight, cis-gender man without a disability. I will try to:
+- Not give advice on things I haven't directly experienced
+- Not generalize my experiences
+- Be explicit about when my privilege has helped me and may not help others with different circumstances
+
+That said, ways I’m available to help anyone:
 
 - **Answer direct question about topics I know about**. I really try to answer every concise question I get over email. The more specific, the easier it will be to get an answer for you. If you write a two to four paragraph email with a clear question, I will try to answer it in a timely fashion. Topics that I can answer about quickly are generally anything I've written or presented about. Reach out to me at _josh[at]joshbeckman.org_.
 
@@ -25,5 +30,6 @@ Some things I'm _not_ a good resource for:
 - **Getting your first job in tech**. My own career path into and through tech was not traditional (or, I think, replicable). I also don't have the best grasp on the environments many bootcamps provide, so I will leave the advice for first jobs to those just leaving their first job.
 - **Getting hired at Big Tech companies**. I've only ever worked for small to mid-size startups, where I was able to control the vast majority of the hiring process, so I don't have any advice that you couldn't discover yourself through Google searches.
 - **Referrals that are unlikely to get serious consideration**. This may be the wrong stance, but I only refer people of make an introduction if I am exceedingly confident that both parties will strongly engage. That usually means I won't do it, and I save my sponsorship efforts for those individuals I already know.
+- **Connecting with you on LinkedIn**. I prefer having my LinkedIn profile accurately represent my actual network. This is so when people ask me for referrals, I genuinely know the people they’re asking about. To that end, I generally don’t accept connection requests from people I haven’t met in person, or haven’t talked to extensively through email.
 
 These lists aren't comprehensive, but I hope by being explicit about what I'm available to do then folks will feel more comfortable reaching out, For anything that isn't covered, writing a concise email to inquire is the best route!

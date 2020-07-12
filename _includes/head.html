@@ -34,7 +34,11 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
     <meta name="author" content="{{ site.author.name }}" />
     <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
+    {% if page.canonical_url %}
+    <link rel="canonical" href="{{ page.canonical_url }}">
+    {% else %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
     <link rel="micropub" href="https://micropub-andjosh.herokuapp.com/micropub/main">

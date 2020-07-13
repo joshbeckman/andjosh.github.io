@@ -26,7 +26,7 @@ I would also lump Requests for Comment (RFCs) and documents like that into this 
 I think Naur's idea of Theory Building fits as a flavor of documentation one level higher.
 The central assumptions about what our system should handle and what it operates on are foundational.
 These read like laws of physics, but for the worldview and inner-workings of the system.
-This documentation informs other contributors on how to best extend the current program, and which rules should not be violated.
+This documentation informs other contributors on how to best extend the current program, and which rules we would hesitate to violate.
 
 I've never read this kind of documentation at the level of a program or system before.
 The closest that comes to mind are Rails' "[Convention over configuration](https://en.m.wikipedia.org/wiki/Convention_over_configuration)", the [Zen of Python](https://en.m.wikipedia.org/wiki/Zen_of_Python) guiding principles, or even OfficeLuv's [Heart of a Developer](https://github.com/officeluv/heart-of-a-developer) proverbs.

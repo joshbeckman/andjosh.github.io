@@ -379,8 +379,15 @@ tbody tr:nth-child(odd) th {
   text-decoration: underline;
 }
 .theme-base-josh .content a,
-.theme-base-josh .related-posts li a:hover {
-  color: #D5008F;
+.theme-base-josh .related-posts li a {
+  text-decoration-color: #515151;
+  color: #303030;
+}
+.theme-base-josh .content a:hover,
+.theme-base-josh .related-posts li a:hover,
+.theme-base-josh .content a:focus,
+.theme-base-josh .related-posts li a:focus {
+  text-decoration-color: #D5008F;
 }
 .theme-base-josh .masthead .masthead-home-link {
   text-decoration: none;

@@ -529,6 +529,11 @@ tbody tr:nth-child(odd) th {
     .theme-base-josh h5 {
         color: #eee;
     }
+    .theme-base-josh .content a,
+    .theme-base-josh .related-posts li a {
+      color: #fff;
+      text-decoration-color: white;
+    }
     .theme-base-josh blockquote {
         color: #ddd;
     }
@@ -553,6 +558,11 @@ tbody tr:nth-child(odd) th {
     .theme-base-josh h4,
     .theme-base-josh h5 {
         color: #eee;
+    }
+    .theme-base-josh .content a,
+    .theme-base-josh .related-posts li a {
+      color: #fff;
+      text-decoration-color: white;
     }
     .theme-base-josh blockquote {
         color: #ddd;

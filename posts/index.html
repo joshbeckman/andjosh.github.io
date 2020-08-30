@@ -21,17 +21,18 @@ layout: default
               {{ post.title }}
             </a>
         </h2>
+        {{ post.excerpt }}
         <div class="post-meta">
             <a href="{{ post.url }}" class="post-date">
-                <time>{{ post.date | date_to_string }}</time>
+                Continue reading &rarr;
             </a>
         </div>
     {% else %}
         <a href="{{ post.url }}" class="post-date">
-          {{ post.date | date_to_string }}
+          Note: {{ post.date | date_to_string }}
         </a>
+        {{ post.content }}
     {% endif %}
-    {{ post.excerpt }}
   </div>
   {% endfor %}
 </div>

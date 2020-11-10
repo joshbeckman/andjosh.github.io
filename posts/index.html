@@ -6,15 +6,6 @@ layout: default
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    {% if post.image %}
-      <div class="post-image">
-        <img src="{{ post.image }}" alt="{{ post.title }}"/>
-      </div>
-    {% elsif post['mf-photo'] %}
-      <div class="post-image">
-        <img src="{{ post['mf-photo'] }}" alt="{{ post['mf-photo'] }}"/>
-      </div>
-    {% endif %}
     {% if post.title and post.title != '' %}
         <h2 class="post-title">
             <a href="{{ post.url }}" class="post-title-link">

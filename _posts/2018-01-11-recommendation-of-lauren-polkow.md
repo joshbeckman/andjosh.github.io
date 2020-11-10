@@ -7,6 +7,8 @@ tags:
 - recommendation
 ---
 
+![](/images/IMG_0024.jpg)
+
 When I sat down with Lauren for the first time, I knew immediately that it was the chance of a lifetime to work with her. Such a spark of energy, intelligence, and enthusiasm for the customer walked into the room that it was impossible to resist the opportunity to learn. She is one of the best guides I have found, and the best product leader that I have known.
 
 Lauren leads a team better than anyone else I have seen. She is constantly aware of each member's strengths, past experiences, career goals, and weekend plans. Able to see potential conflict from miles away, she has the skill to fit others into effective groups that produce exceptional products. I constantly reflect on her words and actions of encouragement or guidance and find new ways to improve myself. Our team was able to deliver because Lauren steered us through conflict and growth to internal understanding.

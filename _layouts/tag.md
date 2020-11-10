@@ -12,15 +12,6 @@ layout: default
   {% if site.tags[page.slug] %}
     {% for post in site.tags[page.slug] %}
       <div class="post">
-        {% if post.image %}
-          <div class="post-image">
-            <img src="{{ post.image }}" alt="{{ post.title }}"/>
-          </div>
-        {% elsif post['mf-photo'] %}
-          <div class="post-image">
-            <img src="{{ post['mf-photo'] }}" alt="{{ post['mf-photo'] }}"/>
-          </div>
-        {% endif %}
         {% if post.title and post.title != '' %}
             <h2 class="post-title">
                 <a href="{{ post.url }}">

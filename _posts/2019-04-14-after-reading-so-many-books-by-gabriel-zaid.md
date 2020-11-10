@@ -5,9 +5,12 @@ tags:
 - reading
 - writing
 date: 2019-04-14 05:00:00 +0000
-mf-photo: "/media/0EAC8C6E-C55F-4118-B68E-2BF67341F1F8.jpeg"
+image: "/media/0EAC8C6E-C55F-4118-B68E-2BF67341F1F8.jpeg"
 
 ---
+
+![](/media/0EAC8C6E-C55F-4118-B68E-2BF67341F1F8.jpeg)
+
 I finished [So Many Books (Gabriel Zaid)](https://www.pauldrybooks.com/products/so-many-books) a couple months ago but the main points have been rattling around my head since then. The book reads like a series of essays, focusing on (in relative order) the habits of book collecting, habits of reading and comprehension, growth of publishing, and the economics of publishing. It’s a short book, makes a dry topic very interesting, and makes arguments relevant in today’s world of self-publishing, blogging, vlogging, and all else.
 
 As I’m currently authoring and publishing apps more than authoring and publishing books, all of my favorite passages struck me as reflective of the software industry.

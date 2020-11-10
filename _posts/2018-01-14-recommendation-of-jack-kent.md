@@ -7,6 +7,8 @@ tags:
 - recommendation
 ---
 
+![](/images/IMG_0049.jpg)
+
 Working with Jack is extremely rewarding, because I know he will always guide us to the best interface for the customer. His research into the mind and environment of the user is unparalleled and he has a fantastic ability to lead a group through fruitful design sprints. I learned a great deal from his practice of honing a user interface to intuitive, evolving components.
 
 Jack's knowledge of the customer is beyond any that I've seen in other designers. He lead research interviews that we referenced directly in our end results. His thinking process always starts and ends with the user's own mindset, which ensures solid ground for the final products. It is always easy to talk with Jack about why he chose a design pattern, simply because he usually references direct experience with our research.

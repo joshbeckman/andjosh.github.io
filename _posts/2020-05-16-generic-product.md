@@ -4,7 +4,6 @@ title: ''
 tags:
 - notes
 date: 2020-05-16 05:00:00 +0000
-mf-photo: ''
 
 ---
 In product research, people sometimes make the mistake of ‘validating’ their product idea by interviewing customers and describing the most generic version of their product. The customer already has a problem, so a product generic enough to solve all their problems sounds wonderful and they want that. But once you get down to building specifics and you haven’t solved all the problems right away, they won’t switch away from the incumbent solution because it doesn’t solve one of their problems better.   

@@ -1,5 +1,5 @@
 ---
 title: Photos
-layout: tag
+layout: photos
 ---
 

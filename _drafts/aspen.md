@@ -1,9 +1,0 @@
----
-layout: post
-title: ''
-tags: []
-date: 2020-09-25 05:00:00 +0000
-mf-photo: "/media/0ed683a8-be2b-4655-aa6d-e4d0a2457d0f.jpeg"
-
----
-![](/media/0ed683a8-be2b-4655-aa6d-e4d0a2457d0f.jpeg)

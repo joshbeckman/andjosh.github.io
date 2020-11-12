@@ -23,7 +23,7 @@
         </a>
         <div class="home-posts">
           <p>
-            Recent Writing
+            <small>Recent Writing</small>
           </p>
           {% for post in site.tags['writing'] limit: 3 %}
           <div class="home-post">
@@ -41,14 +41,14 @@
           </div>
           {% endfor %}
           <p id="latest-posts" class="post-date">
-            <a href="/posts">
+            <small><a href="/posts">
               All Posts &rarr;
-            </a>
+            </a></small>
           </p>
         </div>
         <div class="home-talks">
           <p>
-            Recent Talks
+            <small>Recent Talks</small>
           </p>
           {% assign foo = site.decks | reverse %}
           {% for deck in foo limit: 3 %}
@@ -59,14 +59,14 @@
           </div>
           {% endfor %}
           <p id="latest-talks" class="post-date">
-            <a href="/presents">
+            <small><a href="/presents">
               &larr; All Talks
-            </a>
+            </a></small>
           </p>
         </div>
         <div class="home-blogroll">
           <p>
-            Recommended People
+            <small>Recommended People</small>
           </p>
           {% assign links = site.blogroll | sample: 3 %}
           {% for link in links %}
@@ -77,9 +77,9 @@
               </div>
           {% endfor %}
           <p id="latest-talks" class="post-date">
-            <a href="/blogroll">
+            <small><a href="/blogroll">
               All Recommended &rarr;
-            </a>
+            </a></small>
           </p>
         </div>
       </div>

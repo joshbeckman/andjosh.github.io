@@ -265,7 +265,7 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 3rem;
 }
 .masthead .sidebar-nav {
-  font-family: Alegreya Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
   font-weight: 400;
   color: #c0c0c0;
   float: right;
@@ -359,7 +359,7 @@ tbody tr:nth-child(odd) th {
  * within blog posts. To use, add the class of your choosing to the `body`.
  */
 .theme-base-josh {
-  font-family: Alegreya, Georgia, serif;
+  font-family: Georgia, serif;
 }
 .theme-base-josh .sidebar {
   background-color: #903465;
@@ -377,6 +377,13 @@ tbody tr:nth-child(odd) th {
 }
 .theme-base-josh a {
   text-decoration: underline;
+}
+.theme-base-josh .post h2,
+.theme-base-josh .post h3,
+.theme-base-josh .post h4,
+.theme-base-josh .post h5 {
+  margin-top: 1.8rem;
+  font-weight: 600;
 }
 .theme-base-josh .content a,
 .theme-base-josh .related-posts li a {
@@ -429,12 +436,15 @@ tbody tr:nth-child(odd) th {
 .theme-base-josh .tag-lead {
   margin: 15vh 0;
 }
+.theme-base-josh h1.post-title {
+  text-align: center;
+}
 .theme-base-josh .post-title a {
   color: #303030;
   text-decoration: none;
 }
 .theme-base-josh .post-date {
-  font-family: Alegreya Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
 }
 
 .theme-base-josh h1,
@@ -442,15 +452,20 @@ tbody tr:nth-child(odd) th {
 .theme-base-josh h3,
 .theme-base-josh h4,
 .theme-base-josh h5 {
-  font-family: Alegreya Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
   font-size: 1.2rem;
+  font-weight: 600;
+}
+.theme-base-josh h1 {
+  font-size: 1.6rem;
 }
 .theme-base-josh h2 {
     margin-top: 1.5rem;
 }
 .theme-base-josh .related-tags {
-  font-family: Alegreya Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
   color: #999;
+  font-size: 0.8rem;
 }
 
 .theme-base-josh pre,

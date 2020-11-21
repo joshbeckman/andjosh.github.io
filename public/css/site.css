@@ -49,7 +49,7 @@ body {
 
 html {
   font-family: Georgia, serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   line-height: 1.5;
 }
 
@@ -376,7 +376,7 @@ tbody tr:nth-child(odd) th {
  * within blog posts. To use, add the class of your choosing to the `body`.
  */
 .theme-base-josh {
-  font-family: Georgia, serif;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
 }
 .theme-base-josh .sidebar {
   background-color: #903465;
@@ -451,10 +451,7 @@ tbody tr:nth-child(odd) th {
 }
 .theme-base-josh h1.post-title,
 .theme-base-josh .tag-lead {
-  margin: 15vh 0;
-}
-.theme-base-josh h1.post-title {
-  text-align: center;
+  margin: 0 0 15vh 0;
 }
 .theme-base-josh .post-title a {
   color: #303030;

@@ -49,7 +49,6 @@ body {
 
 html {
   font-family: Georgia, serif;
-  font-size: 1.1em;
   line-height: 1.5;
 }
 
@@ -246,7 +245,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
+  max-width: 40rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
@@ -451,7 +450,7 @@ tbody tr:nth-child(odd) th {
 }
 .theme-base-josh h1.post-title,
 .theme-base-josh .tag-lead {
-  margin: 0 0 15vh 0;
+  margin: 0 0 6rem 0;
 }
 .theme-base-josh .post-title a {
   color: #303030;
@@ -508,6 +507,7 @@ tbody tr:nth-child(odd) th {
   color: white;
 }
 .theme-base-josh .home-posts h4,
+.theme-base-josh .home-notes h4,
 .theme-base-josh .home-talks h4,
 .theme-base-josh .home-blogroll h4 {
   font-size: 1rem;
@@ -516,9 +516,29 @@ tbody tr:nth-child(odd) th {
   margin-top: 6vh;
   padding-bottom: 6vh;
 }
+.theme-base-josh .home-notes,
 .theme-base-josh .home-talks {
   padding-bottom: 6vh;
   text-align: right;
+}
+.theme-base-josh .home-photos {
+  padding-bottom: 6vh;
+}
+.theme-base-josh .home-photo-strip {
+  display: flex;
+}
+.theme-base-josh .home-photo {
+  max-height: 8rem;
+  padding-right: 1rem;
+  margin: 0;
+}
+.theme-base-josh .home-photo a {
+  display: inline-block;
+  margin: 0;
+}
+.theme-base-josh .home-photo img {
+  max-height: 8rem;
+  margin: 0;
 }
 .theme-base-josh .home-blogroll {
   padding-bottom: 10vh;

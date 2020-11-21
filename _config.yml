@@ -46,14 +46,14 @@ author:
 tagline: Scaling tech and teams
 description: Scaling tech and teams, Staff Developer at Shopify, founder of <a href="https://www.narro.co" target="_blank">Narro</a>.
 links:
-- title: Posts
+- title: Writing
   url: "/posts/"
+- title: Photos
+  url: "/tags/photos/"
 - title: Talks
   url: "/presents/"
-- title: Newsletter
-  url: "/newsletter/"
-- title: RSS
-  url: "/rss.xml"
+- title: Subscribe
+  url: "/subscribe/"
 - title: Contact
   url: "/contact/"
 markdown: kramdown

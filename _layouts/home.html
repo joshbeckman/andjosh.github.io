@@ -11,8 +11,8 @@
                 I'm an experienced startup operator with a history of scaling tech and teams, currently building as a Staff Developer at <a href="https://www.shopify.com">Shopify</a>. I'm also the founder of <a href="https://www.narro.co">Narro</a>, the best way to listen to the Internet.
             </p>
             <p>
-                If you want to know what I’m reading, you can follow <a href="https://www.narro.co/playable/josh">my Narro podcast</a> or through <a href="/tags/notes">my notes</a>.
-                For future updates, you can sign up for <a href="/newsletter">monthly emails</a>, where I share writing, notes, and anything interesting I've created or found. Or you can be old and reliable and get new posts via <a href="/rss.xml">RSS</a>.
+                If you want to know what I’m reading, you can follow <a href="https://www.narro.co/playable/josh">my Narro podcast</a> or through <a href="/posts">my writing</a>. I also have been trying to <a href="/tags/photos">post more photos</a> in their own special place.
+                For future updates, you can <a href="/subscribe">subscribe to via RSS or email</a>, for when I share writing, notes, and anything interesting I've created or found.
             </p>
             <p class="">
                 If you want to talk software or product/engineering teams, please <a href="/contact">reach out to me</a>.
@@ -46,21 +46,22 @@
             </a></small>
           </p>
         </div>
-        <div class="home-talks">
+        <div class="home-notes">
           <p>
-            <small>Recent Talks</small>
+            <small>Recent Notes</small>
           </p>
-          {% assign foo = site.decks | reverse %}
-          {% for deck in foo limit: 3 %}
-          <div class="home-talk">
-            <h4 class="post-title">
-                <a href="{{ deck.url }}">{{ deck.title }}</a>
-            </h4>
+          {% for post in site.tags['notes'] limit: 3 %}
+          <div class="home-post">
+                <h4 class="post-title">
+                    <a href="{{ post.url }}">
+                        {{ post.excerpt | strip_html | truncate: 50 }}
+                    </a>
+                </h4>
           </div>
           {% endfor %}
           <p id="latest-talks" class="post-date">
-            <small><a href="/presents">
-              &larr; All Talks
+            <small><a href="/tags/notes">
+              &larr; All Notes
             </a></small>
           </p>
         </div>
@@ -79,6 +80,43 @@
           <p id="latest-talks" class="post-date">
             <small><a href="/blogroll">
               All Recommended &rarr;
+            </a></small>
+          </p>
+        </div>
+        <div class="home-talks">
+          <p>
+            <small>Recent Talks</small>
+          </p>
+          {% assign foo = site.decks | reverse %}
+          {% for deck in foo limit: 3 %}
+          <div class="home-talk">
+            <h4 class="post-title">
+                <a href="{{ deck.url }}">{{ deck.title }}</a>
+            </h4>
+          </div>
+          {% endfor %}
+          <p id="latest-talks" class="post-date">
+            <small><a href="/presents">
+              &larr; All Talks
+            </a></small>
+          </p>
+        </div>
+        <div class="home-photos">
+          <p>
+            <small>Recent Photos</small>
+          </p>
+          <div class="home-photo-strip">
+            {% for post in site.tags['photos'] limit: 3 %}
+            <div class="home-photo">
+              <a href="{{ post.url }}" >
+                  <img src="{{ post.image }}" alt="{{ post.title | default: post.date }}"/>
+              </a>
+            </div>
+            {% endfor %}
+          </div>
+          <p id="latest-talks" class="post-date">
+            <small><a href="/tags/photos">
+              All Photos &rarr;
             </a></small>
           </p>
         </div>

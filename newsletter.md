@@ -1,8 +1,12 @@
 ---
-title: A Newsletter and Josh
-permalink: "/newsletter/"
+title: Subscribe
+permalink: "/subscribe/"
 layout: page
 ---
+
+If you want the latest as I publish things, the best way to subscribe is through the [RSS feed](/rss.xml) for this site.
+
+----
 
 I send a monthly-ish newsletter about things interesting to people thinking about or working in tech and teams.
 
@@ -18,7 +22,5 @@ I send a monthly-ish newsletter about things interesting to people thinking abou
   <input type="hidden" value="1" name="embed"/>
   <input type="submit" value="Subscribe" />
 </form>
-
----
 
 You can view some past editions <a href="https://buttondown.email/andjosh/archive">in the archive</a>.

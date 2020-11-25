@@ -5,6 +5,9 @@ tags:
 - books
 - reading
 - review
+rating: 5
+subject_title: Lab Girl
+subject_author: Hope Jahren
 ---
 
 I was generously gifted [Lab Girl by Hope Jahren](https://www.penguinrandomhouse.com/books/248239/lab-girl-by-hope-jahren/9781101873724/) through Jane Kim in her last week at OfficeLuv. I finished it today, after about a month.

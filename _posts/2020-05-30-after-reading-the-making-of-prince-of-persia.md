@@ -3,6 +3,9 @@ layout: post
 title: "After Reading: The Making of Prince of Persia"
 tags:
 - reading
+rating: 4
+subject_title: The Making of Prince of Persia
+subject_author: Jordan Mechner
 ---
 
 Reading [_The Making of Prince of Persia_][0] journals, by Jordan Mechner, is energizing and stressful. They are the journals of a 20-something year old developer and writer. Every interaction is dramatic or consequential or fraught. Every downbeat or still moment is an existential crisis. I couldn't read it before bed because it would keep me up at night. I finished reading it this afternoon and I was pacing back and forth during the last hundred pages.

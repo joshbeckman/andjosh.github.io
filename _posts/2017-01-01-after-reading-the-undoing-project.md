@@ -4,6 +4,9 @@ date: 2017-01-01 00:00:00 Z
 layout: post
 tags:
 - reading
+rating: 3
+subject_title: The Undoing Project
+subject_author: Michael Lewis
 ---
 
 My brother's gift to me this Christmas was [_The Undoing Project_][0], a novel by Michael Lewis on the work done by researchers Daniel Kahneman and Amos Tversky. I read it from December 27 through January 1. 

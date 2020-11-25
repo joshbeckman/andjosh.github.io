@@ -4,6 +4,9 @@ date: 2017-10-24 00:00:00 Z
 layout: post
 tags:
 - reading
+rating: 3
+subject_title: Life in Code
+subject_author: Ellen Ullman
 ---
 
 After reading [her excerpts][0] from the last few months, I picked up [Ellen Ullman's _Life in Code_][1]. I finished the collection of essays yesterday.

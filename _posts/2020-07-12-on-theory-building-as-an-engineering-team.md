@@ -2,7 +2,6 @@
 layout: post
 title: Documenting Theory Building as An Engineering Team
 tags:
-- reading
 - writing
 ---
 

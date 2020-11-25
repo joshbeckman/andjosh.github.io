@@ -3,7 +3,6 @@ layout: post
 title: ''
 tags:
 - notes
-- reading
 date: 2020-07-19 05:00:00 +0000
 
 ---

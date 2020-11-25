@@ -4,6 +4,9 @@ date: 2015-08-09 00:00:00 Z
 layout: post
 tags:
 - reading
+rating: 5
+subject_title: Fine Structure
+subject_author: Sam Hughes
 ---
 
 I've sent these thoughts & instructions to friends more than once, so I should probably write them down.

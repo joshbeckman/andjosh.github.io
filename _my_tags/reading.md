@@ -1,9 +1,6 @@
 ---
-layout: tag
-title: Tagged with reading
-tags: []
-date: 2019-04-15 05:00:00 +0000
-mf-photo: ''
+layout: reading
+title: Reading
 
 ---
-Things I've been reading and some thoughts about them.
+Things I've been reading and some thoughts about them. I still need to go back and load past books in here.

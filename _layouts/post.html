@@ -6,6 +6,33 @@ layout: default
   <h1 class="post-title">
     {{ page.title }}
   </h1>
+  {% if page.subject_title %}
+      <p>
+          <strong>Details</strong>: <em>{{ page.subject_title }}</em>
+          {% if page.subject_author %}
+              by {{ page.subject_author }}
+          {% endif %}
+      </p>
+  {% endif %}
+  {% if page.rating %}
+    <p>
+        {% if page.rating == 1 %}
+            <div class="stars" style="width:13px"></div>
+        {% endif %}
+        {% if page.rating == 2 %}
+            <div class="stars" style="width:26px"></div>
+        {% endif %}
+        {% if page.rating == 3 %}
+            <div class="stars" style="width:39px"></div>
+        {% endif %}
+        {% if page.rating == 4 %}
+            <div class="stars" style="width:52px"></div>
+        {% endif %}
+        {% if page.rating == 5 %}
+            <div class="stars" style="width:65px"></div>
+        {% endif %}
+    </p>
+  {% endif %}
   {{ content }}
   <div class="related-tags">
     {% if page.tags.size > 0 %}

@@ -35,6 +35,16 @@ fields:
     min: 1
     max: 5
     step: 
+- name: subject_title
+  type: text
+  config:
+    required: false
+  label: Subject Title
+- name: subject_author
+  type: text
+  config:
+    required: false
+  label: Subject Author
 pages:
 - _posts/2019-04-14-after-reading-so-many-books-by-gabriel-zaid.md
 - _posts/2020-05-16-generic-product.md

@@ -569,6 +569,13 @@ tbody tr:nth-child(odd) th {
   white-space: pre;
 }
 @media (max-width: 30em) {
+  .theme-base-josh .posts.reading {
+    grid-row-gap: 0;
+    grid-template-columns: 1fr;
+  }
+  .theme-base-josh .posts.reading div:nth-child(4n) {
+    padding-bottom: 20px;
+  }
     .theme-base-josh .masthead .sidebar-nav {
         float: none;
         position: relative;

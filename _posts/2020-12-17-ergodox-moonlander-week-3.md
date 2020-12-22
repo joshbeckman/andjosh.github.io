@@ -3,9 +3,7 @@ layout: post
 title: Ergodox Moonlander Week 3
 
 ---
-![](/media/img_0062.jpeg)
-
-I would not have purchased this machine with my own money. No one _needs_ this nice of a keyboard. But it's a damn fine ergonomic, ortholinear, mechanical keyboard.
+![](/media/dscf2822.jpeg)I would not have purchased this machine with my own money. No one _needs_ this nice of a keyboard. But it's a damn fine ergonomic, ortholinear, mechanical keyboard.
 
 As part of joining Shopify this fall, I was able to expense some home-office items. As I was already mostly setup in my (tiny) standing-desk-home-office, I took it as an opportunity to splurge on something I saw as an unnecessary investment - a really nice mechanical keyboard. I bought (and waited for) an [Ergodox Moonlander](https://www.zsa.io/moonlander/) keyboard.
 
@@ -28,6 +26,8 @@ But, **every time you hit the wrong key five times in a row, change its position
 **Embrace your thumbs as valuable fingers.** I never realized how little your thumbs are responsible for typing on a normal keyboard. With this Moonlander,I you have a cluster of 3/4 keys just for your thumb. And the best thing you can do is start strengthening and stretching those thumbs to reach all of them. I'm only just now starting to reach multiple keys reliably with my thumb, but I'm excited to use them in chording operations to unlock further layers.
 
 **Youf most used keys won't be the biggest keys on the board.** I naively looked at the layout and initially place my most used keys (looking at you, `tab`) under the biggest keycaps on the board. Those keycaps are big because they're ultimately hard to reach and away from your four main fingers on each hand. Put quick, frequent keys under your four main fingers and chording keys at the large positions where you'll be able to hold them down for a long time. (With this keyboard and it's chording abilities, you will hold down chording keys for _much_ longer.)
+
+![](/media/img_0062.jpeg)
 
 **The built-in stands are not ideal for all desks.** The board comes with very nice feet for angling the board into a more 'handshake' position. Unfortunately, this also requires you to angle the thumb clusters away and inward. When I used this setup, I was completely unable to use a couple thumb keys. Currently, I use a book to prop up both sides of the board, so that all keys remain on the same plane and the thumb keys are much more reachable. In the future, I plan to craft a wooden mount that fits this model.
 

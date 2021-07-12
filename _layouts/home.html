@@ -4,6 +4,29 @@
   {% include head.html %}
 
   <body class="theme-base-josh">
+<style>
+.embeddable-buttondown-form {
+    margin-bottom: 1rem;
+}
+.embeddable-buttondown-form label {
+    display: block;
+}
+.embeddable-buttondown-form #bd-email {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px dashed white;
+    color: white;
+    font-size: 1rem;
+}
+.embeddable-buttondown-form input[type="submit"] {
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+</style>
     <div class="home">
       <div class="container">
         <div class="about">
@@ -11,114 +34,30 @@
                 I'm an experienced startup operator with a history of scaling tech and teams, currently building as a Staff Developer at <a href="https://www.shopify.com">Shopify</a>. I'm also the founder of <a href="https://www.narro.co">Narro</a>, the best way to listen to the Internet.
             </p>
             <p>
-                If you want to know what I’m reading, you can follow <a href="https://www.narro.co/playable/josh">my Narro podcast</a> or through <a href="/posts">my writing</a>. I also have been trying to <a href="/tags/photos">post more photos</a> in their own special place.
-                For future updates, you can <a href="/subscribe">subscribe to via RSS or email</a>, for when I share writing, notes, and anything interesting I've created or found.
+                I condense my notes, readings, and writings into an occasional newsletter. I don't post on social media, so this is <em>the</em> way to hear what I think are interesting ideas.
             </p>
-            <p class="">
-                If you want to talk software or product/engineering teams, please <a href="/contact">reach out to me</a>.
+            {% include newsletter.html %}
+            <p>
+                If I know you, I'll add you to my Friends/Family list when you subscribe. That way I'll send you more personal updates and photos from my life.
+            </p>
+            <p>
+                If you want to talk software or product/engineering teams (or anything, really), please <a href="/contact">reach out to me</a>.
             </p>
         </div>
         <a class="masthead-home-link" href="/" rel="home" title="{{ site.title }}">
             {% include name.html %}
         </a>
-        <div class="home-posts">
-          <p>
-            <small>Recent Writing</small>
-          </p>
-          {% for post in site.tags['writing'] limit: 3 %}
-          <div class="home-post">
-            {% if post.title and post.title != '' %}
-                <h4 class="post-title">
-                    <a href="{{ post.url }}">
-                        {{ post.title }}
-                    </a>
-                </h4>
-            {% else %}
-                <a href="{{ post.url }}" class="post-date">
-                  {{ post.date | date_to_string }}
-                </a>
-            {% endif %}
-          </div>
-          {% endfor %}
-          <p id="latest-posts" class="post-date">
-            <small><a href="/posts">
-              All Posts &rarr;
-            </a></small>
-          </p>
-        </div>
-        <div class="home-notes">
-          <p>
-            <small>Recent Notes</small>
-          </p>
-          {% for post in site.tags['notes'] limit: 3 %}
-          <div class="home-post">
-                <h4 class="post-title">
-                    <a href="{{ post.url }}">
-                        {{ post.excerpt | strip_html | truncate: 50 }}
-                    </a>
-                </h4>
-          </div>
-          {% endfor %}
-          <p id="latest-talks" class="post-date">
-            <small><a href="/tags/notes">
-              &larr; All Notes
-            </a></small>
-          </p>
-        </div>
-        <div class="home-blogroll">
-          <p>
-            <small>Recommended People</small>
-          </p>
-          {% assign links = site.blogroll | sample: 3 %}
-          {% for link in links %}
-              <div class="home-blogroll-link">
-                <h4 class="post-title">
-                    <a href="{{ link.url }}" rel="nofollow">{{ link.title }}</a>
-                </h4>
-              </div>
-          {% endfor %}
-          <p id="latest-talks" class="post-date">
-            <small><a href="/blogroll">
-              All Recommended &rarr;
-            </a></small>
-          </p>
-        </div>
-        <div class="home-talks">
-          <p>
-            <small>Recent Talks</small>
-          </p>
-          {% assign foo = site.decks | reverse %}
-          {% for deck in foo limit: 3 %}
-          <div class="home-talk">
-            <h4 class="post-title">
-                <a href="{{ deck.url }}">{{ deck.title }}</a>
-            </h4>
-          </div>
-          {% endfor %}
-          <p id="latest-talks" class="post-date">
-            <small><a href="/presents">
-              &larr; All Talks
-            </a></small>
-          </p>
-        </div>
-        <div class="home-photos">
-          <p>
-            <small>Recent Photos</small>
-          </p>
-          <div class="home-photo-strip">
-            {% for post in site.tags['photos'] limit: 3 %}
-            <div class="home-photo">
-              <a href="{{ post.url }}" >
-                  <img src="{{ post.image }}" alt="{{ post.title | default: post.date }}"/>
-              </a>
-            </div>
-            {% endfor %}
-          </div>
-          <p id="latest-talks" class="post-date">
-            <small><a href="/tags/photos">
-              All Photos &rarr;
-            </a></small>
-          </p>
+        <div class="">
+            <header class="masthead">
+                <nav class="sidebar-nav">
+                      <a class="sidebar-nav-item" href="/posts/">Writing</a>
+                      <a class="sidebar-nav-item" href="/tags/photos/">Photos</a>
+                      <a class="sidebar-nav-item" href="/presents/">Talks</a>
+                      <a class="sidebar-nav-item" href="/blogroll/">Blogroll</a>
+                      <a class="sidebar-nav-item" href="/contact/">Contact</a>
+
+                </nav>
+            </header>
         </div>
       </div>
     </div>

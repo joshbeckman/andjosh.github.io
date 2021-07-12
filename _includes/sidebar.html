@@ -2,7 +2,7 @@
   <div class="container">
     <header class="masthead">
         <a class="masthead-home-link" href="/" rel="home" title="{{ site.title }}">
-          <img src="/images/name.svg" alt="{{ site.title }}" width="100" class="icon"/>
+          {% include name.html %}
         </a>
         <nav class="sidebar-nav">
           {% for link in site.links %}

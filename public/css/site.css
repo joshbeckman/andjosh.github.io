@@ -495,6 +495,11 @@ tbody tr:nth-child(odd) th {
   background-color: #903465;
   background-image: linear-gradient(135deg,#7E4577,#913465);
   color: white;
+  position: absolute;
+  width: 100%;
+}
+.theme-base-josh .home .masthead a {
+  text-decoration: underline;
 }
 @media (min-width: 40rem) {
     .home {
@@ -550,6 +555,10 @@ tbody tr:nth-child(odd) th {
 .name-svg {
   height: 150px;
   width: 150px;
+}
+.sidebar .name-svg {
+  height: 60px;
+  width: 90px;
 }
 .theme-base-josh .posts.reading {
   display: grid;

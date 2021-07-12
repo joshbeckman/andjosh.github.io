@@ -7,6 +7,12 @@
 
     {% include sidebar.html %}
 
+    {% if page.image and page.image != ''%}
+    <div class="wide-container" style="text-align: center;">
+      <img src="{{ page.image }}" alt="{{ page.title }}" style="max-height:90vh;display:inline-block"/>
+    </div>
+    {% endif %}
+
     <div class="content container default-layout-container">
       {{ content }}
     </div>

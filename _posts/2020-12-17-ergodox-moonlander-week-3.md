@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Ergodox Moonlander Week 3
+image: /media/dscf2822.jpeg
 
 ---
-![](/media/dscf2822.jpeg)I would not have purchased this machine with my own money. No one _needs_ this nice of a keyboard. But it's a damn fine ergonomic, ortholinear, mechanical keyboard.
+I would not have purchased this machine with my own money. No one _needs_ this nice of a keyboard. But it's a damn fine ergonomic, ortholinear, mechanical keyboard.
 
 As part of joining Shopify this fall, I was able to expense some home-office items. As I was already mostly setup in my (tiny) standing-desk-home-office, I took it as an opportunity to splurge on something I saw as an unnecessary investment - a really nice mechanical keyboard. I bought (and waited for) an [Ergodox Moonlander](https://www.zsa.io/moonlander/) keyboard.
 

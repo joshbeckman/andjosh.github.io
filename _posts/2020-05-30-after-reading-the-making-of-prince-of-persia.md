@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "After Reading: The Making of Prince of Persia"
+image: /media/prince-of-persia.jpg
 tags:
 - reading
+- photos
 rating: 4
 subject_title: The Making of Prince of Persia
 subject_author: Jordan Mechner
@@ -13,7 +15,5 @@ Reading [_The Making of Prince of Persia_][0] journals, by Jordan Mechner, is en
 It was a lovely read, though. It's gotten me to really commit to my own journaling and has me thinking about networked opportunities again. The book structure and printing is a joy. The texture, page format, attention to detail, and past and present commentary wove together into a unique reading experience. I want more books like this.
 
 The funniest part is that I've never even played the game (or many video games, for that matter). I'm sure most of the readers will relive their own memories as the author describes the making of and experience of the game, but I simply got to enjoy his story of that time.
-
-![Photo of The Making of Prince of Persia book](/media/prince-of-persia.jpg)
 
 [0]: https://press.stripe.com/#the-making-of-prince-of-persia

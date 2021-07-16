@@ -4,7 +4,6 @@ title: 'After Reading: Recursion'
 tags:
 - reading
 date: 2019-12-17 06:00:00 +0000
-image: ''
 rating: 4
 subject_title: Recursion
 subject_author: Blake Crouch

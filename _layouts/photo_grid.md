@@ -9,11 +9,12 @@ layout: wide
 <ul class="grid">
   {% if site.tags[page.slug] %}
     {% for post in site.tags[page.slug] %}
-      <li class="item " title="{{ post.title | default: post.date }}">
+      {% assign default_date = post.date | date_to_string %}
+      <li class="item " title="{{ post.title | default: default_date }}">
         <a class="" href="{{ post.url }}" >
             <img alt="{{ post.title }}" class="lazyload" data-src="{{ post.image }}" src="" height="" width="" />
             <span class="date-published">
-              {{ post.title | default: post.date | date_to_string }}
+              {{ post.title | default: default_date }}
               <br/>
               {{ post.date | date: "%B %Y"  }}
             </span>

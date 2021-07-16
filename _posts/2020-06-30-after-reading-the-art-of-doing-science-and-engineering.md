@@ -4,7 +4,6 @@ title: 'After Reading: The Art of Doing Science and Engineering'
 tags:
 - reading
 date: 2020-06-30 05:00:00 +0000
-image: ''
 rating: 3
 subject_title: The Art of Doing Science and Engineering
 subject_author: Richard W. Hamming

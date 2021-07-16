@@ -5,6 +5,7 @@ layout: post
 image: "/images/IMG_0049.jpg"
 tags:
 - recommendation
+- photos
 ---
 
 ![](/images/IMG_0049.jpg)

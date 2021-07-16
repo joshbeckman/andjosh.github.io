@@ -4,6 +4,7 @@ title: 'After Reading: So Many Books by Gabriel Zaid'
 tags:
 - reading
 - writing
+- photos
 date: 2019-04-14T05:00:00.000+00:00
 image: "/media/0EAC8C6E-C55F-4118-B68E-2BF67341F1F8.jpeg"
 rating: 3

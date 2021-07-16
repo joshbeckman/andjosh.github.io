@@ -3,14 +3,14 @@ layout: post
 title: 'After Reading: Working in Public'
 tags:
 - reading
+- photos
 date: 2020-11-24 06:00:00 +0000
-image: ''
+image: /media/ce1d8e5b-d969-4fbc-b140-6633d85b4e06_1_201_a.jpeg
 rating: 3
 subject_title: Working in Public
 subject_author: Nadia Eghbal
 
 ---
-![](/media/ce1d8e5b-d969-4fbc-b140-6633d85b4e06_1_201_a.jpeg)
 
 I've been a distant fan of [Nadia Eghbal](https://nadiaeghbal.com) for years, following her wonderful notes and speaking. When she released her first book this summer, I eagerly pre-ordered a copy (and with beautiful printing from [Stripe Press](https://press.stripe.com) no less!)
 

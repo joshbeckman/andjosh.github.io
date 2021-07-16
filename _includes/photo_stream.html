@@ -78,6 +78,7 @@
   });
   
   document.addEventListener('click', (event) => {
+    return; // short-circuiting this to use default linking for now
     handleClick('[data-target][href]', event, () => {
       const id = event.target.getAttribute('data-target');
       const href = event.target.getAttribute('href');

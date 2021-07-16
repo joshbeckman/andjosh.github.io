@@ -2,7 +2,8 @@
 layout: post
 title: Ergodox Moonlander Week 3
 image: /media/dscf2822.jpeg
-
+tags:
+- photos
 ---
 I would not have purchased this machine with my own money. No one _needs_ this nice of a keyboard. But it's a damn fine ergonomic, ortholinear, mechanical keyboard.
 

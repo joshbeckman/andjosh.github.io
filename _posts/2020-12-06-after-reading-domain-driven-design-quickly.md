@@ -4,7 +4,6 @@ title: 'After Reading: Domain Driven Design, Quickly'
 tags:
 - reading
 date: 2020-12-06 06:00:00 +0000
-image: ''
 rating: 2
 subject_title: 'Domain Driven Design: Quickly'
 subject_author: Abel Avram

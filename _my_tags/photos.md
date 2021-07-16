@@ -1,5 +1,5 @@
 ---
 title: Photos
-layout: photos
+layout: photo_grid
 ---
 
